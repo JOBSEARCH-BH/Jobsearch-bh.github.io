@@ -1,6 +1,6 @@
 # 🔎 Bahrain Job Finder 🇧🇭
 
-Live at **https://akprojects91.github.io/jobhub/** — a free, fully static job finder for Bahrain.
+Live at **https://jobsearch-bh.github.io/Jobhub/** — a free, fully static job finder for Bahrain.
 
 * `index.html` — the whole app. Each visitor sets their own preferences (roles, words to exclude, seniority to hide,
   sectors/employers, location, max job age, salary range); preferences and ⭐ saved jobs stay in their own browser.
