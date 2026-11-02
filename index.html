@@ -281,19 +281,23 @@ $("home").onclick=()=>go("step1");
 $("changeBtn").onclick=()=>go("step1");
 // ---------- data + results ----------
 let DATA=null,JOBS=[],shown=30,savedOnly=false;
-async function load(){if(DATA)return;const bust="?t="+Math.floor(Date.now()/60000);let d;
+// always fetch the newest published list (each search + page load); cache-busted and no-store
+let loading=null;
+function load(){return loading||(loading=fetchData().finally(()=>{loading=null}))}
+async function fetchData(){const bust="?t="+Date.now();let d;
  try{d=await getJson("data/live.json"+bust)}catch(e){d=await getJson(RAW_FALLBACK+bust)}
  JOBS=d.jobs.map(j=>({...j,country:j.country||"Bahrain",sources:j.sources||[],links:j.links||{},sec:sectorsOf(j)}));DATA=d;
- $("fetched").textContent=`${JOBS.length.toLocaleString("en-GB")} live listings`}
+ let when="";try{if(d.fetched_at)when=new Date(d.fetched_at).toLocaleString("en-GB",{timeZone:"Asia/Bahrain",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}catch(e){}
+ $("fetched").textContent=`${JOBS.length.toLocaleString("en-GB")} live listings`+(when?` · updated ${when} Bahrain time`:"")}
 const ST=()=>store.get("status",{});
 function toggleSave(id){const s=ST();if(s[id]&&s[id].status==="Saved")delete s[id];else s[id]={status:"Saved",updated:new Date().toISOString()};store.set("status",s);render(false)}
 $("savedBtn").onclick=()=>{savedOnly=!savedOnly;render(true)};
 async function showResults(){savedOnly=false;$("fDate").value=F.date;exDD.refresh();
  const r=S.roles.length?S.roles.join(", "):"Any job",sc=[...S.sectors,...S.custom];
  $("what").textContent=r+" · "+(sc.length?sc.join(", "):"any sector")+" · "+locLabel();
- if(!DATA){$("count").textContent="Loading jobs…";$("list").innerHTML=""}
- try{await load()}catch(e){$("count").textContent="";$("list").innerHTML=`<div class="empty">Couldn't load jobs. Please refresh.</div>`;return}
- render(true)}
+ if(DATA)render(true);else{$("count").textContent="Loading jobs…";$("list").innerHTML=""}
+ try{await load()}catch(e){if(!DATA){$("count").textContent="";$("list").innerHTML=`<div class="empty">Couldn't load jobs. Please refresh.</div>`}return}
+ if(cur==="step3")render(true)}
 function sectorRank(j){if(!S.sectors.length&&!S.custom.length)return 0;
  const full=j.title+" "+(j.company||"");
  if(S.sectors.some(s=>j.sec.includes(s))||S.custom.some(c=>hits(c,full)||j.sec.some(s=>s.toLowerCase().includes(c.toLowerCase()))))return 0;
