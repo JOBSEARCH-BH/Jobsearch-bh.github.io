@@ -195,7 +195,7 @@ S.roles=[...new Map((S.roles||[]).map(r=>[r.toLowerCase(),r])).values()];P.roles
 let F=Object.assign({date:"new",ex:[]},store.get("filters2",{}));
 const save=()=>{P.roles=S.roles;store.set("flow2",S);store.set("filters2",F);store.set("prefs",P)};
 const has=t=>S.roles.some(x=>x.toLowerCase()===t.toLowerCase());
-function addRole(t){t=t.trim().replace(/\s+/g," ").slice(0,60);if(t&&!has(t))S.roles.push(t);S.any=false;save();drawRoles()}
+function addRole(t){t=t.trim().replace(/\s+/g," ").slice(0,60);if(!t)return;if(!has(t))S.roles.push(t);S.any=false;save();drawRoles()}
 const isPick=t=>ROLES.some(r=>r.toLowerCase()===t.toLowerCase());
 function drawRoles(){$("roleTags").innerHTML=S.roles.map((t,i)=>isPick(t)?"":`<span class="tag">${esc(t)}<b data-i="${i}">✕</b></span>`).join("");try{roleDD.refresh()}catch(e){}
  document.querySelectorAll("#roleTags [data-i]").forEach(b=>b.onclick=()=>{S.roles.splice(+b.dataset.i,1);save();drawRoles()});nav()}
