@@ -1,7 +1,7 @@
 name: Refresh live jobs
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6 hours (03:17, 09:17, 15:17, 21:17 Bahrain time)
+    - cron: "17 * * * *"     # every hour at :17 (a run takes ~17 min; the concurrency group below stops overlaps)
   workflow_dispatch: {}
   push:                     # also run when the scraper or this workflow is changed
     branches: [main]
