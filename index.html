@@ -312,7 +312,7 @@ let loading=null;
 function load(){return loading||(loading=fetchData().finally(()=>{loading=null}))}
 async function fetchData(){const bust="?t="+Date.now();let d;
  try{d=await getJson("data/live.json"+bust)}catch(e){d=await getJson(RAW_FALLBACK+bust)}
- JOBS=d.jobs.map(j=>({...j,country:j.country||"Bahrain",sources:j.sources||[],links:j.links||{},sec:sectorsOf(j)}));DATA=d;
+ JOBS=d.jobs.map(j=>({...j,country:j.country||"Bahrain",sources:(j.sources||[]).filter(x=>!/^tanq/i.test(x)),links:j.links||{},sec:sectorsOf(j)})).filter(j=>j.sources.length);DATA=d;
  let when="";try{if(d.fetched_at)when=new Date(d.fetched_at).toLocaleString("en-GB",{timeZone:"Asia/Bahrain",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}catch(e){}
  $("fetched").textContent=`${JOBS.length.toLocaleString("en-GB")} live listings`+(when?` · updated ${when} Bahrain time`:"")}
 const ST=()=>store.get("status",{});
@@ -328,7 +328,7 @@ function sectorRank(j){if(!S.sectors.length&&!S.custom.length)return 0;
  const full=j.title+" "+(j.company||"");
  if(S.sectors.some(s=>j.sec.includes(s))||S.custom.some(c=>hits(c,full)||j.sec.some(s=>s.toLowerCase().includes(c.toLowerCase()))))return 0;
  return j.sec.length?-1:1}
-const SRC_NAMES={"linkedin":"LinkedIn","indeed":"Indeed","tanqeeb":"Tanqeeb","bayt":"Bayt","gulftalent":"GulfTalent","workable":"Workable","employer careers (ats)":"Careers page","ats":"Careers page","naukrigulf":"Naukrigulf","akhtaboot":"Akhtaboot"};
+const SRC_NAMES={"linkedin":"LinkedIn","indeed":"Indeed","bayt":"Bayt","gulftalent":"GulfTalent","workable":"Workable","employer careers (ats)":"Careers page","ats":"Careers page","naukrigulf":"Naukrigulf","akhtaboot":"Akhtaboot"};
 const srcName=s=>s?(SRC_NAMES[String(s).toLowerCase()]||(/career|ats/i.test(s)?"Careers page":s)):"Job site";
 const IC={pin:'<svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>',
  clock:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'};
