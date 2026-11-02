@@ -18,6 +18,14 @@ body{margin:0;min-height:100vh;color:var(--ink);font:16px/1.5 var(--sans);-webki
   radial-gradient(800px 480px at -10% 110%,rgba(13,122,99,.07),transparent 60%),
   url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E%3Cpath d='M22 0L44 22 22 44 0 22z' fill='none' stroke='%2314284d' stroke-opacity='.035'/%3E%3C/svg%3E"),
   linear-gradient(165deg,#f1f3f6 0%,#e7eaee 50%,#dce0e6 100%);background-attachment:fixed}
+.topnav{display:none;margin-left:auto;gap:6px;flex-shrink:0}
+body.results .topnav{display:flex}
+.tnb{display:inline-flex;align-items:center;gap:5px;height:34px;padding:0 12px;border-radius:10px;border:1px solid rgba(20,40,77,.16);background:linear-gradient(180deg,#fff,#eef1f5);color:var(--navy);font-size:13px;font-weight:600;cursor:pointer;box-shadow:0 1px 2px rgba(20,33,63,.06)}
+.tnb span{font-size:15px;line-height:1;color:var(--em)}
+.tnb:hover{border-color:var(--em);color:var(--em)}
+.tnb:focus-visible{outline:2px solid var(--em2);outline-offset:2px}
+.brand{min-width:0}
+@media(max-width:440px){body.results header{gap:10px}body.results .logo{width:36px;height:36px;font-size:19px}.tnb{padding:0 8px;height:32px;font-size:12px;gap:4px}body.results .brand b{font-size:17px;white-space:nowrap}body.results .brand span{font-size:9.5px;letter-spacing:1.2px;white-space:nowrap}}
 .hidden{display:none!important}
 button,select,input{font-family:inherit}
 .wrap{max-width:640px;margin:0 auto;padding:0 18px 120px}
@@ -120,7 +128,7 @@ footer b{font:15px var(--serif);color:var(--ink2);font-weight:400}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style></head><body><div class="wrap">
-<header id="home"><div class="logo">B</div><div class="brand"><b>Bahrain Job Finder</b><span>Careers in the Kingdom</span></div></header>
+<header id="home"><div class="logo">B</div><div class="brand"><b>Bahrain Job Finder</b><span>Careers in the Kingdom</span></div><div class="topnav" id="topNav"><button class="tnb" id="tnBack" aria-label="Back to sector" title="Back"><span aria-hidden="true">←</span> Back</button><button class="tnb" id="tnHome" aria-label="Home – start a new search" title="Home"><span aria-hidden="true">⌂</span> Home</button></div></header>
 <div class="progress" id="prog"><div class="st" data-s="1"><span class="dot">1</span>Role</div><span class="bar"></span><div class="st" data-s="2"><span class="dot">2</span>Sector</div><span class="bar"></span><div class="st" data-s="3"><span class="dot">3</span>Results</div></div>
 <section id="step1" class="hidden"><div class="panel-card">
  <div class="hero">😊</div>
@@ -294,6 +302,8 @@ function fromHash(){const h=location.hash.slice(1);
  if(h==="step1")return h;if(h==="step2"||h==="step3")return ready()?h:"step1";
  return S.done&&ready()?"step3":"step1"}
 $("home").onclick=()=>go("step1");
+$("tnBack").onclick=e=>{e.stopPropagation();go("step2")};
+$("tnHome").onclick=e=>{e.stopPropagation();go("step1")};
 $("changeBtn").onclick=()=>go("step1");
 // ---------- data + results ----------
 let DATA=null,JOBS=[],shown=30,savedOnly=false;
