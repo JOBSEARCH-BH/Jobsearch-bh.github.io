@@ -39,6 +39,7 @@ select.field,.dd>button{width:100%;background:var(--card);color:var(--ink);borde
 .job{background:var(--card);color:var(--ink);border-radius:16px;padding:14px;margin-bottom:12px;position:relative}
 .job .t{font-weight:800;font-size:17px;line-height:1.3;padding-right:40px}.job .c{font-weight:700;color:#253858;margin-top:3px}
 .job .m{color:var(--mut);font-size:15px;margin-top:3px}
+.job .src{color:#6b7689;font-size:13px;margin-top:2px}
 .star{position:absolute;top:8px;right:8px;background:none;border:0;font-size:24px;cursor:pointer;padding:4px;filter:grayscale(1);opacity:.5}
 .star.on{filter:none;opacity:1}
 .apply{display:block;text-align:center;background:var(--ok);color:#fff;text-decoration:none;border-radius:12px;padding:14px;font-weight:800;font-size:17px;margin-top:12px}
@@ -211,10 +212,12 @@ function sectorRank(j){if(!S.sectors.length&&!S.custom.length)return 0;
  const full=j.title+" "+(j.company||"");
  if(S.sectors.some(s=>j.sec.includes(s))||S.custom.some(c=>hits(c,full)||j.sec.some(s=>s.toLowerCase().includes(c.toLowerCase()))))return 0;
  return j.sec.length?-1:1}
+const SRC_NAMES={"linkedin":"LinkedIn","indeed":"Indeed","tanqeeb":"Tanqeeb","bayt":"Bayt","gulftalent":"GulfTalent","workable":"Workable","employer careers (ats)":"Careers page","ats":"Careers page","naukrigulf":"Naukrigulf","akhtaboot":"Akhtaboot"};
+const srcName=s=>s?(SRC_NAMES[String(s).toLowerCase()]||(/career|ats/i.test(s)?"Careers page":s)):"Job site";
 function card(j,saved){const url=j.links[j.sources[0]]||j.url;
  return `<div class="job"><button class="star ${saved?"on":""}" data-id="${esc(j.id)}" title="Save">⭐</button>
  <div class="t">${esc(j.title)}</div><div class="c">🏢 ${esc(j.company||"Company not shown")}</div>
- <div class="m">📍 ${esc(j.location||"Bahrain")}</div><div class="m">🕒 ${esc(ago(j.posted))}</div>
+ <div class="m">📍 ${esc(j.location||"Bahrain")}</div><div class="src">🌐 via ${esc(srcName(j.sources[0]))}</div><div class="m">🕒 ${esc(ago(j.posted))}</div>
  <a class="apply" href="${esc(url)}" target="_blank" rel="noopener">✅ Apply</a></div>`}
 function render(resetPage){if(!DATA)return;if(resetPage)shown=30;const st=ST();
  const days=+F.date||0,cut=days?new Date(Date.now()-days*864e5).toISOString().slice(0,10):"";
