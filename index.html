@@ -174,7 +174,7 @@ const SECTORS=[
  ["Real Estate","🏢",/real estate|property|properties|realty|\bdevelopments?\b|facility management|facilities|diyar|eagle hills/i],
  ["Consulting","🧭",/consult|advisory|deloitte|\bpwc\b|\bkpmg\b|\bey\b|ernst|accenture|mckinsey|\bbain\b|\bbcg\b|grant thornton|\bbdo\b|\brsm\b|crowe|talal abu/i],
  ["Manufacturing","🏭",/manufactur|factory|industr|\bplant\b|production|packaging|steel|plastic|bottling|printing|chemical|fabricat|mondel[eē]z|linde|nestl[eé]|unilever|pepsi|coca/i]];
-const RAW_FALLBACK=["https:/","raw.githubusercontent.com","akprojects91","jobhub","main","data","live.json"].join("/");
+const RAW_FALLBACK=["https:/","raw.githubusercontent.com","JOBSEARCH-BH","Jobhub","main","data","live.json"].join("/");
 async function getJson(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
 const ROLES=["Accountant","Administration","Customer service","Driver","Engineer","HR","IT support","Marketing","Nurse","Operations","Sales","Software developer","Teacher"];
 const EXCL=[["senior","Senior / Manager roles",/\bsenior\b|\bsr\b|\bmanager\b|\bhead of\b|\bdirector\b|\blead\b|\bchief\b|\bvp\b|vice president|supervisor/i],
