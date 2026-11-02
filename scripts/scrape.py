@@ -73,8 +73,8 @@ BROAD_FAMILY = {"operations": "Banking & finance ops", "compliance": "Compliance
 
 _last, _tl = {}, threading.Lock()
 GAP = {"www.linkedin.com": 1.8, "bahrain.tanqeeb.com": 1.0, "jobs.workable.com": 0.5}
-def get(url):
-    host = urlparse(url).netloc; gap = GAP.get(host, 0.3)
+def get(url, gap=None):
+    host = urlparse(url).netloc; gap = GAP.get(host, 0.3) if gap is None else gap
     while True:
         with _tl:
             wait = _last.get(host, 0) + gap - time.time()
@@ -186,6 +186,76 @@ SOURCES = {"LinkedIn": src_linkedin, "Tanqeeb": src_tanqeeb, "Workable": src_wor
 
 def norm(s): return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
+# ---------- LinkedIn closed-posting check ----------
+# A closed LinkedIn posting ("No longer accepting applications") has an empty apply area on the guest job page
+# (no Apply button) or a closed-job notice. Results are cached in data/linkedin_status.json across runs:
+# closed ids are never rechecked (just dropped), open ids are rechecked after ~24 h, new ids are checked first.
+# Any failed or blocked check keeps the job.
+LI_STATUS = os.path.join(ROOT, "data", "linkedin_status.json")
+T0 = time.time()
+CHECK_DEADLINE_MIN = 31          # stop checking at this many minutes into the run (workflow limit is 40)
+RECHECK_H = 24
+LI_ID = re.compile(r"(\d{8,})(?:[/?#]|$)")
+APPLY_RE = re.compile(r'top-card-layout__cta-container[^>]*>\s*(?:<!---->\s*)*<(?:button|a)\b')
+CLOSED_RE = re.compile(r"no longer accepting applications|closed-job|applications are closed", re.I)
+def li_id(url):
+    m = LI_ID.search(url or ""); return m.group(1) if m else None
+def li_check(jid):
+    """'open' / 'closed', or None when the page could not be read (job is kept)."""
+    for attempt in range(3):
+        try: r = get(f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{jid}", gap=1.0)
+        except Exception: time.sleep(3); continue
+        if r.status_code == 429: time.sleep(8 * (attempt + 1)); continue
+        if r.status_code == 404: return "closed"          # posting removed
+        if r.status_code != 200 or "top-card-layout" not in r.text: return None
+        if CLOSED_RE.search(r.text): return "closed"
+        return "open" if APPLY_RE.search(r.text) else "closed"
+    return "blocked"
+def drop_closed_linkedin(results):
+    try: cache = json.load(open(LI_STATUS))
+    except Exception: cache = {}
+    now = datetime.now(timezone.utc); nowi = now.isoformat(timespec="seconds")
+    def age_h(e):
+        try: return (now - datetime.fromisoformat(e["t"])).total_seconds() / 3600
+        except Exception: return 1e9
+    todo_new, todo_old = [], []
+    for k, x in results.items():
+        jid = li_id(x.get("links", {}).get("LinkedIn")) if "LinkedIn" in x.get("sources", []) else None
+        if not jid: continue
+        x["_li"] = jid; e = cache.get(jid)
+        if e is None: todo_new.append((x.get("posted") or "", jid))
+        elif e.get("s") == "open" and age_h(e) >= RECHECK_H: todo_old.append((e.get("t", ""), jid))
+    todo = [j for _, j in sorted(todo_new, reverse=True)] + [j for _, j in sorted(todo_old)]   # newest new first, then stalest
+    stats = {"checked": 0, "closed_new": 0, "failed": 0, "pending": 0, "stopped": ""}
+    blocked_streak = 0
+    for i, jid in enumerate(todo):
+        if (time.time() - T0) / 60 > CHECK_DEADLINE_MIN: stats["stopped"] = "time budget"; stats["pending"] = len(todo) - i; break
+        if blocked_streak >= 6: stats["stopped"] = "rate limited"; stats["pending"] = len(todo) - i; break
+        st = li_check(jid)
+        if st in ("open", "closed"):
+            blocked_streak = 0; stats["checked"] += 1
+            if st == "closed": stats["closed_new"] += 1
+            cache[jid] = {"s": st, "t": nowi}
+        else:
+            stats["failed"] += 1; blocked_streak = blocked_streak + 1 if st == "blocked" else 0
+    removed = 0
+    for k in list(results):
+        x = results[k]; jid = x.pop("_li", None)
+        if jid and cache.get(jid, {}).get("s") == "closed":
+            if len(x["sources"]) == 1: del results[k]
+            else:
+                x["sources"].remove("LinkedIn"); x["links"].pop("LinkedIn", None)
+                x["url"] = x["links"][x["sources"][0]]
+            removed += 1
+    # keep the cache small: forget ids not seen for 45 days
+    live = {li_id(x.get("links", {}).get("LinkedIn")) for x in results.values()}
+    cutoff = (now - timedelta(days=45)).isoformat()
+    cache = {j: e for j, e in cache.items() if j in live or e.get("t", "") >= cutoff}
+    with open(LI_STATUS, "w") as f: json.dump(cache, f, separators=(",", ":"))
+    stats["removed"] = removed; stats["cache"] = len(cache)
+    print("LinkedIn closed check:", json.dumps(stats))
+    return stats
+
 SNAP = os.path.join(ROOT, "data", "tanqeeb.json")   # Tanqeeb blocks GitHub's servers (403); a box-side copy is merged in
 
 def main():
@@ -236,6 +306,8 @@ def main():
             status["Tanqeeb"]["errors"] = [f"blocked from GitHub; using box copy from {snap.get('fetched_at', '?')[:16]} UTC"]
         except Exception as e: print("snapshot merge failed:", e)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=DAYS)).strftime("%Y-%m-%d")
+    for k in [k for k, j in results.items() if j.get("posted") and j["posted"][:10] < cutoff]: del results[k]
+    li_stats = drop_closed_linkedin(results) if "LinkedIn" in SOURCES and "--no-li-check" not in sys.argv else None
     jobs = [j for j in results.values() if not j.get("posted") or j["posted"][:10] >= cutoff]
     for j in jobs:
         j["posted"] = (j.get("posted") or "")[:10]
@@ -254,7 +326,7 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as f:
         json.dump({"fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "roles": ROLES, "families": list(FAMILIES),
-                   "countries": by_country, "status": st, "jobs": jobs}, f, ensure_ascii=False, indent=0)
+                   "countries": by_country, "linkedin_check": li_stats, "status": st, "jobs": jobs}, f, ensure_ascii=False, indent=0)
     print(f"{total} jobs written to {OUT}"); print(json.dumps(by_country)); print(json.dumps(st, indent=1))
     return 0
 
