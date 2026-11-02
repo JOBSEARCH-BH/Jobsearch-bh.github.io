@@ -120,10 +120,10 @@ footer b{font:15px var(--serif);color:var(--ink2);font-weight:400}
  <div class="hero">😊</div>
  <div class="eyebrow">Happy to help</div>
  <h2>What are you looking for?</h2>
- <p class="lead">Type a job title and press Enter, or choose one below.</p>
+ <p class="lead">Type a job title and press Enter, or tick one or more below.</p>
  <div class="tagbox" id="roleBox"><span id="roleTags" style="display:contents"></span><input id="roleIn" autocomplete="off" enterkeyhint="done" placeholder="e.g. Accountant"></div>
  <div class="or">or</div>
- <div class="selwrap"><select id="pick" class="field"><option value="">Pick a role</option></select></div>
+ <div class="dd" id="roleDD"><button id="roleBtn">Pick roles</button><div class="panel hidden" id="rolePanel"></div></div>
  <div class="lbl"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Location</div>
  <div class="dd" id="locDD"><button id="locBtn">Bahrain</button><div class="panel hidden" id="locPanel"></div></div>
  <button class="skip" id="anyJob">Skip — show any job</button>
@@ -190,19 +190,20 @@ const EXCL=[["senior","Senior / Manager roles",/\bsenior\b|\bsr\b|\bmanager\b|\b
 const LOCS=[["Bahrain","🇧🇭","Bahrain"],["Saudi Arabia","🇸🇦","Saudi Arabia"],["United Arab Emirates","🇦🇪","UAE"],["Qatar","🇶🇦","Qatar"],["Kuwait","🇰🇼","Kuwait"],["Oman","🇴🇲","Oman"],["Remote","🏠","Remote"]];
 let P=Object.assign({countries:["Bahrain"]},store.get("prefs",{}));if(!Array.isArray(P.countries))P.countries=["Bahrain"];
 let S=Object.assign({roles:[],any:false,sectors:[],custom:[],done:false},store.get("flow2",{}));
+if(Array.isArray(P.roles))S.roles=P.roles.filter(x=>typeof x==="string"&&x.trim());else if(typeof P.role==="string"&&P.role)S.roles=[P.role];
+S.roles=[...new Map((S.roles||[]).map(r=>[r.toLowerCase(),r])).values()];P.roles=S.roles;delete P.role;store.set("prefs",P);
 let F=Object.assign({date:"new",ex:[]},store.get("filters2",{}));
-const save=()=>{store.set("flow2",S);store.set("filters2",F);store.set("prefs",P)};
+const save=()=>{P.roles=S.roles;store.set("flow2",S);store.set("filters2",F);store.set("prefs",P)};
 const has=t=>S.roles.some(x=>x.toLowerCase()===t.toLowerCase());
 function addRole(t){t=t.trim().replace(/\s+/g," ").slice(0,60);if(t&&!has(t))S.roles.push(t);S.any=false;save();drawRoles()}
-function drawRoles(){$("roleTags").innerHTML=S.roles.map((t,i)=>`<span class="tag">${esc(t)}<b data-i="${i}">✕</b></span>`).join("");
+const isPick=t=>ROLES.some(r=>r.toLowerCase()===t.toLowerCase());
+function drawRoles(){$("roleTags").innerHTML=S.roles.map((t,i)=>isPick(t)?"":`<span class="tag">${esc(t)}<b data-i="${i}">✕</b></span>`).join("");try{roleDD.refresh()}catch(e){}
  document.querySelectorAll("#roleTags [data-i]").forEach(b=>b.onclick=()=>{S.roles.splice(+b.dataset.i,1);save();drawRoles()});nav()}
 const roleIn=$("roleIn");
 const takeInput=()=>{const v=roleIn.value;roleIn.value="";v.split(/[,;]/).forEach(addRole)};
 roleIn.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();takeInput()}else if(e.key==="Backspace"&&!roleIn.value&&S.roles.length){S.roles.pop();save();drawRoles()}};
 roleIn.oninput=()=>{if(/[,;]/.test(roleIn.value))takeInput();else nav()};
 $("roleBox").onclick=e=>{if(e.target.id==="roleBox")roleIn.focus()};
-$("pick").innerHTML+=ROLES.map(r=>`<option>${r}</option>`).join("");
-$("pick").onchange=()=>{if($("pick").value)addRole($("pick").value);$("pick").value=""};
 $("anyJob").onclick=()=>{S.roles=[];S.any=true;save();go("step2")};
 // ---------- checkbox dropdowns ----------
 function dropdown(btn,panel,items,getSel,setSel,label,extra){
@@ -224,6 +225,10 @@ const secDD=dropdown($("secBtn"),$("secPanel"),secItems,()=>[...(S.sectors.lengt
   save();setTimeout(()=>{$("secPanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value===""?!S.sectors.length&&!S.custom.length:S.sectors.includes(c.value)||S.custom.includes(c.value.slice(7)))},0)},
  ()=>{const n=[...S.sectors,...S.custom];return n.length?(n.length<=2?n.join(", "):`${n.length} sectors selected`):"Any sector"},
  ()=>`<input class="own" placeholder="Type another sector and press Enter">`);
+// role dropdown (page 1): ticked quick picks; typed roles stay as tags beside them
+const roleDD=dropdown($("roleBtn"),$("rolePanel"),()=>ROLES.map(r=>[r,r]),()=>ROLES.filter(r=>has(r)),
+ v=>{S.roles=[...S.roles.filter(t=>!isPick(t)),...ROLES.filter(r=>v.includes(r))];if(S.roles.length)S.any=false;save();drawRoles()},
+ ()=>{const p=ROLES.filter(r=>has(r));return p.length?(p.length<=2?p.join(", "):p.length+" roles"):"Pick roles"});
 // location dropdown (page 1); an empty selection means all countries
 const LOC_ORDER=LOCS.map(x=>x[0]);
 const locDD=dropdown($("locBtn"),$("locPanel"),()=>LOCS.map(([v,f,l])=>[v,v]),()=>P.countries,
