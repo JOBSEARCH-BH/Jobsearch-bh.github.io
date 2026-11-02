@@ -55,6 +55,12 @@ select.field:focus,.dd>button:focus{outline:none;border-color:var(--em);box-shad
 .panel label{display:flex;gap:12px;align-items:center;padding:12px;font-size:15.5px;border-radius:10px;cursor:pointer}
 .panel label:hover{background:#f2f5f8}.panel input[type=checkbox]{width:20px;height:20px;accent-color:var(--em)}
 .panel .done{width:100%;background:var(--navy);color:#fff;border:0;border-radius:12px;padding:13px;font-size:15.5px;font-weight:600;margin-top:6px;cursor:pointer;position:sticky;bottom:0}
+#exPanel{left:auto;right:0;width:min(340px,calc(100vw - 36px))}
+.panel input[type=checkbox]{flex:0 0 20px}
+.panel .customtoggle{width:100%;text-align:left;background:none;border:1px dashed #c3cbd7;color:var(--em);font-weight:600;font-size:15px;border-radius:10px;padding:12px;margin:4px 0;cursor:pointer}
+.panel .customtoggle:hover{background:#f2f5f8;border-color:var(--em)}
+.panel .ownrow{display:flex;gap:6px;margin:4px 0}.panel .ownrow .own{flex:1;margin:0;min-width:0}
+.panel .addown{background:var(--em);color:#fff;border:0;border-radius:10px;padding:0 16px;font-weight:600;font-size:15px;cursor:pointer}
 .panel .own{width:100%;border:1px solid #cdd3de;border-radius:10px;padding:12px;font-size:15px;margin:4px 0}
 .lbl{display:flex;align-items:center;gap:7px;margin:18px 2px 8px;font-size:11.5px;letter-spacing:2px;text-transform:uppercase;color:var(--em);font-weight:600}
 .lbl svg{width:14px;height:14px;stroke:var(--em);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
@@ -206,12 +212,16 @@ roleIn.oninput=()=>{if(/[,;]/.test(roleIn.value))takeInput();else nav()};
 $("roleBox").onclick=e=>{if(e.target.id==="roleBox")roleIn.focus()};
 $("anyJob").onclick=()=>{S.roles=[];S.any=true;save();go("step2")};
 // ---------- checkbox dropdowns ----------
-function dropdown(btn,panel,items,getSel,setSel,label,extra){
+function dropdown(btn,panel,items,getSel,setSel,label,extra,addOwn){
+ addOwn=addOwn||(v=>{if(!S.custom.includes(v)){S.custom.push(v);save()}});
  const draw=()=>{const sel=getSel();
   panel.innerHTML=(typeof items==="function"?items():items).map(([v,l])=>{const fl=(panel.id==="locPanel"&&(LOCS.find(x=>x[0]===v)||[])[1])||"";return `<label><input type="checkbox" value="${esc(v)}" ${sel.includes(v)?"checked":""}>${fl?`<span class="fl">${fl}</span>`:""} ${esc(l)}</label>`}).join("")+(extra?extra():"")+`<button class="done">Done</button>`;
   panel.querySelectorAll("input[type=checkbox]").forEach(c=>c.onchange=()=>{setSel([...panel.querySelectorAll("input[type=checkbox]:checked")].map(x=>x.value));btn.textContent=label()});
   panel.querySelector(".done").onclick=e=>{e.stopPropagation();close()};
-  if(extra&&panel.querySelector(".own"))panel.querySelector(".own").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();const v=e.target.value.trim();if(v&&!S.custom.includes(v)){S.custom.push(v);save()}draw();btn.textContent=label()}}};
+  const own=panel.querySelector(".own");
+  if(own){const add=()=>{const v=own.value.trim().replace(/\s+/g," ").slice(0,40);if(v)addOwn(v);draw();btn.textContent=label();const o=panel.querySelector(".own");if(o)o.focus()};
+   own.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();add()}};const ab=panel.querySelector(".addown");if(ab)ab.onclick=e=>{e.stopPropagation();add()}}
+  const cb=panel.querySelector(".customtoggle");if(cb)cb.onclick=e=>{e.stopPropagation();cb.classList.add("hidden");const w=panel.querySelector(".ownrow");w.classList.remove("hidden");w.querySelector(".own").focus()}};
  const close=()=>{panel.classList.add("hidden");onDDClose()};
  btn.onclick=e=>{e.stopPropagation();const open=panel.classList.contains("hidden");document.querySelectorAll(".panel").forEach(p=>p.classList.add("hidden"));if(open){draw();panel.classList.remove("hidden")}else close()};
  panel.onclick=e=>e.stopPropagation();
@@ -251,10 +261,16 @@ function locMatch(j){const c=P.countries;if(!c.length)return true;
 const sectorsOf=j=>{const t=(j.company||"")+" | "+j.title;return SECTORS.filter(x=>x[2].test(t)).map(x=>x[0])};
 const daysAgo=d=>Math.floor((Date.now()-new Date(d+"T12:00:00Z"))/864e5);
 function ago(d){if(!d)return"date not shown";const n=daysAgo(d);return n<=0?"today":n===1?"1 day ago":n+" days ago"}
-const exDD=dropdown($("exBtn"),$("exPanel"),()=>[["","None"],...EXCL.map(([k,l])=>[k,l])],()=>F.ex.length?F.ex:[""],
- v=>{const prevNone=!F.ex.length;F.ex=v.includes("")&&!prevNone?[]:v.filter(x=>x);save();
-  setTimeout(()=>{$("exPanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value===""?!F.ex.length:F.ex.includes(c.value))},0);render(true)},
- ()=>F.ex.length?(F.ex.length===1?"Excluding: "+EXCL.find(x=>x[0]===F.ex[0])[1]:`Excluding ${F.ex.length} types`):"Exclude: none");
+if(!Array.isArray(P.exWords))P.exWords=[];
+const exCount=()=>F.ex.length+P.exWords.length;
+const exDD=dropdown($("exBtn"),$("exPanel"),()=>[["","None"],...EXCL.map(([k,l])=>[k,l]),...P.exWords.map(w=>["word:"+w,"“"+w+"”"])],
+ ()=>exCount()?[...F.ex,...P.exWords.map(w=>"word:"+w)]:[""],
+ v=>{const prevNone=!exCount();
+  if(v.includes("")&&!prevNone){F.ex=[];P.exWords=[]}else{v=v.filter(x=>x);F.ex=v.filter(x=>!x.startsWith("word:"));P.exWords=v.filter(x=>x.startsWith("word:")).map(x=>x.slice(5))}
+  save();setTimeout(()=>{$("exPanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value===""?!exCount():F.ex.includes(c.value)||P.exWords.includes(c.value.slice(5)))},0);render(true)},
+ ()=>{const n=exCount();if(!n)return"Exclude: none";if(n>1)return`Excluding ${n}`;return F.ex.length?"Excluding: "+EXCL.find(x=>x[0]===F.ex[0])[1]:"Excluding: “"+P.exWords[0]+"”"},
+ ()=>`<button class="customtoggle">＋ Custom…</button><div class="ownrow hidden"><input class="own" placeholder="Word to exclude" enterkeyhint="done"><button class="addown">Add</button></div>`,
+ v=>{if(!P.exWords.some(w=>w.toLowerCase()===v.toLowerCase())){P.exWords.push(v);save();render(true)}});
 $("fDate").onchange=()=>{F.date=$("fDate").value;save();render(true)};
 
 // ---------- steps (one hash per step so the back button works) ----------
@@ -314,10 +330,11 @@ function card(j,saved){const url=j.links[j.sources[0]]||j.url;
  <a class="apply" href="${esc(url)}" target="_blank" rel="noopener">Apply now <span>→</span></a></div>`}
 function render(resetPage){if(!DATA)return;if(resetPage)shown=30;const st=ST();
  const days=+F.date||0,cut=days?new Date(Date.now()-days*864e5).toISOString().slice(0,10):"";
- const ex=EXCL.filter(x=>F.ex.includes(x[0]));
+ const ex=EXCL.filter(x=>F.ex.includes(x[0])),exw=P.exWords.map(w=>w.toLowerCase());
+ const exWordHit=j=>{if(!exw.length)return false;const t=(j.title+" "+(j.company||"")).toLowerCase();return exw.some(w=>t.includes(w))};
  let list=JOBS.map(j=>({j,rank:sectorRank(j),saved:(st[j.id]||{}).status==="Saved"}));
  if(savedOnly)list=list.filter(x=>x.saved);
- else list=list.filter(({j,rank})=>rank>=0&&locMatch(j)&&(!S.roles.length||S.roles.some(r=>hits(r,j.title)))&&(!cut||!j.posted||j.posted>=cut)&&!ex.some(x=>x[2].test(j.title)));
+ else list=list.filter(({j,rank})=>rank>=0&&locMatch(j)&&(!S.roles.length||S.roles.some(r=>hits(r,j.title)))&&(!cut||!j.posted||j.posted>=cut)&&!ex.some(x=>x[2].test(j.title))&&!exWordHit(j));
  const old=F.date==="old",byDate=(a,b)=>old?(a.j.posted||"9").localeCompare(b.j.posted||"9"):(b.j.posted||"").localeCompare(a.j.posted||"");
  list.sort((a,b)=>a.rank-b.rank||byDate(a,b));
  const nSaved=Object.values(st).filter(v=>v.status==="Saved").length;
