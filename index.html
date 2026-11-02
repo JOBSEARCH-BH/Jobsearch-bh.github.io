@@ -2,115 +2,78 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>🔎 Bahrain Job Finder 🇧🇭</title>
-<meta name="description" content="Free Bahrain job finder: tell it what you're looking for and which sectors, then see real openings with direct apply links.">
+<meta name="description" content="Free and simple Bahrain job finder.">
 <style>
-:root{--bg:#0a1a33;--bg2:#10264a;--card:#d9dde3;--card2:#c9cfd8;--ink:#14213d;--mut:#4a5568;--accent:#2f6fde;--ok:#1f8a4c;--gold:#e0a800}
-*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:#eef2f7;font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
-.wrap{max-width:760px;margin:0 auto;padding:14px 14px 90px}
-h1{font-size:20px;margin:4px 0;cursor:pointer}
-.steps{display:flex;gap:6px;margin:10px 0 16px}.steps div{flex:1;height:6px;border-radius:3px;background:#1d3a66}.steps div.on{background:var(--accent)}
-h2{font-size:24px;margin:6px 0 4px}.sub{color:#a9b8d0;font-size:14px;margin-bottom:14px}
+:root{--bg:#0a1a33;--bg2:#10264a;--card:#d9dde3;--ink:#14213d;--mut:#4a5568;--accent:#2f6fde;--ok:#1f8a4c}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:#eef2f7;font:17px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:640px;margin:0 auto;padding:14px 16px 110px}
+h1{font-size:18px;margin:4px 0 14px;color:#cfd8e6;cursor:pointer}
 .hidden{display:none!important}
-.tagbox{background:var(--card);border-radius:14px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;position:relative;min-height:58px}
-.tagbox input{flex:1;min-width:160px;border:0;background:transparent;color:var(--ink);font-size:18px;padding:8px;outline:none}
-.tag{background:var(--accent);color:#fff;border-radius:18px;padding:7px 12px;font-size:15px;font-weight:600}.tag b{cursor:pointer;margin-left:8px;padding:0 2px}
-.ac{position:absolute;left:0;right:0;top:100%;margin-top:4px;background:var(--card);color:var(--ink);border-radius:12px;box-shadow:0 8px 20px #0008;z-index:5;overflow:hidden}
-.ac div{padding:12px 14px;cursor:pointer;font-size:16px}.ac div:hover{background:var(--card2)}
-.addbtn{background:var(--accent);color:#fff;border:0;border-radius:10px;padding:10px 14px;font-weight:700;font-size:15px;cursor:pointer}
-.lbl{font-size:13px;color:#a9b8d0;margin:16px 0 6px;font-weight:600}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{background:var(--card);color:var(--ink);border:2px solid transparent;border-radius:22px;padding:10px 14px;font-size:15px;cursor:pointer;font-weight:600}
-.chip:hover{background:#fff}.chip.on{background:var(--accent);color:#fff;border-color:#8fb3ff}
-.chip.sm{padding:6px 10px;font-size:13px}
-.fam{margin-top:6px}.fam summary{cursor:pointer;color:#cfd8e6;font-weight:700;padding:8px 0;font-size:15px}
-.navbar{position:fixed;left:0;right:0;bottom:0;background:#0a1a33ee;border-top:1px solid #1d3a66;padding:10px 14px}
-.navbar .in{max-width:760px;margin:0 auto;display:flex;gap:10px}
-.btn{flex:1;background:var(--accent);color:#fff;border:0;border-radius:14px;padding:15px;font-size:17px;font-weight:700;cursor:pointer}
-.btn:disabled{opacity:.45;cursor:not-allowed}.btn.sec{background:var(--card);color:var(--ink);flex:0 0 auto;padding:15px 18px}
-.link{background:none;border:0;color:#9fc0ff;font-size:15px;cursor:pointer;text-decoration:underline;padding:8px 0}
-.field{background:var(--card);color:var(--ink);border:1px solid #b8c0cc;border-radius:12px;padding:11px 12px;font-size:16px;width:100%}
-.summary,.fbar,.sites{background:var(--bg2);border:1px solid #1d3a66;border-radius:14px;padding:12px;margin-bottom:12px}
-.summary .chips{gap:6px}.row1{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
-.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
-.fgrid label{font-size:12px;color:#a9b8d0;display:block;margin-bottom:3px}
-.fbar .field{padding:10px;font-size:15px}
-.toggle{width:100%;background:var(--card);color:var(--ink);border:0;border-radius:12px;padding:11px;font-weight:700;font-size:15px;cursor:pointer;margin-top:8px}
-.checks{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.checks label{background:var(--card);color:var(--ink);border-radius:10px;padding:8px 10px;font-size:13px;display:flex;gap:6px;align-items:center;cursor:pointer}
-.small{font-size:12px;color:#a9b8d0;margin-top:10px}
-.views{display:flex;gap:6px;margin:4px 0 8px}.views .chip{flex:1;text-align:center;padding:9px 6px;font-size:14px}
-.count{color:#a9b8d0;font-size:14px;margin:6px 0 10px}
-.job{background:var(--card);color:var(--ink);border-radius:14px;padding:14px;margin-bottom:12px}
-.job.s-Saved{border-left:6px solid var(--gold)}.job.s-Applied{border-left:6px solid var(--ok)}
-.job .t{font-weight:800;font-size:17px;line-height:1.3}.job .c{color:#253858;font-weight:700;margin-top:2px}
-.job .m{color:var(--mut);font-size:14px;margin-top:4px}
-.badge{display:inline-block;background:#fff;border-radius:7px;padding:2px 8px;font-size:12px;margin:6px 4px 0 0;color:#253858;font-weight:600}
-.b-best{background:#1f8a4c;color:#fff}.b-good{background:#cfe0ff}.b-sec{background:#ffe9a8}
+.hero{text-align:center;font-size:72px;line-height:1;margin:18px 0 6px}
+h2{font-size:26px;text-align:center;margin:6px 0 20px}
+.tagbox{background:var(--card);border-radius:16px;padding:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-height:62px}
+.tagbox input{flex:1;min-width:150px;border:0;background:transparent;color:var(--ink);font-size:19px;padding:10px;outline:none}
+.tag{background:var(--accent);color:#fff;border-radius:18px;padding:8px 12px;font-size:16px;font-weight:600}.tag b{cursor:pointer;margin-left:8px}
+.or{text-align:center;color:#a9b8d0;margin:14px 0;font-size:15px}
+select.field,.dd>button{width:100%;background:var(--card);color:var(--ink);border:0;border-radius:16px;padding:16px;font-size:18px;font-weight:600;cursor:pointer;-webkit-appearance:none;appearance:none;text-align:left}
+.dd{position:relative}.dd>button::after,.selwrap::after{content:"▾";position:absolute;right:16px;top:50%;transform:translateY(-50%);color:var(--ink);pointer-events:none}
+.selwrap{position:relative}
+.dd>button{padding-right:36px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.panel{position:absolute;left:0;right:0;top:100%;margin-top:6px;background:#fff;color:var(--ink);border-radius:16px;box-shadow:0 10px 30px #000a;z-index:20;max-height:60vh;overflow:auto;padding:6px}
+.panel label{display:flex;gap:12px;align-items:center;padding:13px 12px;font-size:17px;border-radius:10px;cursor:pointer}
+.panel label:hover{background:#eef1f5}.panel input[type=checkbox]{width:22px;height:22px}
+.panel .done{width:100%;background:var(--accent);color:#fff;border:0;border-radius:12px;padding:13px;font-size:17px;font-weight:700;margin-top:6px;cursor:pointer;position:sticky;bottom:0}
+.panel .own{width:100%;border:1px solid #b8c0cc;border-radius:10px;padding:12px;font-size:16px;margin:4px 0}
+.skip{display:block;margin:18px auto 0;background:none;border:0;color:#9fc0ff;font-size:15px;text-decoration:underline;cursor:pointer}
+.navbar{position:fixed;left:0;right:0;bottom:0;background:#0a1a33f0;border-top:1px solid #1d3a66;padding:12px 16px}
+.navbar .in{max-width:640px;margin:0 auto;display:flex;gap:10px}
+.btn{flex:1;background:var(--accent);color:#fff;border:0;border-radius:16px;padding:17px;font-size:18px;font-weight:700;cursor:pointer}
+.btn:disabled{opacity:.45}.btn.sec{flex:0 0 auto;background:var(--card);color:var(--ink);padding:17px 20px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;gap:8px}
+.top .what{font-size:15px;color:#cfd8e6;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lnk{background:none;border:0;color:#9fc0ff;font-size:15px;cursor:pointer;padding:6px 0;white-space:nowrap}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.row2 select.field,.row2 .dd>button{font-size:15px;padding:13px 30px 13px 12px;border-radius:14px}
+.row2 .dd>button::after,.row2 .selwrap::after{right:10px}
+.count{color:#a9b8d0;font-size:15px;margin:4px 0 12px;display:flex;justify-content:space-between}
+.job{background:var(--card);color:var(--ink);border-radius:16px;padding:14px;margin-bottom:12px;position:relative}
+.job .t{font-weight:800;font-size:17px;line-height:1.3;padding-right:40px}.job .c{font-weight:700;color:#253858;margin-top:3px}
+.job .m{color:var(--mut);font-size:15px;margin-top:3px}
+.star{position:absolute;top:8px;right:8px;background:none;border:0;font-size:24px;cursor:pointer;padding:4px;filter:grayscale(1);opacity:.5}
+.star.on{filter:none;opacity:1}
 .apply{display:block;text-align:center;background:var(--ok);color:#fff;text-decoration:none;border-radius:12px;padding:14px;font-weight:800;font-size:17px;margin-top:12px}
-.sbtns{display:flex;gap:8px;margin-top:8px}.sbtns button{flex:1;background:#fff;color:var(--ink);border:2px solid #b8c0cc;border-radius:12px;padding:11px 6px;font-weight:700;font-size:14px;cursor:pointer}
-.sbtns button.on{border-color:var(--accent);background:#cfe0ff}
-.alts{font-size:13px;margin-top:6px}.alts a{color:var(--accent)}
-.empty{background:var(--bg2);border-radius:14px;padding:22px;text-align:center;color:#a9b8d0}
-.more{width:100%;background:var(--bg2);color:#eef2f7;border:1px solid #1d3a66;border-radius:12px;padding:13px;font-weight:700;cursor:pointer}
-.sites{margin-top:16px}.sites h3{margin:0 0 4px;font-size:16px}.links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;align-items:center}
-.links a{background:var(--card);color:var(--ink);text-decoration:none;border-radius:10px;padding:8px 10px;font-size:13px;font-weight:700}
-.links b{font-size:13px;width:100%}
+.empty{background:var(--bg2);border-radius:16px;padding:22px;text-align:center;color:#a9b8d0}
+.more{width:100%;background:var(--bg2);color:#eef2f7;border:1px solid #1d3a66;border-radius:14px;padding:15px;font-weight:700;font-size:16px;cursor:pointer}
 .foot{color:#7f90ad;font-size:12px;text-align:center;margin-top:18px}
-@media(min-width:620px){.fgrid{grid-template-columns:repeat(3,1fr)}}
 </style></head><body><div class="wrap">
 <h1 id="home">🔎 Bahrain Job Finder 🇧🇭</h1>
-<div class="steps"><div id="p1"></div><div id="p2"></div><div id="p3"></div></div>
-
 <section id="step1" class="hidden">
- <h2>💼 What are you looking for?</h2>
- <div class="sub">Type a job title and press Enter, or tap a quick pick. You can add as many as you like.</div>
- <div class="tagbox" id="roleBox"><span id="roleTags" style="display:contents"></span><input id="roleIn" autocomplete="off" enterkeyhint="done" placeholder="e.g. accountant, nurse, marketing"><button class="addbtn hidden" id="roleAdd">＋ Add</button><div class="ac hidden" id="roleAc"></div></div>
- <div id="related"></div>
- <div class="lbl">⚡ Quick picks</div>
- <div id="quick"></div>
- <button class="link" id="anyJob">🌐 Skip, show me any job</button>
+ <div class="hero">😊</div>
+ <h2>What are you looking for?</h2>
+ <div class="tagbox" id="roleBox"><span id="roleTags" style="display:contents"></span><input id="roleIn" autocomplete="off" enterkeyhint="done" placeholder="Type a job, e.g. accountant"></div>
+ <div class="or">or</div>
+ <div class="selwrap"><select id="pick" class="field"><option value="">👇 Pick a role</option></select></div>
+ <button class="skip" id="anyJob">Skip, show any job</button>
 </section>
 
 <section id="step2" class="hidden">
- <h2>🏢 Which sectors?</h2>
- <div class="sub">Pick as many as you like, or add your own sector or employer.</div>
- <div class="chips" id="secChips"></div>
- <div class="lbl">✍️ Add a sector or employer</div>
- <div class="tagbox" id="secBox"><span id="secTags" style="display:contents"></span><input id="secIn" autocomplete="off" enterkeyhint="done" placeholder="e.g. airline, Batelco, fintech"><button class="addbtn hidden" id="secAdd">＋ Add</button></div>
+ <div class="hero">🏢</div>
+ <h2>Which sector?</h2>
+ <div class="dd" id="secDD"><button id="secBtn">🌐 Any sector</button><div class="panel hidden" id="secPanel"></div></div>
 </section>
 
 <section id="step3" class="hidden">
- <div class="summary">
-  <div class="row1"><b>🔎 Your search</b><button class="chip sm" id="changeBtn">✏️ Change search</button></div>
-  <div class="chips" id="sumChips"></div>
+ <div class="top"><span class="what" id="what"></span><button class="lnk" id="changeBtn">✏️ Change search</button></div>
+ <div class="row2">
+  <div class="selwrap"><select id="fDate" class="field">
+   <option value="new">📅 Newest first</option><option value="old">📅 Oldest first</option>
+   <option value="1">📅 Last 24 hours</option><option value="7">📅 Last 7 days</option><option value="30">📅 Last 30 days</option></select></div>
+  <div class="dd" id="exDD"><button id="exBtn">🚫 Exclude: none</button><div class="panel hidden" id="exPanel"></div></div>
  </div>
- <div class="fbar">
-  <input id="fKw" class="field" type="search" placeholder="🔤 Filter by word in title or company…">
-  <div class="fgrid">
-   <div><label>📍 Location</label><select id="fLoc" class="field"></select></div>
-   <div><label>📅 Posted within</label><select id="fAge" class="field"><option value="1">24 hours</option><option value="3">3 days</option><option value="7">7 days</option><option value="14">14 days</option><option value="30">30 days</option></select></div>
-   <div><label>↕️ Sort by</label><select id="fSort" class="field"><option value="best">Best match</option><option value="new">Newest</option></select></div>
-  </div>
-  <div id="looseRow" class="checks hidden"><label><input type="checkbox" id="fLoose"> Also show listings that only say Bahrain</label></div>
-  <button class="toggle" id="moreF">🎛️ More filters</button>
-  <div id="moreBox" class="hidden">
-   <div class="fgrid">
-    <div><label>🗂️ Job family</label><select id="fFam" class="field"><option value="">All families</option></select></div>
-    <div><label>💰 Min salary (BHD / month)</label><input id="fSal" class="field" type="number" min="0" inputmode="numeric" placeholder="any"></div>
-   </div>
-   <div class="small">🎚️ Hide these levels</div>
-   <div class="checks" id="senBox"></div>
-   <div class="checks"><label><input type="checkbox" id="fUnknown"> Include jobs where the sector isn't clear</label></div>
-   <div class="small">💰 Most ads don't show pay. Those stay in your results; ads showing pay below your minimum are hidden.</div>
-   <button class="link" id="resetF">↩️ Reset filters</button>
-  </div>
- </div>
- <div class="views" id="views"></div>
- <div class="count" id="count">⏳ Loading jobs…</div>
- <div id="unkHint" style="margin:-4px 0 10px"></div>
+ <div class="count"><span id="count">⏳ Loading jobs…</span><button class="lnk" id="savedBtn">⭐ Saved</button></div>
  <div id="list"></div>
- <div class="sites"><h3>🌐 Search job sites directly</h3><div class="sub" style="margin:0">One tap searches each site for your roles in Bahrain.</div><div id="sites"></div></div>
  <div class="foot" id="fetched"></div>
- <div class="foot">🔒 Your choices and saved jobs stay in this browser only. <button class="link" id="startOver" style="font-size:12px">🔄 Start over</button></div>
+ <div class="foot">🔒 Your search stays in this browser only.</div>
 </section>
 </div>
 
@@ -123,38 +86,6 @@ const $=id=>document.getElementById(id);
 const K="bjf_";
 const store={get:(k,d)=>{try{return JSON.parse(localStorage.getItem(K+k))??d}catch{return d}},set:(k,v)=>localStorage.setItem(K+k,JSON.stringify(v))};
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
-const enc=encodeURIComponent, slug=s=>s.toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
-const rxEsc=s=>s.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
-const QUICK_TOP=["Accountant","HR officer","Sales executive","Customer service","Software engineer","Nurse","Marketing","Administration officer","Engineer","Driver"];
-const QUICK={"💰 Finance & banking":["Accountant","Financial analyst","Banking operations","Credit analyst","Auditor","Compliance officer","KYC analyst","Relationship manager"],
- "🧑‍💼 HR & admin":["HR officer","Recruiter","Payroll","Administration officer","Executive assistant","Receptionist"],
- "💻 IT & tech":["Software engineer","IT support","Data analyst","Network engineer","Cyber security"],
- "🛠️ Engineering":["Mechanical engineer","Electrical engineer","Civil engineer","Project engineer","Technician"],
- "📈 Sales & marketing":["Sales executive","Business development","Marketing","Digital marketing","Graphic designer"],
- "🤝 Customer facing":["Customer service","Front office","Cashier","Store manager"],
- "🏥 Healthcare":["Nurse","Pharmacist","Doctor","Medical representative"],
- "🏨 Hospitality":["Chef","Restaurant manager","Hotel","Housekeeping"],
- "🚚 Logistics":["Logistics","Procurement","Supply chain","Warehouse","Driver"],
- "🎓 Education & legal":["Teacher","Lecturer","Legal counsel","Paralegal"],
- "📋 Management":["Project manager","Operations manager"]};
-const RELATED=[
- {k:["account","finance","financial","audit","tax"],t:["Accountant","Financial analyst","Accounts payable","Accounts receivable","Auditor","Tax consultant","Finance manager"]},
- {k:["bank","operation","settlement","payment","credit","treasury","trade","kyc"],t:["Banking operations","Payments operations","Credit analyst","Trade finance","Treasury","Relationship manager","KYC analyst"]},
- {k:["complian","kyc","aml","risk"],t:["Compliance officer","KYC analyst","AML analyst","Risk analyst","Internal control"]},
- {k:["hr","human","recruit","payroll","talent"],t:["HR officer","HR generalist","Recruiter","Talent acquisition","Payroll specialist"]},
- {k:["admin","office","secretar","reception","assistant"],t:["Administration officer","Office manager","Executive assistant","Secretary","Receptionist"]},
- {k:["software","developer","it","data","cyber","network","web"],t:["Software engineer","Web developer","Data analyst","IT support","Network engineer","Cyber security"]},
- {k:["engineer","mechanical","electrical","civil","project","maintenance","technician"],t:["Mechanical engineer","Electrical engineer","Civil engineer","Project engineer","Maintenance engineer","Site engineer"]},
- {k:["sales","business","account manager"],t:["Sales executive","Business development","Account manager","Sales manager","Key account manager"]},
- {k:["marketing","media","design","social","content","brand"],t:["Marketing executive","Digital marketing","Social media","Graphic designer","Content writer","Brand manager"]},
- {k:["customer","service","call","support"],t:["Customer service","Call centre agent","Customer experience","Client support"]},
- {k:["nurse","doctor","medical","health","pharma","clinic"],t:["Nurse","Pharmacist","Doctor","Medical representative","Lab technician"]},
- {k:["hotel","restaurant","chef","hospitality","front office","housekeep"],t:["Front office","Chef","Restaurant manager","Housekeeping","Guest relations"]},
- {k:["retail","store","cashier","shop"],t:["Store manager","Sales associate","Cashier","Merchandiser"]},
- {k:["logistic","supply","procure","warehouse","driver","purchas"],t:["Logistics coordinator","Procurement officer","Supply chain","Warehouse supervisor","Driver"]},
- {k:["teach","lectur","education","tutor"],t:["Teacher","Lecturer","Teaching assistant"]},
- {k:["legal","lawyer","paralegal"],t:["Legal counsel","Lawyer","Paralegal"]}];
-const ALL_TITLES=[...new Set([...RELATED.flatMap(f=>f.t),...Object.values(QUICK).flat()])].sort();
 // sector inference from company name + title keywords
 const SECTORS=[
  ["Banking","🏦",/\bbank|banking|\bnbb\b|\bbbk\b|\bbisb\b|ithmaar|\bkfh\b|kuwait finance house|al salam|khaleeji|\bhsbc\b|standard chartered|\bciti(bank|group)?\b|arab banking|\bbank abc\b|ahli united|gulf international bank|\bgib\b|alubaf|\bsico\b/i],
@@ -173,84 +104,49 @@ const SECTORS=[
  ["Real Estate","🏢",/real estate|property|properties|realty|\bdevelopments?\b|facility management|facilities|diyar|eagle hills/i],
  ["Consulting","🧭",/consult|advisory|deloitte|\bpwc\b|\bkpmg\b|\bey\b|ernst|accenture|mckinsey|\bbain\b|\bbcg\b|grant thornton|\bbdo\b|\brsm\b|crowe|talal abu/i],
  ["Manufacturing","🏭",/manufactur|factory|industr|\bplant\b|production|packaging|steel|plastic|bottling|printing|chemical|fabricat|mondel[eē]z|linde|nestl[eé]|unilever|pepsi|coca/i]];
-const SEN=[["entry","🌱 Entry / intern",/\bintern(ship)?\b|\btrainee\b|graduate|\bentry\b|\bjunior\b|\bjr\b|fresh/],
- ["senior","🧗 Senior",/\bsenior\b|\bsr\b|\blead\b|principal/],
- ["manager","👔 Manager",/\bmanager\b|\bsupervisor\b/],
- ["exec","🏛️ Head of / Director+",/\bhead of\b|\bchief\b|\bdirector\b|vice president|\bavp\b|\bsvp\b|\bevp\b|\bvp\b|\bcfo\b|\bcoo\b|\bceo\b|\bcto\b|general manager/]];
-const AREAS=["Any","Manama","Seef","Sanabis","Juffair","Diplomatic Area","Muharraq","Hidd","Riffa","Isa Town","Hamad Town","Sitra","Budaiya","Amwaj","Remote / hybrid"];
-const SRC_EMOJI={"LinkedIn":"💼","Tanqeeb":"🟠","Workable":"🧰","Employer careers (ATS)":"🏢"};
-// ---------- state ----------
-const DEFF={kw:"",loc:"Any",locLoose:true,age:30,sort:"best",fam:"",sal:"",hideSen:[],unknown:false};
-let S=Object.assign({roles:[],any:false,sectors:[],custom:[],done:false},store.get("flow",{}));
-let F=Object.assign({},DEFF,store.get("filters",{}));
-const save=()=>{store.set("flow",S);store.set("filters",F)};
-
-// ---------- tag inputs ----------
-function tagInput(box,tagsEl,input,addBtn,arr,acEl,onChange){
- const has=t=>S[arr].some(x=>x.toLowerCase()===t.toLowerCase());
- const add=t=>{t=t.trim().replace(/\s+/g," ").slice(0,60);if(t&&!has(t))S[arr].push(t);draw();onChange()};
- const fromInput=()=>{if(input.value.trim()){const v=input.value;input.value="";v.split(/[,;]/).forEach(add)}if(acEl)acEl.classList.add("hidden");addBtn.classList.add("hidden")};
- function draw(){tagsEl.innerHTML=S[arr].map((t,i)=>`<span class="tag">${esc(t)}<b data-i="${i}" title="remove">✕</b></span>`).join("");
-  tagsEl.querySelectorAll("[data-i]").forEach(b=>b.onclick=e=>{e.stopPropagation();S[arr].splice(+b.dataset.i,1);draw();onChange()})}
- input.oninput=()=>{if(/[,;]/.test(input.value)){fromInput();return}addBtn.classList.toggle("hidden",!input.value.trim());
-  if(acEl){const v=input.value.trim().toLowerCase();const m=v.length<2?[]:ALL_TITLES.filter(t=>t.toLowerCase().includes(v)&&!has(t)).slice(0,6);
-   acEl.innerHTML=m.map(t=>`<div data-ac="${esc(t)}">${esc(t)}</div>`).join("");acEl.classList.toggle("hidden",!m.length);
-   acEl.querySelectorAll("[data-ac]").forEach(d=>d.onmousedown=e=>{e.preventDefault();input.value="";acEl.classList.add("hidden");addBtn.classList.add("hidden");add(d.dataset.ac)})}};
- input.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();fromInput()}else if(e.key==="Backspace"&&!input.value&&S[arr].length){S[arr].pop();draw();onChange()}};
- input.onblur=()=>setTimeout(()=>{if(acEl)acEl.classList.add("hidden")},150);
- addBtn.onmousedown=e=>{e.preventDefault();fromInput()};
- box.onclick=e=>{if(e.target===box)input.focus()};
- return{add,draw,fromInput,has}}
-const roleT=tagInput($("roleBox"),$("roleTags"),$("roleIn"),$("roleAdd"),"roles",$("roleAc"),()=>{S.any=false;save();drawStep1()});
-const secT=tagInput($("secBox"),$("secTags"),$("secIn"),$("secAdd"),"custom",null,()=>{save();drawStep2()});
-// ---------- step 1 ----------
-const chipQ=t=>`<button class="chip ${roleT.has(t)?"on":""}" data-q="${esc(t)}">${roleT.has(t)?"✓ ":""}${esc(t)}</button>`;
-function drawStep1(){
- const low=S.roles.map(w=>w.toLowerCase());const rel=[];
- RELATED.forEach(f=>{if(low.some(w=>f.k.some(k=>new RegExp("(^|[^a-z])"+rxEsc(k)).test(w))))f.t.forEach(t=>{if(!rel.includes(t)&&!roleT.has(t))rel.push(t)})});
- $("related").innerHTML=rel.length?`<div class="lbl">💡 Related roles you could add</div><div class="chips">${rel.slice(0,10).map(t=>`<button class="chip sm" data-rel="${esc(t)}">＋ ${esc(t)}</button>`).join("")}</div>`:"";
- document.querySelectorAll("[data-rel]").forEach(b=>b.onclick=()=>roleT.add(b.dataset.rel));
- const open=[...document.querySelectorAll("#quick details[open]")].map(d=>d.dataset.g);
- $("quick").innerHTML=`<div class="chips">${QUICK_TOP.map(chipQ).join("")}</div>`+Object.entries(QUICK).map(([g,ts])=>`<details class="fam" data-g="${esc(g)}" ${open.includes(g)?"open":""}><summary>${g}</summary><div class="chips">${ts.map(chipQ).join("")}</div></details>`).join("");
- document.querySelectorAll("[data-q]").forEach(b=>b.onclick=()=>{const t=b.dataset.q;
-  if(roleT.has(t)){S.roles=S.roles.filter(x=>x.toLowerCase()!==t.toLowerCase());roleT.draw();save();drawStep1()}else roleT.add(t)});
- nav()}
-$("anyJob").onclick=()=>{S.roles=[];S.any=true;roleT.draw();save();go("step2")};
-
-// ---------- step 2 ----------
-function drawStep2(){
- const anyOn=!S.sectors.length&&!S.custom.length;
- $("secChips").innerHTML=`<button class="chip ${anyOn?"on":""}" data-sec="">🌐 Any sector</button>`+SECTORS.map(([n,e])=>`<button class="chip ${S.sectors.includes(n)?"on":""}" data-sec="${esc(n)}">${S.sectors.includes(n)?"✓ ":""}${e} ${esc(n)}</button>`).join("");
- document.querySelectorAll("[data-sec]").forEach(b=>b.onclick=()=>{const n=b.dataset.sec;
-  if(!n){S.sectors=[];S.custom=[];secT.draw()}else S.sectors=S.sectors.includes(n)?S.sectors.filter(x=>x!==n):[...S.sectors,n];save();drawStep2()});
- nav()}
-// ---------- navigation: one URL hash per step so the phone back button works ----------
-const STEPS=["step1","step2","step3"];let cur="";
-function go(step,replace){const h="#"+step;if(location.hash!==h){if(replace)history.replaceState(null,"",h);else history.pushState(null,"",h)}show(step)}
-function show(step){cur=step;STEPS.forEach(s=>$(s).classList.toggle("hidden",s!==step));
- ["p1","p2","p3"].forEach((p,i)=>$(p).classList.toggle("on",i<=STEPS.indexOf(step)));
- if(step==="step1"){roleT.draw();drawStep1()}
- if(step==="step2"){secT.draw();drawStep2()}
- if(step==="step3"){S.done=true;save();showResults()}
- nav();window.scrollTo(0,0)}
-function nav(){const n=$("nextBtn"),b=$("backBtn");$("nav").classList.toggle("hidden",cur==="step3");
- b.classList.toggle("hidden",cur!=="step2");
- if(cur==="step1"){n.textContent=S.roles.length?`Next ➡️ (${S.roles.length} role${S.roles.length>1?"s":""})`:(S.any?"Next ➡️ (any job)":"Next ➡️");n.disabled=!S.roles.length&&!S.any&&!$("roleIn").value.trim()}
- if(cur==="step2"){const c=S.sectors.length+S.custom.length;n.textContent=`🔎 Show jobs${c?` (${c} sector${c>1?"s":""})`:" (any sector)"}`;n.disabled=false}}
-$("roleIn").addEventListener("input",()=>{if(cur==="step1")nav()});
-$("nextBtn").onclick=()=>{if(cur==="step1"){roleT.fromInput();if(!S.roles.length&&!S.any)return;save();go("step2")}else if(cur==="step2"){secT.fromInput();save();go("step3")}};
-$("backBtn").onclick=()=>go("step1");
-window.addEventListener("popstate",()=>show(stepFromHash()));
-const ready=()=>S.roles.length>0||S.any;
-function stepFromHash(){const h=location.hash.slice(1);
- if(h==="step2")return ready()?"step2":"step1";
- if(h==="step3"||h==="results")return ready()?"step3":"step1";
- if(h==="step1")return h;
- return S.done&&ready()?"step3":"step1"}
-$("home").onclick=()=>go(S.done&&ready()?"step3":"step1");
-$("changeBtn").onclick=()=>go("step1");
-$("startOver").onclick=()=>{if(!confirm("Start a new search? (Your saved and applied jobs are kept.)"))return;
- S={roles:[],any:false,sectors:[],custom:[],done:false};F={...DEFF,hideSen:[]};save();loadFilterUI();go("step1")};
+const RAW_FALLBACK=["https:/","raw.githubusercontent.com","akprojects91","jobhub","main","data","live.json"].join("/");
+async function getJson(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
+const ROLES=["Accountant","Administration","Customer service","Driver","Engineer","HR","IT support","Marketing","Nurse","Sales","Software developer","Teacher"];
+const EXCL=[["senior","👔 Senior / Manager roles",/\bsenior\b|\bsr\b|\bmanager\b|\bhead of\b|\bdirector\b|\blead\b|\bchief\b|\bvp\b|vice president|supervisor/i],
+ ["intern","🎓 Internships",/\bintern(ship)?s?\b|\btrainee\b/i],
+ ["sales","💼 Sales",/\bsales\b|business development|\btelesales\b/i],
+ ["cs","☎️ Customer service",/customer service|customer care|call cent|call center|contact cent/i],
+ ["part","⏱️ Part-time",/part[- ]time/i]];
+let S=Object.assign({roles:[],any:false,sectors:[],custom:[],done:false},store.get("flow2",{}));
+let F=Object.assign({date:"new",ex:[]},store.get("filters2",{}));
+const save=()=>{store.set("flow2",S);store.set("filters2",F)};
+const has=t=>S.roles.some(x=>x.toLowerCase()===t.toLowerCase());
+function addRole(t){t=t.trim().replace(/\s+/g," ").slice(0,60);if(t&&!has(t))S.roles.push(t);S.any=false;save();drawRoles()}
+function drawRoles(){$("roleTags").innerHTML=S.roles.map((t,i)=>`<span class="tag">${esc(t)}<b data-i="${i}">✕</b></span>`).join("");
+ document.querySelectorAll("#roleTags [data-i]").forEach(b=>b.onclick=()=>{S.roles.splice(+b.dataset.i,1);save();drawRoles()});nav()}
+const roleIn=$("roleIn");
+const takeInput=()=>{const v=roleIn.value;roleIn.value="";v.split(/[,;]/).forEach(addRole)};
+roleIn.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();takeInput()}else if(e.key==="Backspace"&&!roleIn.value&&S.roles.length){S.roles.pop();save();drawRoles()}};
+roleIn.oninput=()=>{if(/[,;]/.test(roleIn.value))takeInput();else nav()};
+$("roleBox").onclick=e=>{if(e.target.id==="roleBox")roleIn.focus()};
+$("pick").innerHTML+=ROLES.map(r=>`<option>${r}</option>`).join("");
+$("pick").onchange=()=>{if($("pick").value)addRole($("pick").value);$("pick").value=""};
+$("anyJob").onclick=()=>{S.roles=[];S.any=true;save();go("step2")};
+// ---------- checkbox dropdowns ----------
+function dropdown(btn,panel,items,getSel,setSel,label,extra){
+ const draw=()=>{const sel=getSel();
+  panel.innerHTML=(typeof items==="function"?items():items).map(([v,l])=>`<label><input type="checkbox" value="${esc(v)}" ${sel.includes(v)?"checked":""}> ${esc(l)}</label>`).join("")+(extra?extra():"")+`<button class="done">✅ Done</button>`;
+  panel.querySelectorAll("input[type=checkbox]").forEach(c=>c.onchange=()=>{setSel([...panel.querySelectorAll("input[type=checkbox]:checked")].map(x=>x.value));btn.textContent=label()});
+  panel.querySelector(".done").onclick=e=>{e.stopPropagation();close()};
+  if(extra&&panel.querySelector(".own"))panel.querySelector(".own").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();const v=e.target.value.trim();if(v&&!S.custom.includes(v)){S.custom.push(v);save()}draw();btn.textContent=label()}}};
+ const close=()=>{panel.classList.add("hidden");onDDClose()};
+ btn.onclick=e=>{e.stopPropagation();const open=panel.classList.contains("hidden");document.querySelectorAll(".panel").forEach(p=>p.classList.add("hidden"));if(open){draw();panel.classList.remove("hidden")}else close()};
+ panel.onclick=e=>e.stopPropagation();
+ btn.textContent=label();return{refresh:()=>{btn.textContent=label()}}}
+document.addEventListener("click",()=>{let was=false;document.querySelectorAll(".panel").forEach(p=>{if(!p.classList.contains("hidden"))was=true;p.classList.add("hidden")});if(was)onDDClose()});
+function onDDClose(){save();if(cur==="step3")render(true);nav()}
+const secItems=()=>[["","🌐 Any sector"],...SECTORS.map(([n,e])=>[n,e+" "+n]),...S.custom.map(c=>["custom:"+c,"✍️ "+c])];
+const secDD=dropdown($("secBtn"),$("secPanel"),secItems,()=>[...(S.sectors.length||S.custom.length?[]:[""]),...S.sectors,...S.custom.map(c=>"custom:"+c)],
+ v=>{const prevAny=!S.sectors.length&&!S.custom.length;
+  if(v.includes("")&&!prevAny){S.sectors=[];S.custom=[]}else{v=v.filter(x=>x);S.sectors=v.filter(x=>!x.startsWith("custom:"));S.custom=v.filter(x=>x.startsWith("custom:")).map(x=>x.slice(7))}
+  save();setTimeout(()=>{$("secPanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value===""?!S.sectors.length&&!S.custom.length:S.sectors.includes(c.value)||S.custom.includes(c.value.slice(7)))},0)},
+ ()=>{const n=[...S.sectors,...S.custom];return n.length?(n.length<=2?"🏢 "+n.join(", "):`🏢 ${n.length} sectors`):"🌐 Any sector"},
+ ()=>`<input class="own" placeholder="✍️ Type another sector, press Enter">`);
 // ---------- matching ----------
 const STOP=new Set(["and","or","of","the","in","jobs","job","a","for","officer","specialist","executive","manager","analyst","assistant","associate","senior","junior","staff","bahrain"]);
 const ALIAS={accountant:["accountant","accounting"," accounts "],accounting:["accountant","accounting"," accounts "]};
@@ -268,104 +164,73 @@ function locOk(j){if(F.loc==="Any")return true;const l=(j.location||"").toLowerC
 const sectorsOf=j=>{const t=(j.company||"")+" | "+j.title;return SECTORS.filter(x=>x[2].test(t)).map(x=>x[0])};
 const daysAgo=d=>Math.floor((Date.now()-new Date(d+"T12:00:00Z"))/864e5);
 function ago(d){if(!d)return"date not shown";const n=daysAgo(d);return n<=0?"today":n===1?"1 day ago":n+" days ago"}
-// ---------- data ----------
-const RAW_FALLBACK=["https:/","raw.githubusercontent.com","akprojects91","jobhub","main","data","live.json"].join("/");
-let DATA=null,JOBS=[];
-async function getJson(u){const r=await fetch(u,{cache:"no-store"});if(!r.ok)throw new Error("HTTP "+r.status);return r.json()}
+const exDD=dropdown($("exBtn"),$("exPanel"),()=>[["","✅ None"],...EXCL.map(([k,l])=>[k,l])],()=>F.ex.length?F.ex:[""],
+ v=>{const prevNone=!F.ex.length;F.ex=v.includes("")&&!prevNone?[]:v.filter(x=>x);save();
+  setTimeout(()=>{$("exPanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value===""?!F.ex.length:F.ex.includes(c.value))},0);render(true)},
+ ()=>F.ex.length?(F.ex.length===1?"🚫 "+EXCL.find(x=>x[0]===F.ex[0])[1].replace(/^\S+ /,""):`🚫 Excluding ${F.ex.length}`):"🚫 Exclude: none");
+$("fDate").onchange=()=>{F.date=$("fDate").value;save();render(true)};
+
+// ---------- steps (one hash per step so the back button works) ----------
+const STEPS=["step1","step2","step3"];let cur="";
+const ready=()=>S.roles.length>0||S.any;
+function go(step,replace){const h="#"+step;if(location.hash!==h){if(replace)history.replaceState(null,"",h);else history.pushState(null,"",h)}show(step)}
+function show(step){cur=step;document.querySelectorAll(".panel").forEach(p=>p.classList.add("hidden"));
+ STEPS.forEach(s=>$(s).classList.toggle("hidden",s!==step));
+ if(step==="step1")drawRoles();
+ if(step==="step2")secDD.refresh();
+ if(step==="step3"){S.done=true;save();showResults()}
+ nav();window.scrollTo(0,0)}
+function nav(){const n=$("nextBtn");$("nav").classList.toggle("hidden",cur==="step3");$("backBtn").classList.toggle("hidden",cur!=="step2");
+ if(cur==="step1"){n.textContent="Next ➡️";n.disabled=!S.roles.length&&!S.any&&!roleIn.value.trim()}
+ if(cur==="step2"){n.textContent="🔎 Show jobs";n.disabled=false}}
+$("nextBtn").onclick=()=>{if(cur==="step1"){takeInput();if(!ready())return;go("step2")}else if(cur==="step2")go("step3")};
+$("backBtn").onclick=()=>go("step1");
+window.addEventListener("popstate",()=>show(fromHash()));
+function fromHash(){const h=location.hash.slice(1);
+ if(h==="step1")return h;if(h==="step2"||h==="step3")return ready()?h:"step1";
+ return S.done&&ready()?"step3":"step1"}
+$("home").onclick=()=>go("step1");
+$("changeBtn").onclick=()=>go("step1");
+// ---------- data + results ----------
+let DATA=null,JOBS=[],shown=30,savedOnly=false;
 async function load(){if(DATA)return;const bust="?t="+Math.floor(Date.now()/60000);let d;
  try{d=await getJson("data/live.json"+bust)}catch(e){d=await getJson(RAW_FALLBACK+bust)}
- JOBS=d.jobs.map(j=>({...j,families:j.families||[],sources:j.sources||[],links:j.links||{},sec:sectorsOf(j),sal:salaryOf(j)}));DATA=d;
- const fams=[...new Set(JOBS.flatMap(j=>j.families))].sort();
- $("fFam").innerHTML=`<option value="">All families</option>`+fams.map(f=>`<option>${esc(f)}</option>`).join("");$("fFam").value=F.fam;
- const srcs=(d.status||[]).filter(s=>s.ok&&s.count).map(s=>s.source).join(", ");
+ JOBS=d.jobs.map(j=>({...j,sources:j.sources||[],links:j.links||{},sec:sectorsOf(j)}));DATA=d;
  const when=new Date(d.fetched_at).toLocaleString("en-GB",{timeZone:"Asia/Bahrain",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
- $("fetched").textContent=`🕒 ${JOBS.length} Bahrain listings from ${srcs} · refreshed ${when} Bahrain time · updates every 6 hours`}
-// ---------- filters ----------
-$("fLoc").innerHTML=AREAS.map(a=>`<option>${a}</option>`).join("");
-$("senBox").innerHTML=SEN.map(([k,l])=>`<label><input type="checkbox" value="${k}"> ${l}</label>`).join("");
-const looseVis=()=>$("looseRow").classList.toggle("hidden",F.loc==="Any"||F.loc.startsWith("Remote"));
-function loadFilterUI(){$("fKw").value=F.kw;$("fLoc").value=F.loc;$("fLoose").checked=F.locLoose;$("fAge").value=String(F.age);$("fSort").value=F.sort;$("fFam").value=F.fam;$("fSal").value=F.sal;$("fUnknown").checked=F.unknown;
- document.querySelectorAll("#senBox input").forEach(c=>c.checked=F.hideSen.includes(c.value));looseVis()}
-function readF(){F.kw=$("fKw").value.trim();F.loc=$("fLoc").value;F.locLoose=$("fLoose").checked;F.age=+$("fAge").value;F.sort=$("fSort").value;F.fam=$("fFam").value;F.sal=$("fSal").value;F.unknown=$("fUnknown").checked;
- F.hideSen=[...document.querySelectorAll("#senBox input:checked")].map(c=>c.value);looseVis();save();render(true)}
-["fLoc","fLoose","fAge","fSort","fFam","fUnknown","senBox"].forEach(k=>$(k).addEventListener("change",readF));
-["fKw","fSal"].forEach(k=>$(k).addEventListener("input",readF));
-$("moreF").onclick=()=>{const h=$("moreBox").classList.toggle("hidden");$("moreF").textContent=h?"🎛️ More filters":"🎛️ Fewer filters"};
-$("resetF").onclick=()=>{F={...DEFF,hideSen:[]};save();loadFilterUI();render(true)};
-// ---------- step 3: results ----------
-let view="All",shown=40;
+ $("fetched").textContent=`🕒 ${JOBS.length} Bahrain listings · updated ${when} Bahrain time · refreshes every 6 hours`}
 const ST=()=>store.get("status",{});
-function setSt(id,v){const s=ST();if(s[id]&&s[id].status===v)delete s[id];else s[id]={status:v,updated:new Date().toISOString()};store.set("status",s);render(false)}
-const secEmoji=n=>(SECTORS.find(x=>x[0]===n)||[0,"🏢"])[1];
-function drawSummary(){
- const r=S.roles.length?S.roles.map(x=>["💼 "+x,"step1"]):[["💼 Any job","step1"]];
- const s=S.sectors.length||S.custom.length?[...S.sectors.map(x=>[secEmoji(x)+" "+x,"step2"]),...S.custom.map(x=>["✍️ "+x,"step2"])]:[["🌐 Any sector","step2"]];
- $("sumChips").innerHTML=[...r,...s].map(([t,st])=>`<button class="chip sm" data-edit="${st}">${esc(t)}</button>`).join("");
- document.querySelectorAll("[data-edit]").forEach(b=>b.onclick=()=>go(b.dataset.edit))}
-function evaluate(j){const full=j.title+" "+(j.company||"");
- const roleHit=S.roles.filter(r=>hits(r,j.title));
- const secHit=S.sectors.filter(s=>j.sec.includes(s));
- const custHit=S.custom.filter(c=>hits(c,full)||j.sec.some(s=>s.toLowerCase().includes(c.toLowerCase())));
- const wantSec=S.sectors.length+S.custom.length>0;
- const secOk=!wantSec||secHit.length+custHit.length>0;
- const unknownSec=wantSec&&!secOk&&!j.sec.length;
- const fresh=j.posted?Math.max(0,30-daysAgo(j.posted))/30:0;
- return{roleHit,secHit:[...secHit,...custHit],secOk,unknownSec,score:roleHit.length*3+(secHit.length+custHit.length)*2+fresh}}
-async function showResults(){drawSummary();loadFilterUI();drawSites();
+function toggleSave(id){const s=ST();if(s[id]&&s[id].status==="Saved")delete s[id];else s[id]={status:"Saved",updated:new Date().toISOString()};store.set("status",s);render(false)}
+$("savedBtn").onclick=()=>{savedOnly=!savedOnly;render(true)};
+async function showResults(){savedOnly=false;$("fDate").value=F.date;exDD.refresh();
+ const r=S.roles.length?S.roles.join(", "):"Any job",sc=[...S.sectors,...S.custom];
+ $("what").textContent="🔎 "+r+" · "+(sc.length?sc.join(", "):"any sector");
  if(!DATA){$("count").textContent="⏳ Loading jobs…";$("list").innerHTML=""}
- try{await load()}catch(e){$("count").textContent="";$("list").innerHTML=`<div class="empty">⚠️ Couldn't load jobs (${esc(e.message||e)}). Please refresh.</div>`;return}
+ try{await load()}catch(e){$("count").textContent="";$("list").innerHTML=`<div class="empty">⚠️ Couldn't load jobs. Please refresh.</div>`;return}
  render(true)}
-function passes(x,cut,kw){const j=x.j,e=x.e,t=j.title.toLowerCase();
- if(S.roles.length&&!e.roleHit.length)return false;
- if(!e.secOk&&!(F.unknown&&e.unknownSec))return false;
- if(j.posted&&j.posted<cut)return false;
- if(kw&&!(j.title+" "+j.company+" "+j.location).toLowerCase().includes(kw))return false;
- if(!locOk(j))return false;
- if(F.fam&&!j.families.includes(F.fam))return false;
- if(F.sal&&j.sal&&j.sal.max<+F.sal)return false;
- if(SEN.some(([k,,rx])=>F.hideSen.includes(k)&&rx.test(t)))return false;
- return true}
-function card({j,e,st}){const main=j.links[j.sources[0]]||j.url;
- const alts=j.sources.slice(1).filter(x=>j.links[x]).map(x=>`<a href="${esc(j.links[x])}" target="_blank" rel="noopener">also on ${esc(x)}</a>`).join(" · ");
- const mb=e.roleHit.length&&e.secHit.length?`<span class="badge b-best">✅ Great match</span>`:e.roleHit.length?`<span class="badge b-good">👍 ${esc(e.roleHit.join(", "))}</span>`:"";
- const sb=e.secHit.length?e.secHit.map(x=>`<span class="badge b-sec">🎯 ${esc(x)}</span>`).join(""):(j.sec.length?`<span class="badge">${secEmoji(j.sec[0])} ${esc(j.sec[0])}</span>`:"");
- const pay=j.sal?` · 💰 ${j.sal.min===j.sal.max?j.sal.min:j.sal.min+"–"+j.sal.max} BHD`:"";
- return `<div class="job s-${st}"><div class="t">${esc(j.title)}</div><div class="c">🏢 ${esc(j.company||"Company not shown")}</div>
- <div class="m">📍 ${esc(j.location||"Bahrain")} · 🕒 ${esc(ago(j.posted))}${pay}</div>
- <div>${mb}${sb}${j.sources.map(x=>`<span class="badge">${SRC_EMOJI[x]||"🌐"} ${esc(x)}</span>`).join("")}</div>
- ${alts?`<div class="alts">🔗 ${alts}</div>`:""}
- <a class="apply" href="${esc(main)}" target="_blank" rel="noopener">✅ Apply on ${esc(j.sources[0]||"site")}</a>
- <div class="sbtns"><button class="${st==="Saved"?"on":""}" data-id="${esc(j.id)}" data-sv="Saved">⭐ ${st==="Saved"?"Saved":"Save"}</button><button class="${st==="Applied"?"on":""}" data-id="${esc(j.id)}" data-sv="Applied">📨 ${st==="Applied"?"Applied ✓":"Applied"}</button></div></div>`}
-function render(resetPage){if(!DATA)return;if(resetPage)shown=40;const s=ST();
- const cut=new Date(Date.now()-F.age*864e5).toISOString().slice(0,10),kw=F.kw.toLowerCase();
- const all=JOBS.map(j=>({j,e:evaluate(j),st:(s[j.id]||{}).status||""}));
- const matches=all.filter(x=>passes(x,cut,kw));
- const cnt={All:matches.length,Saved:all.filter(x=>x.st==="Saved").length,Applied:all.filter(x=>x.st==="Applied").length};
- $("views").innerHTML=[["All","📋 Results"],["Saved","⭐ Saved"],["Applied","📨 Applied"]].map(([k,l])=>`<button class="chip ${view===k?"on":""}" data-v="${k}">${l} (${cnt[k]})</button>`).join("");
- document.querySelectorAll("[data-v]").forEach(b=>b.onclick=()=>{view=b.dataset.v;render(true)});
- const list=view==="All"?matches:all.filter(x=>x.st===view);
- const byNew=(a,b)=>(b.j.posted||"").localeCompare(a.j.posted||"");
- list.sort(F.sort==="new"?byNew:(a,b)=>b.e.score-a.e.score||byNew(a,b));
- $("count").textContent=view==="All"?`📋 ${list.length} job${list.length===1?"":"s"} found · ${F.sort==="new"?"newest first":"best match first"}`:`${list.length} job${list.length===1?"":"s"}`;
- let extra=0;if(view==="All"&&!F.unknown&&(S.sectors.length||S.custom.length)){F.unknown=true;extra=all.filter(x=>passes(x,cut,kw)).length-matches.length;F.unknown=false}
- $("unkHint").innerHTML=extra>0?`<button class="chip sm" id="unkBtn">➕ Show ${extra} more where the sector isn't clear</button>`:"";
- if(extra>0)$("unkBtn").onclick=()=>{F.unknown=true;$("fUnknown").checked=true;save();render(true)};
- if(!list.length){$("list").innerHTML=`<div class="empty">${view==="All"?"🙈 No listings match right now.<br><br>Try fewer filters, add related roles, pick 🌐 Any sector, or use the job-site links below.":"Nothing here yet. Tap ⭐ Save or 📨 Applied on a job."}</div>`;return}
- $("list").innerHTML=list.slice(0,shown).map(card).join("")+(list.length>shown?`<button class="more" id="moreJobs">⬇️ Show more (${list.length-shown} left)</button>`:"");
- document.querySelectorAll("[data-sv]").forEach(b=>b.onclick=()=>setSt(b.dataset.id,b.dataset.sv));
- if($("moreJobs"))$("moreJobs").onclick=()=>{shown+=40;render(false)}}
-function drawSites(){const rs=S.roles.length?S.roles:["jobs"];
- $("sites").innerHTML=rs.map(r=>{const q=r==="jobs"?"":r;return `<div class="links"><b>${esc(r==="jobs"?"All jobs":r)}:</b>
-  <a target="_blank" rel="noopener" href="https://www.linkedin.com/jobs/search/?keywords=${enc(q)}&location=Bahrain">💼 LinkedIn</a>
-  <a target="_blank" rel="noopener" href="https://www.bayt.com/en/bahrain/jobs/${q?slug(q)+"-jobs/":""}">🅱️ Bayt</a>
-  <a target="_blank" rel="noopener" href="https://www.gulftalent.com/bahrain/jobs${q?"/title/"+slug(q):""}">🌴 GulfTalent</a>
-  <a target="_blank" rel="noopener" href="https://bh.indeed.com/jobs?q=${enc(q)}&l=Bahrain">🔵 Indeed</a>
-  <a target="_blank" rel="noopener" href="https://www.tanqeeb.com/en/s/jobs/${q?slug(q)+"-jobs-in-bahrain":"jobs-in-bahrain"}">🟠 Tanqeeb</a>
-  <a target="_blank" rel="noopener" href="https://www.naukrigulf.com/${q?slug(q)+"-jobs-in-bahrain":"jobs-in-bahrain"}">🟣 Naukrigulf</a>
-  <a target="_blank" rel="noopener" href="https://www.akhtaboot.com/en/bahrain/jobs/search?keywords=${enc(q)}">🟢 Akhtaboot</a>
-  <a target="_blank" rel="noopener" href="https://www.google.com/search?q=${enc((q||"")+" jobs Bahrain")}&ibp=htl;jobs">🔍 Google Jobs</a></div>`}).join("")}
-
-// ---------- start ----------
-loadFilterUI();go(stepFromHash(),true);
+function sectorRank(j){if(!S.sectors.length&&!S.custom.length)return 0;
+ const full=j.title+" "+(j.company||"");
+ if(S.sectors.some(s=>j.sec.includes(s))||S.custom.some(c=>hits(c,full)||j.sec.some(s=>s.toLowerCase().includes(c.toLowerCase()))))return 0;
+ return j.sec.length?-1:1}
+function card(j,saved){const url=j.links[j.sources[0]]||j.url;
+ return `<div class="job"><button class="star ${saved?"on":""}" data-id="${esc(j.id)}" title="Save">⭐</button>
+ <div class="t">${esc(j.title)}</div><div class="c">🏢 ${esc(j.company||"Company not shown")}</div>
+ <div class="m">📍 ${esc(j.location||"Bahrain")}</div><div class="m">🕒 ${esc(ago(j.posted))}</div>
+ <a class="apply" href="${esc(url)}" target="_blank" rel="noopener">✅ Apply</a></div>`}
+function render(resetPage){if(!DATA)return;if(resetPage)shown=30;const st=ST();
+ const days=+F.date||0,cut=days?new Date(Date.now()-days*864e5).toISOString().slice(0,10):"";
+ const ex=EXCL.filter(x=>F.ex.includes(x[0]));
+ let list=JOBS.map(j=>({j,rank:sectorRank(j),saved:(st[j.id]||{}).status==="Saved"}));
+ if(savedOnly)list=list.filter(x=>x.saved);
+ else list=list.filter(({j,rank})=>rank>=0&&(!S.roles.length||S.roles.some(r=>hits(r,j.title)))&&(!cut||!j.posted||j.posted>=cut)&&!ex.some(x=>x[2].test(j.title)));
+ const old=F.date==="old",byDate=(a,b)=>old?(a.j.posted||"9").localeCompare(b.j.posted||"9"):(b.j.posted||"").localeCompare(a.j.posted||"");
+ list.sort((a,b)=>a.rank-b.rank||byDate(a,b));
+ const nSaved=Object.values(st).filter(v=>v.status==="Saved").length;
+ $("savedBtn").textContent=savedOnly?"⬅️ All results":`⭐ Saved (${nSaved})`;
+ $("count").textContent=savedOnly?`⭐ ${list.length} saved job${list.length===1?"":"s"}`:`📋 ${list.length} job${list.length===1?"":"s"} found`;
+ if(!list.length){$("list").innerHTML=`<div class="empty">${savedOnly?"Tap the ⭐ on a job to save it.":"🙈 No jobs match right now.<br><br>Try another role, or choose 🌐 Any sector."}</div>`;return}
+ $("list").innerHTML=list.slice(0,shown).map(x=>card(x.j,x.saved)).join("")+(list.length>shown?`<button class="more" id="moreJobs">⬇️ Show more (${list.length-shown} left)</button>`:"");
+ document.querySelectorAll(".star").forEach(b=>b.onclick=()=>toggleSave(b.dataset.id));
+ if($("moreJobs"))$("moreJobs").onclick=()=>{shown+=30;render(false)}}
+go(fromHash(),true);
 load().catch(()=>{});
 </script></body></html>
