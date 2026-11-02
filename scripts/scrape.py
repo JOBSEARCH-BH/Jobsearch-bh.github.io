@@ -72,7 +72,7 @@ BROAD_FAMILY = {"operations": "Banking & finance ops", "compliance": "Compliance
                 "legal": "Legal", "project manager": "Project & management"}
 
 _last, _tl = {}, threading.Lock()
-GAP = {"www.linkedin.com": 1.8, "bahrain.tanqeeb.com": 1.0, "jobs.workable.com": 0.5}
+GAP = {"www.linkedin.com": 1.8, "jobs.workable.com": 0.5}
 def get(url, gap=None):
     host = urlparse(url).netloc; gap = GAP.get(host, 0.3) if gap is None else gap
     while True:
@@ -107,27 +107,6 @@ def src_linkedin(role, country="Bahrain", remote=False):
                             location=loc.get_text(strip=True) if loc else country,
                             posted=(tm.get("datetime") if tm else ""), url=a["href"].split("?")[0]))
         if len(cards) < 10: break
-    return out
-
-def src_tanqeeb(role, country="Bahrain", remote=False):
-    out = []
-    for page in (1, 2):
-        q = {"keywords": role, "countries[]": "26", "page_no": page, "order_by": "most_recent"}
-        r = get("https://bahrain.tanqeeb.com/jobs/search?" + urlencode(q))
-        if r.status_code != 200: raise RuntimeError(f"HTTP {r.status_code}")
-        arts = BeautifulSoup(r.text, "html.parser").select("article[data-job-id]")
-        if not arts: break
-        for a in arts:
-            if (a.get("data-job-country") or "").strip().lower() != "bahrain": continue
-            if a.get("data-job-closed") == "1": continue
-            posted = ""
-            try: posted = datetime.strptime(a.get("data-job-date", "").strip(), "%d %B %Y").strftime("%Y-%m-%d")
-            except Exception: pass
-            out.append(dict(title=html.unescape(a.get("data-job-name", "")).strip(),
-                            company=html.unescape(a.get("data-job-company", "")).strip() or "Confidential",
-                            location=html.unescape(a.get("data-job-location", "Bahrain")).strip(),
-                            posted=posted, url=a.get("data-job-share-url") or ("https://bahrain.tanqeeb.com" + a.get("data-job-url", ""))))
-        if len(arts) < 20: break
     return out
 
 def src_workable(role, country="Bahrain", remote=False):
@@ -182,7 +161,7 @@ def src_ats(role, country="Bahrain", remote=False):
     ws = words(role)
     return [j for j in _ats if ws and sum(w in j["title"].lower() for w in ws) >= max(1, len(ws) // 2)]
 
-SOURCES = {"LinkedIn": src_linkedin, "Tanqeeb": src_tanqeeb, "Workable": src_workable, "Employer careers (ATS)": src_ats}
+SOURCES = {"LinkedIn": src_linkedin, "Workable": src_workable, "Employer careers (ATS)": src_ats}
 
 def norm(s): return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
@@ -256,11 +235,9 @@ def drop_closed_linkedin(results):
     print("LinkedIn closed check:", json.dumps(stats))
     return stats
 
-SNAP = os.path.join(ROOT, "data", "tanqeeb.json")   # Tanqeeb blocks GitHub's servers (403); a box-side copy is merged in
-
 def main():
     global OUT, SOURCES
-    if "--only" in sys.argv:   # e.g. --only Tanqeeb --out data/tanqeeb.json (used by the box helper)
+    if "--only" in sys.argv:   # e.g. --only Workable --out /tmp/w.json (testing)
         i = sys.argv.index("--only"); SOURCES = {sys.argv[i+1]: SOURCES[sys.argv[i+1]]}
     if "--out" in sys.argv: OUT = os.path.abspath(sys.argv[sys.argv.index("--out") + 1])
     # Bahrain: every role on every source. Other GCC countries: broad family searches on LinkedIn + Workable.
@@ -291,20 +268,6 @@ def main():
                 if s not in x["sources"]: x["sources"].append(s); x["links"][s] = j["url"]
                 if role not in x["roles"]: x["roles"].append(role)
                 if j.get("posted") and (not x.get("posted") or j["posted"] > x["posted"]): x["posted"] = j["posted"]
-    if "Tanqeeb" in status and status["Tanqeeb"]["errors"] and not any("Tanqeeb" in x["sources"] for x in results.values()) \
-            and OUT != SNAP and os.path.exists(SNAP):
-        try:
-            snap = json.load(open(SNAP))
-            for j in snap.get("jobs", []):
-                k = j["id"]
-                if k in results:
-                    x = results[k]
-                    if "Tanqeeb" not in x["sources"]: x["sources"].append("Tanqeeb"); x["links"]["Tanqeeb"] = j["links"].get("Tanqeeb", j["url"])
-                    for r in j.get("roles", []):
-                        if r not in x["roles"]: x["roles"].append(r)
-                else: results[k] = dict(j, country=j.get("country") or "Bahrain")
-            status["Tanqeeb"]["errors"] = [f"blocked from GitHub; using box copy from {snap.get('fetched_at', '?')[:16]} UTC"]
-        except Exception as e: print("snapshot merge failed:", e)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=DAYS)).strftime("%Y-%m-%d")
     for k in [k for k, j in results.items() if j.get("posted") and j["posted"][:10] < cutoff]: del results[k]
     li_stats = drop_closed_linkedin(results) if "LinkedIn" in SOURCES and "--no-li-check" not in sys.argv else None
