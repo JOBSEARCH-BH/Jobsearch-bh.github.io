@@ -26,8 +26,8 @@ body.results .topnav{display:flex}
 .tnb:focus-visible{outline:2px solid var(--em2);outline-offset:2px}
 .brand{min-width:0}
 @media(max-width:440px){body.results header{gap:10px}body.results .logo{width:36px;height:36px;font-size:19px}.tnb{padding:0 8px;height:32px;font-size:12px;gap:4px}body.results .brand b{font-size:17px;white-space:nowrap}body.results .brand span{font-size:9.5px;letter-spacing:1.2px;white-space:nowrap}}
-.clrrow{display:flex;justify-content:flex-end;min-height:26px;margin-top:4px}
-.clr{background:none;border:0;padding:4px 2px;font-size:12.5px;font-weight:600;color:var(--mut);cursor:pointer;text-decoration:underline;text-decoration-color:rgba(95,107,128,.35);text-underline-offset:3px}
+.clrrow{display:flex;justify-content:flex-end;height:22px;margin:2px 0 -6px}
+.clr{background:none;border:0;padding:2px;font-size:12px;line-height:18px;font-weight:600;color:var(--mut);cursor:pointer;text-decoration:underline;text-decoration-color:rgba(95,107,128,.35);text-underline-offset:3px}
 .clr:hover,.clr:focus-visible{color:var(--em);text-decoration-color:var(--em)}
 .hidden{display:none!important}
 button,select,input{font-family:inherit}
@@ -139,11 +139,13 @@ footer b{font:15px var(--serif);color:var(--ink2);font-weight:400}
  <h2>What are you looking for?</h2>
  <p class="lead">Type a job title and press Enter, or tick one or more below.</p>
  <div class="tagbox" id="roleBox"><span id="roleTags" style="display:contents"></span><input id="roleIn" autocomplete="off" enterkeyhint="done" placeholder="e.g. Accountant"></div>
+ <div class="clrrow"><button type="button" class="clr hidden" id="txtClear" aria-label="Clear typed job titles">Clear all</button></div>
  <div class="or">or</div>
  <div class="dd" id="roleDD"><button id="roleBtn">Pick roles</button><div class="panel hidden" id="rolePanel"></div></div>
- <div class="clrrow"><button type="button" class="clr hidden" id="roleClear" aria-label="Clear all selected roles">Clear all</button></div>
+ <div class="clrrow"><button type="button" class="clr hidden" id="roleClear" aria-label="Clear all ticked roles">Clear all</button></div>
  <div class="lbl"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Location</div>
  <div class="dd" id="locDD"><button id="locBtn">Bahrain</button><div class="panel hidden" id="locPanel"></div></div>
+ <div class="clrrow"><button type="button" class="clr hidden" id="locClear" aria-label="Clear all locations">Clear all</button></div>
  <button class="skip" id="anyJob">Skip — show any job</button>
 </div></section>
 
@@ -222,7 +224,13 @@ const takeInput=()=>{const v=roleIn.value;roleIn.value="";v.split(/[,;]/).forEac
 roleIn.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();takeInput()}else if(e.key==="Backspace"&&!roleIn.value&&S.roles.length){S.roles.pop();save();drawRoles()}};
 roleIn.oninput=()=>{if(/[,;]/.test(roleIn.value))takeInput();else nav()};
 $("roleBox").onclick=e=>{if(e.target.id==="roleBox")roleIn.focus()};
-$("roleClear").onclick=()=>{S.roles=[];roleIn.value="";save();drawRoles();roleDD.refresh()};
+function updClears(){const tx=$("txtClear");if(!tx)return;
+ tx.classList.toggle("hidden",!(roleIn.value.trim()||S.roles.some(t=>!isPick(t))));
+ $("roleClear").classList.toggle("hidden",!S.roles.some(isPick));
+ $("locClear").classList.toggle("hidden",!P.countries.length)}
+$("txtClear").onclick=()=>{roleIn.value="";S.roles=S.roles.filter(isPick);save();drawRoles()};
+$("roleClear").onclick=()=>{S.roles=S.roles.filter(t=>!isPick(t));save();drawRoles()};
+$("locClear").onclick=()=>{P.countries=[];save();locDD.refresh();updClears()};
 $("anyJob").onclick=()=>{S.roles=[];S.any=true;save();go("step2")};
 // ---------- checkbox dropdowns ----------
 function dropdown(btn,panel,items,getSel,setSel,label,extra,addOwn){
@@ -255,7 +263,7 @@ const roleDD=dropdown($("roleBtn"),$("rolePanel"),()=>ROLES.map(r=>[r,r]),()=>RO
 // location dropdown (page 1); an empty selection means all countries
 const LOC_ORDER=LOCS.map(x=>x[0]);
 const locDD=dropdown($("locBtn"),$("locPanel"),()=>LOCS.map(([v,f,l])=>[v,v]),()=>P.countries,
- v=>{P.countries=LOC_ORDER.filter(x=>v.includes(x));save()},locLabel);
+ v=>{P.countries=LOC_ORDER.filter(x=>v.includes(x));save();updClears()},locLabel);
 // ---------- matching ----------
 const STOP=new Set(["and","or","of","the","in","jobs","job","a","for","officer","specialist","executive","manager","analyst","assistant","associate","senior","junior","staff","bahrain"]);
 const ALIAS={accountant:["accountant","accounting"," accounts "],accounting:["accountant","accounting"," accounts "],operations:["operati"," ops "," back office ","back office"],operation:["operati"," ops "," back office ","back office"],ops:["operati"," ops "," back office ","back office"]};
@@ -298,7 +306,7 @@ function show(step){cur=step;document.querySelectorAll(".panel").forEach(p=>p.cl
  if(step==="step3"){S.done=true;save();showResults()}
  nav();window.scrollTo(0,0)}
 function nav(){const n=$("nextBtn");$("nav").classList.toggle("hidden",cur==="step3");$("backBtn").classList.toggle("hidden",cur!=="step2");
- $("roleClear").classList.toggle("hidden",!(S.roles.length||roleIn.value.trim()));if(cur==="step1"){n.textContent="Continue";n.disabled=!S.roles.length&&!S.any&&!roleIn.value.trim()}
+ updClears();if(cur==="step1"){n.textContent="Continue";n.disabled=!S.roles.length&&!S.any&&!roleIn.value.trim()}
  if(cur==="step2"){n.textContent="Show jobs";n.disabled=false}}
 $("nextBtn").onclick=()=>{if(cur==="step1"){takeInput();if(!ready())return;go("step2")}else if(cur==="step2")go("step3")};
 $("backBtn").onclick=()=>go("step1");
