@@ -161,6 +161,19 @@ def src_ats(role, country="Bahrain", remote=False):
     ws = words(role)
     return [j for j in _ats if ws and sum(w in j["title"].lower() for w in ws) >= max(1, len(ws) // 2)]
 
+
+def src_gulfair():
+    import html as _h
+    r = get("https://gulfairgroup.sniperhire.net/")
+    out = []
+    if not r.ok: return out
+    for m in re.finditer(r'<h3>\s*<a href="(/vacancy/\d+)">(.*?)</a>.*?Company</label>(.*?)</div>.*?Location</label>(.*?)</div>', r.text, re.S):
+        loc = _h.unescape(m.group(4)).strip()
+        if not country_of(loc): continue
+        out.append(dict(title=re.sub(r"\s+", " ", _h.unescape(m.group(2))).strip(), company=_h.unescape(m.group(3)).strip() or "Gulf Air",
+                        location=loc.replace(" - Head Quarter", ""), posted="", url="https://gulfairgroup.sniperhire.net" + m.group(1)))
+    return out
+
 SOURCES = {"LinkedIn": src_linkedin, "Workable": src_workable, "Employer careers (ATS)": src_ats}
 
 def norm(s): return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
@@ -268,6 +281,13 @@ def main():
                 if s not in x["sources"]: x["sources"].append(s); x["links"][s] = j["url"]
                 if role not in x["roles"]: x["roles"].append(role)
                 if j.get("posted") and (not x.get("posted") or j["posted"] > x["posted"]): x["posted"] = j["posted"]
+    if "--only" not in sys.argv:
+        try:
+            for j in src_gulfair():
+                k = norm(j["title"]) + "|" + norm(j["company"])
+                if k not in results: results[k] = dict(j, id=k, country="Bahrain", sources=["Employer careers (ATS)"], roles=["Any job"], links={"Employer careers (ATS)": j["url"]})
+            print("Gulf Air:", sum(1 for k in results if "gulf air" in k))
+        except Exception as e: print("Gulf Air failed:", e)
     cutoff = (datetime.now(timezone.utc) - timedelta(days=DAYS)).strftime("%Y-%m-%d")
     for k in [k for k, j in results.items() if j.get("posted") and j["posted"][:10] < cutoff]: del results[k]
     li_stats = drop_closed_linkedin(results) if "LinkedIn" in SOURCES and "--no-li-check" not in sys.argv else None
