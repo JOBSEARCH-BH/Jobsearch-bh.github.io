@@ -52,6 +52,7 @@ h2{font:32px/1.15 var(--serif);text-align:center;margin:0 0 8px;color:var(--ink)
 .lead{text-align:center;color:var(--mut);font-size:15px;margin:0 0 24px}
 .tagbox{background:var(--field);border-radius:14px;padding:7px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-height:58px;border:1.5px solid #d5dbe4;transition:border-color .2s,box-shadow .2s}
 .tagbox:focus-within{border-color:var(--em);box-shadow:0 0 0 4px var(--emsoft)}
+.combo .tagbox{padding-right:44px;cursor:text}.chev{position:absolute;right:6px;top:50%;transform:translateY(-50%);width:36px;height:40px;border:0;background:none;cursor:pointer}.chev::after{content:"";position:absolute;left:13px;top:15px;width:8px;height:8px;border-right:2px solid var(--ink2);border-bottom:2px solid var(--ink2);transform:rotate(45deg);opacity:.7}.tag.any{background:var(--em)}.panel .addtyped{color:var(--em);font-weight:600}
 .tagbox input{flex:1;min-width:150px;border:0;background:transparent;color:var(--ink);font-size:17px;padding:10px;outline:none}
 .tag{background:var(--navy);color:#fff;border-radius:999px;padding:7px 12px 7px 14px;font-size:14.5px;font-weight:500}.tag b{cursor:pointer;margin-left:8px;color:#9fe0cf;font-weight:600}
 .or{display:flex;align-items:center;gap:12px;color:#8a94a6;margin:16px 0;font-size:12px;letter-spacing:2px;text-transform:uppercase}
@@ -138,12 +139,9 @@ footer b{font:15px var(--serif);color:var(--ink2);font-weight:400}
  <div class="hero">😊</div>
  <div class="eyebrow">Happy to help</div>
  <h2>What are you looking for?</h2>
- <p class="lead">Type a job title or company name and press Enter, or tick one or more below.</p>
- <div class="tagbox" id="roleBox"><span id="roleTags" style="display:contents"></span><input id="roleIn" autocomplete="off" enterkeyhint="done" placeholder="e.g. Accountant or Citi"></div>
- <div class="clrrow"><button type="button" class="clr hidden" id="txtClear" aria-label="Clear typed job titles">Clear all</button></div>
- <div class="or">or</div>
- <div class="dd" id="roleDD"><button id="roleBtn">Pick roles</button><div class="panel hidden" id="rolePanel"></div></div>
- <div class="clrrow"><button type="button" class="clr hidden" id="roleClear" aria-label="Clear all ticked roles">Clear all</button></div>
+ <p class="lead">Type a job title or company name, or pick from the list.</p>
+ <div class="dd combo" id="roleDD"><div class="tagbox" id="roleBox"><span id="roleTags" style="display:contents"></span><input id="roleIn" autocomplete="off" enterkeyhint="done" placeholder="Type or pick a role"><button type="button" class="chev" id="roleBtn" aria-label="Show role list"></button></div><div class="panel hidden" id="rolePanel"></div></div>
+ <div class="clrrow"><button type="button" class="clr hidden" id="roleClear" aria-label="Clear all roles">Clear all</button></div>
  <div class="lbl"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Location</div>
  <div class="dd" id="locDD"><button id="locBtn">Bahrain</button><div class="panel hidden" id="locPanel"></div></div>
  <div class="clrrow"><button type="button" class="clr hidden" id="locClear" aria-label="Clear all locations">Clear all</button></div>
@@ -218,19 +216,36 @@ const save=()=>{P.roles=S.roles;store.set("flow2",S);store.set("filters2",F);sto
 const has=t=>S.roles.some(x=>x.toLowerCase()===t.toLowerCase());
 function addRole(t){t=t.trim().replace(/\s+/g," ").slice(0,60);if(!t)return;if(!has(t))S.roles.push(t);S.any=false;save();drawRoles()}
 const isPick=t=>ROLES.some(r=>r.toLowerCase()===t.toLowerCase());
-function drawRoles(){$("roleTags").innerHTML=S.roles.map((t,i)=>isPick(t)?"":`<span class="tag">${esc(t)}<b data-i="${i}">✕</b></span>`).join("");try{roleDD.refresh()}catch(e){}
- document.querySelectorAll("#roleTags [data-i]").forEach(b=>b.onclick=()=>{S.roles.splice(+b.dataset.i,1);save();drawRoles()});nav()}
+function drawRoles(){$("roleTags").innerHTML=(S.any&&!S.roles.length?`<span class="tag any">Any role<b data-any="1">✕</b></span>`:"")+S.roles.map((t,i)=>`<span class="tag">${esc(t)}<b data-i="${i}">✕</b></span>`).join("");if(!$("rolePanel").classList.contains("hidden"))drawPanel();
+ document.querySelectorAll("#roleTags [data-any]").forEach(b=>b.onclick=e=>{e.stopPropagation();S.any=false;save();drawRoles()});
+ document.querySelectorAll("#roleTags [data-i]").forEach(b=>b.onclick=e=>{e.stopPropagation();S.roles.splice(+b.dataset.i,1);save();drawRoles()});nav()}
 const roleIn=$("roleIn");
 const takeInput=()=>{const v=roleIn.value;roleIn.value="";v.split(/[,;]/).forEach(addRole)};
-roleIn.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();takeInput()}else if(e.key==="Backspace"&&!roleIn.value&&S.roles.length){S.roles.pop();save();drawRoles()}};
-roleIn.oninput=()=>{if(/[,;]/.test(roleIn.value))takeInput();else nav()};
-$("roleBox").onclick=e=>{if(e.target.id==="roleBox")roleIn.focus()};
-function updClears(){const tx=$("txtClear");if(!tx)return;
- tx.classList.toggle("hidden",!(roleIn.value.trim()||S.roles.some(t=>!isPick(t))));
- $("roleClear").classList.toggle("hidden",!(S.roles.some(isPick)||(S.any&&!S.roles.length)));
+roleIn.onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();takeInput();closeRole()}else if(e.key==="Escape"){closeRole()}else if(e.key==="Backspace"&&!roleIn.value&&S.roles.length){S.roles.pop();save();drawRoles()}};
+roleIn.oninput=()=>{if(/[,;]/.test(roleIn.value))takeInput();openRole();nav()};
+$("roleBox").onclick=e=>{e.stopPropagation();if(e.target.id==="roleBox")roleIn.focus();openRole()};
+roleIn.onfocus=()=>openRole();
+$("roleBtn").onclick=e=>{e.stopPropagation();if($("rolePanel").classList.contains("hidden")){openRole()}else closeRole()};
+$("rolePanel").onclick=e=>e.stopPropagation();
+function openRole(){const p=$("rolePanel");if(p.classList.contains("hidden")){document.querySelectorAll(".panel").forEach(x=>x.classList.add("hidden"));p.classList.remove("hidden")}drawPanel()}
+function closeRole(){const p=$("rolePanel");if(!p.classList.contains("hidden")){p.classList.add("hidden");onDDClose()}}
+function drawPanel(){const p=$("rolePanel"),q=roleIn.value.trim().toLowerCase();
+ const list=ROLES.filter(r=>!q||r.toLowerCase().includes(q));
+ const any=S.any&&!S.roles.length;
+ p.innerHTML=(q&&!isPick(roleIn.value.trim())?`<label class="addtyped" data-add="1">＋ Search for “${esc(roleIn.value.trim())}”</label>`:"")+
+  (q?"":`<label><input type="checkbox" value="__any" ${any?"checked":""}> Any role (all jobs)</label>`)+
+  list.map(r=>`<label><input type="checkbox" value="${esc(r)}" ${has(r)?"checked":""}> ${esc(r)}</label>`).join("")+
+  (q&&!list.length?"":"")+`<button class="done">Done</button>`;
+ const ad=p.querySelector("[data-add]");if(ad)ad.onclick=()=>{takeInput();roleIn.focus()};
+ p.querySelectorAll("input[type=checkbox]").forEach(c=>c.onchange=()=>{const v=c.value;
+  if(v==="__any"){if(c.checked){S.roles=[];S.any=true;roleIn.value=""}else S.any=false}
+  else{if(c.checked){if(!has(v))S.roles.push(v)}else S.roles=S.roles.filter(x=>x.toLowerCase()!==v.toLowerCase());S.any=false;if(q){roleIn.value=""}}
+  save();drawRoles();drawPanel()});
+ p.querySelector(".done").onclick=e=>{e.stopPropagation();if(roleIn.value.trim())takeInput();closeRole()}}
+function updClears(){if(!$("roleClear"))return;
+ $("roleClear").classList.toggle("hidden",!(roleIn.value.trim()||S.roles.length||S.any));
  $("locClear").classList.toggle("hidden",!P.countries.length)}
-$("txtClear").onclick=()=>{roleIn.value="";S.roles=S.roles.filter(isPick);save();drawRoles()};
-$("roleClear").onclick=()=>{S.roles=S.roles.filter(t=>!isPick(t));S.any=false;save();drawRoles()};
+$("roleClear").onclick=()=>{roleIn.value="";S.roles=[];S.any=false;save();drawRoles()};
 $("locClear").onclick=()=>{P.countries=[];save();locDD.refresh();updClears()};
 $("anyJob").onclick=()=>{S.roles=[];S.any=true;save();go("step2")};
 // ---------- checkbox dropdowns ----------
@@ -257,13 +272,7 @@ const secDD=dropdown($("secBtn"),$("secPanel"),secItems,()=>[...(S.sectors.lengt
   save();setTimeout(()=>{$("secPanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value===""?!S.sectors.length&&!S.custom.length:S.sectors.includes(c.value)||S.custom.includes(c.value.slice(7)))},0)},
  ()=>{const n=[...S.sectors,...S.custom];return n.length?(n.length<=2?n.join(", "):`${n.length} sectors selected`):"Any sector"},
  ()=>`<input class="own" placeholder="Type another sector and press Enter">`);
-// role dropdown (page 1): ticked quick picks; typed roles stay as tags beside them
-const roleDD=dropdown($("roleBtn"),$("rolePanel"),()=>[["__any","Any role (all jobs)"],...ROLES.map(r=>[r,r])],()=>S.any&&!S.roles.length?["__any"]:ROLES.filter(r=>has(r)),
- v=>{const wasAny=S.any&&!S.roles.length;
-  if(v.includes("__any")&&!wasAny){S.roles=[];S.any=true;roleIn.value=""}
-  else{v=v.filter(x=>x!=="__any");S.roles=[...S.roles.filter(t=>!isPick(t)),...ROLES.filter(r=>v.includes(r))];S.any=false}
-  save();drawRoles();setTimeout(()=>{$("rolePanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value==="__any"?(S.any&&!S.roles.length):has(c.value))},0)},
- ()=>{if(S.any&&!S.roles.length)return "Any role";const p=ROLES.filter(r=>has(r));return p.length?(p.length<=2?p.join(", "):p.length+" roles"):"Pick roles"});
+
 // location dropdown (page 1); an empty selection means all countries
 const LOC_ORDER=LOCS.map(x=>x[0]);
 const locDD=dropdown($("locBtn"),$("locPanel"),()=>LOCS.map(([v,f,l])=>[v,v]),()=>P.countries,
