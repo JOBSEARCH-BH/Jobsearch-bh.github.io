@@ -322,6 +322,13 @@ def b_teamtailor(base, company):
         out.append(dict(title=_clean(t.group(1)), company=company, location=loc, posted=_rss_date(p.group(1)) if p else "", url=l.group(1).strip()))
     return out
 
+def b_tamkeen():
+    r = dget("https://tamkeen.bh/en/job-openings/"); r.raise_for_status(); out = []
+    for d in BeautifulSoup(r.text, "html.parser").select(".job-details"):
+        t = d.select_one(".jobtitle"); a = d.find("a", href=True)
+        if t and a: out.append(dict(title=_clean(t.get_text()), company="Tamkeen", location="Bahrain", posted="", url=a["href"]))
+    return out
+
 def b_greenhouse(slug, company):
     r = dget(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs"); r.raise_for_status()
     return [dict(title=_clean(j["title"]), company=company, location=(j.get("location") or {}).get("name", ""),
@@ -366,7 +373,6 @@ DIRECT = [   # (board name shown in the status list, fetch function)
     # Bahrain banks, investment & financial firms
     ("Bank ABC (JazzHR)", lambda: b_jazzhr("bankabc", "Bank ABC")),
     ("ila Bank (JazzHR)", lambda: b_jazzhr("ilabank", "ila Bank")),
-    ("GIB - Gulf International Bank (Bayt careers site)", lambda: b_bayt("careers.gib.com", "Gulf International Bank (GIB)")),
     ("KFH Bahrain / Ahli United (SuccessFactors)", lambda: b_sf_rss("careers.ahliunited.com", "KFH Bahrain")),
     ("Standard Chartered (SuccessFactors)", lambda: b_sf_rss("jobs.standardchartered.com", "Standard Chartered", GCC_Q + ("Manama",))),
     ("HSBC (Eightfold)", lambda: b_eightfold("portal.careers.hsbc.com", "hsbc.com", "HSBC")),
@@ -376,7 +382,7 @@ DIRECT = [   # (board name shown in the status list, fetch function)
     ("Bapco Energies (Oracle HCM)", lambda: b_oracle("iadygs.fa.ocs.oraclecloud.com", "CX_1", "Bapco Energies")),
     ("Gulf Air (careers portal)", b_sniperhire_gulfair),
     ("stc Bahrain + stc pay (careers portal)", b_stc),
-    ("Beyon / Batelco (Bayt careers site)", lambda: b_bayt("careers.batelco.com", "Beyon (Batelco)")),
+    ("Tamkeen (careers page)", b_tamkeen),
     ("GPIC (SuccessFactors)", lambda: b_sf_rss("gpiccareer.gpic.com", "GPIC")),
     ("APM Terminals / Maersk (Workday)", lambda: b_workday("maersk.wd3.myworkdayjobs.com", "maersk", "Maersk_Careers", "Maersk / APM Terminals")),
     ("GE Vernova (Workday)", lambda: b_workday("gevernova.wd5.myworkdayjobs.com", "gevernova", "Vernova_ExternalSite", "GE Vernova")),
