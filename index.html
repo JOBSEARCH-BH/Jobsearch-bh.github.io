@@ -227,10 +227,10 @@ roleIn.oninput=()=>{if(/[,;]/.test(roleIn.value))takeInput();else nav()};
 $("roleBox").onclick=e=>{if(e.target.id==="roleBox")roleIn.focus()};
 function updClears(){const tx=$("txtClear");if(!tx)return;
  tx.classList.toggle("hidden",!(roleIn.value.trim()||S.roles.some(t=>!isPick(t))));
- $("roleClear").classList.toggle("hidden",!S.roles.some(isPick));
+ $("roleClear").classList.toggle("hidden",!(S.roles.some(isPick)||(S.any&&!S.roles.length)));
  $("locClear").classList.toggle("hidden",!P.countries.length)}
 $("txtClear").onclick=()=>{roleIn.value="";S.roles=S.roles.filter(isPick);save();drawRoles()};
-$("roleClear").onclick=()=>{S.roles=S.roles.filter(t=>!isPick(t));save();drawRoles()};
+$("roleClear").onclick=()=>{S.roles=S.roles.filter(t=>!isPick(t));S.any=false;save();drawRoles()};
 $("locClear").onclick=()=>{P.countries=[];save();locDD.refresh();updClears()};
 $("anyJob").onclick=()=>{S.roles=[];S.any=true;save();go("step2")};
 // ---------- checkbox dropdowns ----------
@@ -258,9 +258,12 @@ const secDD=dropdown($("secBtn"),$("secPanel"),secItems,()=>[...(S.sectors.lengt
  ()=>{const n=[...S.sectors,...S.custom];return n.length?(n.length<=2?n.join(", "):`${n.length} sectors selected`):"Any sector"},
  ()=>`<input class="own" placeholder="Type another sector and press Enter">`);
 // role dropdown (page 1): ticked quick picks; typed roles stay as tags beside them
-const roleDD=dropdown($("roleBtn"),$("rolePanel"),()=>ROLES.map(r=>[r,r]),()=>ROLES.filter(r=>has(r)),
- v=>{S.roles=[...S.roles.filter(t=>!isPick(t)),...ROLES.filter(r=>v.includes(r))];if(S.roles.length)S.any=false;save();drawRoles()},
- ()=>{const p=ROLES.filter(r=>has(r));return p.length?(p.length<=2?p.join(", "):p.length+" roles"):"Pick roles"});
+const roleDD=dropdown($("roleBtn"),$("rolePanel"),()=>[["__any","Any role (all jobs)"],...ROLES.map(r=>[r,r])],()=>S.any&&!S.roles.length?["__any"]:ROLES.filter(r=>has(r)),
+ v=>{const wasAny=S.any&&!S.roles.length;
+  if(v.includes("__any")&&!wasAny){S.roles=[];S.any=true;roleIn.value=""}
+  else{v=v.filter(x=>x!=="__any");S.roles=[...S.roles.filter(t=>!isPick(t)),...ROLES.filter(r=>v.includes(r))];S.any=false}
+  save();drawRoles();setTimeout(()=>{$("rolePanel").querySelectorAll("input[type=checkbox]").forEach(c=>c.checked=c.value==="__any"?(S.any&&!S.roles.length):has(c.value))},0)},
+ ()=>{if(S.any&&!S.roles.length)return "Any role";const p=ROLES.filter(r=>has(r));return p.length?(p.length<=2?p.join(", "):p.length+" roles"):"Pick roles"});
 // location dropdown (page 1); an empty selection means all countries
 const LOC_ORDER=LOCS.map(x=>x[0]);
 const locDD=dropdown($("locBtn"),$("locPanel"),()=>LOCS.map(([v,f,l])=>[v,v]),()=>P.countries,
