@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-13T22:06:45+00:00",
+"fetched_at": "2026-11-13T23:05:22+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -99,12 +99,12 @@
 "Project & management"
 ],
 "countries": {
-"Bahrain": 550,
-"Saudi Arabia": 626,
-"United Arab Emirates": 729,
-"Qatar": 364,
-"Kuwait": 331,
-"Oman": 294,
+"Bahrain": 551,
+"Saudi Arabia": 610,
+"United Arab Emirates": 697,
+"Qatar": 363,
+"Kuwait": 329,
+"Oman": 295,
 "Remote": 23
 },
 "linkedin_check": {
@@ -114,7 +114,7 @@
 "pending": 0,
 "stopped": "",
 "removed": 5,
-"cache": 5048
+"cache": 5049
 },
 "employer_boards": [
 {
@@ -123,7 +123,7 @@
 "count": 7,
 "fetched": 9,
 "error": "",
-"secs": 0.5
+"secs": 0.4
 },
 {
 "board": "ila Bank (JazzHR)",
@@ -131,23 +131,23 @@
 "count": 2,
 "fetched": 3,
 "error": "",
-"secs": 0.5
+"secs": 0.4
 },
 {
 "board": "KFH Bahrain / Ahli United (SuccessFactors)",
-"ok": true,
+"ok": false,
 "count": 0,
 "fetched": 0,
-"error": "",
-"secs": 0.9
+"error": "HTTPError: 404 Client Error: Not Found for url: https://careers.ahliunited.com/services/rss/job/?locale=en_GB&keywords=()",
+"secs": 0.8
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
-"ok": true,
-"count": 20,
-"fetched": 22,
-"error": "",
-"secs": 5.1
+"ok": false,
+"count": 0,
+"fetched": 0,
+"error": "HTTPError: 404 Client Error: Not Found for url: https://jobs.standardchartered.com/services/rss/job/?locale=en_GB&keywords=(Bahrain)",
+"secs": 0.5
 },
 {
 "board": "HSBC (Eightfold)",
@@ -155,23 +155,23 @@
 "count": 23,
 "fetched": 24,
 "error": "",
-"secs": 3.2
+"secs": 2.2
 },
 {
 "board": "Citi (Workday)",
 "ok": false,
 "count": 0,
 "fetched": 0,
-"error": "ReadTimeout: HTTPSConnectionPool(host='citi.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=20)",
-"secs": 24.5
+"error": "HTTPError: 521 Server Error: <none> for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
+"secs": 0.2
 },
 {
 "board": "Visa (Workday)",
-"ok": true,
-"count": 26,
-"fetched": 26,
-"error": "",
-"secs": 19.1
+"ok": false,
+"count": 0,
+"fetched": 0,
+"error": "HTTPError: 521 Server Error: <none> for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs",
+"secs": 0.2
 },
 {
 "board": "Bapco Energies (Oracle HCM)",
@@ -179,7 +179,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 1.1
+"secs": 1.0
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -187,7 +187,7 @@
 "count": 7,
 "fetched": 7,
 "error": "",
-"secs": 0.7
+"secs": 0.4
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -195,7 +195,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 1.2
+"secs": 1.0
 },
 {
 "board": "Tamkeen (careers page)",
@@ -203,15 +203,15 @@
 "count": 0,
 "fetched": 1,
 "error": "",
-"secs": 2.4
+"secs": 2.3
 },
 {
 "board": "GPIC (SuccessFactors)",
-"ok": true,
+"ok": false,
 "count": 0,
 "fetched": 0,
-"error": "",
-"secs": 0.9
+"error": "HTTPError: 404 Client Error: Not Found for url: https://gpiccareer.gpic.com/services/rss/job/?locale=en_GB&keywords=()",
+"secs": 0.8
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -219,15 +219,15 @@
 "count": 2,
 "fetched": 2,
 "error": "",
-"secs": 4.4
+"secs": 3.9
 },
 {
 "board": "GE Vernova (Workday)",
-"ok": true,
-"count": 6,
-"fetched": 9,
-"error": "",
-"secs": 14.0
+"ok": false,
+"count": 0,
+"fetched": 0,
+"error": "HTTPError: 521 Server Error: <none> for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs",
+"secs": 0.2
 },
 {
 "board": "Hitachi (Workday)",
@@ -243,7 +243,7 @@
 "count": 30,
 "fetched": 35,
 "error": "",
-"secs": 0.2
+"secs": 0.3
 },
 {
 "board": "Tarabut (Workable)",
@@ -251,7 +251,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "NymCard (BambooHR)",
@@ -259,7 +259,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.8
+"secs": 0.7
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -267,7 +267,7 @@
 "count": 91,
 "fetched": 129,
 "error": "",
-"secs": 3.2
+"secs": 2.7
 },
 {
 "board": "Careem (Greenhouse)",
@@ -275,7 +275,7 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Tamara (Greenhouse)",
@@ -283,7 +283,7 @@
 "count": 13,
 "fetched": 35,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Lean Technologies (Ashby)",
@@ -331,7 +331,7 @@
 "count": 19,
 "fetched": 49,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Unifonic (Recruitee)",
@@ -346,7 +346,7 @@
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2176,
+"count": 2177,
 "note": ""
 },
 {
@@ -358,7 +358,7 @@
 {
 "source": "Employer careers (ATS)",
 "ok": true,
-"count": 442,
+"count": 391,
 "note": ""
 }
 ],
@@ -4684,6 +4684,27 @@
 ]
 },
 {
+"title": "University Assistant",
+"company": "Edalat Univercity",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-13",
+"url": "https://om.linkedin.com/jobs/view/university-assistant-at-edalat-univercity-4490781122",
+"id": "university assistant|edalat univercity|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/university-assistant-at-edalat-univercity-4490781122"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "Associate - International Projects, Energy & Infrastructure",
 "company": "Trowers & Hamlins",
 "location": "Muscat, Masqaţ, Oman",
@@ -5081,69 +5102,6 @@
 ],
 "links": {
 "Workable": "https://jobs.workable.com/view/x5wrKaG4uXm83vbuicHdwf/remote-licensed-physician-(md%2Fdo)---freelance-ai-trainer-in-oman-at-mindrift"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Lead, Global Implementation & Cash Service, UAE",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-13",
-"url": "https://jobs.standardchartered.com/job/Dubai-Lead%2C-Global-Implementation-&-Cash-Service%2C-UAE/1365147757/",
-"id": "lead global implementation cash service uae|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Lead%2C-Global-Implementation-&-Cash-Service%2C-UAE/1365147757/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Mortgages - Sales Support Manager (UAEN)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-13",
-"url": "https://jobs.standardchartered.com/job/Dubai-Mortgages-Sales-Support-Manager-%28UAEN%29/1374973357/",
-"id": "mortgages sales support manager uaen|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Mortgages-Sales-Support-Manager-%28UAEN%29/1374973357/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Graduate Venture",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-13",
-"url": "https://jobs.standardchartered.com/job/Dubai-Graduate-Venture/1374972557/",
-"id": "graduate venture|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Graduate-Venture/1374972557/"
 },
 "families": [
 "Other"
@@ -7341,19 +7299,17 @@
 "company": "Visa",
 "location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-12",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Marketing-Manager--UAE-Marketing-Services_REF090315W",
+"url": "https://ae.linkedin.com/jobs/view/marketing-manager-uae-marketing-services-at-visa-4490502047",
 "id": "marketing manager uae marketing services|visa|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
-"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
 "marketing"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/marketing-manager-uae-marketing-services-at-visa-4490502047",
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Marketing-Manager--UAE-Marketing-Services_REF090315W"
+"LinkedIn": "https://ae.linkedin.com/jobs/view/marketing-manager-uae-marketing-services-at-visa-4490502047"
 },
 "families": [
 "Marketing & media"
@@ -9326,153 +9282,6 @@
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/data-engineer-snowflake-qatar-at-capco-4473530988"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Global Banking Intern UAE 2027 (UAE National)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-12",
-"url": "https://jobs.standardchartered.com/job/Dubai-Global-Banking-Intern-UAE-2027-%28UAE-National%29/1369586357/",
-"id": "global banking intern uae 2027 uae national|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Global-Banking-Intern-UAE-2027-%28UAE-National%29/1369586357/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Strategic Advisory & Solutions Intern UAE 2027 (UAE National)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-12",
-"url": "https://jobs.standardchartered.com/job/Dubai-Strategic-Advisory%C2%A0&-Solutions%C2%A0Intern-UAE-2027-%28UAE-National%29/1369588457/",
-"id": "strategic advisory solutions intern uae 2027 uae national|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Strategic-Advisory%C2%A0&-Solutions%C2%A0Intern-UAE-2027-%28UAE-National%29/1369588457/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Transaction Services Intern UAE 2027 (UAE National)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-12",
-"url": "https://jobs.standardchartered.com/job/Dubai-Transaction-Services-Intern-UAE-2027-%28UAE-National%29/1369588657/",
-"id": "transaction services intern uae 2027 uae national|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Transaction-Services-Intern-UAE-2027-%28UAE-National%29/1369588657/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Associate Director, Cash Client Service (UAE National)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-12",
-"url": "https://jobs.standardchartered.com/job/Dubai-Associate-Director%2C-Cash-Client-Service-%28UAE-National%29/1366349457/",
-"id": "associate director cash client service uae national|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Associate-Director%2C-Cash-Client-Service-%28UAE-National%29/1366349457/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Associate Director & Investment Advisor, WM (UAE Nationals)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-12",
-"url": "https://jobs.standardchartered.com/job/Dubai-Associate-Director-&-Investment-Advisor%2C-WM-%28UAE-Nationals%29/1368609957/",
-"id": "associate director investment advisor wm uae nationals|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Associate-Director-&-Investment-Advisor%2C-WM-%28UAE-Nationals%29/1368609957/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Associate Director, Priority Banking",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-12",
-"url": "https://jobs.standardchartered.com/job/Dubai-Associate-Director%2C-Priority-Banking/1377047557/",
-"id": "associate director priority banking|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Associate-Director%2C-Priority-Banking/1377047557/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Senior Associate Director",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-12",
-"url": "https://jobs.standardchartered.com/job/Dubai-Senior-Associate-Director/1377335157/",
-"id": "senior associate director|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Senior-Associate-Director/1377335157/"
 },
 "families": [
 "Other"
@@ -14362,69 +14171,6 @@
 ]
 },
 {
-"title": "Specialist, Client Care Unit (UAE National)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-11",
-"url": "https://jobs.standardchartered.com/job/Dubai-Specialist%2C-Client-Care-Unit-%28UAE-National%29/1367377857/",
-"id": "specialist client care unit uae national|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Specialist%2C-Client-Care-Unit-%28UAE-National%29/1367377857/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Financial Services Sales Team Leader - HAL",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-11",
-"url": "https://jobs.standardchartered.com/job/Dubai-Financial-Services-Sales-Team-Leader-HAL/1369575957/",
-"id": "financial services sales team leader hal|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Financial-Services-Sales-Team-Leader-HAL/1369575957/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Manager, Wealth Solutions Operations (UAE national)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-11",
-"url": "https://jobs.standardchartered.com/job/Dubai-Manager%2C-Wealth-Solutions-Operations-%28UAE-national%29/1364581557/",
-"id": "manager wealth solutions operations uae national|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Manager%2C-Wealth-Solutions-Operations-%28UAE-national%29/1364581557/"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Sales Executive (Jeddah)",
 "company": "talabat / Delivery Hero",
 "location": "Jeddah, Saudi Arabia",
@@ -16534,27 +16280,6 @@
 ]
 },
 {
-"title": "Trade Compliance Duty Manager",
-"company": "Lucid Motors Middle East",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-11-10",
-"url": "https://sa.linkedin.com/jobs/view/trade-compliance-duty-manager-at-lucid-motors-middle-east-4488320159",
-"id": "trade compliance duty manager|lucid motors middle east|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/trade-compliance-duty-manager-at-lucid-motors-middle-east-4488320159"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
 "title": "Rider Compliance Senior Specialist",
 "company": "HungerStation | هنقرستيشن",
 "location": "Riyadh, Riyadh, Saudi Arabia",
@@ -18085,9 +17810,9 @@
 {
 "title": "Manager - Partnerships & Alliances",
 "company": "Emaratech",
-"location": "Dubai, United Arab Emirates",
+"location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-10",
-"url": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
+"url": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
 "id": "manager partnerships alliances|emaratech|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -18097,7 +17822,7 @@
 "retail"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
+"Workable": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
 },
 "families": [
 "Retail"
@@ -21864,6 +21589,7 @@
 ],
 "roles": [
 "mechanical engineer",
+"electrical engineer",
 "civil engineer",
 "project engineer",
 "project manager"
@@ -24720,27 +24446,6 @@
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/data-scientist-at-bp-4487143912"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Financial Markets Sales Graduate Programme - Private Side Solutions(UAE Nationals)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-09",
-"url": "https://jobs.standardchartered.com/job/Dubai-Financial-Markets-Sales-Graduate-Programme-Private-Side-Solutions%28UAE-Nationals%29/1351120057/",
-"id": "financial markets sales graduate programme private side solutions uae nationals|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Financial-Markets-Sales-Graduate-Programme-Private-Side-Solutions%28UAE-Nationals%29/1351120057/"
 },
 "families": [
 "Other"
@@ -28063,6 +27768,27 @@
 ]
 },
 {
+"title": "Security Compliance Officer",
+"company": "DXC Technology",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-06",
+"url": "https://sa.linkedin.com/jobs/view/security-compliance-officer-at-dxc-technology-4488164032",
+"id": "security compliance officer|dxc technology|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/security-compliance-officer-at-dxc-technology-4488164032"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
 "title": "Lead Process Safety Engineer (Offshore)",
 "company": "KBR, Inc.",
 "location": "Al Khobar, Eastern, Saudi Arabia",
@@ -30314,6 +30040,27 @@
 ]
 },
 {
+"title": "B1/B2 Licensed Engineer - Gulfstream Types",
+"company": "Aviation JobSearch Europa",
+"location": "Bahrain",
+"posted": "2026-11-05",
+"url": "https://bh.linkedin.com/jobs/view/b1-b2-licensed-engineer-gulfstream-types-at-aviation-jobsearch-europa-4488042882",
+"id": "b1 b2 licensed engineer gulfstream types|aviation jobsearch europa",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"electrical engineer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/b1-b2-licensed-engineer-gulfstream-types-at-aviation-jobsearch-europa-4488042882"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
 "title": "Senior Technician - Digital Delivery",
 "company": "AECOM",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -32543,48 +32290,6 @@
 ]
 },
 {
-"title": "Mustaqbali Graduate Programme 2026 (UAE Nationals Only)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-05",
-"url": "https://jobs.standardchartered.com/job/Dubai-Mustaqbali-Graduate-Programme-2026-%28UAE-Nationals-Only%29/1350529357/",
-"id": "mustaqbali graduate programme 2026 uae nationals only|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Mustaqbali-Graduate-Programme-2026-%28UAE-Nationals-Only%29/1350529357/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Head of Lending Solutions, Private Bank, AMEE & GSAC",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-05",
-"url": "https://jobs.standardchartered.com/job/Dubai-Head-of-Lending-Solutions%2C-Private-Bank%2C-AMEE-&-GSAC/1376744457/",
-"id": "head of lending solutions private bank amee gsac|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Head-of-Lending-Solutions%2C-Private-Bank%2C-AMEE-&-GSAC/1376744457/"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Specialist Payroll (Greek Speaker)",
 "company": "talabat / Delivery Hero",
 "location": "Dubai, United Arab Emirates",
@@ -33166,6 +32871,7 @@
 "LinkedIn"
 ],
 "roles": [
+"mechanical engineer",
 "electrical engineer",
 "project engineer",
 "technician"
@@ -35657,69 +35363,6 @@
 },
 "families": [
 "Project & management",
-"Other"
-]
-},
-{
-"title": "Global Banking Graduate Programme 2027",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-04",
-"url": "https://jobs.standardchartered.com/job/Dubai-Global-Banking-Graduate-Programme-2027/1376649057/",
-"id": "global banking graduate programme 2027|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Global-Banking-Graduate-Programme-2027/1376649057/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Treasury Specialist",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-04",
-"url": "https://jobs.standardchartered.com/job/Dubai-Treasury-Specialist/1376683957/",
-"id": "treasury specialist|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Treasury-Specialist/1376683957/"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Product Manager - FX",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-04",
-"url": "https://jobs.standardchartered.com/job/Dubai-Product-Manager-FX/1376686057/",
-"id": "product manager fx|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Product-Manager-FX/1376686057/"
-},
-"families": [
 "Other"
 ]
 },
@@ -42087,6 +41730,7 @@
 ],
 "roles": [
 "mechanical engineer",
+"electrical engineer",
 "technician"
 ],
 "links": {
@@ -42546,27 +42190,6 @@
 },
 "families": [
 "Project & management"
-]
-},
-{
-"title": "Fresh Graduates - Anti Money Laundering Analyst (Qatarization)",
-"company": "Commercial Bank",
-"location": "Doha, Qatar",
-"posted": "2026-11-01",
-"url": "https://qa.linkedin.com/jobs/view/fresh-graduates-anti-money-laundering-analyst-qatarization-at-commercial-bank-4454707385",
-"id": "fresh graduates anti money laundering analyst qatarization|commercial bank|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/fresh-graduates-anti-money-laundering-analyst-qatarization-at-commercial-bank-4454707385"
-},
-"families": [
-"Compliance, risk & audit"
 ]
 },
 {
@@ -60507,7 +60130,8 @@
 "customer service",
 "call centre",
 "medical",
-"legal"
+"legal",
+"remote"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/claims-processing-officer-at-nextcare-4479813666"
@@ -60517,7 +60141,8 @@
 "Compliance, risk & audit",
 "Customer service",
 "Healthcare",
-"Legal"
+"Legal",
+"Other"
 ]
 },
 {
@@ -63698,531 +63323,6 @@
 ]
 },
 {
-"title": "Director, Issuing Solutions - KSA",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Issuing-Solutions---KSA_REF087118W",
-"id": "director issuing solutions ksa|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Issuing-Solutions---KSA_REF087118W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Director, Solutions Delivery - KSA, Bahrain, Oman",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Solutions-Delivery---KSA--Bahrain--Oman_REF089008W",
-"id": "director solutions delivery ksa bahrain oman|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Solutions-Delivery---KSA--Bahrain--Oman_REF089008W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Finance Manager",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Financial-Analyst_REF088518W",
-"id": "finance manager|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Financial-Analyst_REF088518W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Director, - Acceptance Solutions Sales",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director----Acceptance-Solutions-Sales_REF087381W",
-"id": "director acceptance solutions sales|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director----Acceptance-Solutions-Sales_REF087381W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Manager - Business Planning & Support",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Manager---Business-Planning---Support_REF089739W",
-"id": "manager business planning support|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Manager---Business-Planning---Support_REF089739W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Manager",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Analyst_REF088648W",
-"id": "manager|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Analyst_REF088648W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Sr. Technical Program Manager, Client Services Advisory",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Technical-Program-Manager--Client-Services-Advisory_REF089297W",
-"id": "sr technical program manager client services advisory|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Technical-Program-Manager--Client-Services-Advisory_REF089297W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Director - Client Success and Business Planning",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director---Client-Success-and-Business-Planning_REF089301W",
-"id": "director client success and business planning|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director---Client-Success-and-Business-Planning_REF089301W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Senior Manager, CEMEA, Partnerships and Sponsorships Commercialization",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager--CEMEA--Partnerships-and-Sponsorships-Commercialization_REF084851W",
-"id": "senior manager cemea partnerships and sponsorships commercialization|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager--CEMEA--Partnerships-and-Sponsorships-Commercialization_REF084851W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Senior Account Executive Manager (Merchant Retail)",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager-AE---Merchant-Retail-CoE_REF085275W",
-"id": "senior account executive manager merchant retail|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager-AE---Merchant-Retail-CoE_REF085275W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Director, Government Solutions, KSA",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Government-Solutions--KSA_REF079517W",
-"id": "director government solutions ksa|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Government-Solutions--KSA_REF079517W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Sr. Manager",
-"company": "Visa",
-"location": "SA - Riyadh, Saudi Arabia",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Manager_REF082371W-1",
-"id": "sr manager|visa|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Manager_REF082371W-1"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Sr. Product Manager, Consumer Platforms, CEMEA",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Product-Manager--Consumer-Platforms--CEMEA_REF090481W",
-"id": "sr product manager consumer platforms cemea|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Product-Manager--Consumer-Platforms--CEMEA_REF090481W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "VCA Consulting Director, Acquiring Advisory",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/VCA-Consulting-Director--Acquiring-Advisory_REF090368W",
-"id": "vca consulting director acquiring advisory|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/VCA-Consulting-Director--Acquiring-Advisory_REF090368W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Executive Administrator",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Executive-Administrator_REF089420W",
-"id": "executive administrator|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Executive-Administrator_REF089420W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Director - Credit Product Lead, CEMEA",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director---Credit-Product-Lead--CEMEA_REF090201W",
-"id": "director credit product lead cemea|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director---Credit-Product-Lead--CEMEA_REF090201W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Director, Government Sales Executive, UAE",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Government-Sales-Executive--UAE_REF089802W",
-"id": "director government sales executive uae|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Government-Sales-Executive--UAE_REF089802W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "South East Africa Digital Sales Leader",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/South-East-Africa-Digital-Sales-Leader_REF089705W-1",
-"id": "south east africa digital sales leader|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/South-East-Africa-Digital-Sales-Leader_REF089705W-1"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Sr. Manager, Consumer Platforms & Digital Experiences CEMEA",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Manager--Consumer-Platforms---Digital-Experiences-CEMEA_REF089460W",
-"id": "sr manager consumer platforms digital experiences cemea|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Manager--Consumer-Platforms---Digital-Experiences-CEMEA_REF089460W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Sales Enablement Manager",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Manager_REF089013W",
-"id": "sales enablement manager|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Manager_REF089013W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Director, Commercial Payments, Visa Government Solutions - CEMEA",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Commercial-Payments--Visa-Government-Solutions---CEMEA_REF085018W-1",
-"id": "director commercial payments visa government solutions cemea|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Commercial-Payments--Visa-Government-Solutions---CEMEA_REF085018W-1"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Digital Sales Leader – CISSEE",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Digital-Sales-Leader---CISSEE_REF088553W",
-"id": "digital sales leader cissee|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Digital-Sales-Leader---CISSEE_REF088553W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Cybersecurity Sales Lead",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Cybersecurity-Sales-Lead_REF087354W-1",
-"id": "cybersecurity sales lead|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Cybersecurity-Sales-Lead_REF087354W-1"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Event and AV Operations Analyst",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Event-and-AV-Operations-Analyst_REF087591W",
-"id": "event and av operations analyst|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Event-and-AV-Operations-Analyst_REF087591W"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Implementation Director",
-"company": "Visa",
-"location": "AE - Dubai, United Arab Emirates",
-"posted": "",
-"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Implementation-Director_REF081776W",
-"id": "implementation director|visa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Implementation-Director_REF081776W"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "CARGO PRICING ANALYST",
 "company": "Gulf Air",
 "location": "Bahrain",
@@ -64451,132 +63551,6 @@
 ],
 "links": {
 "Employer careers (ATS)": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/Saudi-Arabia-Jeddah-23411/Ocean-Operations-Professional---Manifestation---EDI_R202993-2"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Customer Support Engineer",
-"company": "GE Vernova",
-"location": "Al Khobar",
-"posted": "",
-"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Al-Khobar/Customer-Support-Engineer_R5047384-2",
-"id": "customer support engineer|ge vernova|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Al-Khobar/Customer-Support-Engineer_R5047384-2"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Senior Project Operations Manager",
-"company": "GE Vernova",
-"location": "Dammam",
-"posted": "",
-"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Senior-Project-Operations-Manager_R5057682-2",
-"id": "senior project operations manager|ge vernova|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Senior-Project-Operations-Manager_R5057682-2"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Material Analyst - Early Career Training",
-"company": "GE Vernova",
-"location": "Dammam",
-"posted": "",
-"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Material-Analyst---Early-Career-Training_R5057111-2",
-"id": "material analyst early career training|ge vernova|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Material-Analyst---Early-Career-Training_R5057111-2"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Strategic Account Manager",
-"company": "GE Vernova",
-"location": "Riyadh SA 11",
-"posted": "",
-"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Riyadh-SA-11/Strategic-Account-Manager_R5057104-3",
-"id": "strategic account manager|ge vernova|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Riyadh-SA-11/Strategic-Account-Manager_R5057104-3"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Services Specialist 1 - On Site Services",
-"company": "GE Vernova",
-"location": "Kuwait",
-"posted": "",
-"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Services-Specialist-1---On-Site-Services_R5058090-2",
-"id": "services specialist 1 on site services|ge vernova|kuwait",
-"country": "Kuwait",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Services-Specialist-1---On-Site-Services_R5058090-2"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Engineer - Field Testing",
-"company": "GE Vernova",
-"location": "Kuwait",
-"posted": "",
-"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Engineer---Field-Testing_R5052500-2",
-"id": "engineer field testing|ge vernova|kuwait",
-"country": "Kuwait",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Engineer---Field-Testing_R5052500-2"
 },
 "families": [
 "Other"
