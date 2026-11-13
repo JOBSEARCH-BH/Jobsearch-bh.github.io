@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-13T11:22:54+00:00",
+"fetched_at": "2026-11-13T12:15:41+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -99,22 +99,22 @@
 "Project & management"
 ],
 "countries": {
-"Bahrain": 565,
+"Bahrain": 566,
 "Saudi Arabia": 636,
-"United Arab Emirates": 750,
+"United Arab Emirates": 752,
 "Qatar": 368,
-"Kuwait": 323,
-"Oman": 293,
+"Kuwait": 324,
+"Oman": 295,
 "Remote": 27
 },
 "linkedin_check": {
-"checked": 95,
+"checked": 45,
 "closed_new": 0,
 "failed": 0,
 "pending": 0,
 "stopped": "",
 "removed": 6,
-"cache": 4985
+"cache": 4992
 },
 "employer_boards": [
 {
@@ -123,7 +123,7 @@
 "count": 7,
 "fetched": 9,
 "error": "",
-"secs": 0.1
+"secs": 0.5
 },
 {
 "board": "ila Bank (JazzHR)",
@@ -131,15 +131,15 @@
 "count": 2,
 "fetched": 3,
 "error": "",
-"secs": 0.1
+"secs": 0.5
 },
 {
 "board": "KFH Bahrain / Ahli United (SuccessFactors)",
-"ok": true,
+"ok": false,
 "count": 0,
 "fetched": 0,
-"error": "",
-"secs": 0.8
+"error": "ReadTimeout: HTTPSConnectionPool(host='careers.ahliunited.com', port=443): Read timed out. (read timeout=20)",
+"secs": 20.6
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -147,7 +147,7 @@
 "count": 20,
 "fetched": 22,
 "error": "",
-"secs": 3.8
+"secs": 4.9
 },
 {
 "board": "HSBC (Eightfold)",
@@ -155,7 +155,7 @@
 "count": 21,
 "fetched": 22,
 "error": "",
-"secs": 2.3
+"secs": 2.9
 },
 {
 "board": "Citi (Workday)",
@@ -163,7 +163,7 @@
 "count": 31,
 "fetched": 38,
 "error": "",
-"secs": 8.3
+"secs": 8.0
 },
 {
 "board": "Visa (Workday)",
@@ -179,7 +179,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 0.6
+"secs": 0.7
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -187,7 +187,7 @@
 "count": 7,
 "fetched": 7,
 "error": "",
-"secs": 0.4
+"secs": 0.7
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -195,7 +195,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 0.7
+"secs": 1.2
 },
 {
 "board": "Tamkeen (careers page)",
@@ -203,7 +203,7 @@
 "count": 0,
 "fetched": 1,
 "error": "",
-"secs": 2.0
+"secs": 2.4
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -211,7 +211,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 1.0
+"secs": 0.9
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -219,7 +219,7 @@
 "count": 2,
 "fetched": 2,
 "error": "",
-"secs": 3.3
+"secs": 4.6
 },
 {
 "board": "GE Vernova (Workday)",
@@ -227,15 +227,15 @@
 "count": 7,
 "fetched": 10,
 "error": "",
-"secs": 2.1
+"secs": 1.7
 },
 {
 "board": "Hitachi (Workday)",
 "ok": true,
-"count": 42,
+"count": 43,
 "fetched": 56,
 "error": "",
-"secs": 6.8
+"secs": 7.0
 },
 {
 "board": "Calo (Teamtailor)",
@@ -243,7 +243,7 @@
 "count": 30,
 "fetched": 35,
 "error": "",
-"secs": 0.3
+"secs": 0.2
 },
 {
 "board": "Tarabut (Workable)",
@@ -251,7 +251,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "NymCard (BambooHR)",
@@ -259,7 +259,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.6
+"secs": 0.8
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -267,7 +267,7 @@
 "count": 91,
 "fetched": 129,
 "error": "",
-"secs": 2.7
+"secs": 2.9
 },
 {
 "board": "Careem (Greenhouse)",
@@ -275,7 +275,7 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Tamara (Greenhouse)",
@@ -291,7 +291,7 @@
 "count": 7,
 "fetched": 8,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Ziina (Ashby)",
@@ -339,7 +339,7 @@
 "count": 7,
 "fetched": 16,
 "error": "",
-"secs": 0.2
+"secs": 0.4
 }
 ],
 "status": [
@@ -352,13 +352,13 @@
 {
 "source": "Workable",
 "ok": true,
-"count": 342,
+"count": 346,
 "note": ""
 },
 {
 "source": "Employer careers (ATS)",
 "ok": true,
-"count": 472,
+"count": 474,
 "note": ""
 }
 ],
@@ -463,6 +463,44 @@
 "IT & software",
 "Legal",
 "Project & management"
+]
+},
+{
+"title": "Auditor-Income",
+"company": "Sheraton Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/auditor-income-at-sheraton-hotels-resorts-4478159836",
+"id": "auditor income|sheraton hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"banking operations",
+"back office",
+"payments operations",
+"settlement",
+"reconciliation",
+"treasury operations",
+"compliance",
+"internal control",
+"audit",
+"risk",
+"accountant",
+"finance officer",
+"financial analyst",
+"accounts payable",
+"hotel"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/auditor-income-at-sheraton-hotels-resorts-4478159836"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"Hospitality & F&B"
 ]
 },
 {
@@ -626,6 +664,43 @@
 "Banking & finance ops",
 "HR & admin",
 "Healthcare",
+"Project & management"
+]
+},
+{
+"title": "Purchasing Manager",
+"company": "Sheraton Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/purchasing-manager-at-sheraton-hotels-resorts-4479945115",
+"id": "purchasing manager|sheraton hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations officer",
+"operations analyst",
+"back office",
+"reconciliation",
+"treasury operations",
+"accountant",
+"finance officer",
+"accounts payable",
+"retail",
+"logistics",
+"procurement",
+"supply chain",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/purchasing-manager-at-sheraton-hotels-resorts-4479945115"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"Retail",
+"Logistics & supply chain",
 "Project & management"
 ]
 },
@@ -863,6 +938,33 @@
 ]
 },
 {
+"title": "Deputy Regulatory Compliance Officer - ADGM",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-13",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101",
+"id": "deputy regulatory compliance officer adgm|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"back office",
+"compliance",
+"office manager",
+"front office"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"HR & admin",
+"Hospitality & F&B"
+]
+},
+{
 "title": "Head of Logistics",
 "company": "Fatima Consultancy",
 "location": "Bahrain",
@@ -891,6 +993,27 @@
 "Logistics & supply chain",
 "Project & management",
 "Other"
+]
+},
+{
+"title": "Farsi Linguist CAT II",
+"company": "Valiant Integrated Services",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/farsi-linguist-cat-ii-at-valiant-integrated-services-4380717742",
+"id": "farsi linguist cat ii|valiant integrated services",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"settlement"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/farsi-linguist-cat-ii-at-valiant-integrated-services-4380717742"
+},
+"families": [
+"Banking & finance ops"
 ]
 },
 {
@@ -1508,6 +1631,34 @@
 ]
 },
 {
+"title": "Procurement Officer",
+"company": "Microsoft User Group Cameroun",
+"location": "Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/procurement-officer-at-microsoft-user-group-cameroun-4488933030",
+"id": "procurement officer|microsoft user group cameroun",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accounts payable",
+"medical",
+"logistics",
+"procurement",
+"supply chain",
+"warehouse"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/procurement-officer-at-microsoft-user-group-cameroun-4488933030"
+},
+"families": [
+"Accounting & finance",
+"Healthcare",
+"Logistics & supply chain"
+]
+},
+{
 "title": "Senior HR Manager - HR BP Aviation",
 "company": "DHL Express",
 "location": "Muharraq, Muharraq Governorate, Bahrain",
@@ -1548,6 +1699,61 @@
 },
 "families": [
 "HR & admin"
+]
+},
+{
+"title": "Guest Service Agent (Guest Experience Expert)",
+"company": "Marriott Executive Apartments",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/guest-service-agent-guest-experience-expert-at-marriott-executive-apartments-4488384646",
+"id": "guest service agent guest experience expert|marriott executive apartments",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"secretary",
+"receptionist",
+"customer service",
+"call centre",
+"front office",
+"cashier"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/guest-service-agent-guest-experience-expert-at-marriott-executive-apartments-4488384646"
+},
+"families": [
+"HR & admin",
+"Customer service",
+"Hospitality & F&B",
+"Retail"
+]
+},
+{
+"title": "Guest Arrival Expert (Concierge)",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/guest-arrival-expert-concierge-at-westin-hotels-resorts-4480475883",
+"id": "guest arrival expert concierge|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"receptionist",
+"customer service",
+"call centre",
+"front office"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/guest-arrival-expert-concierge-at-westin-hotels-resorts-4480475883"
+},
+"families": [
+"HR & admin",
+"Customer service",
+"Hospitality & F&B"
 ]
 },
 {
@@ -1834,6 +2040,28 @@
 ]
 },
 {
+"title": "Shift Engineer",
+"company": "Sheraton Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/shift-engineer-at-sheraton-hotels-resorts-4487924972",
+"id": "shift engineer|sheraton hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"mechanical engineer",
+"electrical engineer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/shift-engineer-at-sheraton-hotels-resorts-4487924972"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
 "title": "Grid Operations Engineer/Powerr Distribution Specialist",
 "company": "RESLORG Réseau des Supply chain managers et Logisticiens de la République de Guinée",
 "location": "Bahrain",
@@ -1992,29 +2220,119 @@
 ]
 },
 {
-"title": "Procurement Officer",
-"company": "Microsoft User Group Cameroun",
-"location": "Capital Governorate, Bahrain",
+"title": "F&B Service Expert",
+"company": "Sheraton Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
 "posted": "2026-11-13",
-"url": "https://bh.linkedin.com/jobs/view/procurement-officer-at-microsoft-user-group-cameroun-4488933030",
-"id": "procurement officer|microsoft user group cameroun",
+"url": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-sheraton-hotels-resorts-4487926792",
+"id": "f b service expert|sheraton hotels resorts",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"medical",
-"logistics",
-"procurement",
-"supply chain",
-"warehouse"
+"customer service",
+"restaurant",
+"cashier"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/procurement-officer-at-microsoft-user-group-cameroun-4488933030"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-sheraton-hotels-resorts-4487926792"
+},
+"families": [
+"Customer service",
+"Hospitality & F&B",
+"Retail"
+]
+},
+{
+"title": "Waiter & Waitress (F&B Service Expert)",
+"company": "Marriott Executive Apartments",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/waiter-waitress-f-b-service-expert-at-marriott-executive-apartments-4486057847",
+"id": "waiter waitress f b service expert|marriott executive apartments",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service",
+"hotel",
+"restaurant",
+"cashier"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/waiter-waitress-f-b-service-expert-at-marriott-executive-apartments-4486057847"
+},
+"families": [
+"Customer service",
+"Hospitality & F&B",
+"Retail"
+]
+},
+{
+"title": "Massage Therapist",
+"company": "Sheraton Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/massage-therapist-at-sheraton-hotels-resorts-4474637218",
+"id": "massage therapist|sheraton hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"medical"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/massage-therapist-at-sheraton-hotels-resorts-4474637218"
+},
+"families": [
+"Healthcare"
+]
+},
+{
+"title": "Spa Therapist",
+"company": "Sheraton Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/spa-therapist-at-sheraton-hotels-resorts-4474622776",
+"id": "spa therapist|sheraton hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"medical"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/spa-therapist-at-sheraton-hotels-resorts-4474622776"
+},
+"families": [
+"Healthcare"
+]
+},
+{
+"title": "Physician Reviewer (MD/DO) - Medical AI Evaluation",
+"company": "Mindrift",
+"location": "TELECOMMUTE",
+"posted": "2026-11-13",
+"url": "https://jobs.workable.com/view/qbyGuKqA1YcCxMzMtbTY34/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-bahrain-at-mindrift",
+"id": "physician reviewer md do medical ai evaluation|mindrift",
+"country": "Bahrain",
+"sources": [
+"Workable"
+],
+"roles": [
+"medical",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/qbyGuKqA1YcCxMzMtbTY34/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-bahrain-at-mindrift"
 },
 "families": [
 "Healthcare",
-"Logistics & supply chain"
+"Other"
 ]
 },
 {
@@ -2062,6 +2380,133 @@
 ]
 },
 {
+"title": "Cook I",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/cook-i-at-westin-hotels-resorts-4487640922",
+"id": "cook i|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"restaurant",
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/cook-i-at-westin-hotels-resorts-4487640922"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "F&B Service Expert",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-westin-hotels-resorts-4486055922",
+"id": "f b service expert|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"restaurant"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-westin-hotels-resorts-4486055922"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Chef",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/chef-at-westin-hotels-resorts-4487937211",
+"id": "chef|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/chef-at-westin-hotels-resorts-4487937211"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Demi Chef de Partie (Pastry)",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-pastry-at-westin-hotels-resorts-4487944081",
+"id": "demi chef de partie pastry|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-pastry-at-westin-hotels-resorts-4487944081"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Commis I (Pastry)",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/commis-i-pastry-at-westin-hotels-resorts-4487647784",
+"id": "commis i pastry|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/commis-i-pastry-at-westin-hotels-resorts-4487647784"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "F&B Service Expert (Lounge Attendant)",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/f-b-service-expert-lounge-attendant-at-westin-hotels-resorts-4486073492",
+"id": "f b service expert lounge attendant|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"cashier"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/f-b-service-expert-lounge-attendant-at-westin-hotels-resorts-4486073492"
+},
+"families": [
+"Retail"
+]
+},
+{
 "title": "Vehicle Inventory Controller / Yard Operations Coordinator",
 "company": "PC Footwear",
 "location": "Capital Governorate, Bahrain",
@@ -2106,6 +2551,90 @@
 ]
 },
 {
+"title": "Technician - plumber",
+"company": "Sheraton Hotels & Resorts",
+"location": "Medina, Al Madinah, Saudi Arabia",
+"posted": "2026-11-13",
+"url": "https://sa.linkedin.com/jobs/view/technician-plumber-at-sheraton-hotels-resorts-4465460864",
+"id": "technician plumber|sheraton hotels resorts|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/technician-plumber-at-sheraton-hotels-resorts-4465460864"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Assistant Manager Quality",
+"company": "The Ritz-Carlton Hotel Company, L.L.C.",
+"location": "Saudi Arabia",
+"posted": "2026-11-13",
+"url": "https://sa.linkedin.com/jobs/view/assistant-manager-quality-at-the-ritz-carlton-hotel-company-l-l-c-4445730625",
+"id": "assistant manager quality|the ritz carlton hotel company l l c|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/assistant-manager-quality-at-the-ritz-carlton-hotel-company-l-l-c-4445730625"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Technician- Painter",
+"company": "Sheraton Hotels & Resorts",
+"location": "Medina, Al Madinah, Saudi Arabia",
+"posted": "2026-11-13",
+"url": "https://sa.linkedin.com/jobs/view/technician-painter-at-sheraton-hotels-resorts-4465701204",
+"id": "technician painter|sheraton hotels resorts|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/technician-painter-at-sheraton-hotels-resorts-4465701204"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Mechanic Technician",
+"company": "The Ritz-Carlton Hotel Company, L.L.C.",
+"location": "Saudi Arabia",
+"posted": "2026-11-13",
+"url": "https://sa.linkedin.com/jobs/view/mechanic-technician-at-the-ritz-carlton-hotel-company-l-l-c-4407007231",
+"id": "mechanic technician|the ritz carlton hotel company l l c|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/mechanic-technician-at-the-ritz-carlton-hotel-company-l-l-c-4407007231"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
 "title": "Security Engineer",
 "company": "Metabase",
 "location": "United Arab Emirates",
@@ -2121,6 +2650,27 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/security-engineer-at-metabase-4488902830"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Painter / Polisher",
+"company": "Marriott International",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-13",
+"url": "https://ae.linkedin.com/jobs/view/painter-polisher-at-marriott-international-4485150455",
+"id": "painter polisher|marriott international|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/painter-polisher-at-marriott-international-4485150455"
 },
 "families": [
 "Other"
@@ -2168,6 +2718,27 @@
 },
 "families": [
 "Compliance, risk & audit"
+]
+},
+{
+"title": "Relationship Manager",
+"company": "Emirates NBD",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-13",
+"url": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246",
+"id": "relationship manager|emirates nbd|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"relationship manager"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246"
+},
+"families": [
+"Relationship & client mgmt"
 ]
 },
 {
@@ -2305,12 +2876,12 @@
 ]
 },
 {
-"title": "Driver",
+"title": "Driver - Front Office",
 "company": "Rotana Hotels",
 "location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
 "posted": "2026-11-13",
-"url": "https://jobs.workable.com/view/odhwwMc8RXrrmz7SN34Sp4/driver-in-abu-dhabi-at-rotana-hotels",
-"id": "driver|rotana hotels|united arab emirates",
+"url": "https://jobs.workable.com/view/odhwwMc8RXrrmz7SN34Sp4/driver---front-office-in-abu-dhabi-at-rotana-hotels",
+"id": "driver front office|rotana hotels|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
 "Workable"
@@ -2320,7 +2891,7 @@
 "hotel"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/odhwwMc8RXrrmz7SN34Sp4/driver-in-abu-dhabi-at-rotana-hotels"
+"Workable": "https://jobs.workable.com/view/odhwwMc8RXrrmz7SN34Sp4/driver---front-office-in-abu-dhabi-at-rotana-hotels"
 },
 "families": [
 "Customer service",
@@ -2458,6 +3029,48 @@
 ]
 },
 {
+"title": "Kitchen Technician",
+"company": "Sheraton Hotels & Resorts",
+"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
+"posted": "2026-11-13",
+"url": "https://ae.linkedin.com/jobs/view/kitchen-technician-at-sheraton-hotels-resorts-4487946050",
+"id": "kitchen technician|sheraton hotels resorts|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/kitchen-technician-at-sheraton-hotels-resorts-4487946050"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Front Desk Agent",
+"company": "Rotana Hotels",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-13",
+"url": "https://jobs.workable.com/view/xx5j7WTUWDMnBSytG5j8CS/front-desk-agent-in-dubai-at-rotana-hotels",
+"id": "front desk agent|rotana hotels|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Workable"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/xx5j7WTUWDMnBSytG5j8CS/front-desk-agent-in-dubai-at-rotana-hotels"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
 "title": "Lobby Ambassador",
 "company": "Rotana Hotels",
 "location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
@@ -2563,12 +3176,119 @@
 ]
 },
 {
-"title": "Family Office Senior Relationship Managers",
+"title": "Heart of House Specialist (Steward)",
+"company": "W Hotels",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/heart-of-house-specialist-steward-at-w-hotels-4481184603",
+"id": "heart of house specialist steward|w hotels|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/heart-of-house-specialist-steward-at-w-hotels-4481184603"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Electrician",
+"company": "W Hotels",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/electrician-at-w-hotels-4481192324",
+"id": "electrician|w hotels|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/electrician-at-w-hotels-4481192324"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sales Executive- Russian Speaker",
+"company": "The Ritz-Carlton Hotel Company, L.L.C.",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/sales-executive-russian-speaker-at-the-ritz-carlton-hotel-company-l-l-c-4478498742",
+"id": "sales executive russian speaker|the ritz carlton hotel company l l c|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job",
+"sales"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/sales-executive-russian-speaker-at-the-ritz-carlton-hotel-company-l-l-c-4478498742"
+},
+"families": [
+"Other",
+"Sales & business dev"
+]
+},
+{
+"title": "Executive Pastry Chef",
+"company": "St. Regis Hotels & Resorts",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/executive-pastry-chef-at-st-regis-hotels-resorts-4481622082",
+"id": "executive pastry chef|st regis hotels resorts|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/executive-pastry-chef-at-st-regis-hotels-resorts-4481622082"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Food & Beverage Operation Manager",
+"company": "Sheraton Hotels & Resorts",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/food-beverage-operation-manager-at-sheraton-hotels-resorts-4486903765",
+"id": "food beverage operation manager|sheraton hotels resorts|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/food-beverage-operation-manager-at-sheraton-hotels-resorts-4486903765"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
+"title": "Family Office Senior Relationship Manager",
 "company": "Fatima Consultancy",
 "location": "Doha, Qatar",
 "posted": "2026-11-13",
-"url": "https://qa.linkedin.com/jobs/view/family-office-senior-relationship-managers-at-fatima-consultancy-4488922817",
-"id": "family office senior relationship managers|fatima consultancy|qatar",
+"url": "https://qa.linkedin.com/jobs/view/family-office-senior-relationship-manager-at-fatima-consultancy-4488922817",
+"id": "family office senior relationship manager|fatima consultancy|qatar",
 "country": "Qatar",
 "sources": [
 "LinkedIn"
@@ -2577,7 +3297,7 @@
 "relationship manager"
 ],
 "links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/family-office-senior-relationship-managers-at-fatima-consultancy-4488922817"
+"LinkedIn": "https://qa.linkedin.com/jobs/view/family-office-senior-relationship-manager-at-fatima-consultancy-4488922817"
 },
 "families": [
 "Relationship & client mgmt"
@@ -2623,6 +3343,27 @@
 },
 "families": [
 "HR & admin"
+]
+},
+{
+"title": "Digital Marketing Executive",
+"company": "The Ritz-Carlton Hotel Company, L.L.C.",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/digital-marketing-executive-at-the-ritz-carlton-hotel-company-l-l-c-4485737917",
+"id": "digital marketing executive|the ritz carlton hotel company l l c|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/digital-marketing-executive-at-the-ritz-carlton-hotel-company-l-l-c-4485737917"
+},
+"families": [
+"Marketing & media"
 ]
 },
 {
@@ -2686,6 +3427,111 @@
 },
 "families": [
 "Customer service"
+]
+},
+{
+"title": "Analyst-Revenue Management",
+"company": "Marriott International",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/analyst-revenue-management-at-marriott-international-4480272906",
+"id": "analyst revenue management|marriott international|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/analyst-revenue-management-at-marriott-international-4480272906"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Plumber",
+"company": "W Hotels",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/plumber-at-w-hotels-4481178879",
+"id": "plumber|w hotels|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/plumber-at-w-hotels-4481178879"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "AC Technician",
+"company": "W Hotels",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/ac-technician-at-w-hotels-4481198015",
+"id": "ac technician|w hotels|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/ac-technician-at-w-hotels-4481198015"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "HVAC Technician",
+"company": "Minor Hotels",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/hvac-technician-at-minor-hotels-4473279626",
+"id": "hvac technician|minor hotels|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/hvac-technician-at-minor-hotels-4473279626"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Barista",
+"company": "Sheraton Hotels & Resorts",
+"location": "Doha, Qatar",
+"posted": "2026-11-13",
+"url": "https://qa.linkedin.com/jobs/view/barista-at-sheraton-hotels-resorts-4482650764",
+"id": "barista|sheraton hotels resorts|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/barista-at-sheraton-hotels-resorts-4482650764"
+},
+"families": [
+"Hospitality & F&B"
 ]
 },
 {
@@ -3096,6 +3942,27 @@
 ]
 },
 {
+"title": "Head of IT Audit",
+"company": "TAT IT Technolgies",
+"location": "Oman",
+"posted": "2026-11-13",
+"url": "https://om.linkedin.com/jobs/view/head-of-it-audit-at-tat-it-technolgies-4489559305",
+"id": "head of it audit|tat it technolgies|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/head-of-it-audit-at-tat-it-technolgies-4489559305"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
 "title": "Head of Risk Management",
 "company": "BGone Consultants",
 "location": "Masqaţ, Oman",
@@ -3117,24 +3984,24 @@
 ]
 },
 {
-"title": "Client Relationship Manager / Client Support / Junior Account Executive",
-"company": "Build Right Corporation  Construction Limited",
-"location": "Muscat, Masqaţ, Oman",
+"title": "Accountant / Accounts Payable Specialist",
+"company": "SMART STRAINS",
+"location": "Masqaţ, Oman",
 "posted": "2026-11-13",
-"url": "https://om.linkedin.com/jobs/view/client-relationship-manager-client-support-junior-account-executive-at-build-right-corporation-construction-limited-4488909830",
-"id": "client relationship manager client support junior account executive|build right corporation construction limited|oman",
+"url": "https://om.linkedin.com/jobs/view/accountant-accounts-payable-specialist-at-smart-strains-4488929641",
+"id": "accountant accounts payable specialist|smart strains|oman",
 "country": "Oman",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"relationship manager"
+"accountant"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/client-relationship-manager-client-support-junior-account-executive-at-build-right-corporation-construction-limited-4488909830"
+"LinkedIn": "https://om.linkedin.com/jobs/view/accountant-accounts-payable-specialist-at-smart-strains-4488929641"
 },
 "families": [
-"Relationship & client mgmt"
+"Accounting & finance"
 ]
 },
 {
@@ -3242,6 +4109,27 @@
 },
 "families": [
 "Hospitality & F&B"
+]
+},
+{
+"title": "COORDINATOR - FREIGHT FORWARDING",
+"company": "Freight Care Logistics",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-13",
+"url": "https://om.linkedin.com/jobs/view/coordinator-freight-forwarding-at-freight-care-logistics-4490706154",
+"id": "coordinator freight forwarding|freight care logistics|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"logistics"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/coordinator-freight-forwarding-at-freight-care-logistics-4490706154"
+},
+"families": [
+"Logistics & supply chain"
 ]
 },
 {
@@ -3373,6 +4261,27 @@
 ]
 },
 {
+"title": "Physician Reviewer (MD/DO) - Medical AI Evaluation",
+"company": "Mindrift",
+"location": "TELECOMMUTE",
+"posted": "2026-11-13",
+"url": "https://jobs.workable.com/view/kAgfMn9sFavUaQZgwoHFk1/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-qatar-at-mindrift",
+"id": "physician reviewer md do medical ai evaluation|mindrift|qatar",
+"country": "Qatar",
+"sources": [
+"Workable"
+],
+"roles": [
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/kAgfMn9sFavUaQZgwoHFk1/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-qatar-at-mindrift"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Licensed Physician (MD/DO) - Freelance AI Trainer",
 "company": "Mindrift",
 "location": "TELECOMMUTE",
@@ -3388,6 +4297,27 @@
 ],
 "links": {
 "Workable": "https://jobs.workable.com/view/mXTeKccPhsh3Dr3Zv1mzyP/remote-licensed-physician-(md%2Fdo)---freelance-ai-trainer-in-qatar-at-mindrift"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Physician Reviewer (MD/DO) - Medical AI Evaluation",
+"company": "Mindrift",
+"location": "TELECOMMUTE",
+"posted": "2026-11-13",
+"url": "https://jobs.workable.com/view/ijGpTPofnqxjWxqgXshX12/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-kuwait-at-mindrift",
+"id": "physician reviewer md do medical ai evaluation|mindrift|kuwait",
+"country": "Kuwait",
+"sources": [
+"Workable"
+],
+"roles": [
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/ijGpTPofnqxjWxqgXshX12/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-kuwait-at-mindrift"
 },
 "families": [
 "Other"
@@ -3432,6 +4362,27 @@
 "LinkedIn": "https://om.linkedin.com/jobs/view/persian-interpreter-remote-at-kalamcx-4490710099"
 },
 "remote": true,
+"families": [
+"Other"
+]
+},
+{
+"title": "Physician Reviewer (MD/DO) - Medical AI Evaluation",
+"company": "Mindrift",
+"location": "TELECOMMUTE",
+"posted": "2026-11-13",
+"url": "https://jobs.workable.com/view/kixqDZocQ54ueEVdSMz1nh/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-oman-at-mindrift",
+"id": "physician reviewer md do medical ai evaluation|mindrift|oman",
+"country": "Oman",
+"sources": [
+"Workable"
+],
+"roles": [
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/kixqDZocQ54ueEVdSMz1nh/remote-physician-reviewer-(md%2Fdo)---medical-ai-evaluation-in-oman-at-mindrift"
+},
 "families": [
 "Other"
 ]
@@ -3789,7 +4740,6 @@
 "reconciliation",
 "internal control",
 "audit",
-"accountant",
 "finance officer",
 "financial analyst"
 ],
@@ -4314,27 +5264,6 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/speech-and-language-pathologist-at-amana-healthcare-4445144686"
-},
-"families": [
-"Healthcare"
-]
-},
-{
-"title": "Spa Therapist",
-"company": "Raffles Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-12",
-"url": "https://bh.linkedin.com/jobs/view/spa-therapist-at-raffles-hotels-resorts-4482128554",
-"id": "spa therapist|raffles hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"medical"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/spa-therapist-at-raffles-hotels-resorts-4482128554"
 },
 "families": [
 "Healthcare"
@@ -5049,27 +5978,6 @@
 ]
 },
 {
-"title": "Sales Executive - Saudi National",
-"company": "Sheraton Hotels & Resorts",
-"location": "Jiddah, Makkah, Saudi Arabia",
-"posted": "2026-11-12",
-"url": "https://sa.linkedin.com/jobs/view/sales-executive-saudi-national-at-sheraton-hotels-resorts-4489026109",
-"id": "sales executive saudi national|sheraton hotels resorts|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/sales-executive-saudi-national-at-sheraton-hotels-resorts-4489026109"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Director of Engineering",
 "company": "Sofitel",
 "location": "Riyadh Region",
@@ -5106,27 +6014,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/supervisor-technician-av-at-delta-hotels-and-resorts%C2%AE-4489263748"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "Technician-HVAC-Senior",
-"company": "Delta Hotels and Resorts®",
-"location": "Jiddah, Makkah, Saudi Arabia",
-"posted": "2026-11-12",
-"url": "https://sa.linkedin.com/jobs/view/technician-hvac-senior-at-delta-hotels-and-resorts%C2%AE-4489279047",
-"id": "technician hvac senior|delta hotels and resorts|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/technician-hvac-senior-at-delta-hotels-and-resorts%C2%AE-4489279047"
 },
 "families": [
 "Hospitality & F&B"
@@ -5602,27 +6489,6 @@
 },
 {
 "title": "GENERAL ACCOUNTANT",
-"company": "Anantara Hotels & Resorts",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-12",
-"url": "https://ae.linkedin.com/jobs/view/general-accountant-at-anantara-hotels-resorts-4490308783",
-"id": "general accountant|anantara hotels resorts|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/general-accountant-at-anantara-hotels-resorts-4490308783"
-},
-"families": [
-"Accounting & finance"
-]
-},
-{
-"title": "GENERAL ACCOUNTANT",
 "company": "Minor Hotels",
 "location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-12",
@@ -5813,9 +6679,9 @@
 {
 "title": "QA/QC Engineer",
 "company": "BlackStone eIT",
-"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-12",
-"url": "https://jobs.workable.com/view/1tUCyBgVak61iD2yu3Yuvb/qa%2Fqc-engineer-in-abu-dhabi-at-blackstone-eit",
+"url": "https://jobs.workable.com/view/1tUCyBgVak61iD2yu3Yuvb/qa%2Fqc-engineer-in-dubai-at-blackstone-eit",
 "id": "qa qc engineer|blackstone eit|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -5825,7 +6691,7 @@
 "engineer"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/1tUCyBgVak61iD2yu3Yuvb/qa%2Fqc-engineer-in-abu-dhabi-at-blackstone-eit"
+"Workable": "https://jobs.workable.com/view/1tUCyBgVak61iD2yu3Yuvb/qa%2Fqc-engineer-in-dubai-at-blackstone-eit"
 },
 "families": [
 "Engineering & technical"
@@ -14209,7 +15075,6 @@
 ],
 "roles": [
 "finance officer",
-"financial analyst",
 "data analyst",
 "sales manager",
 "hotel",
@@ -14551,35 +15416,6 @@
 "HR & admin",
 "Customer service",
 "Hospitality & F&B"
-]
-},
-{
-"title": "Guest Service Agent (Guest Experience Expert)",
-"company": "Marriott Executive Apartments",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/guest-service-agent-guest-experience-expert-at-marriott-executive-apartments-4488384646",
-"id": "guest service agent guest experience expert|marriott executive apartments",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"secretary",
-"receptionist",
-"customer service",
-"call centre",
-"front office",
-"cashier"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/guest-service-agent-guest-experience-expert-at-marriott-executive-apartments-4488384646"
-},
-"families": [
-"HR & admin",
-"Customer service",
-"Hospitality & F&B",
-"Retail"
 ]
 },
 {
@@ -17018,9 +17854,9 @@
 {
 "title": "Manager - Partnerships & Alliances",
 "company": "Emaratech",
-"location": "Dubai, United Arab Emirates",
+"location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-10",
-"url": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
+"url": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
 "id": "manager partnerships alliances|emaratech|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -17030,7 +17866,7 @@
 "retail"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
+"Workable": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
 },
 "families": [
 "Retail"
@@ -20743,28 +21579,6 @@
 ]
 },
 {
-"title": "Shift Engineer",
-"company": "Sheraton Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/shift-engineer-at-sheraton-hotels-resorts-4487924972",
-"id": "shift engineer|sheraton hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"mechanical engineer",
-"electrical engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/shift-engineer-at-sheraton-hotels-resorts-4487924972"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
 "title": "Proposal Engineer (Bahraini National)",
 "company": "Fives",
 "location": "Askar, Southern Governorate, Bahrain",
@@ -20879,31 +21693,6 @@
 ]
 },
 {
-"title": "F&B Service Expert",
-"company": "Sheraton Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-sheraton-hotels-resorts-4487926792",
-"id": "f b service expert|sheraton hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service",
-"restaurant",
-"cashier"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-sheraton-hotels-resorts-4487926792"
-},
-"families": [
-"Customer service",
-"Hospitality & F&B",
-"Retail"
-]
-},
-{
 "title": "Lecturer in Anatomy",
 "company": "RCSI Medical University of Bahrain",
 "location": "Busaiteen, Muharraq Governorate, Bahrain",
@@ -20991,91 +21780,6 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/head-chef-at-apparel-group-4488870366"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "Cook I",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/cook-i-at-westin-hotels-resorts-4487640922",
-"id": "cook i|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"restaurant",
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/cook-i-at-westin-hotels-resorts-4487640922"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "Chef",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/chef-at-westin-hotels-resorts-4487937211",
-"id": "chef|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/chef-at-westin-hotels-resorts-4487937211"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "Demi Chef de Partie (Pastry)",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-pastry-at-westin-hotels-resorts-4487944081",
-"id": "demi chef de partie pastry|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-pastry-at-westin-hotels-resorts-4487944081"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "Commis I (Pastry)",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/commis-i-pastry-at-westin-hotels-resorts-4487647784",
-"id": "commis i pastry|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/commis-i-pastry-at-westin-hotels-resorts-4487647784"
 },
 "families": [
 "Hospitality & F&B"
@@ -22051,27 +22755,6 @@
 ]
 },
 {
-"title": "Relationship Manager",
-"company": "Emirates NBD",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-09",
-"url": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246",
-"id": "relationship manager|emirates nbd|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246"
-},
-"families": [
-"Relationship & client mgmt"
-]
-},
-{
 "title": "Senior Relationship Manager",
 "company": "Freedom Finance MENAT",
 "location": "Dubai, United Arab Emirates",
@@ -22318,27 +23001,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/revenue-executive-at-hyatt-regency-4488850193"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "Kitchen Technician",
-"company": "Sheraton Hotels & Resorts",
-"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
-"posted": "2026-11-09",
-"url": "https://ae.linkedin.com/jobs/view/kitchen-technician-at-sheraton-hotels-resorts-4487946050",
-"id": "kitchen technician|sheraton hotels resorts|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/kitchen-technician-at-sheraton-hotels-resorts-4487946050"
 },
 "families": [
 "Hospitality & F&B"
@@ -23966,6 +24628,7 @@
 "compliance",
 "internal control",
 "audit",
+"risk",
 "IT support",
 "network engineer",
 "cyber security",
@@ -24694,27 +25357,6 @@
 ]
 },
 {
-"title": "HVAC Technician",
-"company": "Hilton",
-"location": "Mecca, Makkah, Saudi Arabia",
-"posted": "2026-11-08",
-"url": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4488789853",
-"id": "hvac technician|hilton|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4488789853"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Marketing Manager (Saudi National)",
 "company": "Grand Hyatt",
 "location": "Al Khobar, Eastern, Saudi Arabia",
@@ -25167,13 +25809,15 @@
 "LinkedIn"
 ],
 "roles": [
-"marketing"
+"marketing",
+"hotel"
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/marketing-executive-at-ihg-hotels-resorts-4486691966"
 },
 "families": [
-"Marketing & media"
+"Marketing & media",
+"Hospitality & F&B"
 ]
 },
 {
@@ -26092,27 +26736,6 @@
 ]
 },
 {
-"title": "Food & Beverage Operation Manager",
-"company": "Sheraton Hotels & Resorts",
-"location": "Doha, Qatar",
-"posted": "2026-11-07",
-"url": "https://qa.linkedin.com/jobs/view/food-beverage-operation-manager-at-sheraton-hotels-resorts-4486903765",
-"id": "food beverage operation manager|sheraton hotels resorts|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/food-beverage-operation-manager-at-sheraton-hotels-resorts-4486903765"
-},
-"families": [
-"Banking & finance ops"
-]
-},
-{
 "title": "Assistant Human Resources Manager at The Plaza Doha, LXR Hotels and Resorts",
 "company": "Hilton",
 "location": "Doha, Qatar",
@@ -26322,27 +26945,6 @@
 "families": [
 "Banking & finance ops",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Senior | Audit | Audit & Assurance | Oman FY27",
-"company": "Deloitte",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-07",
-"url": "https://om.linkedin.com/jobs/view/senior-audit-audit-assurance-oman-fy27-at-deloitte-4397725887",
-"id": "senior audit audit assurance oman fy27|deloitte|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/senior-audit-audit-assurance-oman-fy27-at-deloitte-4397725887"
-},
-"families": [
-"Accounting & finance"
 ]
 },
 {
@@ -27257,27 +27859,6 @@
 },
 "families": [
 "Healthcare"
-]
-},
-{
-"title": "General Manager | Saudi Arabia",
-"company": "Millennium Hotels and Resorts MEA",
-"location": "Jīzān, Jizan, Saudi Arabia",
-"posted": "2026-11-06",
-"url": "https://sa.linkedin.com/jobs/view/general-manager-saudi-arabia-at-millennium-hotels-and-resorts-mea-4486992991",
-"id": "general manager saudi arabia|millennium hotels and resorts mea|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/general-manager-saudi-arabia-at-millennium-hotels-and-resorts-mea-4486992991"
-},
-"families": [
-"Hospitality & F&B"
 ]
 },
 {
@@ -30100,27 +30681,6 @@
 },
 "families": [
 "Customer service"
-]
-},
-{
-"title": "Attendant-Laundry",
-"company": "Sheraton Hotels & Resorts",
-"location": "Dammam, Eastern, Saudi Arabia",
-"posted": "2026-11-05",
-"url": "https://sa.linkedin.com/jobs/view/attendant-laundry-at-sheraton-hotels-resorts-4486777330",
-"id": "attendant laundry|sheraton hotels resorts|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/attendant-laundry-at-sheraton-hotels-resorts-4486777330"
-},
-"families": [
-"Hospitality & F&B"
 ]
 },
 {
@@ -35112,7 +35672,6 @@
 ],
 "roles": [
 "back office",
-"accounts payable",
 "administration officer",
 "office manager",
 "secretary",
@@ -35126,7 +35685,6 @@
 },
 "families": [
 "Banking & finance ops",
-"Accounting & finance",
 "HR & admin",
 "Customer service",
 "Hospitality & F&B",
@@ -35426,32 +35984,6 @@
 ]
 },
 {
-"title": "Waiter & Waitress (F&B Service Expert)",
-"company": "Marriott Executive Apartments",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-03",
-"url": "https://bh.linkedin.com/jobs/view/waiter-waitress-f-b-service-expert-at-marriott-executive-apartments-4486057847",
-"id": "waiter waitress f b service expert|marriott executive apartments",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service",
-"hotel",
-"restaurant",
-"cashier"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/waiter-waitress-f-b-service-expert-at-marriott-executive-apartments-4486057847"
-},
-"families": [
-"Customer service",
-"Hospitality & F&B",
-"Retail"
-]
-},
-{
 "title": "Hotel Cleanliness Expert",
 "company": "Westin Hotels & Resorts",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -35470,48 +36002,6 @@
 },
 "families": [
 "Hospitality & F&B"
-]
-},
-{
-"title": "F&B Service Expert",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-03",
-"url": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-westin-hotels-resorts-4486055922",
-"id": "f b service expert|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"restaurant"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/f-b-service-expert-at-westin-hotels-resorts-4486055922"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "F&B Service Expert (Lounge Attendant)",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-03",
-"url": "https://bh.linkedin.com/jobs/view/f-b-service-expert-lounge-attendant-at-westin-hotels-resorts-4486073492",
-"id": "f b service expert lounge attendant|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"cashier"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/f-b-service-expert-lounge-attendant-at-westin-hotels-resorts-4486073492"
-},
-"families": [
-"Retail"
 ]
 },
 {
@@ -36768,27 +37258,6 @@
 ]
 },
 {
-"title": "Digital Marketing Executive",
-"company": "The Ritz-Carlton Hotel Company, L.L.C.",
-"location": "Doha, Qatar",
-"posted": "2026-11-03",
-"url": "https://qa.linkedin.com/jobs/view/digital-marketing-executive-at-the-ritz-carlton-hotel-company-l-l-c-4485737917",
-"id": "digital marketing executive|the ritz carlton hotel company l l c|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/digital-marketing-executive-at-the-ritz-carlton-hotel-company-l-l-c-4485737917"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
 "title": "Director of Marketing - Waldorf Astoria Doha Lusail",
 "company": "Hilton",
 "location": "Doha, Qatar",
@@ -37956,7 +38425,6 @@
 "credit administration",
 "KYC",
 "client onboarding",
-"accountant",
 "finance officer",
 "HR operations",
 "HR officer",
@@ -38055,16 +38523,14 @@
 "administration officer",
 "office manager",
 "secretary",
-"receptionist",
-"remote"
+"receptionist"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/executive-assistant-at-hire-fellows-4486148668"
 },
 "families": [
 "Banking & finance ops",
-"HR & admin",
-"Other"
+"HR & admin"
 ]
 },
 {
@@ -39480,27 +39946,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/fashion-consultant-jacquemus-the-grove-at-chalhoub-group-4484386617"
-},
-"families": [
-"Retail"
-]
-},
-{
-"title": "Data AI Lead",
-"company": "Deeplight",
-"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
-"posted": "2026-11-02",
-"url": "https://jobs.workable.com/view/ejjq76E9irmiZxwZyAS7aD/data-ai-lead-in-abu-dhabi-at-deeplight",
-"id": "data ai lead|deeplight|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"retail"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/ejjq76E9irmiZxwZyAS7aD/data-ai-lead-in-abu-dhabi-at-deeplight"
 },
 "families": [
 "Retail"
@@ -41768,27 +42213,6 @@
 ]
 },
 {
-"title": "Painter / Polisher",
-"company": "Marriott International",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-01",
-"url": "https://ae.linkedin.com/jobs/view/painter-polisher-at-marriott-international-4485150455",
-"id": "painter polisher|marriott international|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/painter-polisher-at-marriott-international-4485150455"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Hotel Cleanliness Expert - Housekeeping",
 "company": "Marriott Executive Apartments",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -43638,27 +44062,6 @@
 ]
 },
 {
-"title": "HVAC Technician",
-"company": "Minor Hotels",
-"location": "Doha, Qatar",
-"posted": "2026-10-30",
-"url": "https://qa.linkedin.com/jobs/view/hvac-technician-at-minor-hotels-4473279626",
-"id": "hvac technician|minor hotels|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/hvac-technician-at-minor-hotels-4473279626"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Primary Teacher (Jan 2027) - Doha, Qatar",
 "company": "BSO Teachers Limited",
 "location": "Doha Metropolitan Area",
@@ -44107,6 +44510,7 @@
 "bank",
 "financial crime",
 "risk",
+"corporate banking",
 "accountant",
 "finance officer",
 "financial analyst",
@@ -44118,6 +44522,7 @@
 "families": [
 "Banking & finance ops",
 "Compliance, risk & audit",
+"Relationship & client mgmt",
 "Accounting & finance",
 "Customer service"
 ]
@@ -44127,7 +44532,7 @@
 "company": "Apparel Group",
 "location": "Bahrain",
 "posted": "2026-10-29",
-"url": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375689401",
+"url": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375688571",
 "id": "supervisor|apparel group",
 "country": "Bahrain",
 "sources": [
@@ -44138,7 +44543,7 @@
 "store manager"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375689401"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375688571"
 },
 "families": [
 "Banking & finance ops",
@@ -44641,6 +45046,27 @@
 },
 "families": [
 "Marketing & media"
+]
+},
+{
+"title": "HVAC Technician",
+"company": "Hilton",
+"location": "Mecca, Makkah, Saudi Arabia",
+"posted": "2026-10-29",
+"url": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4485218133",
+"id": "hvac technician|hilton|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4485218133"
+},
+"families": [
+"Hospitality & F&B"
 ]
 },
 {
@@ -45861,31 +46287,6 @@
 "Compliance, risk & audit",
 "Relationship & client mgmt",
 "Accounting & finance"
-]
-},
-{
-"title": "Risk Director / Chief Risk Officer (Regulated Financial Services)",
-"company": "DCS DeCard",
-"location": "Bahrain",
-"posted": "2026-10-28",
-"url": "https://bh.linkedin.com/jobs/view/risk-director-chief-risk-officer-regulated-financial-services-at-dcs-decard-4473205620",
-"id": "risk director chief risk officer regulated financial services|dcs decard",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"KYC",
-"financial crime",
-"risk",
-"corporate banking"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/risk-director-chief-risk-officer-regulated-financial-services-at-dcs-decard-4473205620"
-},
-"families": [
-"Compliance, risk & audit",
-"Relationship & client mgmt"
 ]
 },
 {
@@ -47207,6 +47608,27 @@
 ]
 },
 {
+"title": "Oman-Accounts and Sales Manager - Drilling Waste Management & Fluids",
+"company": "LeadingEdge HR Solutions",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-10-28",
+"url": "https://om.linkedin.com/jobs/view/oman-accounts-and-sales-manager-drilling-waste-management-fluids-at-leadingedge-hr-solutions-4484152005",
+"id": "oman accounts and sales manager drilling waste management fluids|leadingedge hr solutions|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"relationship manager"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/oman-accounts-and-sales-manager-drilling-waste-management-fluids-at-leadingedge-hr-solutions-4484152005"
+},
+"families": [
+"Relationship & client mgmt"
+]
+},
+{
 "title": "Senior Site Engineer - Mechanical_Power Plants_CCGT",
 "company": "WSP in the Middle East",
 "location": "Muscat, Masqaţ, Oman",
@@ -47604,7 +48026,8 @@
 "finance officer",
 "administration officer",
 "legal",
-"project manager"
+"project manager",
+"remote"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/account-manager-transfer-agency-fixed-term-at-apex-group-ltd-4435998566"
@@ -47616,7 +48039,8 @@
 "Accounting & finance",
 "HR & admin",
 "Legal",
-"Project & management"
+"Project & management",
+"Other"
 ]
 },
 {
@@ -49179,27 +49603,6 @@
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/manager-material-at-worley-4484202703"
-},
-"families": [
-"Logistics & supply chain"
-]
-},
-{
-"title": "Manager, Project Expediting",
-"company": "Worley",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-10-27",
-"url": "https://om.linkedin.com/jobs/view/manager-project-expediting-at-worley-4484223017",
-"id": "manager project expediting|worley|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/manager-project-expediting-at-worley-4484223017"
 },
 "families": [
 "Logistics & supply chain"
@@ -50935,27 +51338,6 @@
 ]
 },
 {
-"title": "Barista",
-"company": "Sheraton Hotels & Resorts",
-"location": "Doha, Qatar",
-"posted": "2026-10-26",
-"url": "https://qa.linkedin.com/jobs/view/barista-at-sheraton-hotels-resorts-4482650764",
-"id": "barista|sheraton hotels resorts|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/barista-at-sheraton-hotels-resorts-4482650764"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Construction Paralegal",
 "company": "Addleshaw Goddard",
 "location": "Doha, Qatar",
@@ -52454,8 +52836,7 @@
 "data analyst",
 "marketing",
 "customer service",
-"call centre",
-"medical"
+"call centre"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/client-relationship-management-analyst-at-marsh-4464480465"
@@ -52466,8 +52847,7 @@
 "Relationship & client mgmt",
 "IT & software",
 "Marketing & media",
-"Customer service",
-"Healthcare"
+"Customer service"
 ]
 },
 {
@@ -53256,6 +53636,27 @@
 ]
 },
 {
+"title": "Senior Accountant",
+"company": "IC",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-10-23",
+"url": "https://ae.linkedin.com/jobs/view/senior-accountant-at-ic-4482835823",
+"id": "senior accountant|ic|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-accountant-at-ic-4482835823"
+},
+"families": [
+"Accounting & finance"
+]
+},
+{
 "title": "Human Resources Director",
 "company": "Calvin James Recruitment",
 "location": "Dubai, United Arab Emirates",
@@ -53463,27 +53864,6 @@
 },
 "families": [
 "Project & management"
-]
-},
-{
-"title": "Executive Pastry Chef",
-"company": "St. Regis Hotels & Resorts",
-"location": "Doha, Qatar",
-"posted": "2026-10-23",
-"url": "https://qa.linkedin.com/jobs/view/executive-pastry-chef-at-st-regis-hotels-resorts-4481622082",
-"id": "executive pastry chef|st regis hotels resorts|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/executive-pastry-chef-at-st-regis-hotels-resorts-4481622082"
-},
-"families": [
-"Other"
 ]
 },
 {
@@ -53950,27 +54330,6 @@
 "Customer service",
 "Hospitality & F&B",
 "Retail"
-]
-},
-{
-"title": "Farsi Linguist CAT II",
-"company": "Valiant Integrated Services",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-10-22",
-"url": "https://bh.linkedin.com/jobs/view/farsi-linguist-cat-ii-at-valiant-integrated-services-4380717742",
-"id": "farsi linguist cat ii|valiant integrated services",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"settlement"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/farsi-linguist-cat-ii-at-valiant-integrated-services-4380717742"
-},
-"families": [
-"Banking & finance ops"
 ]
 },
 {
@@ -54639,48 +54998,6 @@
 ]
 },
 {
-"title": "Heart of House Specialist (Steward)",
-"company": "W Hotels",
-"location": "Doha, Qatar",
-"posted": "2026-10-22",
-"url": "https://qa.linkedin.com/jobs/view/heart-of-house-specialist-steward-at-w-hotels-4481184603",
-"id": "heart of house specialist steward|w hotels|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/heart-of-house-specialist-steward-at-w-hotels-4481184603"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Electrician",
-"company": "W Hotels",
-"location": "Doha, Qatar",
-"posted": "2026-10-22",
-"url": "https://qa.linkedin.com/jobs/view/electrician-at-w-hotels-4481192324",
-"id": "electrician|w hotels|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/electrician-at-w-hotels-4481192324"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Electrical Technician",
 "company": "Pullman Hotels & Resorts",
 "location": "Doha, Doha, Qatar",
@@ -54852,48 +55169,6 @@
 },
 "families": [
 "Sales & business dev"
-]
-},
-{
-"title": "Plumber",
-"company": "W Hotels",
-"location": "Doha, Qatar",
-"posted": "2026-10-22",
-"url": "https://qa.linkedin.com/jobs/view/plumber-at-w-hotels-4481178879",
-"id": "plumber|w hotels|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/plumber-at-w-hotels-4481178879"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
-"title": "AC Technician",
-"company": "W Hotels",
-"location": "Doha, Qatar",
-"posted": "2026-10-22",
-"url": "https://qa.linkedin.com/jobs/view/ac-technician-at-w-hotels-4481198015",
-"id": "ac technician|w hotels|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/ac-technician-at-w-hotels-4481198015"
-},
-"families": [
-"Hospitality & F&B"
 ]
 },
 {
@@ -56579,32 +56854,6 @@
 ]
 },
 {
-"title": "Guest Arrival Expert (Concierge)",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-10-20",
-"url": "https://bh.linkedin.com/jobs/view/guest-arrival-expert-concierge-at-westin-hotels-resorts-4480475883",
-"id": "guest arrival expert concierge|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"receptionist",
-"customer service",
-"call centre",
-"front office"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/guest-arrival-expert-concierge-at-westin-hotels-resorts-4480475883"
-},
-"families": [
-"HR & admin",
-"Customer service",
-"Hospitality & F&B"
-]
-},
-{
 "title": "Chief Tunnel Surveyor - Bahrain",
 "company": "Joseph Gallagher Limited",
 "location": "Bahrain",
@@ -57126,27 +57375,6 @@
 ]
 },
 {
-"title": "Analyst-Revenue Management",
-"company": "Marriott International",
-"location": "Doha, Qatar",
-"posted": "2026-10-20",
-"url": "https://qa.linkedin.com/jobs/view/analyst-revenue-management-at-marriott-international-4480272906",
-"id": "analyst revenue management|marriott international|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/analyst-revenue-management-at-marriott-international-4480272906"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Head of Shipping",
 "company": "UCC Holding",
 "location": "Doha, Qatar",
@@ -57594,43 +57822,6 @@
 "Compliance, risk & audit",
 "IT & software",
 "Engineering & technical",
-"Project & management"
-]
-},
-{
-"title": "Purchasing Manager",
-"company": "Sheraton Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-10-19",
-"url": "https://bh.linkedin.com/jobs/view/purchasing-manager-at-sheraton-hotels-resorts-4479945115",
-"id": "purchasing manager|sheraton hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations officer",
-"operations analyst",
-"back office",
-"reconciliation",
-"treasury operations",
-"accountant",
-"finance officer",
-"accounts payable",
-"retail",
-"logistics",
-"procurement",
-"supply chain",
-"operations manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/purchasing-manager-at-sheraton-hotels-resorts-4479945115"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"Retail",
-"Logistics & supply chain",
 "Project & management"
 ]
 },
@@ -60589,29 +60780,6 @@
 ]
 },
 {
-"title": "Sales Executive- Russian Speaker",
-"company": "The Ritz-Carlton Hotel Company, L.L.C.",
-"location": "Doha, Qatar",
-"posted": "2026-10-15",
-"url": "https://qa.linkedin.com/jobs/view/sales-executive-russian-speaker-at-the-ritz-carlton-hotel-company-l-l-c-4478498742",
-"id": "sales executive russian speaker|the ritz carlton hotel company l l c|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job",
-"sales"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/sales-executive-russian-speaker-at-the-ritz-carlton-hotel-company-l-l-c-4478498742"
-},
-"families": [
-"Other",
-"Sales & business dev"
-]
-},
-{
 "title": "Property Management Sales Executive.",
 "company": "Pavago",
 "location": "TELECOMMUTE",
@@ -61297,44 +61465,6 @@
 ]
 },
 {
-"title": "Auditor-Income",
-"company": "Sheraton Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-10-14",
-"url": "https://bh.linkedin.com/jobs/view/auditor-income-at-sheraton-hotels-resorts-4478159836",
-"id": "auditor income|sheraton hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"banking operations",
-"back office",
-"payments operations",
-"settlement",
-"reconciliation",
-"treasury operations",
-"compliance",
-"internal control",
-"audit",
-"risk",
-"accountant",
-"finance officer",
-"financial analyst",
-"accounts payable",
-"hotel"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/auditor-income-at-sheraton-hotels-resorts-4478159836"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"Hospitality & F&B"
-]
-},
-{
 "title": "Leasing Associate",
 "company": "Majid Al Futtaim",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -61853,27 +61983,6 @@
 },
 "families": [
 "Relationship & client mgmt"
-]
-},
-{
-"title": "Sales Manager",
-"company": "IHG Hotels & Resorts",
-"location": "Doha, Qatar",
-"posted": "2026-10-14",
-"url": "https://qa.linkedin.com/jobs/view/sales-manager-at-ihg-hotels-resorts-4476660355",
-"id": "sales manager|ihg hotels resorts|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/sales-manager-at-ihg-hotels-resorts-4476660355"
-},
-"families": [
-"Hospitality & F&B"
 ]
 },
 {
@@ -66059,6 +66168,27 @@
 ],
 "links": {
 "Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Market-Analyst--UAE-National-_R0150830"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Quality Control Engineer",
+"company": "Hitachi",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Senior-Quality-Control-Engineer_R0139261-1",
+"id": "senior quality control engineer|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Senior-Quality-Control-Engineer_R0139261-1"
 },
 "families": [
 "Other"
