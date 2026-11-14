@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-14T08:23:36+00:00",
+"fetched_at": "2026-11-14T09:10:28+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -99,7 +99,7 @@
 "Project & management"
 ],
 "countries": {
-"Bahrain": 561,
+"Bahrain": 563,
 "Saudi Arabia": 591,
 "United Arab Emirates": 700,
 "Qatar": 365,
@@ -108,13 +108,13 @@
 "Remote": 23
 },
 "linkedin_check": {
-"checked": 46,
+"checked": 2,
 "closed_new": 0,
 "failed": 0,
 "pending": 0,
 "stopped": "",
 "removed": 5,
-"cache": 5116
+"cache": 5118
 },
 "employer_boards": [
 {
@@ -139,7 +139,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.5
+"secs": 0.6
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -147,7 +147,7 @@
 "count": 20,
 "fetched": 22,
 "error": "",
-"secs": 3.2
+"secs": 3.6
 },
 {
 "board": "HSBC (Eightfold)",
@@ -155,23 +155,23 @@
 "count": 23,
 "fetched": 24,
 "error": "",
-"secs": 1.9
+"secs": 2.8
 },
 {
 "board": "Citi (Workday)",
 "ok": false,
 "count": 0,
 "fetched": 0,
-"error": "HTTPError: 521 Server Error: <none> for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
-"secs": 0.3
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"secs": 0.6
 },
 {
 "board": "Visa (Workday)",
 "ok": false,
 "count": 0,
 "fetched": 0,
-"error": "HTTPError: 521 Server Error: <none> for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs",
-"secs": 0.3
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"secs": 0.6
 },
 {
 "board": "Bapco Energies (Oracle HCM)",
@@ -179,7 +179,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 0.7
+"secs": 0.8
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -187,7 +187,7 @@
 "count": 7,
 "fetched": 7,
 "error": "",
-"secs": 0.3
+"secs": 0.4
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -195,15 +195,15 @@
 "count": 4,
 "fetched": 4,
 "error": "",
-"secs": 0.9
+"secs": 0.8
 },
 {
 "board": "Tamkeen (careers page)",
-"ok": false,
+"ok": true,
 "count": 0,
-"fetched": 0,
-"error": "HTTPError: 403 Client Error: Forbidden for url: https://tamkeen.bh/en/job-openings/",
-"secs": 0.1
+"fetched": 1,
+"error": "",
+"secs": 2.1
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -211,7 +211,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.6
+"secs": 0.8
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -219,15 +219,15 @@
 "count": 2,
 "fetched": 2,
 "error": "",
-"secs": 3.0
+"secs": 3.2
 },
 {
 "board": "GE Vernova (Workday)",
 "ok": false,
 "count": 0,
 "fetched": 0,
-"error": "HTTPError: 521 Server Error: <none> for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs",
-"secs": 0.2
+"error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+"secs": 0.5
 },
 {
 "board": "Hitachi (Workday)",
@@ -235,7 +235,7 @@
 "count": 0,
 "fetched": 0,
 "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
-"secs": 0.3
+"secs": 0.4
 },
 {
 "board": "Calo (Teamtailor)",
@@ -243,7 +243,7 @@
 "count": 30,
 "fetched": 35,
 "error": "",
-"secs": 0.0
+"secs": 0.2
 },
 {
 "board": "Tarabut (Workable)",
@@ -259,7 +259,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.5
+"secs": 0.6
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -267,7 +267,7 @@
 "count": 91,
 "fetched": 129,
 "error": "",
-"secs": 2.4
+"secs": 2.5
 },
 {
 "board": "Careem (Greenhouse)",
@@ -275,7 +275,7 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.0
+"secs": 0.1
 },
 {
 "board": "Tamara (Greenhouse)",
@@ -339,14 +339,14 @@
 "count": 7,
 "fetched": 16,
 "error": "",
-"secs": 0.2
+"secs": 0.3
 }
 ],
 "status": [
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2177,
+"count": 2179,
 "note": ""
 },
 {
@@ -379,7 +379,6 @@
 "back office",
 "payments operations",
 "settlement",
-"reconciliation",
 "credit administration",
 "credit operations",
 "trade finance",
@@ -573,6 +572,27 @@
 "Banking & finance ops",
 "Logistics & supply chain",
 "Project & management"
+]
+},
+{
+"title": "Grid Operations Engineer/Powerr Distribution Specialist",
+"company": "Auchan Retail Côte d'Ivoire",
+"location": "Bahrain",
+"posted": "2026-11-14",
+"url": "https://bh.linkedin.com/jobs/view/grid-operations-engineer-powerr-distribution-specialist-at-auchan-retail-c%C3%B4te-d-ivoire-4489878236",
+"id": "grid operations engineer powerr distribution specialist|auchan retail c te d ivoire",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations analyst"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/grid-operations-engineer-powerr-distribution-specialist-at-auchan-retail-c%C3%B4te-d-ivoire-4489878236"
+},
+"families": [
+"Banking & finance ops"
 ]
 },
 {
@@ -815,7 +835,6 @@
 "roles": [
 "office manager",
 "receptionist",
-"call centre",
 "hotel",
 "store manager",
 "remote"
@@ -825,7 +844,6 @@
 },
 "families": [
 "HR & admin",
-"Customer service",
 "Hospitality & F&B",
 "Retail",
 "Other"
@@ -980,6 +998,27 @@
 "Healthcare",
 "Retail",
 "Project & management"
+]
+},
+{
+"title": "HR Operations Assistant  / Employee Relations Assistant",
+"company": "Institut Français de Guinée",
+"location": "Muharraq Governorate, Bahrain",
+"posted": "2026-11-14",
+"url": "https://bh.linkedin.com/jobs/view/hr-operations-assistant-employee-relations-assistant-at-institut-fran%C3%A7ais-de-guin%C3%A9e-4491053684",
+"id": "hr operations assistant employee relations assistant|institut fran ais de guin e",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"legal"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/hr-operations-assistant-employee-relations-assistant-at-institut-fran%C3%A7ais-de-guin%C3%A9e-4491053684"
+},
+"families": [
+"Legal"
 ]
 },
 {
@@ -1404,7 +1443,6 @@
 "operations officer",
 "reconciliation",
 "treasury operations",
-"accountant",
 "finance officer",
 "payroll",
 "HR operations",
@@ -2926,7 +2964,6 @@
 "customer service",
 "hotel",
 "restaurant",
-"front office",
 "cashier"
 ],
 "links": {
@@ -6083,7 +6120,6 @@
 "payments operations",
 "settlement",
 "reconciliation",
-"cashier",
 "logistics",
 "supply chain",
 "warehouse"
@@ -6094,7 +6130,6 @@
 },
 "families": [
 "Banking & finance ops",
-"Retail",
 "Logistics & supply chain"
 ]
 },
@@ -25506,7 +25541,6 @@
 ],
 "roles": [
 "operations officer",
-"operations analyst",
 "compliance",
 "internal control",
 "audit",
@@ -54036,7 +54070,6 @@
 "LinkedIn"
 ],
 "roles": [
-"operations analyst",
 "settlement",
 "credit administration",
 "accountant",
