@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-14T03:18:44+00:00",
+"fetched_at": "2026-11-14T04:11:06+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -100,21 +100,21 @@
 ],
 "countries": {
 "Bahrain": 550,
-"Saudi Arabia": 592,
-"United Arab Emirates": 703,
+"Saudi Arabia": 593,
+"United Arab Emirates": 702,
 "Qatar": 362,
 "Kuwait": 310,
 "Oman": 292,
 "Remote": 23
 },
 "linkedin_check": {
-"checked": 485,
+"checked": 6,
 "closed_new": 0,
 "failed": 0,
 "pending": 0,
 "stopped": "",
 "removed": 5,
-"cache": 5060
+"cache": 5064
 },
 "employer_boards": [
 {
@@ -123,7 +123,7 @@
 "count": 7,
 "fetched": 9,
 "error": "",
-"secs": 0.4
+"secs": 0.2
 },
 {
 "board": "ila Bank (JazzHR)",
@@ -131,7 +131,7 @@
 "count": 2,
 "fetched": 3,
 "error": "",
-"secs": 0.4
+"secs": 0.2
 },
 {
 "board": "KFH Bahrain / Ahli United (SuccessFactors)",
@@ -139,7 +139,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 18.6
+"secs": 0.6
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -147,7 +147,7 @@
 "count": 20,
 "fetched": 22,
 "error": "",
-"secs": 5.1
+"secs": 3.2
 },
 {
 "board": "HSBC (Eightfold)",
@@ -155,7 +155,7 @@
 "count": 23,
 "fetched": 24,
 "error": "",
-"secs": 2.8
+"secs": 2.3
 },
 {
 "board": "Citi (Workday)",
@@ -163,7 +163,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 521 Server Error: <none> for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
-"secs": 0.2
+"secs": 0.3
 },
 {
 "board": "Visa (Workday)",
@@ -171,7 +171,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 521 Server Error: <none> for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs",
-"secs": 0.2
+"secs": 0.3
 },
 {
 "board": "Bapco Energies (Oracle HCM)",
@@ -179,7 +179,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 0.9
+"secs": 0.5
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -187,7 +187,7 @@
 "count": 7,
 "fetched": 7,
 "error": "",
-"secs": 0.5
+"secs": 0.4
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -195,15 +195,15 @@
 "count": 4,
 "fetched": 4,
 "error": "",
-"secs": 1.1
+"secs": 0.9
 },
 {
 "board": "Tamkeen (careers page)",
-"ok": true,
+"ok": false,
 "count": 0,
-"fetched": 1,
-"error": "",
-"secs": 2.3
+"fetched": 0,
+"error": "HTTPError: 403 Client Error: Forbidden for url: https://tamkeen.bh/en/job-openings/",
+"secs": 0.1
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -211,7 +211,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.9
+"secs": 0.7
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -219,7 +219,7 @@
 "count": 2,
 "fetched": 2,
 "error": "",
-"secs": 4.2
+"secs": 3.3
 },
 {
 "board": "GE Vernova (Workday)",
@@ -227,7 +227,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 521 Server Error: <none> for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs",
-"secs": 0.2
+"secs": 0.3
 },
 {
 "board": "Hitachi (Workday)",
@@ -235,7 +235,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 521 Server Error: <none> for url: https://hitachi.wd1.myworkdayjobs.com/wday/cxs/hitachi/hitachi/jobs",
-"secs": 0.3
+"secs": 0.1
 },
 {
 "board": "Calo (Teamtailor)",
@@ -243,7 +243,7 @@
 "count": 30,
 "fetched": 35,
 "error": "",
-"secs": 0.3
+"secs": 0.1
 },
 {
 "board": "Tarabut (Workable)",
@@ -251,7 +251,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "NymCard (BambooHR)",
@@ -259,7 +259,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.8
+"secs": 0.6
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -267,7 +267,7 @@
 "count": 91,
 "fetched": 129,
 "error": "",
-"secs": 2.9
+"secs": 2.5
 },
 {
 "board": "Careem (Greenhouse)",
@@ -275,7 +275,7 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.2
+"secs": 0.0
 },
 {
 "board": "Tamara (Greenhouse)",
@@ -283,7 +283,7 @@
 "count": 13,
 "fetched": 35,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Lean Technologies (Ashby)",
@@ -291,7 +291,7 @@
 "count": 7,
 "fetched": 8,
 "error": "",
-"secs": 0.1
+"secs": 0.0
 },
 {
 "board": "Ziina (Ashby)",
@@ -315,7 +315,7 @@
 "count": 24,
 "fetched": 31,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Salla (Workable)",
@@ -331,7 +331,7 @@
 "count": 19,
 "fetched": 49,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Unifonic (Recruitee)",
@@ -339,20 +339,20 @@
 "count": 7,
 "fetched": 16,
 "error": "",
-"secs": 0.4
+"secs": 0.2
 }
 ],
 "status": [
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2160,
+"count": 2159,
 "note": ""
 },
 {
 "source": "Workable",
 "ok": true,
-"count": 342,
+"count": 343,
 "note": ""
 },
 {
@@ -382,6 +382,50 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Head of Risk",
+"company": "Chief Group 致富集團",
+"location": "Oman",
+"posted": "2026-11-14",
+"url": "https://om.linkedin.com/jobs/view/head-of-risk-at-chief-group-%E8%87%B4%E5%AF%8C%E9%9B%86%E5%9C%98-4489861237",
+"id": "head of risk|chief group|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job",
+"compliance"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/head-of-risk-at-chief-group-%E8%87%B4%E5%AF%8C%E9%9B%86%E5%9C%98-4489861237"
+},
+"families": [
+"Other",
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Head of Finance",
+"company": "Chief Group 致富集團",
+"location": "Oman",
+"posted": "2026-11-14",
+"url": "https://om.linkedin.com/jobs/view/head-of-finance-at-chief-group-%E8%87%B4%E5%AF%8C%E9%9B%86%E5%9C%98-4489870017",
+"id": "head of finance|chief group|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/head-of-finance-at-chief-group-%E8%87%B4%E5%AF%8C%E9%9B%86%E5%9C%98-4489870017"
+},
+"families": [
+"Other"
 ]
 },
 {
@@ -2865,27 +2909,6 @@
 ]
 },
 {
-"title": "Operations Executive",
-"company": "AIC Global",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://ae.linkedin.com/jobs/view/operations-executive-at-aic-global-4488922261",
-"id": "operations executive|aic global|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/operations-executive-at-aic-global-4488922261"
-},
-"families": [
-"Banking & finance ops"
-]
-},
-{
 "title": "Global Payroll Manager, Fintech",
 "company": "Optasia",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -4533,27 +4556,6 @@
 ]
 },
 {
-"title": "Head of Risk Management",
-"company": "BGone Consultants",
-"location": "Masqaţ, Oman",
-"posted": "2026-11-13",
-"url": "https://om.linkedin.com/jobs/view/head-of-risk-management-at-bgone-consultants-4488904962",
-"id": "head of risk management|bgone consultants|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/head-of-risk-management-at-bgone-consultants-4488904962"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
 "title": "Service Engineer - Process Analytics",
 "company": "ABB",
 "location": "Al Fath, Masqaţ, Oman",
@@ -4658,29 +4660,6 @@
 },
 "families": [
 "Logistics & supply chain"
-]
-},
-{
-"title": "University Assistant",
-"company": "Edalat Univercity",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-13",
-"url": "https://om.linkedin.com/jobs/view/university-assistant-at-edalat-univercity-4490781122",
-"id": "university assistant|edalat univercity|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher",
-"legal"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/university-assistant-at-edalat-univercity-4490781122"
-},
-"families": [
-"Education",
-"Legal"
 ]
 },
 {
@@ -9009,7 +8988,6 @@
 "LinkedIn"
 ],
 "roles": [
-"Any job",
 "operations",
 "HR"
 ],
@@ -9017,7 +8995,6 @@
 "LinkedIn": "https://om.linkedin.com/jobs/view/group-operations-manager-at-communications-for-commerce-pty-ltd-4489086730"
 },
 "families": [
-"Other",
 "Banking & finance ops",
 "HR & admin"
 ]
@@ -10814,7 +10791,7 @@
 "company": "PepsiCo",
 "location": "Taif, Makkah, Saudi Arabia",
 "posted": "2026-11-11",
-"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488233933",
+"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488221277",
 "id": "sr merchandiser|pepsico|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -10824,7 +10801,7 @@
 "Any job"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488233933"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488221277"
 },
 "families": [
 "Other"
@@ -17334,27 +17311,6 @@
 ]
 },
 {
-"title": "Operations Specialist - Logistics & Transportation Sector",
-"company": "Afex Logistics",
-"location": "Dammam, Eastern, Saudi Arabia",
-"posted": "2026-11-10",
-"url": "https://sa.linkedin.com/jobs/view/operations-specialist-logistics-transportation-sector-at-afex-logistics-4487494072",
-"id": "operations specialist logistics transportation sector|afex logistics|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/operations-specialist-logistics-transportation-sector-at-afex-logistics-4487494072"
-},
-"families": [
-"Logistics & supply chain"
-]
-},
-{
 "title": "Logistics Supervisor",
 "company": "ABYAT",
 "location": "Dammam, Eastern, Saudi Arabia",
@@ -18146,9 +18102,9 @@
 {
 "title": "Manager - Partnerships & Alliances",
 "company": "Emaratech",
-"location": "Dubai, United Arab Emirates",
+"location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-10",
-"url": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
+"url": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
 "id": "manager partnerships alliances|emaratech|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -18158,7 +18114,7 @@
 "retail"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
+"Workable": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
 },
 "families": [
 "Retail"
@@ -22750,6 +22706,27 @@
 ]
 },
 {
+"title": "Planning Specialist",
+"company": "Ninja",
+"location": "Riyadh, Riyadh Province, Saudi Arabia",
+"posted": "2026-11-09",
+"url": "https://jobs.workable.com/view/4zHPRSwoFZQKnSk5oKoMmK/planning-specialist-in-riyadh-at-ninja",
+"id": "planning specialist|ninja|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Workable"
+],
+"roles": [
+"logistics"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/4zHPRSwoFZQKnSk5oKoMmK/planning-specialist-in-riyadh-at-ninja"
+},
+"families": [
+"Logistics & supply chain"
+]
+},
+{
 "title": "Teach English Online",
 "company": "Jobgether",
 "location": "Saudi Arabia",
@@ -22933,6 +22910,27 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/supply-chain-executive-at-adm-4476649467"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
+"title": "Senior Freight Forwarding Operations & Customs Executive (Arabic Speaking)",
+"company": "Black Pearl Shipping Services",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-09",
+"url": "https://ae.linkedin.com/jobs/view/senior-freight-forwarding-operations-customs-executive-arabic-speaking-at-black-pearl-shipping-services-4487150814",
+"id": "senior freight forwarding operations customs executive arabic speaking|black pearl shipping services|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-freight-forwarding-operations-customs-executive-arabic-speaking-at-black-pearl-shipping-services-4487150814"
 },
 "families": [
 "Banking & finance ops"
@@ -25626,27 +25624,6 @@
 },
 "families": [
 "Customer service"
-]
-},
-{
-"title": "HVAC Technician",
-"company": "Hilton",
-"location": "Mecca, Makkah, Saudi Arabia",
-"posted": "2026-11-08",
-"url": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4488789853",
-"id": "hvac technician|hilton|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4488789853"
-},
-"families": [
-"Hospitality & F&B"
 ]
 },
 {
@@ -28698,27 +28675,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/title%0A-%0A-%0A-breast-care-nurse-at-mediclinic-middle-east-4486972649"
-},
-"families": [
-"Healthcare"
-]
-},
-{
-"title": "Registered Nurse (OT)",
-"company": "FutureLife",
-"location": "Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-06",
-"url": "https://ae.linkedin.com/jobs/view/registered-nurse-ot-at-futurelife-4486986811",
-"id": "registered nurse ot|futurelife|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"nurse"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/registered-nurse-ot-at-futurelife-4486986811"
 },
 "families": [
 "Healthcare"
@@ -33279,11 +33235,32 @@
 ],
 "roles": [
 "hotel",
-"restaurant",
 "chef"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/pastry-chef-tournant-at-celebrity-cruises-4476262797"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Pastry Chef De Partie",
+"company": "Celebrity Cruises",
+"location": "Bahrain",
+"posted": "2026-11-04",
+"url": "https://bh.linkedin.com/jobs/view/pastry-chef-de-partie-at-celebrity-cruises-4476267525",
+"id": "pastry chef de partie|celebrity cruises",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"restaurant",
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/pastry-chef-de-partie-at-celebrity-cruises-4476267525"
 },
 "families": [
 "Hospitality & F&B"
@@ -33310,27 +33287,6 @@
 "families": [
 "Hospitality & F&B",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Pastry Chef De Partie",
-"company": "Celebrity Cruises",
-"location": "Bahrain",
-"posted": "2026-11-04",
-"url": "https://bh.linkedin.com/jobs/view/pastry-chef-de-partie-at-celebrity-cruises-4476267525",
-"id": "pastry chef de partie|celebrity cruises",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/pastry-chef-de-partie-at-celebrity-cruises-4476267525"
-},
-"families": [
-"Hospitality & F&B"
 ]
 },
 {
@@ -40154,6 +40110,27 @@
 ]
 },
 {
+"title": "Legal Counsel",
+"company": "Positive Zero",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-02",
+"url": "https://ae.linkedin.com/jobs/view/legal-counsel-at-positive-zero-4482859798",
+"id": "legal counsel|positive zero|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"legal"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/legal-counsel-at-positive-zero-4482859798"
+},
+"families": [
+"Legal"
+]
+},
+{
 "title": "Project Manager - FLS",
 "company": "BK Gulf LLC",
 "location": "Abu Dhabi Emirate, United Arab Emirates",
@@ -45085,6 +45062,27 @@
 },
 "families": [
 "Marketing & media"
+]
+},
+{
+"title": "HVAC Technician",
+"company": "Hilton",
+"location": "Mecca, Makkah, Saudi Arabia",
+"posted": "2026-10-29",
+"url": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4485218133",
+"id": "hvac technician|hilton|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4485218133"
+},
+"families": [
+"Hospitality & F&B"
 ]
 },
 {
@@ -53734,6 +53732,27 @@
 ]
 },
 {
+"title": "Logistics Service Coordinator",
+"company": "PSA BDP",
+"location": "Dammam, Eastern, Saudi Arabia",
+"posted": "2026-10-23",
+"url": "https://sa.linkedin.com/jobs/view/logistics-service-coordinator-at-psa-bdp-4480665952",
+"id": "logistics service coordinator|psa bdp|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"logistics"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/logistics-service-coordinator-at-psa-bdp-4480665952"
+},
+"families": [
+"Logistics & supply chain"
+]
+},
+{
 "title": "Account Executive, META",
 "company": "Cohere",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -59496,29 +59515,6 @@
 ]
 },
 {
-"title": "Cybersecurity Specialist",
-"company": "KALSOFT",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-10-18",
-"url": "https://om.linkedin.com/jobs/view/cybersecurity-specialist-at-kalsoft-4488516806",
-"id": "cybersecurity specialist|kalsoft|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job",
-"IT"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/cybersecurity-specialist-at-kalsoft-4488516806"
-},
-"families": [
-"Other",
-"IT & software"
-]
-},
-{
 "title": "HSE Site Manager - Oman",
 "company": "Hassan Allam Holding",
 "location": "Muscat, Masqaţ, Oman",
@@ -59576,6 +59572,27 @@
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/e-commerce-integration-support-at-arab-financial-services-4478203889"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Cybersecurity Specialist",
+"company": "KALSOFT",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-10-18",
+"url": "https://om.linkedin.com/jobs/view/cybersecurity-specialist-at-kalsoft-4488516806",
+"id": "cybersecurity specialist|kalsoft|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/cybersecurity-specialist-at-kalsoft-4488516806"
 },
 "families": [
 "IT & software"
@@ -60693,27 +60710,6 @@
 },
 "families": [
 "Healthcare"
-]
-},
-{
-"title": "Senior Lawyer",
-"company": "BYD EUROPE",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-10-15",
-"url": "https://ae.linkedin.com/jobs/view/senior-lawyer-at-byd-europe-4479819427",
-"id": "senior lawyer|byd europe|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"legal"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-lawyer-at-byd-europe-4479819427"
-},
-"families": [
-"Legal"
 ]
 },
 {
