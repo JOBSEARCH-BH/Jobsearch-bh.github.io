@@ -24,17 +24,21 @@ jobs:
           python-version: "3.12"
       - run: pip install requests beautifulsoup4
       - run: python scripts/scrape.py
-      - name: Commit data/live.json (+ LinkedIn status cache)
+      - name: Commit data/live.json (+ LinkedIn status cache + job descriptions)
         run: |
           git config user.name "jobhub-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           cp data/live.json "$RUNNER_TEMP/live.json"
           [ -f data/linkedin_status.json ] && cp data/linkedin_status.json "$RUNNER_TEMP/linkedin_status.json"
+          rm -rf "$RUNNER_TEMP/desc"; [ -d data/desc ] && cp -r data/desc "$RUNNER_TEMP/desc"
           for i in 1 2 3; do
             git fetch origin main && git reset --hard origin/main
             cp "$RUNNER_TEMP/live.json" data/live.json
             [ -f "$RUNNER_TEMP/linkedin_status.json" ] && cp "$RUNNER_TEMP/linkedin_status.json" data/linkedin_status.json
-            git add data/live.json data/linkedin_status.json 2>/dev/null || git add data/live.json
+            if [ -d "$RUNNER_TEMP/desc" ]; then rm -rf data/desc && cp -r "$RUNNER_TEMP/desc" data/desc; fi
+            git add data/live.json
+            [ -f data/linkedin_status.json ] && git add data/linkedin_status.json
+            [ -d data/desc ] && git add -A data/desc
             git diff --cached --quiet && echo "No changes" && exit 0
             git commit -m "Refresh live jobs $(date -u +%Y-%m-%dT%H:%MZ)"
             git push origin HEAD:main && exit 0
