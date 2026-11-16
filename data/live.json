@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-16T19:19:20+00:00",
+"fetched_at": "2026-11-16T20:22:45+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -99,23 +99,23 @@
 "Project & management"
 ],
 "countries": {
-"Bahrain": 551,
-"Saudi Arabia": 597,
-"United Arab Emirates": 702,
-"Qatar": 362,
-"Kuwait": 316,
-"Oman": 298,
+"Bahrain": 553,
+"Saudi Arabia": 631,
+"United Arab Emirates": 751,
+"Qatar": 364,
+"Kuwait": 318,
+"Oman": 300,
 "Remote": 28
 },
 "linkedin_check": {
-"checked": 174,
+"checked": 163,
 "closed_new": 0,
 "failed": 0,
 "pending": 0,
 "stopped": "",
 "desc_checks": 150,
 "removed": 4,
-"cache": 5576
+"cache": 5586
 },
 "employer_boards": [
 {
@@ -124,7 +124,7 @@
 "count": 7,
 "fetched": 9,
 "error": "",
-"secs": 0.2
+"secs": 0.4
 },
 {
 "board": "ila Bank (JazzHR)",
@@ -132,7 +132,7 @@
 "count": 2,
 "fetched": 3,
 "error": "",
-"secs": 0.2
+"secs": 0.3
 },
 {
 "board": "KFH Bahrain / Ahli United (SuccessFactors)",
@@ -140,7 +140,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.7
+"secs": 0.9
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -148,7 +148,7 @@
 "count": 20,
 "fetched": 22,
 "error": "",
-"secs": 3.1
+"secs": 3.9
 },
 {
 "board": "HSBC (Eightfold)",
@@ -156,23 +156,23 @@
 "count": 24,
 "fetched": 25,
 "error": "",
-"secs": 2.0
+"secs": 2.4
 },
 {
 "board": "Citi (Workday)",
-"ok": false,
-"count": 0,
-"fetched": 0,
-"error": "HTTPError: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs",
-"secs": 0.1
+"ok": true,
+"count": 35,
+"fetched": 42,
+"error": "",
+"secs": 8.7
 },
 {
 "board": "Visa (Workday)",
-"ok": false,
-"count": 0,
-"fetched": 0,
-"error": "HTTPError: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs",
-"secs": 0.1
+"ok": true,
+"count": 24,
+"fetched": 24,
+"error": "",
+"secs": 5.3
 },
 {
 "board": "Bapco Energies (Oracle HCM)",
@@ -180,7 +180,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 0.6
+"secs": 0.9
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -188,7 +188,7 @@
 "count": 7,
 "fetched": 7,
 "error": "",
-"secs": 0.4
+"secs": 0.5
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -196,15 +196,15 @@
 "count": 4,
 "fetched": 4,
 "error": "",
-"secs": 0.9
+"secs": 1.2
 },
 {
 "board": "Tamkeen (careers page)",
-"ok": false,
+"ok": true,
 "count": 0,
-"fetched": 0,
-"error": "HTTPError: 403 Client Error: Forbidden for url: https://tamkeen.bh/en/job-openings/",
-"secs": 0.1
+"fetched": 1,
+"error": "",
+"secs": 2.4
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -212,31 +212,31 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.9
+"secs": 0.8
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
-"ok": false,
-"count": 0,
-"fetched": 0,
-"error": "HTTPError: 429 Client Error: Too Many Requests for url: https://maersk.wd3.myworkdayjobs.com/wday/cxs/maersk/Maersk_Careers/jobs",
-"secs": 0.3
+"ok": true,
+"count": 1,
+"fetched": 1,
+"error": "",
+"secs": 3.8
 },
 {
 "board": "GE Vernova (Workday)",
-"ok": false,
-"count": 0,
-"fetched": 0,
-"error": "HTTPError: 429 Client Error: Too Many Requests for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs",
-"secs": 0.0
+"ok": true,
+"count": 6,
+"fetched": 9,
+"error": "",
+"secs": 2.7
 },
 {
 "board": "Hitachi (Workday)",
-"ok": false,
-"count": 0,
-"fetched": 0,
-"error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hitachi.wd1.myworkdayjobs.com/wday/cxs/hitachi/hitachi/jobs",
-"secs": 0.1
+"ok": true,
+"count": 45,
+"fetched": 57,
+"error": "",
+"secs": 7.4
 },
 {
 "board": "Calo (Teamtailor)",
@@ -244,7 +244,7 @@
 "count": 30,
 "fetched": 35,
 "error": "",
-"secs": 0.1
+"secs": 0.7
 },
 {
 "board": "Tarabut (Workable)",
@@ -252,7 +252,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "NymCard (BambooHR)",
@@ -260,7 +260,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.6
+"secs": 0.7
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -268,7 +268,7 @@
 "count": 94,
 "fetched": 132,
 "error": "",
-"secs": 2.4
+"secs": 2.6
 },
 {
 "board": "Careem (Greenhouse)",
@@ -276,7 +276,7 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Tamara (Greenhouse)",
@@ -284,7 +284,7 @@
 "count": 13,
 "fetched": 37,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Lean Technologies (Ashby)",
@@ -292,7 +292,7 @@
 "count": 7,
 "fetched": 8,
 "error": "",
-"secs": 0.0
+"secs": 0.1
 },
 {
 "board": "Ziina (Ashby)",
@@ -308,7 +308,7 @@
 "count": 4,
 "fetched": 17,
 "error": "",
-"secs": 0.0
+"secs": 0.1
 },
 {
 "board": "Foodics (Workable)",
@@ -316,7 +316,7 @@
 "count": 22,
 "fetched": 30,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Salla (Workable)",
@@ -332,7 +332,7 @@
 "count": 21,
 "fetched": 51,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Unifonic (Recruitee)",
@@ -340,39 +340,39 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.2
+"secs": 0.4
 }
 ],
 "descriptions": {
-"live": 2826,
-"with_desc": 2539,
+"live": 2917,
+"with_desc": 2774,
 "by_source": {
-"LinkedIn": "1890/2177",
-"Employer careers (ATS)": "379/379",
-"Workable": "337/337"
+"LinkedIn": "2030/2173",
+"Employer careers (ATS)": "479/479",
+"Workable": "340/340"
 },
-"fetched": 0,
+"fetched": 92,
 "failed": 0,
 "skipped": 0,
-"secs": 0.4
+"secs": 75.6
 },
 "status": [
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2177,
+"count": 2173,
 "note": ""
 },
 {
 "source": "Workable",
 "ok": true,
-"count": 337,
+"count": 340,
 "note": ""
 },
 {
 "source": "Employer careers (ATS)",
 "ok": true,
-"count": 379,
+"count": 479,
 "note": ""
 }
 ],
@@ -413,6 +413,45 @@
 "Relationship & client mgmt",
 "Accounting & finance",
 "IT & software"
+]
+},
+{
+"title": "Chief Financial Officer",
+"company": "Alta Exchange",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-16",
+"url": "https://bh.linkedin.com/jobs/view/chief-financial-officer-at-alta-exchange-4490915627",
+"id": "chief financial officer|alta exchange",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"banking operations",
+"payments operations",
+"settlement",
+"reconciliation",
+"credit operations",
+"trade finance",
+"treasury operations",
+"bank",
+"KYC",
+"AML",
+"financial crime",
+"internal control",
+"corporate banking",
+"accountant",
+"finance officer",
+"financial analyst"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/chief-financial-officer-at-alta-exchange-4490915627"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"Accounting & finance"
 ]
 },
 {
@@ -1099,40 +1138,6 @@
 "IT & software",
 "Project & management",
 "Other"
-]
-},
-{
-"title": "Finance Officer / Payroll Officer",
-"company": "Alliance Construction Group Ltd",
-"location": "Bahrain",
-"posted": "2026-11-16",
-"url": "https://bh.linkedin.com/jobs/view/finance-officer-payroll-officer-at-alliance-construction-group-ltd-4491510238",
-"id": "finance officer payroll officer|alliance construction group ltd",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"reconciliation",
-"finance officer",
-"financial analyst",
-"payroll",
-"office manager",
-"sales manager",
-"retail",
-"store manager",
-"operations manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/finance-officer-payroll-officer-at-alliance-construction-group-ltd-4491510238"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
 ]
 },
 {
@@ -2162,6 +2167,7 @@
 "network engineer",
 "cyber security",
 "project engineer",
+"technician",
 "medical"
 ],
 "links": {
@@ -2171,6 +2177,31 @@
 "IT & software",
 "Engineering & technical",
 "Healthcare"
+]
+},
+{
+"title": "Customer Support Specialist",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-16",
+"url": "https://jobs.workable.com/view/mjcfW2MszvjwLAwCj5jTfd/remote-customer-support-specialist-in-bahrain-at-pavago",
+"id": "customer support specialist|pavago",
+"country": "Bahrain",
+"sources": [
+"Workable"
+],
+"roles": [
+"IT support",
+"customer service",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/mjcfW2MszvjwLAwCj5jTfd/remote-customer-support-specialist-in-bahrain-at-pavago"
+},
+"families": [
+"IT & software",
+"Customer service",
+"Other"
 ]
 },
 {
@@ -2339,30 +2370,6 @@
 ]
 },
 {
-"title": "Diesel Generator (DG) Service Engineer",
-"company": "UNEECO - Universal Electro-Engineering",
-"location": "Capital Governorate, Bahrain",
-"posted": "2026-11-16",
-"url": "https://bh.linkedin.com/jobs/view/diesel-generator-dg-service-engineer-at-uneeco-universal-electro-engineering-4489765942",
-"id": "diesel generator dg service engineer|uneeco universal electro engineering",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"mechanical engineer",
-"electrical engineer",
-"project engineer",
-"technician"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/diesel-generator-dg-service-engineer-at-uneeco-universal-electro-engineering-4489765942"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
 "title": "Truck Reefer Unit Technician",
 "company": "Alzayani Investments",
 "location": "Bahrain",
@@ -2424,6 +2431,7 @@
 "LinkedIn"
 ],
 "roles": [
+"mechanical engineer",
 "electrical engineer",
 "project engineer",
 "project manager"
@@ -2666,30 +2674,6 @@
 ]
 },
 {
-"title": "Head Waiter",
-"company": "Fold Cafe",
-"location": "Riffa, Southern Governorate, Bahrain",
-"posted": "2026-11-16",
-"url": "https://bh.linkedin.com/jobs/view/head-waiter-at-fold-cafe-4489757609",
-"id": "head waiter|fold cafe",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service",
-"hotel",
-"restaurant"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/head-waiter-at-fold-cafe-4489757609"
-},
-"families": [
-"Customer service",
-"Hospitality & F&B"
-]
-},
-{
 "title": "Supervisor",
 "company": "Apparel Group",
 "location": "Bahrain",
@@ -2884,6 +2868,27 @@
 },
 "families": [
 "Hospitality & F&B"
+]
+},
+{
+"title": "Part-time Football Coach",
+"company": "Tekkers Football Academy",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-16",
+"url": "https://bh.linkedin.com/jobs/view/part-time-football-coach-at-tekkers-football-academy-4490120971",
+"id": "part time football coach|tekkers football academy",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/part-time-football-coach-at-tekkers-football-academy-4490120971"
+},
+"families": [
+"Education"
 ]
 },
 {
@@ -3233,9 +3238,9 @@
 {
 "title": "IT Projects Trainee",
 "company": "Smart Technology Solutions",
-"location": "Jeddah, Makkah Province, Saudi Arabia",
+"location": "Riyadh, Riyadh Province, Saudi Arabia",
 "posted": "2026-11-16",
-"url": "https://jobs.workable.com/view/vukBa5jGqGTjqJ43bUaCWd/it-projects-trainee-in-jeddah-at-smart-technology-solutions",
+"url": "https://jobs.workable.com/view/eoxZmS4soQNLRHwc3pPd6j/it-projects-trainee-in-riyadh-at-smart-technology-solutions",
 "id": "it projects trainee|smart technology solutions|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -3245,7 +3250,7 @@
 "IT"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/vukBa5jGqGTjqJ43bUaCWd/it-projects-trainee-in-jeddah-at-smart-technology-solutions"
+"Workable": "https://jobs.workable.com/view/eoxZmS4soQNLRHwc3pPd6j/it-projects-trainee-in-riyadh-at-smart-technology-solutions"
 },
 "families": [
 "IT & software"
@@ -3695,6 +3700,48 @@
 ]
 },
 {
+"title": "Computer Teacher",
+"company": "ECOSTRAT SOLUTIONS",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-16",
+"url": "https://sa.linkedin.com/jobs/view/computer-teacher-at-ecostrat-solutions-4490120630",
+"id": "computer teacher|ecostrat solutions|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/computer-teacher-at-ecostrat-solutions-4490120630"
+},
+"families": [
+"Education"
+]
+},
+{
+"title": "Information Communication Technology Teacher",
+"company": "Rowad Al Khaleej Schools",
+"location": "Jiddah, Makkah, Saudi Arabia",
+"posted": "2026-11-16",
+"url": "https://sa.linkedin.com/jobs/view/information-communication-technology-teacher-at-rowad-al-khaleej-schools-4490129955",
+"id": "information communication technology teacher|rowad al khaleej schools|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/information-communication-technology-teacher-at-rowad-al-khaleej-schools-4490129955"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "Pre-school Teacher",
 "company": "Cultivay Center",
 "location": "Jeddah, Makkah, Saudi Arabia",
@@ -4070,6 +4117,27 @@
 },
 "families": [
 "Compliance, risk & audit"
+]
+},
+{
+"title": "Relationship Manager - Wealth Management - UAEN",
+"company": "Sterling Talent",
+"location": "United Arab Emirates",
+"posted": "2026-11-16",
+"url": "https://ae.linkedin.com/jobs/view/relationship-manager-wealth-management-uaen-at-sterling-talent-4490135155",
+"id": "relationship manager wealth management uaen|sterling talent|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"relationship manager"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/relationship-manager-wealth-management-uaen-at-sterling-talent-4490135155"
+},
+"families": [
+"Relationship & client mgmt"
 ]
 },
 {
@@ -5055,6 +5123,27 @@
 ]
 },
 {
+"title": "Pastry Chef",
+"company": "SOLI CAFE",
+"location": "Al Khor and Al Thakhira, Qatar",
+"posted": "2026-11-16",
+"url": "https://qa.linkedin.com/jobs/view/pastry-chef-at-soli-cafe-4489798800",
+"id": "pastry chef|soli cafe|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/pastry-chef-at-soli-cafe-4489798800"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Equipment Processing Duty Officer | QACC",
 "company": "Qatar Airways",
 "location": "Doha Metropolitan Area",
@@ -5351,27 +5440,6 @@
 ]
 },
 {
-"title": "Senior Marketing Specialist (Real Estate)",
-"company": "Bin Al Sheikh Real Estate Brokerage",
-"location": "Doha, Doha, Qatar",
-"posted": "2026-11-16",
-"url": "https://qa.linkedin.com/jobs/view/senior-marketing-specialist-real-estate-at-bin-al-sheikh-real-estate-brokerage-4489739120",
-"id": "senior marketing specialist real estate|bin al sheikh real estate brokerage|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/senior-marketing-specialist-real-estate-at-bin-al-sheikh-real-estate-brokerage-4489739120"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
 "title": "Customer Services Agent - Italian Speaker",
 "company": "Qatar Airways",
 "location": "Doha Metropolitan Area",
@@ -5390,6 +5458,29 @@
 },
 "families": [
 "Customer service"
+]
+},
+{
+"title": "Customer Support Specialist",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-16",
+"url": "https://jobs.workable.com/view/wRu2rNMx9ms4fckekeJVcW/remote-customer-support-specialist-in-qatar-at-pavago",
+"id": "customer support specialist|pavago|qatar",
+"country": "Qatar",
+"sources": [
+"Workable"
+],
+"roles": [
+"customer service",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/wRu2rNMx9ms4fckekeJVcW/remote-customer-support-specialist-in-qatar-at-pavago"
+},
+"families": [
+"Customer service",
+"Other"
 ]
 },
 {
@@ -5839,9 +5930,9 @@
 {
 "title": "Lead HSE Engineer",
 "company": "KBR, Inc.",
-"location": "Ahmadi, Kuwait",
+"location": "Kuwait City, Al Asimah, Kuwait",
 "posted": "2026-11-16",
-"url": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487157552",
+"url": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487177914",
 "id": "lead hse engineer|kbr inc|kuwait",
 "country": "Kuwait",
 "sources": [
@@ -5851,7 +5942,7 @@
 "engineer"
 ],
 "links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487157552"
+"LinkedIn": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487177914"
 },
 "families": [
 "Engineering & technical"
@@ -5873,6 +5964,27 @@
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/marketing-manager-at-confidentiel-4489743476"
+},
+"families": [
+"Marketing & media"
+]
+},
+{
+"title": "مدير التسويق والعلاقات العامة",
+"company": "Driver",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-16",
+"url": "https://kw.linkedin.com/jobs/view/%D9%85%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82-%D9%88%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-at-driver-4490124271",
+"id": "|driver|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/%D9%85%D8%AF%D9%8A%D8%B1-%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82-%D9%88%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%82%D8%A7%D8%AA-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9-at-driver-4490124271"
 },
 "families": [
 "Marketing & media"
@@ -6405,27 +6517,6 @@
 ]
 },
 {
-"title": "Mechanical Engineer / Production Engineer",
-"company": "The Urban Nest Realty",
-"location": "Masqaţ, Oman",
-"posted": "2026-11-16",
-"url": "https://om.linkedin.com/jobs/view/mechanical-engineer-production-engineer-at-the-urban-nest-realty-4490120422",
-"id": "mechanical engineer production engineer|the urban nest realty|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/mechanical-engineer-production-engineer-at-the-urban-nest-realty-4490120422"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
 "title": "Process Engineer",
 "company": "Oman Vehicle Industry | العُمانية لصناعة المركبات",
 "location": "Al Wusta Governorate, Oman",
@@ -6637,6 +6728,29 @@
 },
 "families": [
 "Customer service"
+]
+},
+{
+"title": "Customer Support Specialist",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-16",
+"url": "https://jobs.workable.com/view/3dwNS1wRuhYBE2pzDnCV9H/remote-customer-support-specialist-in-oman-at-pavago",
+"id": "customer support specialist|pavago|oman",
+"country": "Oman",
+"sources": [
+"Workable"
+],
+"roles": [
+"customer service",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/3dwNS1wRuhYBE2pzDnCV9H/remote-customer-support-specialist-in-oman-at-pavago"
+},
+"families": [
+"Customer service",
+"Other"
 ]
 },
 {
@@ -6873,6 +6987,27 @@
 ]
 },
 {
+"title": "Senior Premium Reconciliation Specialist",
+"company": "Glass Meadows Inc.",
+"location": "United Arab Emirates",
+"posted": "2026-11-16",
+"url": "https://ae.linkedin.com/jobs/view/senior-premium-reconciliation-specialist-at-glass-meadows-inc-4490121693",
+"id": "senior premium reconciliation specialist|glass meadows inc|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-premium-reconciliation-specialist-at-glass-meadows-inc-4490121693"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "AI Native Creative Director - EdTech (French fluent 🇫🇷)",
 "company": "Paradox EN",
 "location": "Ras al-Khaimah, United Arab Emirates",
@@ -6894,12 +7029,12 @@
 ]
 },
 {
-"title": "Investor Relations Associate",
-"company": "Pairs",
+"title": "Senior Commercial Underwriting Specialist",
+"company": "Duke Spark: AI in Medical Imaging",
 "location": "United Arab Emirates",
 "posted": "2026-11-16",
-"url": "https://ae.linkedin.com/jobs/view/investor-relations-associate-at-pairs-4489768729",
-"id": "investor relations associate|pairs|united arab emirates",
+"url": "https://ae.linkedin.com/jobs/view/senior-commercial-underwriting-specialist-at-duke-spark-ai-in-medical-imaging-4490132403",
+"id": "senior commercial underwriting specialist|duke spark ai in medical imaging|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
 "LinkedIn"
@@ -6908,7 +7043,7 @@
 "remote"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/investor-relations-associate-at-pairs-4489768729"
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-commercial-underwriting-specialist-at-duke-spark-ai-in-medical-imaging-4490132403"
 },
 "families": [
 "Other"
@@ -7121,7 +7256,9 @@
 "credit operations",
 "trade finance",
 "accountant",
+"finance officer",
 "administration officer",
+"office manager",
 "logistics",
 "procurement",
 "supply chain",
@@ -7988,27 +8125,6 @@
 ]
 },
 {
-"title": "School Health Specialist",
-"company": "ECOSTRAT SOLUTIONS",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-11-15",
-"url": "https://sa.linkedin.com/jobs/view/school-health-specialist-at-ecostrat-solutions-4489393714",
-"id": "school health specialist|ecostrat solutions|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"nurse"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/school-health-specialist-at-ecostrat-solutions-4489393714"
-},
-"families": [
-"Healthcare"
-]
-},
-{
 "title": "Barista",
 "company": "Radisson Hotel Group",
 "location": "Jiddah, Makkah, Saudi Arabia",
@@ -8048,27 +8164,6 @@
 },
 "families": [
 "Logistics & supply chain"
-]
-},
-{
-"title": "Arabic Teacher",
-"company": "ECOSTRAT SOLUTIONS",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-11-15",
-"url": "https://sa.linkedin.com/jobs/view/arabic-teacher-at-ecostrat-solutions-4489710015",
-"id": "arabic teacher|ecostrat solutions|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/arabic-teacher-at-ecostrat-solutions-4489710015"
-},
-"families": [
-"Education"
 ]
 },
 {
@@ -8560,6 +8655,27 @@
 },
 "families": [
 "Engineering & technical"
+]
+},
+{
+"title": "Digital Marketing Coordinator",
+"company": "Four Seasons",
+"location": "Doha, Doha, Qatar",
+"posted": "2026-11-15",
+"url": "https://qa.linkedin.com/jobs/view/digital-marketing-coordinator-at-four-seasons-4491260358",
+"id": "digital marketing coordinator|four seasons|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/digital-marketing-coordinator-at-four-seasons-4491260358"
+},
+"families": [
+"Marketing & media"
 ]
 },
 {
@@ -9406,7 +9522,9 @@
 "electrical engineer",
 "project engineer",
 "technician",
-"call centre"
+"call centre",
+"project manager",
+"operations manager"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/service-supervisor-at-pramac-4443698290"
@@ -9415,7 +9533,8 @@
 "Banking & finance ops",
 "IT & software",
 "Engineering & technical",
-"Customer service"
+"Customer service",
+"Project & management"
 ]
 },
 {
@@ -9513,13 +9632,15 @@
 "LinkedIn"
 ],
 "roles": [
-"mechanical engineer"
+"mechanical engineer",
+"retail"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/on-job-training-core-at-mondel%C4%93z-international-4298195943"
 },
 "families": [
-"Engineering & technical"
+"Engineering & technical",
+"Retail"
 ]
 },
 {
@@ -10781,27 +10902,6 @@
 ]
 },
 {
-"title": "Support Engineer",
-"company": "Sardine",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-14",
-"url": "https://ae.linkedin.com/jobs/view/support-engineer-at-sardine-4474570017",
-"id": "support engineer|sardine|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"remote"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/support-engineer-at-sardine-4474570017"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Transaction Banking Graduate Programme (UAE Nationals) 2026",
 "company": "Standard Chartered",
 "location": "Dubai, AE",
@@ -11938,6 +12038,27 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/data-science-lead-at-paystack-4489581488"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Security Engineer",
+"company": "Metabase",
+"location": "United Arab Emirates",
+"posted": "2026-11-13",
+"url": "https://ae.linkedin.com/jobs/view/security-engineer-at-metabase-4488902830",
+"id": "security engineer|metabase|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/security-engineer-at-metabase-4488902830"
 },
 "families": [
 "Other"
@@ -13940,7 +14061,8 @@
 "financial analyst",
 "payroll",
 "data analyst",
-"medical"
+"medical",
+"operations manager"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/head-revenue-cycle-management-at-amana-healthcare-bahrain-4488504832"
@@ -13952,7 +14074,8 @@
 "Accounting & finance",
 "HR & admin",
 "IT & software",
-"Healthcare"
+"Healthcare",
+"Project & management"
 ]
 },
 {
@@ -14066,6 +14189,7 @@
 "payments operations",
 "settlement",
 "reconciliation",
+"cashier",
 "logistics",
 "supply chain",
 "warehouse"
@@ -14076,6 +14200,7 @@
 },
 "families": [
 "Banking & finance ops",
+"Retail",
 "Logistics & supply chain"
 ]
 },
@@ -15693,29 +15818,6 @@
 ]
 },
 {
-"title": "Account Manager - Arabic Speaker / Malayalam Speaker",
-"company": "talabat",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-12",
-"url": "https://jobs.smartrecruiters.com/deliveryhero/744000161224999",
-"id": "account manager arabic speaker malayalam speaker|talabat|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)",
-"LinkedIn"
-],
-"roles": [
-"relationship manager"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/account-manager-arabic-speaker-malayalam-speaker-at-talabat-4489092298",
-"Employer careers (ATS)": "https://jobs.smartrecruiters.com/deliveryhero/744000161224999"
-},
-"families": [
-"Relationship & client mgmt"
-]
-},
-{
 "title": "IT Support Engineer",
 "company": "Taptap Send",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -15951,17 +16053,19 @@
 "company": "Visa",
 "location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-12",
-"url": "https://ae.linkedin.com/jobs/view/marketing-manager-uae-marketing-services-at-visa-4490502047",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Marketing-Manager--UAE-Marketing-Services_REF090315W",
 "id": "marketing manager uae marketing services|visa|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
 "marketing"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/marketing-manager-uae-marketing-services-at-visa-4490502047"
+"LinkedIn": "https://ae.linkedin.com/jobs/view/marketing-manager-uae-marketing-services-at-visa-4490502047",
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Marketing-Manager--UAE-Marketing-Services_REF090315W"
 },
 "families": [
 "Marketing & media"
@@ -16992,17 +17096,19 @@
 "company": "Hitachi Energy",
 "location": "Kuwait City, Al Asimah, Kuwait",
 "posted": "2026-11-12",
-"url": "https://kw.linkedin.com/jobs/view/field-service-engineer-gis-at-hitachi-energy-4455304777",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Kuwait-City-Al-Kuwayt-Kuwait/Senior-Site-Project-Engineer_R0139785",
 "id": "field service engineer gis|hitachi energy|kuwait",
 "country": "Kuwait",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
 "engineer"
 ],
 "links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/field-service-engineer-gis-at-hitachi-energy-4455304777"
+"LinkedIn": "https://kw.linkedin.com/jobs/view/field-service-engineer-gis-at-hitachi-energy-4455304777",
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Kuwait-City-Al-Kuwayt-Kuwait/Senior-Site-Project-Engineer_R0139785"
 },
 "families": [
 "Engineering & technical"
@@ -17608,6 +17714,27 @@
 ]
 },
 {
+"title": "Account Manager - Arabic Speaker / Malayalam Speaker",
+"company": "talabat / Delivery Hero",
+"location": "Abu Dhabi, United Arab Emirates",
+"posted": "2026-11-12",
+"url": "https://jobs.smartrecruiters.com/deliveryhero/744000161224999",
+"id": "account manager arabic speaker malayalam speaker|talabat delivery hero|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://jobs.smartrecruiters.com/deliveryhero/744000161224999"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Senior Operations Associate - Shops",
 "company": "Careem",
 "location": "Dubai, United Arab Emirates",
@@ -17768,10 +17895,11 @@
 "company": "Hitachi Energy",
 "location": "Manama, Capital Governorate, Bahrain",
 "posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/project-management-engineering-professional-project-lead-engineering-at-hitachi-energy-4464345959",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Manama-Al-Manmah-Al-imah-Bahrain/Project-Management-Engineering-Professional--Project-Lead-Engineering-_R0136554",
 "id": "project management engineering professional project lead engineering|hitachi energy",
 "country": "Bahrain",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
@@ -17783,7 +17911,8 @@
 "project manager"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/project-management-engineering-professional-project-lead-engineering-at-hitachi-energy-4464345959"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/project-management-engineering-professional-project-lead-engineering-at-hitachi-energy-4464345959",
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Manama-Al-Manmah-Al-imah-Bahrain/Project-Management-Engineering-Professional--Project-Lead-Engineering-_R0136554"
 },
 "families": [
 "Banking & finance ops",
@@ -18684,7 +18813,7 @@
 "company": "PepsiCo",
 "location": "Taif, Makkah, Saudi Arabia",
 "posted": "2026-11-11",
-"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488233933",
+"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488221277",
 "id": "sr merchandiser|pepsico|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -18694,7 +18823,7 @@
 "Any job"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488233933"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488221277"
 },
 "families": [
 "Other"
@@ -18726,17 +18855,19 @@
 "company": "A.P. Moller - Maersk",
 "location": "Riyadh, Riyadh, Saudi Arabia",
 "posted": "2026-11-11",
-"url": "https://sa.linkedin.com/jobs/view/ryd-site-manager-at-a-p-moller-maersk-4489993203",
+"url": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/Saudi-Arabia-Riyadh-14325/RYD-Site-Manager_R202123-1",
 "id": "ryd site manager|a p moller maersk|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
 "operations"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/ryd-site-manager-at-a-p-moller-maersk-4489993203"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/ryd-site-manager-at-a-p-moller-maersk-4489993203",
+"Employer careers (ATS)": "https://maersk.wd3.myworkdayjobs.com/en-US/Maersk_Careers/job/Saudi-Arabia-Riyadh-14325/RYD-Site-Manager_R202123-1"
 },
 "families": [
 "Banking & finance ops"
@@ -21267,6 +21398,27 @@
 ]
 },
 {
+"title": "Field Specialist – Drilling & Completion Fluids",
+"company": "Baker Hughes",
+"location": "Al Fath, Masqaţ, Oman",
+"posted": "2026-11-11",
+"url": "https://om.linkedin.com/jobs/view/field-specialist-%E2%80%93-drilling-completion-fluids-at-baker-hughes-4489935167",
+"id": "field specialist drilling completion fluids|baker hughes|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/field-specialist-%E2%80%93-drilling-completion-fluids-at-baker-hughes-4489935167"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
 "title": "Senior Marketing Executive",
 "company": "Confidential",
 "location": "Oman",
@@ -21758,27 +21910,6 @@
 ]
 },
 {
-"title": "Specialist, Client Care Unit (UAE National)",
-"company": "Standard Chartered",
-"location": "Dubai, AE",
-"posted": "2026-11-11",
-"url": "https://jobs.standardchartered.com/job/Dubai-Specialist%2C-Client-Care-Unit-%28UAE-National%29/1367377857/",
-"id": "specialist client care unit uae national|standard chartered|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Specialist%2C-Client-Care-Unit-%28UAE-National%29/1367377857/"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Manager, Wealth Solutions Operations (UAE national)",
 "company": "Standard Chartered",
 "location": "Dubai, AE",
@@ -21865,51 +21996,6 @@
 "Accounting & finance",
 "IT & software",
 "Legal"
-]
-},
-{
-"title": "Cash Management Client Implementation & Onboarding Officer",
-"company": "Dicetek LLC",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/cash-management-client-implementation-onboarding-officer-at-dicetek-llc-4489176734",
-"id": "cash management client implementation onboarding officer|dicetek llc",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"banking operations",
-"operations officer",
-"operations analyst",
-"payments operations",
-"credit administration",
-"credit operations",
-"trade finance",
-"treasury operations",
-"bank",
-"KYC",
-"AML",
-"client onboarding",
-"compliance",
-"financial crime",
-"internal control",
-"corporate banking",
-"accountant",
-"finance officer",
-"IT support",
-"project manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/cash-management-client-implementation-onboarding-officer-at-dicetek-llc-4489176734"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"Accounting & finance",
-"IT & software",
-"Project & management"
 ]
 },
 {
@@ -22003,6 +22089,7 @@
 "back office",
 "payments operations",
 "reconciliation",
+"client onboarding",
 "internal control",
 "audit",
 "finance officer",
@@ -22329,10 +22416,11 @@
 "company": "Citi",
 "location": "Manama, Capital Governorate, Bahrain",
 "posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/backend-full-stack-developer-java-angular-react-at-citi-4489657110",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Backend-Full-Stack-Developer--Java-Angular-React-_261007846",
 "id": "backend full stack developer java angular react|citi",
 "country": "Bahrain",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
@@ -22343,7 +22431,8 @@
 "remote"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/backend-full-stack-developer-java-angular-react-at-citi-4489657110"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/backend-full-stack-developer-java-angular-react-at-citi-4489657110",
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Backend-Full-Stack-Developer--Java-Angular-React-_261007846"
 },
 "families": [
 "Banking & finance ops",
@@ -23114,6 +23203,30 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Mechanical Technician III",
+"company": "Enerflex Ltd.",
+"location": "Southern Governorate, Bahrain",
+"posted": "2026-11-10",
+"url": "https://bh.linkedin.com/jobs/view/mechanical-technician-iii-at-enerflex-ltd-4475208512",
+"id": "mechanical technician iii|enerflex ltd",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"mechanical engineer",
+"electrical engineer",
+"project engineer",
+"technician"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/mechanical-technician-iii-at-enerflex-ltd-4475208512"
+},
+"families": [
+"Engineering & technical"
 ]
 },
 {
@@ -24508,27 +24621,6 @@
 },
 "families": [
 "Logistics & supply chain"
-]
-},
-{
-"title": "Data Center Instructor",
-"company": "Uptime Institute",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-11-10",
-"url": "https://sa.linkedin.com/jobs/view/data-center-instructor-at-uptime-institute-4476018388",
-"id": "data center instructor|uptime institute|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/data-center-instructor-at-uptime-institute-4476018388"
-},
-"families": [
-"Education"
 ]
 },
 {
@@ -26536,27 +26628,6 @@
 ]
 },
 {
-"title": "副经理/小组组长 – 不带个人详细资料",
-"company": "Grand Hyatt",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-10",
-"url": "https://kw.linkedin.com/jobs/view/%E5%89%AF%E7%BB%8F%E7%90%86-%E5%B0%8F%E7%BB%84%E7%BB%84%E9%95%BF-%E2%80%93-%E4%B8%8D%E5%B8%A6%E4%B8%AA%E4%BA%BA%E8%AF%A6%E7%BB%86%E8%B5%84%E6%96%99-at-grand-hyatt-4487482650",
-"id": "|grand hyatt|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/%E5%89%AF%E7%BB%8F%E7%90%86-%E5%B0%8F%E7%BB%84%E7%BB%84%E9%95%BF-%E2%80%93-%E4%B8%8D%E5%B8%A6%E4%B8%AA%E4%BA%BA%E8%AF%A6%E7%BB%86%E8%B5%84%E6%96%99-at-grand-hyatt-4487482650"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Sales Executive - Kuwait City",
 "company": "Carter & White",
 "location": "Hawalli, Kuwait",
@@ -27769,10 +27840,11 @@
 "company": "Citi",
 "location": "Manama, Capital Governorate, Bahrain",
 "posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/technology-application-development-full-time-analyst-bahrain-seef-2027-at-citi-4487959908",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Technology---Application-Development--Full-Time-Analyst--Bahrain---Seef-2027_261005223",
 "id": "technology application development full time analyst bahrain seef 2027|citi",
 "country": "Bahrain",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
@@ -27787,7 +27859,8 @@
 "remote"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/technology-application-development-full-time-analyst-bahrain-seef-2027-at-citi-4487959908"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/technology-application-development-full-time-analyst-bahrain-seef-2027-at-citi-4487959908",
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Technology---Application-Development--Full-Time-Analyst--Bahrain---Seef-2027_261005223"
 },
 "families": [
 "Banking & finance ops",
@@ -28443,17 +28516,19 @@
 "company": "Citi",
 "location": "Manama, Capital Governorate, Bahrain",
 "posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/technology-application-development-summer-analyst-bahrain-2027-at-citi-4487966714",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Technology---Application-Development--Summer-Analyst--Bahrain-2027_261005063",
 "id": "technology application development summer analyst bahrain 2027|citi",
 "country": "Bahrain",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
 "software engineer"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/technology-application-development-summer-analyst-bahrain-2027-at-citi-4487966714"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/technology-application-development-summer-analyst-bahrain-2027-at-citi-4487966714",
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Technology---Application-Development--Summer-Analyst--Bahrain-2027_261005063"
 },
 "families": [
 "IT & software"
@@ -28967,13 +29042,15 @@
 "LinkedIn"
 ],
 "roles": [
-"sales"
+"sales",
+"retail"
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/sales-executive-at-harry-winston-4488877067"
 },
 "families": [
-"Sales & business dev"
+"Sales & business dev",
+"Retail"
 ]
 },
 {
@@ -29210,6 +29287,27 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/staff-nurse-vaccinator-at-nhs-scotland-4487952256"
+},
+"families": [
+"Healthcare"
+]
+},
+{
+"title": "Staff Nurse Vaccinator",
+"company": "NHS Ayrshire & Arran",
+"location": "Northern Borders Region",
+"posted": "2026-11-09",
+"url": "https://sa.linkedin.com/jobs/view/staff-nurse-vaccinator-at-nhs-ayrshire-arran-4487191359",
+"id": "staff nurse vaccinator|nhs ayrshire arran|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"nurse"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/staff-nurse-vaccinator-at-nhs-ayrshire-arran-4487191359"
 },
 "families": [
 "Healthcare"
@@ -31801,27 +31899,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/front-office-receptionist-russian-speaker-at-grosvenor-house-dubai-and-le-royal-meridien-beach-resort-spa-4477792113"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Applied AI/ML Scientist",
-"company": "FDE Times",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-08",
-"url": "https://ae.linkedin.com/jobs/view/applied-ai-ml-scientist-at-fde-times-4486681740",
-"id": "applied ai ml scientist|fde times|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/applied-ai-ml-scientist-at-fde-times-4486681740"
 },
 "families": [
 "Other"
@@ -35267,6 +35344,7 @@
 "roles": [
 "payments operations",
 "settlement",
+"compliance",
 "risk",
 "medical",
 "operations manager"
@@ -35674,7 +35752,8 @@
 "business development",
 "sales manager",
 "marketing",
-"digital marketing"
+"digital marketing",
+"restaurant"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/cluster-director-of-sales-marketing-at-ibis-ibis-styles-ibis-budget-4486765683"
@@ -35682,7 +35761,8 @@
 "families": [
 "Relationship & client mgmt",
 "Sales & business dev",
-"Marketing & media"
+"Marketing & media",
+"Hospitality & F&B"
 ]
 },
 {
@@ -37770,6 +37850,27 @@
 ]
 },
 {
+"title": "Head of Lending Solutions, Private Bank, AMEE & GSAC",
+"company": "Standard Chartered",
+"location": "Dubai, AE",
+"posted": "2026-11-05",
+"url": "https://jobs.standardchartered.com/job/Dubai-Head-of-Lending-Solutions%2C-Private-Bank%2C-AMEE-&-GSAC/1376744457/",
+"id": "head of lending solutions private bank amee gsac|standard chartered|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Head-of-Lending-Solutions%2C-Private-Bank%2C-AMEE-&-GSAC/1376744457/"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Specialist Payroll (Greek Speaker)",
 "company": "talabat / Delivery Hero",
 "location": "Dubai, United Arab Emirates",
@@ -38117,6 +38218,7 @@
 "account manager",
 "receptionist",
 "sales executive",
+"customer service",
 "call centre",
 "front office",
 "retail",
@@ -40735,6 +40837,7 @@
 ],
 "roles": [
 "banking operations",
+"operations analyst",
 "back office",
 "payments operations",
 "reconciliation",
@@ -41112,6 +41215,7 @@
 ],
 "roles": [
 "HR officer",
+"sales manager",
 "store manager"
 ],
 "links": {
@@ -41119,6 +41223,7 @@
 },
 "families": [
 "HR & admin",
+"Sales & business dev",
 "Retail"
 ]
 },
@@ -44789,9 +44894,9 @@
 {
 "title": "Sales Manager - Government & Free Zone Acquisition (UAE nationals)",
 "company": "Emaratech",
-"location": "Dubai, United Arab Emirates",
+"location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-02",
-"url": "https://jobs.workable.com/view/gBY4PE1jFsPvvaRibsZQCg/sales-manager---government-%26-free-zone-acquisition-(uae-nationals)-in-dubai-at-emaratech",
+"url": "https://jobs.workable.com/view/9Rb4Z7CTRMkQFnysTq4188/sales-manager---government-%26-free-zone-acquisition-(uae-nationals)-in-dubai-at-emaratech",
 "id": "sales manager government free zone acquisition uae nationals|emaratech|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -44801,7 +44906,7 @@
 "sales"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/gBY4PE1jFsPvvaRibsZQCg/sales-manager---government-%26-free-zone-acquisition-(uae-nationals)-in-dubai-at-emaratech"
+"Workable": "https://jobs.workable.com/view/9Rb4Z7CTRMkQFnysTq4188/sales-manager---government-%26-free-zone-acquisition-(uae-nationals)-in-dubai-at-emaratech"
 },
 "families": [
 "Sales & business dev"
@@ -45618,6 +45723,27 @@
 ]
 },
 {
+"title": "副经理/小组组长 – 不带个人详细资料",
+"company": "Grand Hyatt",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-02",
+"url": "https://kw.linkedin.com/jobs/view/%E5%89%AF%E7%BB%8F%E7%90%86-%E5%B0%8F%E7%BB%84%E7%BB%84%E9%95%BF-%E2%80%93-%E4%B8%8D%E5%B8%A6%E4%B8%AA%E4%BA%BA%E8%AF%A6%E7%BB%86%E8%B5%84%E6%96%99-at-grand-hyatt-4458856258",
+"id": "|grand hyatt|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/%E5%89%AF%E7%BB%8F%E7%90%86-%E5%B0%8F%E7%BB%84%E7%BB%84%E9%95%BF-%E2%80%93-%E4%B8%8D%E5%B8%A6%E4%B8%AA%E4%BA%BA%E8%AF%A6%E7%BB%86%E8%B5%84%E6%96%99-at-grand-hyatt-4458856258"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
 "title": "Chef De Partie - CP",
 "company": "IHG Hotels & Resorts",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -46418,10 +46544,11 @@
 "company": "Hitachi Energy",
 "location": "Muharraq, Muharraq Governorate, Bahrain",
 "posted": "2026-11-01",
-"url": "https://bh.linkedin.com/jobs/view/sales-marketing-manager-at-hitachi-energy-4469549430",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Al-Hidd-Al-Muarraq-Bahrain/Sales---Marketing-Manager_R0142769",
 "id": "sales marketing manager|hitachi energy",
 "country": "Bahrain",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
@@ -46436,7 +46563,8 @@
 "remote"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/sales-marketing-manager-at-hitachi-energy-4469549430"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/sales-marketing-manager-at-hitachi-energy-4469549430",
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Al-Hidd-Al-Muarraq-Bahrain/Sales---Marketing-Manager_R0142769"
 },
 "families": [
 "Relationship & client mgmt",
@@ -47459,27 +47587,6 @@
 ]
 },
 {
-"title": "Process Engineer",
-"company": "Penspen",
-"location": "Kuwait",
-"posted": "2026-11-01",
-"url": "https://kw.linkedin.com/jobs/view/process-engineer-at-penspen-4410374483",
-"id": "process engineer|penspen|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/process-engineer-at-penspen-4410374483"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
 "title": "Service Crew",
 "company": "Apparel Group",
 "location": "Kuwait",
@@ -48361,29 +48468,6 @@
 "Logistics & supply chain",
 "Project & management",
 "Other"
-]
-},
-{
-"title": "Mechanical Technician III",
-"company": "Enerflex Ltd.",
-"location": "Southern Governorate, Bahrain",
-"posted": "2026-10-30",
-"url": "https://bh.linkedin.com/jobs/view/mechanical-technician-iii-at-enerflex-ltd-4475208512",
-"id": "mechanical technician iii|enerflex ltd",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"mechanical engineer",
-"electrical engineer",
-"technician"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/mechanical-technician-iii-at-enerflex-ltd-4475208512"
-},
-"families": [
-"Engineering & technical"
 ]
 },
 {
@@ -49525,27 +49609,6 @@
 ]
 },
 {
-"title": "Senior Executive, HR",
-"company": "PACC Offshore Services Holdings Ltd",
-"location": "Dammam, Eastern, Saudi Arabia",
-"posted": "2026-10-29",
-"url": "https://sa.linkedin.com/jobs/view/senior-executive-hr-at-pacc-offshore-services-holdings-ltd-4467991640",
-"id": "senior executive hr|pacc offshore services holdings ltd|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"HR"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/senior-executive-hr-at-pacc-offshore-services-holdings-ltd-4467991640"
-},
-"families": [
-"HR & admin"
-]
-},
-{
 "title": "Cloud Engineer",
 "company": "Norconsult Telematics",
 "location": "Riyadh, Saudi Arabia",
@@ -50266,7 +50329,7 @@
 "company": "Virtusa",
 "location": "Doha, Qatar",
 "posted": "2026-10-29",
-"url": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483081907",
+"url": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483088742",
 "id": "systems architect|virtusa|qatar",
 "country": "Qatar",
 "sources": [
@@ -50276,7 +50339,7 @@
 "project manager"
 ],
 "links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483081907"
+"LinkedIn": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483088742"
 },
 "families": [
 "Project & management"
@@ -50927,10 +50990,11 @@
 "company": "Hitachi Energy",
 "location": "Manama, Capital Governorate, Bahrain",
 "posted": "2026-10-28",
-"url": "https://bh.linkedin.com/jobs/view/electrical-engineer-at-hitachi-energy-4484459111",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Manama-Al-Manmah-Al-imah-Bahrain/Electrical-Engineer_R0148070",
 "id": "electrical engineer|hitachi energy",
 "country": "Bahrain",
 "sources": [
+"Employer careers (ATS)",
 "LinkedIn"
 ],
 "roles": [
@@ -50938,7 +51002,8 @@
 "project engineer"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/electrical-engineer-at-hitachi-energy-4484459111"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/electrical-engineer-at-hitachi-energy-4484459111",
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Manama-Al-Manmah-Al-imah-Bahrain/Electrical-Engineer_R0148070"
 },
 "families": [
 "Engineering & technical"
@@ -50999,15 +51064,13 @@
 "LinkedIn"
 ],
 "roles": [
-"store manager",
-"operations manager"
+"store manager"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/team-leader-food-beverage-jumeirah-gulf-of-bahrain-at-jumeirah-4476720240"
 },
 "families": [
-"Retail",
-"Project & management"
+"Retail"
 ]
 },
 {
@@ -51094,6 +51157,27 @@
 },
 "families": [
 "Relationship & client mgmt"
+]
+},
+{
+"title": "Personnel Officer",
+"company": "Jazera Arabia Contracting",
+"location": "Jeddah, Makkah, Saudi Arabia",
+"posted": "2026-10-28",
+"url": "https://sa.linkedin.com/jobs/view/personnel-officer-at-jazera-arabia-contracting-4484461147",
+"id": "personnel officer|jazera arabia contracting|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/personnel-officer-at-jazera-arabia-contracting-4484461147"
+},
+"families": [
+"HR & admin"
 ]
 },
 {
@@ -53794,27 +53878,6 @@
 ]
 },
 {
-"title": "Trade Marketing Executive",
-"company": "Al Khayyat Investments (AKI)",
-"location": "Kuwait City Metropolitan Area",
-"posted": "2026-10-27",
-"url": "https://kw.linkedin.com/jobs/view/trade-marketing-executive-at-al-khayyat-investments-aki-4481897032",
-"id": "trade marketing executive|al khayyat investments aki|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/trade-marketing-executive-at-al-khayyat-investments-aki-4481897032"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
 "title": "Guest Services Executive - Front Office - Jumeirah Messilah Beach",
 "company": "Jumeirah",
 "location": "Kuwait",
@@ -54762,27 +54825,6 @@
 },
 "families": [
 "Customer service"
-]
-},
-{
-"title": "Store Manager",
-"company": "Louis Vuitton",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-10-26",
-"url": "https://sa.linkedin.com/jobs/view/store-manager-at-louis-vuitton-4475824627",
-"id": "store manager|louis vuitton|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/store-manager-at-louis-vuitton-4475824627"
-},
-"families": [
-"Retail"
 ]
 },
 {
@@ -56726,27 +56768,6 @@
 ]
 },
 {
-"title": "BMS Operator",
-"company": "Chedi Hospitality",
-"location": "Doha, Qatar",
-"posted": "2026-10-23",
-"url": "https://qa.linkedin.com/jobs/view/bms-operator-at-chedi-hospitality-4482857612",
-"id": "bms operator|chedi hospitality|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/bms-operator-at-chedi-hospitality-4482857612"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Early Years (Female) PE Teacher - Immediate Start",
 "company": "GEMS Education",
 "location": "Doha, Qatar",
@@ -57155,27 +57176,6 @@
 },
 "families": [
 "Marketing & media"
-]
-},
-{
-"title": "Officer - Customer Care Agent",
-"company": "Majid Al Futtaim",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-10-22",
-"url": "https://sa.linkedin.com/jobs/view/officer-customer-care-agent-at-majid-al-futtaim-4481600130",
-"id": "officer customer care agent|majid al futtaim|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/officer-customer-care-agent-at-majid-al-futtaim-4481600130"
-},
-"families": [
-"Customer service"
 ]
 },
 {
@@ -60031,6 +60031,7 @@
 ],
 "roles": [
 "banking operations",
+"operations officer",
 "operations analyst",
 "payments operations",
 "settlement",
@@ -60240,6 +60241,27 @@
 },
 "families": [
 "HR & admin"
+]
+},
+{
+"title": "Contact Center Officer",
+"company": "eXtra (United Electronics Co.)",
+"location": "Al Khobar, Eastern, Saudi Arabia",
+"posted": "2026-10-19",
+"url": "https://sa.linkedin.com/jobs/view/contact-center-officer-at-extra-united-electronics-co-4480972407",
+"id": "contact center officer|extra united electronics co|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/contact-center-officer-at-extra-united-electronics-co-4480972407"
+},
+"families": [
+"Customer service"
 ]
 },
 {
@@ -63700,6 +63722,1119 @@
 ]
 },
 {
+"title": "Client Onboarding Analyst",
+"company": "Citi",
+"location": "Seef  Bahrain",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Client-Onboarding-Analyst_25928245",
+"id": "client onboarding analyst|citi",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Client-Onboarding-Analyst_25928245"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Applications Development Intermediate Analyst",
+"company": "Citi",
+"location": "Seef  Bahrain",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Applications-Development-Intermediate-Analyst_261009069",
+"id": "applications development intermediate analyst|citi",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Applications-Development-Intermediate-Analyst_261009069"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Applications Development Senior Analyst",
+"company": "Citi",
+"location": "Seef  Bahrain",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Applications-Development-Senior-Analyst_261009064",
+"id": "applications development senior analyst|citi",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Seef--Bahrain/Applications-Development-Senior-Analyst_261009064"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Operations Analyst - Cash Equity Brokerage support",
+"company": "Citi",
+"location": "Riyadh  Saudi Arabia",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Riyadh--Saudi-Arabia/Operations-Analyst---Cash-Equity-Brokerage-support_26974042",
+"id": "operations analyst cash equity brokerage support|citi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Riyadh--Saudi-Arabia/Operations-Analyst---Cash-Equity-Brokerage-support_26974042"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Business Executions Analyst (UAE Nationals Only) - DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Business-Executions-Analyst--UAE-Nationals-Only----DUBAI_261007457",
+"id": "business executions analyst uae nationals only dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Business-Executions-Analyst--UAE-Nationals-Only----DUBAI_261007457"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "2025 Wealth Management Summer Internship, Dubai, UAE (UAE Nationals preferred)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
+"id": "2025 wealth management summer internship dubai uae uae nationals preferred|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Associate Banker (UAE Nationals Only)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Associate-Banker--UAE-Nationals-Only-_25914076",
+"id": "associate banker uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Associate-Banker--UAE-Nationals-Only-_25914076"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Junior Banker – Citi Commercial Banking (UAE Nationals Only)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Junior-Banker---C12---DUBAI--UAE-Nationals-Only-_26941282-1",
+"id": "junior banker citi commercial banking uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Junior-Banker---C12---DUBAI--UAE-Nationals-Only-_26941282-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Vice President, Internal Audit, Risk Management (UAE Nationals only)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Vice-President--Internal-Audit--Risk-Managment--UAE-Nationals-only-_26989972",
+"id": "vice president internal audit risk management uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Vice-President--Internal-Audit--Risk-Managment--UAE-Nationals-only-_26989972"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "KYC Operations Analyst 1, Citi Commercial Bank (UAE Nationals Only)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/KYC-Operations-Analyst-1--Citi-Commercial-Bank--UAE-Nationals-Only-_26993228",
+"id": "kyc operations analyst 1 citi commercial bank uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/KYC-Operations-Analyst-1--Citi-Commercial-Bank--UAE-Nationals-Only-_26993228"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Mehnaty Graduate Program (UAE Nationals Only)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/REGISTER---Apprenticeship-Programmes-2025Dubai--Mehnaty--_25848278",
+"id": "mehnaty graduate program uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/REGISTER---Apprenticeship-Programmes-2025Dubai--Mehnaty--_25848278"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Citigold Relationship Banker",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Abu-Dhabi-United-Arab-Emirates/Citigold-Relationship-Banker_25874567",
+"id": "citigold relationship banker|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Abu-Dhabi-United-Arab-Emirates/Citigold-Relationship-Banker_25874567"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Credit Risk Analyst (UAE Nationals Only)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Credit-Risk-Analyst--UAE-Nationals-Only-_25906892",
+"id": "credit risk analyst uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Credit-Risk-Analyst--UAE-Nationals-Only-_25906892"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "AVP Internal Audit (UAE Nationals Only)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/AVP-Internal-Audit--UAE-Nationals-Only-_26945511",
+"id": "avp internal audit uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/AVP-Internal-Audit--UAE-Nationals-Only-_26945511"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Citigold Acquisition Specialist- DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Citigold-Acquisition-Specialist--DUBAI_26945115",
+"id": "citigold acquisition specialist dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Citigold-Acquisition-Specialist--DUBAI_26945115"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Controls Execution Manager (UAE Nationals only) - DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Business-Analyst---Planning-and-Support--UAE-Nationals-only----DUBAI_26952362",
+"id": "controls execution manager uae nationals only dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Business-Analyst---Planning-and-Support--UAE-Nationals-only----DUBAI_26952362"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Business Analyst - Planning and Coordination (UAE Nationals Only) - DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Business-Analyst---Planning-and-Coordination--UAE-Nationals-Only----DUBAI_26952365",
+"id": "business analyst planning and coordination uae nationals only dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Business-Analyst---Planning-and-Coordination--UAE-Nationals-Only----DUBAI_26952365"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Service Analyst (UAE Nationals Only) - DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Service-Analyst--UAE-Nationals-Only----DUBAI_26977478",
+"id": "service analyst uae nationals only dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Service-Analyst--UAE-Nationals-Only----DUBAI_26977478"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "KYC Operations Analyst (UAE Nationals Only) - DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/KYC-Operations-Analyst--UAE-Nationals-Only----DUBAI_26980291",
+"id": "kyc operations analyst uae nationals only dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/KYC-Operations-Analyst--UAE-Nationals-Only----DUBAI_26980291"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Head Of AML UAE (UAE Nationals Preferred)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Head-Of-AML-UAE---UAE-Nationals-Preferred-_26983431",
+"id": "head of aml uae uae nationals preferred|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Head-Of-AML-UAE---UAE-Nationals-Preferred-_26983431"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Public Sector Banker - Vice President",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Public-Sector-Banker---Vice-President_26982954",
+"id": "public sector banker vice president|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Public-Sector-Banker---Vice-President_26982954"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "AVP, Cash Management Sales Officer - DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/AVP--Cash-Management-Sales-Officer---DUBAI_26986292",
+"id": "avp cash management sales officer dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/AVP--Cash-Management-Sales-Officer---DUBAI_26986292"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Product Mngt Mehanty Analyst (UAE Nationals ONLY)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Product-Mngt-Analyst---C09---DUBAI_26983398-1",
+"id": "product mngt mehanty analyst uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Product-Mngt-Analyst---C09---DUBAI_26983398-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Customer Service Analyst (UAE Nationals Only) - DUBAI",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Customer-Service-Analyst--UAE-Nationals-Only----DUBAI_26995086",
+"id": "customer service analyst uae nationals only dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Customer-Service-Analyst--UAE-Nationals-Only----DUBAI_26995086"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "MEA CCB Services Sales Head",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/MEA-CCB-Services-Sales-Head_26997113",
+"id": "mea ccb services sales head|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/MEA-CCB-Services-Sales-Head_26997113"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Services - Summer Analyst, UAE - Dubai, 2027 (UAE Nationals ONLY)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Services---Summer-Analyst--UAE---Dubai--2027--UAE-Nationals-ONLY-_26992564-1",
+"id": "services summer analyst uae dubai 2027 uae nationals only|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Services---Summer-Analyst--UAE---Dubai--2027--UAE-Nationals-ONLY-_26992564-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "MEA Business Execution Head, Managing Director",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/MEA-Business-Execution-Head--Managing-Director_261008585",
+"id": "mea business execution head managing director|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/MEA-Business-Execution-Head--Managing-Director_261008585"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Corporate Banking, Full Time Analyst, Dubai",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Corporate-Banking--Full-Time-Analyst--Dubai_261008538",
+"id": "corporate banking full time analyst dubai|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Corporate-Banking--Full-Time-Analyst--Dubai_261008538"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Corporate Banking Summer Intern Analyst, Dubai, UAE (UAE Nationals Preferred)",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Corporate-Banking-Summer-Intern-Analyst--Dubai--UAE--UAE-Nationals-Preferred-_261008537",
+"id": "corporate banking summer intern analyst dubai uae uae nationals preferred|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Corporate-Banking-Summer-Intern-Analyst--Dubai--UAE--UAE-Nationals-Preferred-_261008537"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Corporate Banking, Placement Analyst, Dubai, UAE",
+"company": "Citi",
+"location": "Dubai United Arab Emirates",
+"posted": "",
+"url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Corporate-Banking--Placement-Analyst--Dubai--UAE_261008539",
+"id": "corporate banking placement analyst dubai uae|citi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Dubai-United-Arab-Emirates/Corporate-Banking--Placement-Analyst--Dubai--UAE_261008539"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director, Issuing Solutions - KSA",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Issuing-Solutions---KSA_REF087118W",
+"id": "director issuing solutions ksa|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Issuing-Solutions---KSA_REF087118W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director, Solutions Delivery - KSA, Bahrain, Oman",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Solutions-Delivery---KSA--Bahrain--Oman_REF089008W",
+"id": "director solutions delivery ksa bahrain oman|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Solutions-Delivery---KSA--Bahrain--Oman_REF089008W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director, - Acceptance Solutions Sales",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director----Acceptance-Solutions-Sales_REF087381W",
+"id": "director acceptance solutions sales|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director----Acceptance-Solutions-Sales_REF087381W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Manager - Business Planning & Support",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Manager---Business-Planning---Support_REF089739W",
+"id": "manager business planning support|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Manager---Business-Planning---Support_REF089739W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Manager",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Analyst_REF088648W",
+"id": "manager|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Analyst_REF088648W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sr. Technical Program Manager, Client Services Advisory",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Technical-Program-Manager--Client-Services-Advisory_REF089297W",
+"id": "sr technical program manager client services advisory|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Technical-Program-Manager--Client-Services-Advisory_REF089297W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director - Client Success and Business Planning",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director---Client-Success-and-Business-Planning_REF089301W",
+"id": "director client success and business planning|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director---Client-Success-and-Business-Planning_REF089301W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Manager, CEMEA, Partnerships and Sponsorships Commercialization",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager--CEMEA--Partnerships-and-Sponsorships-Commercialization_REF084851W",
+"id": "senior manager cemea partnerships and sponsorships commercialization|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager--CEMEA--Partnerships-and-Sponsorships-Commercialization_REF084851W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Account Executive Manager (Merchant Retail)",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager-AE---Merchant-Retail-CoE_REF085275W",
+"id": "senior account executive manager merchant retail|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Senior-Manager-AE---Merchant-Retail-CoE_REF085275W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director, Government Solutions, KSA",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Government-Solutions--KSA_REF079517W",
+"id": "director government solutions ksa|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Director--Government-Solutions--KSA_REF079517W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sr. Manager",
+"company": "Visa",
+"location": "SA - Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Manager_REF082371W-1",
+"id": "sr manager|visa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/SA---Riyadh-Saudi-Arabia/Sr-Manager_REF082371W-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sr. Manager, Sales Learning Partner",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Manager--Sales-Learning-Partner_REF090222W",
+"id": "sr manager sales learning partner|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Manager--Sales-Learning-Partner_REF090222W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sr. Product Manager, Consumer Platforms, CEMEA",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Product-Manager--Consumer-Platforms--CEMEA_REF090481W",
+"id": "sr product manager consumer platforms cemea|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Product-Manager--Consumer-Platforms--CEMEA_REF090481W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "VCA Consulting Director, Acquiring Advisory",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/VCA-Consulting-Director--Acquiring-Advisory_REF090368W",
+"id": "vca consulting director acquiring advisory|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/VCA-Consulting-Director--Acquiring-Advisory_REF090368W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Executive Administrator",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Executive-Administrator_REF089420W",
+"id": "executive administrator|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Executive-Administrator_REF089420W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director - Credit Product Lead, CEMEA",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director---Credit-Product-Lead--CEMEA_REF090201W",
+"id": "director credit product lead cemea|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director---Credit-Product-Lead--CEMEA_REF090201W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director, Government Sales Executive, UAE",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Government-Sales-Executive--UAE_REF089802W",
+"id": "director government sales executive uae|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Government-Sales-Executive--UAE_REF089802W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "South East Africa Digital Sales Leader",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/South-East-Africa-Digital-Sales-Leader_REF089705W-1",
+"id": "south east africa digital sales leader|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/South-East-Africa-Digital-Sales-Leader_REF089705W-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sr. Manager, Consumer Platforms & Digital Experiences CEMEA",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Manager--Consumer-Platforms---Digital-Experiences-CEMEA_REF089460W",
+"id": "sr manager consumer platforms digital experiences cemea|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Sr-Manager--Consumer-Platforms---Digital-Experiences-CEMEA_REF089460W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sales Enablement Manager",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Manager_REF089013W",
+"id": "sales enablement manager|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Manager_REF089013W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Director, Commercial Payments, Visa Government Solutions - CEMEA",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Commercial-Payments--Visa-Government-Solutions---CEMEA_REF085018W-1",
+"id": "director commercial payments visa government solutions cemea|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Director--Commercial-Payments--Visa-Government-Solutions---CEMEA_REF085018W-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Digital Sales Leader – CISSEE",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Digital-Sales-Leader---CISSEE_REF088553W",
+"id": "digital sales leader cissee|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Digital-Sales-Leader---CISSEE_REF088553W"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Implementation Director",
+"company": "Visa",
+"location": "AE - Dubai, United Arab Emirates",
+"posted": "",
+"url": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Implementation-Director_REF081776W",
+"id": "implementation director|visa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://visa.wd5.myworkdayjobs.com/en-US/Visa/job/AE---Dubai-United-Arab-Emirates/Implementation-Director_REF081776W"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "LICENCED AIRCRAFT MAINTENANCE ENGINEER CAT B1 OR B2",
 "company": "Gulf Air",
 "location": "Bahrain",
@@ -63885,6 +65020,804 @@
 ],
 "links": {
 "Employer careers (ATS)": "https://careers.stc.com.bh/vacancy/176549"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Customer Support Engineer",
+"company": "GE Vernova",
+"location": "Al Khobar",
+"posted": "",
+"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Al-Khobar/Customer-Support-Engineer_R5047384-2",
+"id": "customer support engineer|ge vernova|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Al-Khobar/Customer-Support-Engineer_R5047384-2"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Project Operations Manager",
+"company": "GE Vernova",
+"location": "Dammam",
+"posted": "",
+"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Senior-Project-Operations-Manager_R5057682-2",
+"id": "senior project operations manager|ge vernova|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Senior-Project-Operations-Manager_R5057682-2"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Material Analyst - Early Career Training",
+"company": "GE Vernova",
+"location": "Dammam",
+"posted": "",
+"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Material-Analyst---Early-Career-Training_R5057111-2",
+"id": "material analyst early career training|ge vernova|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Dammam/Material-Analyst---Early-Career-Training_R5057111-2"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Strategic Account Manager",
+"company": "GE Vernova",
+"location": "Riyadh SA 11",
+"posted": "",
+"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Riyadh-SA-11/Strategic-Account-Manager_R5057104-3",
+"id": "strategic account manager|ge vernova|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Riyadh-SA-11/Strategic-Account-Manager_R5057104-3"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Services Specialist 1 - On Site Services",
+"company": "GE Vernova",
+"location": "Kuwait",
+"posted": "",
+"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Services-Specialist-1---On-Site-Services_R5058090-2",
+"id": "services specialist 1 on site services|ge vernova|kuwait",
+"country": "Kuwait",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Services-Specialist-1---On-Site-Services_R5058090-2"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Engineer - Field Testing",
+"company": "GE Vernova",
+"location": "Kuwait",
+"posted": "",
+"url": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Engineer---Field-Testing_R5052500-2",
+"id": "engineer field testing|ge vernova|kuwait",
+"country": "Kuwait",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://gevernova.wd5.myworkdayjobs.com/en-US/Vernova_ExternalSite/job/Kuwait/Engineer---Field-Testing_R5052500-2"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "RE Maitenance Coordinator",
+"company": "Hitachi",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/RE-Maitenance-Coordinator_R0140986",
+"id": "re maitenance coordinator|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/RE-Maitenance-Coordinator_R0140986"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Sales Engineer",
+"company": "Hitachi",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Senior-Sales-Engineer_R0145843",
+"id": "senior sales engineer|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Senior-Sales-Engineer_R0145843"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Power+ Trainee",
+"company": "Hitachi",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Power--Trainee_R0148128",
+"id": "power trainee|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Power--Trainee_R0148128"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Quality Manager",
+"company": "Hitachi",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Quality-Manager_R0149526",
+"id": "quality manager|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Quality-Manager_R0149526"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior SAS Commissioning Engineer",
+"company": "Hitachi",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Senior-SAS-Commissioning-Engineer_R0148077",
+"id": "senior sas commissioning engineer|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Senior-SAS-Commissioning-Engineer_R0148077"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Commissioning Engineer",
+"company": "Hitachi",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Senior-Commissioning-Engineer_R0148924",
+"id": "senior commissioning engineer|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Riyadh-Riyadh-Saudi-Arabia/Senior-Commissioning-Engineer_R0148924"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Project Manager",
+"company": "Hitachi",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Project-Manager_R0149182-1",
+"id": "project manager|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Project-Manager_R0149182-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Service Sales Manager - Local Service Unit",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Service-Sales-Manager---Local-Service-Unit_R0130820-1",
+"id": "service sales manager local service unit|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Service-Sales-Manager---Local-Service-Unit_R0130820-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "GIS I&C Team Lead",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Team-Lead_R0138173",
+"id": "gis i c team lead|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Team-Lead_R0138173"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "GIS I&C Specialist",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Specialist_R0138172",
+"id": "gis i c specialist|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Specialist_R0138172"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "GIS I&C Engineer",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Engineer_R0149050",
+"id": "gis i c engineer|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Engineer_R0149050"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Tendering Intern",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Tendering-Intern_R0149015",
+"id": "tendering intern|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Tendering-Intern_R0149015"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Team Lead - Operation Quality",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Team-Lead--Quality_R0149810",
+"id": "team lead operation quality|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Team-Lead--Quality_R0149810"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Project Engineering Intern",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Project-Engineering-Intern_R0149014",
+"id": "project engineering intern|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Project-Engineering-Intern_R0149014"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Service Technical Trainer",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Service-Technical-Trainer_R0136551",
+"id": "service technical trainer|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Service-Technical-Trainer_R0136551"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "GIS I&C Troubleshooting Engineer",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Troubleshooting-Engineer_R0150474",
+"id": "gis i c troubleshooting engineer|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/GIS-I-C-Troubleshooting-Engineer_R0150474"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Intern - Quality Control Technician",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Intern---Quality-Control-Technician_R0146546",
+"id": "intern quality control technician|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Intern---Quality-Control-Technician_R0146546"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Foreman - Assembly",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Foreman---Assembly_R0146042",
+"id": "foreman assembly|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Foreman---Assembly_R0146042"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Service Communications, Middle East & Africa",
+"company": "Hitachi",
+"location": "Dammam, Eastern Region, Saudi Arabia",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Service-Communications--Middle-East---Africa_R0148314",
+"id": "service communications middle east africa|hitachi|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dammam-Eastern-Region-Saudi-Arabia/Service-Communications--Middle-East---Africa_R0148314"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Contract Manager",
+"company": "Hitachi",
+"location": "Dubai, Dubai Emirate, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Contract-Manager_R0108030",
+"id": "contract manager|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Contract-Manager_R0108030"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Contract, Bid, and Proposal Management Senior Professional",
+"company": "Hitachi",
+"location": "Dubai, Dubai Emirate, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Contract--Bid--and-Proposal-Management-Senior-Professional_R0136555",
+"id": "contract bid and proposal management senior professional|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Contract--Bid--and-Proposal-Management-Senior-Professional_R0136555"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Emirati Professionals",
+"company": "Hitachi",
+"location": "Dubai, Dubai Emirate, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Early-Professionals_R0141999",
+"id": "emirati professionals|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Early-Professionals_R0141999"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Collection Specialist (UAE National)",
+"company": "Hitachi",
+"location": "Dubai, Dubai Emirate, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Collection-Specialist--UAE-National-_R0148281",
+"id": "collection specialist uae national|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Dubai-Dubai-Emirate-United-Arab-Emirates/Collection-Specialist--UAE-National-_R0148281"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Quality Control Engineer",
+"company": "Hitachi",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Senior-Quality-Control-Engineer_R0139261-1",
+"id": "senior quality control engineer|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Senior-Quality-Control-Engineer_R0139261-1"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Service Engineer - SCMS",
+"company": "Hitachi",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Service-Engineer---SCMS_R0120866",
+"id": "service engineer scms|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Service-Engineer---SCMS_R0120866"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Lead Testing & Commissioning Engineer",
+"company": "Hitachi",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Lead-Testing---Commissioning-Engineer_R0141941",
+"id": "lead testing commissioning engineer|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Lead-Testing---Commissioning-Engineer_R0141941"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "PMO Trainee - UAE National",
+"company": "Hitachi",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/PMO-Trainee---UAE-National_R0144107",
+"id": "pmo trainee uae national|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/PMO-Trainee---UAE-National_R0144107"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Commissioining Engineer",
+"company": "Hitachi",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Senior-Commissioining-Engineer_R0145096",
+"id": "senior commissioining engineer|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Senior-Commissioining-Engineer_R0145096"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Warranty Engineer",
+"company": "Hitachi",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Warranty-Engineer_R0147279",
+"id": "warranty engineer|hitachi|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Abu-Dhabi-Abu-Dhabi-United-Arab-Emirates/Warranty-Engineer_R0147279"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "BU PGSV – Local Service Unit (LSU) Sales Manager – Qatar",
+"company": "Hitachi",
+"location": "Doha, Ad Dawhah, Qatar",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Doha-Ad-Dawhah-Qatar/BU-PGSV---Local-Service-Unit--LSU--Sales-Manager---Qatar_R0149354",
+"id": "bu pgsv local service unit lsu sales manager qatar|hitachi|qatar",
+"country": "Qatar",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Doha-Ad-Dawhah-Qatar/BU-PGSV---Local-Service-Unit--LSU--Sales-Manager---Qatar_R0149354"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Field Service Engineering Senior Professional",
+"company": "Hitachi",
+"location": "Kuwait City, Al Kuwayt, Kuwait",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Kuwait-City-Al-Kuwayt-Kuwait/Field-Service-Engineering-Senior-Professional_R0129584",
+"id": "field service engineering senior professional|hitachi|kuwait",
+"country": "Kuwait",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Kuwait-City-Al-Kuwayt-Kuwait/Field-Service-Engineering-Senior-Professional_R0129584"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Senior Service Sales Engineer",
+"company": "Hitachi",
+"location": "Al Hamriya, Masqaţ, Oman",
+"posted": "",
+"url": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Al-Hamriya-Masqa-Oman/Senior-Service-Sales-Engineer_R0128772-1",
+"id": "senior service sales engineer|hitachi|oman",
+"country": "Oman",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://hitachi.wd1.myworkdayjobs.com/en-US/hitachi/job/Al-Hamriya-Masqa-Oman/Senior-Service-Sales-Engineer_R0128772-1"
 },
 "families": [
 "Other"
