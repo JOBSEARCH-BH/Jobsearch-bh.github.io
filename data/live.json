@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-16T01:46:02+00:00",
+"fetched_at": "2026-11-16T03:24:20+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -101,20 +101,20 @@
 "countries": {
 "Bahrain": 544,
 "Saudi Arabia": 626,
-"United Arab Emirates": 737,
+"United Arab Emirates": 738,
 "Qatar": 359,
 "Kuwait": 321,
-"Oman": 290,
-"Remote": 25
+"Oman": 289,
+"Remote": 26
 },
 "linkedin_check": {
-"checked": 85,
+"checked": 531,
 "closed_new": 0,
 "failed": 0,
 "pending": 0,
 "stopped": "",
 "removed": 4,
-"cache": 5354
+"cache": 5356
 },
 "employer_boards": [
 {
@@ -123,7 +123,7 @@
 "count": 7,
 "fetched": 9,
 "error": "",
-"secs": 0.5
+"secs": 0.6
 },
 {
 "board": "ila Bank (JazzHR)",
@@ -139,7 +139,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 1.0
+"secs": 1.1
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -147,7 +147,7 @@
 "count": 20,
 "fetched": 22,
 "error": "",
-"secs": 4.8
+"secs": 5.3
 },
 {
 "board": "HSBC (Eightfold)",
@@ -155,7 +155,7 @@
 "count": 21,
 "fetched": 22,
 "error": "",
-"secs": 3.1
+"secs": 3.0
 },
 {
 "board": "Citi (Workday)",
@@ -163,7 +163,7 @@
 "count": 28,
 "fetched": 35,
 "error": "",
-"secs": 7.8
+"secs": 7.2
 },
 {
 "board": "Visa (Workday)",
@@ -171,7 +171,7 @@
 "count": 26,
 "fetched": 26,
 "error": "",
-"secs": 4.9
+"secs": 4.4
 },
 {
 "board": "Bapco Energies (Oracle HCM)",
@@ -179,7 +179,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 1.2
+"secs": 0.8
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -199,11 +199,11 @@
 },
 {
 "board": "Tamkeen (careers page)",
-"ok": true,
+"ok": false,
 "count": 0,
-"fetched": 1,
-"error": "",
-"secs": 2.5
+"fetched": 0,
+"error": "HTTPError: 403 Client Error: Forbidden for url: https://tamkeen.bh/en/job-openings/",
+"secs": 0.1
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -211,7 +211,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.9
+"secs": 1.3
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -219,7 +219,7 @@
 "count": 1,
 "fetched": 1,
 "error": "",
-"secs": 4.2
+"secs": 4.9
 },
 {
 "board": "GE Vernova (Workday)",
@@ -227,7 +227,7 @@
 "count": 6,
 "fetched": 9,
 "error": "",
-"secs": 2.0
+"secs": 1.5
 },
 {
 "board": "Hitachi (Workday)",
@@ -235,7 +235,7 @@
 "count": 41,
 "fetched": 54,
 "error": "",
-"secs": 6.8
+"secs": 7.1
 },
 {
 "board": "Calo (Teamtailor)",
@@ -243,7 +243,7 @@
 "count": 30,
 "fetched": 35,
 "error": "",
-"secs": 0.4
+"secs": 0.2
 },
 {
 "board": "Tarabut (Workable)",
@@ -259,7 +259,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.9
+"secs": 0.8
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -275,7 +275,7 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Tamara (Greenhouse)",
@@ -299,7 +299,7 @@
 "count": 7,
 "fetched": 13,
 "error": "",
-"secs": 0.1
+"secs": 0.0
 },
 {
 "board": "Thndr (Ashby)",
@@ -315,7 +315,7 @@
 "count": 24,
 "fetched": 31,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Salla (Workable)",
@@ -323,7 +323,7 @@
 "count": 25,
 "fetched": 28,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Lucidya (Workable)",
@@ -339,7 +339,7 @@
 "count": 6,
 "fetched": 15,
 "error": "",
-"secs": 0.4
+"secs": 0.2
 }
 ],
 "status": [
@@ -358,11 +358,110 @@
 {
 "source": "Employer careers (ATS)",
 "ok": true,
-"count": 465,
+"count": 466,
 "note": ""
 }
 ],
 "jobs": [
+{
+"title": "DevOps Engineer, Blockchain Infra (Fully Remote)",
+"company": "Binance",
+"location": "Europe; United Arab Emirates; United Kingdom",
+"posted": "2026-11-16",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002663101",
+"id": "devops engineer blockchain infra fully remote|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)",
+"LinkedIn"
+],
+"roles": [
+"software engineer",
+"network engineer",
+"mechanical engineer",
+"electrical engineer",
+"civil engineer",
+"project engineer",
+"supply chain",
+"engineer",
+"remote"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002663101",
+"LinkedIn": "https://ae.linkedin.com/jobs/view/devops-engineer-blockchain-infra-fully-remote-at-binance-4490242846"
+},
+"remote": true,
+"families": [
+"IT & software",
+"Engineering & technical",
+"Logistics & supply chain",
+"Other"
+]
+},
+{
+"title": "Sanctions Operations Analyst (1 year contract)",
+"company": "Binance",
+"location": "Argentina; Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101",
+"id": "sanctions operations analyst 1 year contract|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"banking operations",
+"operations officer",
+"operations analyst",
+"payments operations",
+"credit operations",
+"treasury operations",
+"financial analyst",
+"HR operations",
+"data analyst",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"HR & admin",
+"IT & software",
+"Project & management"
+]
+},
+{
+"title": "Wallet Operations Deputy, UAE",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5008399101",
+"id": "wallet operations deputy uae|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"banking operations",
+"operations officer",
+"operations analyst",
+"payments operations",
+"credit operations",
+"treasury operations",
+"HR operations",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5008399101"
+},
+"families": [
+"Banking & finance ops",
+"HR & admin",
+"Project & management"
+]
+},
 {
 "title": "Executive - Supply Chain",
 "company": "Apparel Group",
@@ -511,6 +610,213 @@
 ]
 },
 {
+"title": "Enterprise Wide Risk Assessment (EWRA) Analyst (1 year contractor)",
+"company": "Binance",
+"location": "United Arab Emirates; United Kingdom",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101",
+"id": "enterprise wide risk assessment ewra analyst 1 year contractor|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"risk",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Fraud & AML Investigation Analyst (Geofencing) — 12-Month Contract",
+"company": "Binance",
+"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101",
+"id": "fraud aml investigation analyst geofencing 12 month contract|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"AML",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "KYB Analyst - 1 year contractor",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101",
+"id": "kyb analyst 1 year contractor|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Policy & Change Management Analyst - (12-Month Contract)",
+"company": "Binance",
+"location": "Bahrain; India; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101",
+"id": "policy change management analyst 12 month contract|binance",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Research Analyst- Equity Capital Markets",
+"company": "Binance",
+"location": "Hong Kong; Malaysia; Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101",
+"id": "research analyst equity capital markets|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"financial analyst",
+"IT support",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Risk Analyst (SQL), Fraud Prevention",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101",
+"id": "risk analyst sql fraud prevention|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"risk",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Card Fraud & Chargeback Risk Strategist (Issuing Risk)",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101",
+"id": "card fraud chargeback risk strategist issuing risk|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"back office",
+"risk"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Deputy Regulatory Compliance Officer - ADGM",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101",
+"id": "deputy regulatory compliance officer adgm|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"back office",
+"compliance",
+"office manager",
+"front office"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"HR & admin",
+"Hospitality & F&B"
+]
+},
+{
 "title": "Head - Fuel Stations",
 "company": "Bapco Energies",
 "location": "Awali, Southern Governorate, Bahrain",
@@ -543,6 +849,97 @@
 "Retail",
 "Logistics & supply chain",
 "Project & management"
+]
+},
+{
+"title": "OTC Trader",
+"company": "Binance",
+"location": "Hong Kong; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101",
+"id": "otc trader|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"trade finance"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
+"title": "Senior OTC Sales Trader",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101",
+"id": "senior otc sales trader|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"trade finance",
+"sales executive",
+"sales manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101"
+},
+"families": [
+"Banking & finance ops",
+"Sales & business dev"
+]
+},
+{
+"title": "User Growth & Lifecycle Marketing Manager",
+"company": "Binance",
+"location": "Bahrain",
+"posted": "2026-11-15",
+"url": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
+"id": "user growth lifecycle marketing manager|binance",
+"country": "Bahrain",
+"sources": [
+"LinkedIn",
+"Employer careers (ATS)"
+],
+"roles": [
+"bank",
+"client onboarding",
+"financial crime",
+"relationship manager",
+"account manager",
+"office manager",
+"data analyst",
+"sales manager",
+"marketing",
+"digital marketing",
+"social media",
+"store manager",
+"project manager",
+"operations manager",
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002527101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"HR & admin",
+"IT & software",
+"Sales & business dev",
+"Marketing & media",
+"Retail",
+"Project & management",
+"Other"
 ]
 },
 {
@@ -662,6 +1059,227 @@
 ]
 },
 {
+"title": "Binance Accelerator Program - Compliance Training (AI) ",
+"company": "Binance",
+"location": "Australia; Bahrain; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101",
+"id": "binance accelerator program compliance training ai|binance",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Product Compliance Manager (Abu Dhabi Based)",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002772101",
+"id": "product compliance manager abu dhabi based|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"compliance",
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002772101"
+},
+"families": [
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Binance Accelerator Program - Internal Audit (Technology)",
+"company": "Binance",
+"location": "Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002254101",
+"id": "binance accelerator program internal audit technology|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"internal control",
+"audit",
+"IT support"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002254101"
+},
+"families": [
+"Compliance, risk & audit",
+"IT & software"
+]
+},
+{
+"title": "Internal Controls Specialist/ Manager (12 months Contract)",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101",
+"id": "internal controls specialist manager 12 months contract|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"internal control",
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101"
+},
+"families": [
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Audit Manager",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101",
+"id": "audit manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"audit",
+"relationship manager",
+"account manager",
+"office manager",
+"IT support",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101"
+},
+"families": [
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"HR & admin",
+"IT & software",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Enterprise Wide Risk Assessment (EWRA) Specialist",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101",
+"id": "enterprise wide risk assessment ewra specialist|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"risk"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Risk Manager - AD representative, RCH and RIE (Abu Dhabi Based)",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002745101",
+"id": "risk manager ad representative rch and rie abu dhabi based|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"risk",
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002745101"
+},
+"families": [
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Senior Risk Strategist, Market Manipulation (Trading Risk)",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101",
+"id": "senior risk strategist market manipulation trading risk|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"risk"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
 "title": "Sales Specialist",
 "company": "CMA CGM",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -690,6 +1308,213 @@
 ]
 },
 {
+"title": "Legal Project Manager",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101",
+"id": "legal project manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"project engineer",
+"sales manager",
+"store manager",
+"legal",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Engineering & technical",
+"Sales & business dev",
+"Retail",
+"Legal",
+"Project & management"
+]
+},
+{
+"title": "Regulatory Governance Manager",
+"company": "Binance",
+"location": "United Arab Emirates; United Kingdom",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101",
+"id": "regulatory governance manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Senior Product Strategy Manager",
+"company": "Binance",
+"location": "Ireland; Malta; Spain; United Arab Emirates; United Kingdom",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101",
+"id": "senior product strategy manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Senior Regulatory Manager, Global MLRO",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101",
+"id": "senior regulatory manager global mlro|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Social Media Manager",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101",
+"id": "social media manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"social media",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Marketing & media",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Senior Corporate Legal Counsel",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates; United Kingdom",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
+"id": "senior corporate legal counsel|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)",
+"LinkedIn"
+],
+"roles": [
+"corporate banking",
+"legal"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-corporate-legal-counsel-at-binance-4484152942"
+},
+"families": [
+"Relationship & client mgmt",
+"Legal"
+]
+},
+{
+"title": "Binance Accelerator Program - Public Relations",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101",
+"id": "binance accelerator program public relations|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"government relations"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101"
+},
+"families": [
+"HR & admin"
+]
+},
+{
 "title": "AI Architect – GenAI & Automation",
 "company": "KPMG Bahrain",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -708,6 +1533,194 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Full Stack Engineer (Web,Frontend Oriented) — AI Facial Recognition, Identity & Security",
+"company": "Binance",
+"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101",
+"id": "full stack engineer web frontend oriented ai facial recognition identity security|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"software engineer",
+"IT support",
+"network engineer",
+"cyber security",
+"mechanical engineer",
+"electrical engineer",
+"civil engineer",
+"project engineer",
+"front office"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101"
+},
+"families": [
+"IT & software",
+"Engineering & technical",
+"Hospitality & F&B"
+]
+},
+{
+"title": "Binance Accelerator Program- VIP & Institutional Sales",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101",
+"id": "binance accelerator program vip institutional sales|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support",
+"sales executive",
+"sales manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101"
+},
+"families": [
+"IT & software",
+"Sales & business dev"
+]
+},
+{
+"title": "Business Development - Equity Capital Markets",
+"company": "Binance",
+"location": "Hong Kong; Malaysia; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002435101",
+"id": "business development equity capital markets|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support",
+"business development"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002435101"
+},
+"families": [
+"IT & software",
+"Sales & business dev"
+]
+},
+{
+"title": "Monitorship Coordinator (1 year contractor)",
+"company": "Binance",
+"location": "Malaysia; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5008916101",
+"id": "monitorship coordinator 1 year contractor|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5008916101"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Product Counsel – Equities & Tokenized Securities",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101",
+"id": "product counsel equities tokenized securities|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Regulatory Legal Counsel -  US Monitorships",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates; United Kingdom; United States",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101",
+"id": "regulatory legal counsel us monitorships|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support",
+"legal"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101"
+},
+"families": [
+"IT & software",
+"Legal"
+]
+},
+{
+"title": "Senior Talent Acquisition Specialist (Executive Hiring)",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101",
+"id": "senior talent acquisition specialist executive hiring|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "VIP & Institutional Sales - MENA",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101",
+"id": "vip institutional sales mena|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support",
+"sales executive",
+"sales manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101"
+},
+"families": [
+"IT & software",
+"Sales & business dev"
 ]
 },
 {
@@ -839,6 +1852,27 @@
 ]
 },
 {
+"title": "Binance Accelerator Program - TradFI Business Development",
+"company": "Binance",
+"location": "Hong Kong; Malaysia; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101",
+"id": "binance accelerator program tradfi business development|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"business development"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101"
+},
+"families": [
+"Sales & business dev"
+]
+},
+{
 "title": "Business Development Specialist",
 "company": "Tamara",
 "location": "Riyadh, Saudi Arabia",
@@ -876,6 +1910,27 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/visual-merchandiser-at-apparel-group-4445950173"
+},
+"families": [
+"Marketing & media"
+]
+},
+{
+"title": "Social Media Specialist",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates",
+"posted": "2026-11-15",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101",
+"id": "social media specialist|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"social media"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101"
 },
 "families": [
 "Marketing & media"
@@ -1498,27 +2553,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/call-center-agent-english-at-2p-perfect-presentation-4489381693"
-},
-"families": [
-"Customer service"
-]
-},
-{
-"title": "Customer Service Specialist",
-"company": "Qanoniah قانونية",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-11-15",
-"url": "https://sa.linkedin.com/jobs/view/customer-service-specialist-at-qanoniah-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9-4489376853",
-"id": "customer service specialist|qanoniah|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/customer-service-specialist-at-qanoniah-%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A%D8%A9-4489376853"
 },
 "families": [
 "Customer service"
@@ -2288,27 +3322,6 @@
 },
 "families": [
 "Engineering & technical"
-]
-},
-{
-"title": "Sales Executive",
-"company": "Maxus Coral FZCO",
-"location": "Doha, Qatar",
-"posted": "2026-11-15",
-"url": "https://qa.linkedin.com/jobs/view/sales-executive-at-maxus-coral-fzco-4489398780",
-"id": "sales executive|maxus coral fzco|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"sales"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/sales-executive-at-maxus-coral-fzco-4489398780"
-},
-"families": [
-"Sales & business dev"
 ]
 },
 {
@@ -5040,70 +6053,6 @@
 ]
 },
 {
-"title": "Sanctions Operations Analyst (1 year contract)",
-"company": "Binance",
-"location": "Argentina; Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101",
-"id": "sanctions operations analyst 1 year contract|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"banking operations",
-"operations officer",
-"operations analyst",
-"payments operations",
-"credit operations",
-"treasury operations",
-"financial analyst",
-"HR operations",
-"data analyst",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"HR & admin",
-"IT & software",
-"Project & management"
-]
-},
-{
-"title": "Wallet Operations Deputy, UAE",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5008399101",
-"id": "wallet operations deputy uae|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"banking operations",
-"operations officer",
-"operations analyst",
-"payments operations",
-"credit operations",
-"treasury operations",
-"HR operations",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5008399101"
-},
-"families": [
-"Banking & finance ops",
-"HR & admin",
-"Project & management"
-]
-},
-{
 "title": "Purchasing Manager",
 "company": "Sheraton Hotels & Resorts",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -5168,213 +6117,6 @@
 "Banking & finance ops",
 "HR & admin",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Enterprise Wide Risk Assessment (EWRA) Analyst (1 year contractor)",
-"company": "Binance",
-"location": "United Arab Emirates; United Kingdom",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101",
-"id": "enterprise wide risk assessment ewra analyst 1 year contractor|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"risk",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Fraud & AML Investigation Analyst (Geofencing) — 12-Month Contract",
-"company": "Binance",
-"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101",
-"id": "fraud aml investigation analyst geofencing 12 month contract|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"AML",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "KYB Analyst - 1 year contractor",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101",
-"id": "kyb analyst 1 year contractor|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Policy & Change Management Analyst - (12-Month Contract)",
-"company": "Binance",
-"location": "Bahrain; India; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101",
-"id": "policy change management analyst 12 month contract|binance",
-"country": "Bahrain",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Research Analyst- Equity Capital Markets",
-"company": "Binance",
-"location": "Hong Kong; Malaysia; Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101",
-"id": "research analyst equity capital markets|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"financial analyst",
-"IT support",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Risk Analyst (SQL), Fraud Prevention",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101",
-"id": "risk analyst sql fraud prevention|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"risk",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Card Fraud & Chargeback Risk Strategist (Issuing Risk)",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101",
-"id": "card fraud chargeback risk strategist issuing risk|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"back office",
-"risk"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit"
-]
-},
-{
-"title": "Deputy Regulatory Compliance Officer - ADGM",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101",
-"id": "deputy regulatory compliance officer adgm|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"back office",
-"compliance",
-"office manager",
-"front office"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"HR & admin",
-"Hospitality & F&B"
 ]
 },
 {
@@ -5459,151 +6201,6 @@
 ]
 },
 {
-"title": "OTC Trader",
-"company": "Binance",
-"location": "Hong Kong; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101",
-"id": "otc trader|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"trade finance"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101"
-},
-"families": [
-"Banking & finance ops"
-]
-},
-{
-"title": "Senior OTC Sales Trader",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101",
-"id": "senior otc sales trader|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"trade finance",
-"sales executive",
-"sales manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101"
-},
-"families": [
-"Banking & finance ops",
-"Sales & business dev"
-]
-},
-{
-"title": "User Growth & Lifecycle Marketing Manager",
-"company": "Binance",
-"location": "Bahrain",
-"posted": "2026-11-13",
-"url": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
-"id": "user growth lifecycle marketing manager|binance",
-"country": "Bahrain",
-"sources": [
-"LinkedIn",
-"Employer careers (ATS)"
-],
-"roles": [
-"bank",
-"client onboarding",
-"financial crime",
-"relationship manager",
-"account manager",
-"office manager",
-"data analyst",
-"sales manager",
-"marketing",
-"digital marketing",
-"social media",
-"store manager",
-"project manager",
-"operations manager",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002527101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"IT & software",
-"Sales & business dev",
-"Marketing & media",
-"Retail",
-"Project & management",
-"Other"
-]
-},
-{
-"title": "Binance Accelerator Program - Compliance Training (AI) ",
-"company": "Binance",
-"location": "Australia; Bahrain; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101",
-"id": "binance accelerator program compliance training ai|binance",
-"country": "Bahrain",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
-"title": "Product Compliance Manager (Abu Dhabi Based)",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002772101",
-"id": "product compliance manager abu dhabi based|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"compliance",
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002772101"
-},
-"families": [
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
 "title": "Senior | Audit | Audit & Assurance | Bahrain FY27",
 "company": "ACCA Careers",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -5629,359 +6226,6 @@
 ]
 },
 {
-"title": "Binance Accelerator Program - Internal Audit (Technology)",
-"company": "Binance",
-"location": "Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002254101",
-"id": "binance accelerator program internal audit technology|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"internal control",
-"audit",
-"IT support"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002254101"
-},
-"families": [
-"Compliance, risk & audit",
-"IT & software"
-]
-},
-{
-"title": "Internal Controls Specialist/ Manager (12 months Contract)",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101",
-"id": "internal controls specialist manager 12 months contract|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"internal control",
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101"
-},
-"families": [
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Audit Manager",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101",
-"id": "audit manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"audit",
-"relationship manager",
-"account manager",
-"office manager",
-"IT support",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101"
-},
-"families": [
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"IT & software",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Enterprise Wide Risk Assessment (EWRA) Specialist",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101",
-"id": "enterprise wide risk assessment ewra specialist|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"risk"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
-"title": "Risk Manager - AD representative, RCH and RIE (Abu Dhabi Based)",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002745101",
-"id": "risk manager ad representative rch and rie abu dhabi based|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"risk",
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002745101"
-},
-"families": [
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Risk Strategist, Market Manipulation (Trading Risk)",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101",
-"id": "senior risk strategist market manipulation trading risk|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"risk"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
-"title": "Legal Project Manager",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101",
-"id": "legal project manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"project engineer",
-"sales manager",
-"store manager",
-"legal",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Engineering & technical",
-"Sales & business dev",
-"Retail",
-"Legal",
-"Project & management"
-]
-},
-{
-"title": "Regulatory Governance Manager",
-"company": "Binance",
-"location": "United Arab Emirates; United Kingdom",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101",
-"id": "regulatory governance manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Product Strategy Manager",
-"company": "Binance",
-"location": "Ireland; Malta; Spain; United Arab Emirates; United Kingdom",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101",
-"id": "senior product strategy manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Regulatory Manager, Global MLRO",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101",
-"id": "senior regulatory manager global mlro|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Social Media Manager",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101",
-"id": "social media manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"social media",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Marketing & media",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Corporate Legal Counsel",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates; United Kingdom",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
-"id": "senior corporate legal counsel|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)",
-"LinkedIn"
-],
-"roles": [
-"corporate banking",
-"legal"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-corporate-legal-counsel-at-binance-4484152942"
-},
-"families": [
-"Relationship & client mgmt",
-"Legal"
-]
-},
-{
 "title": "Senior HR Manager - HR BP Aviation",
 "company": "DHL Express",
 "location": "Muharraq, Muharraq Governorate, Bahrain",
@@ -5998,27 +6242,6 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-hr-manager-hr-bp-aviation-at-dhl-express-4488867208"
-},
-"families": [
-"HR & admin"
-]
-},
-{
-"title": "Binance Accelerator Program - Public Relations",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101",
-"id": "binance accelerator program public relations|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"government relations"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101"
 },
 "families": [
 "HR & admin"
@@ -6100,194 +6323,6 @@
 "families": [
 "IT & software",
 "Other"
-]
-},
-{
-"title": "Full Stack Engineer (Web,Frontend Oriented) — AI Facial Recognition, Identity & Security",
-"company": "Binance",
-"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101",
-"id": "full stack engineer web frontend oriented ai facial recognition identity security|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"software engineer",
-"IT support",
-"network engineer",
-"cyber security",
-"mechanical engineer",
-"electrical engineer",
-"civil engineer",
-"project engineer",
-"front office"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101"
-},
-"families": [
-"IT & software",
-"Engineering & technical",
-"Hospitality & F&B"
-]
-},
-{
-"title": "Binance Accelerator Program- VIP & Institutional Sales",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101",
-"id": "binance accelerator program vip institutional sales|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support",
-"sales executive",
-"sales manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101"
-},
-"families": [
-"IT & software",
-"Sales & business dev"
-]
-},
-{
-"title": "Business Development - Equity Capital Markets",
-"company": "Binance",
-"location": "Hong Kong; Malaysia; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002435101",
-"id": "business development equity capital markets|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support",
-"business development"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002435101"
-},
-"families": [
-"IT & software",
-"Sales & business dev"
-]
-},
-{
-"title": "Monitorship Coordinator (1 year contractor)",
-"company": "Binance",
-"location": "Malaysia; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5008916101",
-"id": "monitorship coordinator 1 year contractor|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5008916101"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Product Counsel – Equities & Tokenized Securities",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101",
-"id": "product counsel equities tokenized securities|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Regulatory Legal Counsel -  US Monitorships",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates; United Kingdom; United States",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101",
-"id": "regulatory legal counsel us monitorships|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support",
-"legal"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101"
-},
-"families": [
-"IT & software",
-"Legal"
-]
-},
-{
-"title": "Senior Talent Acquisition Specialist (Executive Hiring)",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101",
-"id": "senior talent acquisition specialist executive hiring|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "VIP & Institutional Sales - MENA",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101",
-"id": "vip institutional sales mena|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support",
-"sales executive",
-"sales manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101"
-},
-"families": [
-"IT & software",
-"Sales & business dev"
 ]
 },
 {
@@ -6378,27 +6413,6 @@
 ]
 },
 {
-"title": "Binance Accelerator Program - TradFI Business Development",
-"company": "Binance",
-"location": "Hong Kong; Malaysia; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101",
-"id": "binance accelerator program tradfi business development|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"business development"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101"
-},
-"families": [
-"Sales & business dev"
-]
-},
-{
 "title": "Senior PR Executive",
 "company": "Raffles Hotels & Resorts",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -6416,27 +6430,6 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-pr-executive-at-raffles-hotels-resorts-4473798918"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
-"title": "Social Media Specialist",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101",
-"id": "social media specialist|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"social media"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101"
 },
 "families": [
 "Marketing & media"
@@ -10908,6 +10901,27 @@
 ]
 },
 {
+"title": "Compliance Lead & Deputy MLRO",
+"company": "Edenred UAE",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-12",
+"url": "https://ae.linkedin.com/jobs/view/compliance-lead-deputy-mlro-at-edenred-uae-4489882758",
+"id": "compliance lead deputy mlro|edenred uae|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-lead-deputy-mlro-at-edenred-uae-4489882758"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
 "title": "Accounting and Control Manager, Finergi",
 "company": "Optasia",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -12792,29 +12806,6 @@
 ]
 },
 {
-"title": "Country Representative in Oman",
-"company": "Vanzbon Global | 万企帮国际企业服务",
-"location": "Oman",
-"posted": "2026-11-12",
-"url": "https://om.linkedin.com/jobs/view/country-representative-in-oman-at-vanzbon-global-%E4%B8%87%E4%BC%81%E5%B8%AE%E5%9B%BD%E9%99%85%E4%BC%81%E4%B8%9A%E6%9C%8D%E5%8A%A1-4489083597",
-"id": "country representative in oman|vanzbon global|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance",
-"legal"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/country-representative-in-oman-at-vanzbon-global-%E4%B8%87%E4%BC%81%E5%B8%AE%E5%9B%BD%E9%99%85%E4%BC%81%E4%B8%9A%E6%9C%8D%E5%8A%A1-4489083597"
-},
-"families": [
-"Compliance, risk & audit",
-"Legal"
-]
-},
-{
 "title": "Administrative & Bookkeeping Assistant",
 "company": "Pavago",
 "location": "TELECOMMUTE",
@@ -14514,7 +14505,7 @@
 "company": "PepsiCo",
 "location": "Taif, Makkah, Saudi Arabia",
 "posted": "2026-11-11",
-"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488243528",
+"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488244492",
 "id": "sr merchandiser|pepsico|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -14524,7 +14515,7 @@
 "Any job"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488243528"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488244492"
 },
 "families": [
 "Other"
@@ -15424,27 +15415,6 @@
 },
 "families": [
 "Banking & finance ops"
-]
-},
-{
-"title": "[Dubai] Compliance Officer",
-"company": "LTP",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-11",
-"url": "https://ae.linkedin.com/jobs/view/dubai-compliance-officer-at-ltp-4489910786",
-"id": "dubai compliance officer|ltp|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/dubai-compliance-officer-at-ltp-4489910786"
-},
-"families": [
-"Compliance, risk & audit"
 ]
 },
 {
@@ -16574,6 +16544,27 @@
 "families": [
 "Engineering & technical",
 "Other"
+]
+},
+{
+"title": "Events Sales Executive",
+"company": "Hyatt Regency",
+"location": "Doha, Doha, Qatar",
+"posted": "2026-11-11",
+"url": "https://qa.linkedin.com/jobs/view/events-sales-executive-at-hyatt-regency-4489928477",
+"id": "events sales executive|hyatt regency|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"sales"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/events-sales-executive-at-hyatt-regency-4489928477"
+},
+"families": [
+"Sales & business dev"
 ]
 },
 {
@@ -21523,9 +21514,9 @@
 {
 "title": "Manager - Partnerships & Alliances",
 "company": "Emaratech",
-"location": "Dubai, Dubai, United Arab Emirates",
+"location": "Dubai, United Arab Emirates",
 "posted": "2026-11-10",
-"url": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
+"url": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech",
 "id": "manager partnerships alliances|emaratech|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -21535,7 +21526,7 @@
 "retail"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/bQQLpkNKnXrTWuDayzPmgi/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
+"Workable": "https://jobs.workable.com/view/6WcpNdzyU84tak9DgfiJAL/manager---partnerships-%26-alliances-in-dubai-at-emaratech"
 },
 "families": [
 "Retail"
@@ -23699,13 +23690,15 @@
 "LinkedIn"
 ],
 "roles": [
-"sales"
+"sales",
+"marketing"
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/%D8%AA%D9%86%D9%81%D9%8A%D8%B0%D9%8A-%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA-at-omani-euro-food-industries-saog-4483982090"
 },
 "families": [
-"Sales & business dev"
+"Sales & business dev",
+"Marketing & media"
 ]
 },
 {
@@ -29908,6 +29901,48 @@
 ]
 },
 {
+"title": "Senior Full-Stack Software Engineer, (Forward deployed), GPS",
+"company": "FDE Times",
+"location": "Kuwait City Metropolitan Area",
+"posted": "2026-11-07",
+"url": "https://kw.linkedin.com/jobs/view/senior-full-stack-software-engineer-forward-deployed-gps-at-fde-times-4486617956",
+"id": "senior full stack software engineer forward deployed gps|fde times|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/senior-full-stack-software-engineer-forward-deployed-gps-at-fde-times-4486617956"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Full-Stack Software Engineer, (Forward Deployed), GPS",
+"company": "FDE Times",
+"location": "Kuwait City Metropolitan Area",
+"posted": "2026-11-07",
+"url": "https://kw.linkedin.com/jobs/view/full-stack-software-engineer-forward-deployed-gps-at-fde-times-4486634233",
+"id": "full stack software engineer forward deployed gps|fde times|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/full-stack-software-engineer-forward-deployed-gps-at-fde-times-4486634233"
+},
+"families": [
+"IT & software"
+]
+},
+{
 "title": "Guest Arrival Expert",
 "company": "Marriott International",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -31840,48 +31875,6 @@
 },
 "families": [
 "Relationship & client mgmt"
-]
-},
-{
-"title": "Full-Stack Software Engineer, (Forward Deployed), GPS",
-"company": "Scale",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-06",
-"url": "https://kw.linkedin.com/jobs/view/full-stack-software-engineer-forward-deployed-gps-at-scale-4488144745",
-"id": "full stack software engineer forward deployed gps|scale|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/full-stack-software-engineer-forward-deployed-gps-at-scale-4488144745"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Senior Full-Stack Software Engineer, (Forward deployed), GPS",
-"company": "Scale",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-06",
-"url": "https://kw.linkedin.com/jobs/view/senior-full-stack-software-engineer-forward-deployed-gps-at-scale-4488144788",
-"id": "senior full stack software engineer forward deployed gps|scale|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/senior-full-stack-software-engineer-forward-deployed-gps-at-scale-4488144788"
-},
-"families": [
-"IT & software"
 ]
 },
 {
@@ -46556,27 +46549,6 @@
 ]
 },
 {
-"title": "Graduate Engineer- Mechanical _Emirati National",
-"company": "WSP in the Middle East",
-"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
-"posted": "2026-10-30",
-"url": "https://ae.linkedin.com/jobs/view/graduate-engineer-mechanical-emirati-national-at-wsp-in-the-middle-east-4392590144",
-"id": "graduate engineer mechanical emirati national|wsp in the middle east|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/graduate-engineer-mechanical-emirati-national-at-wsp-in-the-middle-east-4392590144"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
 "title": "Sales Specialist (Inbound)",
 "company": "Mamo",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -48392,6 +48364,29 @@
 ]
 },
 {
+"title": "IT Audit Senior - Omani Talent",
+"company": "KPMG Middle East",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-10-29",
+"url": "https://om.linkedin.com/jobs/view/it-audit-senior-omani-talent-at-kpmg-middle-east-4442607871",
+"id": "it audit senior omani talent|kpmg middle east|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance",
+"IT"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/it-audit-senior-omani-talent-at-kpmg-middle-east-4442607871"
+},
+"families": [
+"Compliance, risk & audit",
+"IT & software"
+]
+},
+{
 "title": "QNB3663 - Vice President - Treasury Corporate Sales (Omanization)",
 "company": "QNB Group",
 "location": "Muscat, Masqaţ, Oman",
@@ -48449,27 +48444,6 @@
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/lead-software-engineer-at-virtusa-4482585492"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "IT Audit Senior - Omani Talent",
-"company": "KPMG Middle East",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-10-29",
-"url": "https://om.linkedin.com/jobs/view/it-audit-senior-omani-talent-at-kpmg-middle-east-4442607871",
-"id": "it audit senior omani talent|kpmg middle east|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/it-audit-senior-omani-talent-at-kpmg-middle-east-4442607871"
 },
 "families": [
 "IT & software"
@@ -55378,6 +55352,27 @@
 ]
 },
 {
+"title": "Chief Information Security Officer",
+"company": "MultiBank Group",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-10-23",
+"url": "https://ae.linkedin.com/jobs/view/chief-information-security-officer-at-multibank-group-4482858596",
+"id": "chief information security officer|multibank group|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/chief-information-security-officer-at-multibank-group-4482858596"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Compliance Manager",
 "company": "Emirates Investment Authority",
 "location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
@@ -59338,6 +59333,27 @@
 },
 "families": [
 "HR & admin"
+]
+},
+{
+"title": "Contact Center Officer",
+"company": "eXtra (United Electronics Co.)",
+"location": "Al Khobar, Eastern, Saudi Arabia",
+"posted": "2026-10-19",
+"url": "https://sa.linkedin.com/jobs/view/contact-center-officer-at-extra-united-electronics-co-4480972407",
+"id": "contact center officer|extra united electronics co|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/contact-center-officer-at-extra-united-electronics-co-4480972407"
+},
+"families": [
+"Customer service"
 ]
 },
 {
