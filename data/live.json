@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-18T17:33:35+00:00",
+"fetched_at": "2026-11-18T18:18:33+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -99,23 +99,23 @@
 "Project & management"
 ],
 "countries": {
-"Bahrain": 556,
+"Bahrain": 553,
 "Saudi Arabia": 592,
 "United Arab Emirates": 709,
-"Qatar": 355,
-"Kuwait": 320,
+"Qatar": 356,
+"Kuwait": 321,
 "Oman": 300,
 "Remote": 25
 },
 "linkedin_check": {
-"checked": 204,
+"checked": 16,
 "closed_new": 0,
 "failed": 0,
 "pending": 0,
 "stopped": "",
-"desc_checks": 23,
+"desc_checks": 9,
 "removed": 4,
-"cache": 6189
+"cache": 6194
 },
 "employer_boards": [
 {
@@ -132,7 +132,7 @@
 "count": 2,
 "fetched": 3,
 "error": "",
-"secs": 0.3
+"secs": 0.1
 },
 {
 "board": "KFH Bahrain / Ahli United (SuccessFactors)",
@@ -140,7 +140,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.8
+"secs": 0.6
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -148,7 +148,7 @@
 "count": 21,
 "fetched": 23,
 "error": "",
-"secs": 3.9
+"secs": 5.9
 },
 {
 "board": "HSBC (Eightfold)",
@@ -156,7 +156,7 @@
 "count": 26,
 "fetched": 27,
 "error": "",
-"secs": 2.3
+"secs": 2.2
 },
 {
 "board": "Citi (Workday)",
@@ -180,7 +180,7 @@
 "count": 4,
 "fetched": 4,
 "error": "",
-"secs": 0.7
+"secs": 0.8
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -188,7 +188,7 @@
 "count": 7,
 "fetched": 7,
 "error": "",
-"secs": 0.5
+"secs": 0.3
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -196,7 +196,7 @@
 "count": 3,
 "fetched": 3,
 "error": "",
-"secs": 1.0
+"secs": 0.9
 },
 {
 "board": "Tamkeen (careers page)",
@@ -204,7 +204,7 @@
 "count": 0,
 "fetched": 1,
 "error": "",
-"secs": 2.3
+"secs": 7.5
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -212,7 +212,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.8
+"secs": 0.6
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -228,7 +228,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs",
-"secs": 0.1
+"secs": 0.0
 },
 {
 "board": "Hitachi (Workday)",
@@ -252,7 +252,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "NymCard (BambooHR)",
@@ -268,7 +268,7 @@
 "count": 84,
 "fetched": 106,
 "error": "",
-"secs": 2.6
+"secs": 2.3
 },
 {
 "board": "Careem (Greenhouse)",
@@ -284,7 +284,7 @@
 "count": 14,
 "fetched": 37,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Lean Technologies (Ashby)",
@@ -324,7 +324,7 @@
 "count": 25,
 "fetched": 28,
 "error": "",
-"secs": 0.1
+"secs": 0.0
 },
 {
 "board": "Lucidya (Workable)",
@@ -344,29 +344,29 @@
 }
 ],
 "descriptions": {
-"live": 2832,
-"with_desc": 2827,
+"live": 2831,
+"with_desc": 2826,
 "by_source": {
-"LinkedIn": "2189/2194",
+"LinkedIn": "2185/2190",
 "Employer careers (ATS)": "365/365",
-"Workable": "337/337"
+"Workable": "340/340"
 },
 "fetched": 0,
 "failed": 0,
 "skipped": 0,
-"secs": 0.3
+"secs": 0.2
 },
 "status": [
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2194,
-"note": ""
+"count": 2190,
+"note": "1 of 173 searches failed: software engineer (Bahrain): rate limited (429)"
 },
 {
 "source": "Workable",
 "ok": true,
-"count": 337,
+"count": 340,
 "note": ""
 },
 {
@@ -500,6 +500,27 @@
 ]
 },
 {
+"title": "Customer Experience Manager",
+"company": "Mokarrar Ventures",
+"location": "Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/customer-experience-manager-at-mokarrar-ventures-4491877035",
+"id": "customer experience manager|mokarrar ventures",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"banking operations"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/customer-experience-manager-at-mokarrar-ventures-4491877035"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
 "title": "Supply Chain Analyst",
 "company": "Ocean Design & Exhibit Pvt. Ltd.",
 "location": "Bahrain",
@@ -626,6 +647,52 @@
 "families": [
 "Banking & finance ops",
 "HR & admin"
+]
+},
+{
+"title": "Executive Assistant",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/83vwjhtEnKVyDWiPGLjTbA/remote-executive-assistant-in-bahrain-at-pavago",
+"id": "executive assistant|pavago",
+"country": "Bahrain",
+"sources": [
+"Workable"
+],
+"roles": [
+"payments operations",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/83vwjhtEnKVyDWiPGLjTbA/remote-executive-assistant-in-bahrain-at-pavago"
+},
+"families": [
+"Banking & finance ops",
+"Other"
+]
+},
+{
+"title": "Virtual Assistant",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/uj7b7qKLEmYJzsW2dyGp5X/remote-virtual-assistant-in-bahrain-at-pavago",
+"id": "virtual assistant|pavago",
+"country": "Bahrain",
+"sources": [
+"Workable"
+],
+"roles": [
+"payments operations",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/uj7b7qKLEmYJzsW2dyGp5X/remote-virtual-assistant-in-bahrain-at-pavago"
+},
+"families": [
+"Banking & finance ops",
+"Other"
 ]
 },
 {
@@ -869,28 +936,28 @@
 ]
 },
 {
-"title": "Senior Teaching Fellow: Computer Science/Software Engineering (Bahrain)",
-"company": "University of Strathclyde",
-"location": "Manama, Capital Governorate, Bahrain",
+"title": "Managing Partner",
+"company": "Antal International",
+"location": "Bahrain",
 "posted": "2026-11-18",
-"url": "https://bh.linkedin.com/jobs/view/senior-teaching-fellow-computer-science-software-engineering-bahrain-at-university-of-strathclyde-4492042886",
-"id": "senior teaching fellow computer science software engineering bahrain|university of strathclyde",
+"url": "https://bh.linkedin.com/jobs/view/managing-partner-at-antal-international-4491322373",
+"id": "managing partner|antal international",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"software engineer",
-"cyber security",
-"teacher",
-"lecturer"
+"recruiter",
+"sales manager",
+"remote"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-teaching-fellow-computer-science-software-engineering-bahrain-at-university-of-strathclyde-4492042886"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/managing-partner-at-antal-international-4491322373"
 },
 "families": [
-"IT & software",
-"Education"
+"HR & admin",
+"Sales & business dev",
+"Other"
 ]
 },
 {
@@ -948,6 +1015,30 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Senior Teaching Fellow: Computer Science/Software Engineering (Bahrain)",
+"company": "University of Strathclyde",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/senior-teaching-fellow-computer-science-software-engineering-bahrain-at-university-of-strathclyde-4492042886",
+"id": "senior teaching fellow computer science software engineering bahrain|university of strathclyde",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"cyber security",
+"teacher",
+"lecturer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-teaching-fellow-computer-science-software-engineering-bahrain-at-university-of-strathclyde-4492042886"
+},
+"families": [
+"IT & software",
+"Education"
 ]
 },
 {
@@ -1704,6 +1795,27 @@
 ]
 },
 {
+"title": "Customer Service Representative - Saudi National",
+"company": "Tabby | تابي",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "2026-11-18",
+"url": "https://sa.linkedin.com/jobs/view/customer-service-representative-saudi-national-at-tabby-%D8%AA%D8%A7%D8%A8%D9%8A-4484449917",
+"id": "customer service representative saudi national|tabby|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/customer-service-representative-saudi-national-at-tabby-%D8%AA%D8%A7%D8%A8%D9%8A-4484449917"
+},
+"families": [
+"Customer service"
+]
+},
+{
 "title": "Sales Associate",
 "company": "Majid Al Futtaim",
 "location": "Jeddah, Makkah, Saudi Arabia",
@@ -2208,27 +2320,6 @@
 ]
 },
 {
-"title": "Mechanical Design Engineer (Consultant Background)",
-"company": "MIRA CONSTRUCTION L.L.C",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-18",
-"url": "https://jobs.workable.com/view/j4grvnD9mzRohZ8iz1kHPE/mechanical-design-engineer-(consultant-background)-in-dubai-at-mira-construction-l.l.c",
-"id": "mechanical design engineer consultant background|mira construction l l c|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/j4grvnD9mzRohZ8iz1kHPE/mechanical-design-engineer-(consultant-background)-in-dubai-at-mira-construction-l.l.c"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
 "title": "Structural Design Engineer (Consultant Background)",
 "company": "MIRA CONSTRUCTION L.L.C",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -2244,6 +2335,27 @@
 ],
 "links": {
 "Workable": "https://jobs.workable.com/view/ou1jybz1UnN9v7rssjXWE4/structural-design-engineer-(consultant-background)-in-dubai-at-mira-construction-l.l.c"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
+"title": "Mechanical Design Engineer (Consultant Background)",
+"company": "MIRA CONSTRUCTION L.L.C",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/j4grvnD9mzRohZ8iz1kHPE/mechanical-design-engineer-(consultant-background)-in-dubai-at-mira-construction-l.l.c",
+"id": "mechanical design engineer consultant background|mira construction l l c|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Workable"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/j4grvnD9mzRohZ8iz1kHPE/mechanical-design-engineer-(consultant-background)-in-dubai-at-mira-construction-l.l.c"
 },
 "families": [
 "Engineering & technical"
@@ -2573,27 +2685,6 @@
 ]
 },
 {
-"title": "General Technician | Hilton Dubai Palm Jumeirah",
-"company": "Hilton",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-18",
-"url": "https://ae.linkedin.com/jobs/view/general-technician-hilton-dubai-palm-jumeirah-at-hilton-4490892666",
-"id": "general technician hilton dubai palm jumeirah|hilton|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/general-technician-hilton-dubai-palm-jumeirah-at-hilton-4490892666"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Front Desk Agent - Arabic Speaker",
 "company": "Rotana Hotels",
 "location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
@@ -2824,6 +2915,52 @@
 },
 "families": [
 "Banking & finance ops"
+]
+},
+{
+"title": "Executive Assistant",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/85SgtA18iJ6vXek5mKwZ3K/remote-executive-assistant-in-qatar-at-pavago",
+"id": "executive assistant|pavago|qatar",
+"country": "Qatar",
+"sources": [
+"Workable"
+],
+"roles": [
+"operations",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/85SgtA18iJ6vXek5mKwZ3K/remote-executive-assistant-in-qatar-at-pavago"
+},
+"families": [
+"Banking & finance ops",
+"Other"
+]
+},
+{
+"title": "Virtual Assistant",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/vyhMifH9rihV6mstnBQmTA/remote-virtual-assistant-in-qatar-at-pavago",
+"id": "virtual assistant|pavago|qatar",
+"country": "Qatar",
+"sources": [
+"Workable"
+],
+"roles": [
+"operations",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/vyhMifH9rihV6mstnBQmTA/remote-virtual-assistant-in-qatar-at-pavago"
+},
+"families": [
+"Banking & finance ops",
+"Other"
 ]
 },
 {
@@ -3727,6 +3864,27 @@
 ]
 },
 {
+"title": "Secondary Art Teacher",
+"company": "HR HUB",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-18",
+"url": "https://kw.linkedin.com/jobs/view/secondary-art-teacher-at-hr-hub-4492075120",
+"id": "secondary art teacher|hr hub|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/secondary-art-teacher-at-hr-hub-4492075120"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "Faculty of Computer Science & Cybersecurity",
 "company": "IUK",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -3880,6 +4038,29 @@
 ]
 },
 {
+"title": "Virtual Assistant",
+"company": "Pavago",
+"location": "TELECOMMUTE",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/sHFctxTuWo7Kt4cSh2GjGw/remote-virtual-assistant-in-oman-at-pavago",
+"id": "virtual assistant|pavago|oman",
+"country": "Oman",
+"sources": [
+"Workable"
+],
+"roles": [
+"operations",
+"remote"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/sHFctxTuWo7Kt4cSh2GjGw/remote-virtual-assistant-in-oman-at-pavago"
+},
+"families": [
+"Banking & finance ops",
+"Other"
+]
+},
+{
 "title": "Manager, Security Governance & Compliance",
 "company": "Omantel",
 "location": "Muscat, Masqaţ, Oman",
@@ -3965,6 +4146,27 @@
 "families": [
 "Relationship & client mgmt",
 "Sales & business dev"
+]
+},
+{
+"title": "End Users and Strategic Customers Field Sales Representative I",
+"company": "Schneider Electric",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-18",
+"url": "https://om.linkedin.com/jobs/view/end-users-and-strategic-customers-field-sales-representative-i-at-schneider-electric-4491874424",
+"id": "end users and strategic customers field sales representative i|schneider electric|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"relationship manager"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/end-users-and-strategic-customers-field-sales-representative-i-at-schneider-electric-4491874424"
+},
+"families": [
+"Relationship & client mgmt"
 ]
 },
 {
@@ -4611,32 +4813,6 @@
 ]
 },
 {
-"title": "Applications Development Senior Analyst",
-"company": "Citi",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-17",
-"url": "https://bh.linkedin.com/jobs/view/applications-development-senior-analyst-at-citi-4491113252",
-"id": "applications development senior analyst|citi",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"banking operations",
-"operations analyst",
-"bank",
-"software engineer",
-"data analyst"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/applications-development-senior-analyst-at-citi-4491113252"
-},
-"families": [
-"Banking & finance ops",
-"IT & software"
-]
-},
-{
 "title": "Sanctions Operations Analyst (1 year contract)",
 "company": "Binance",
 "location": "Argentina; Hong Kong; Singapore; United Arab Emirates",
@@ -4726,12 +4902,12 @@
 ]
 },
 {
-"title": "Zimmermann - Stock Coordinator",
+"title": "Stock Coordinator - Zimmermann - Marassi",
 "company": "Chalhoub Group",
 "location": "Muharraq, Muharraq Governorate, Bahrain",
 "posted": "2026-11-17",
-"url": "https://bh.linkedin.com/jobs/view/zimmermann-stock-coordinator-at-chalhoub-group-4490454042",
-"id": "zimmermann stock coordinator|chalhoub group",
+"url": "https://bh.linkedin.com/jobs/view/stock-coordinator-zimmermann-marassi-at-chalhoub-group-4490454042",
+"id": "stock coordinator zimmermann marassi|chalhoub group",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
@@ -4746,12 +4922,36 @@
 "warehouse"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/zimmermann-stock-coordinator-at-chalhoub-group-4490454042"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/stock-coordinator-zimmermann-marassi-at-chalhoub-group-4490454042"
 },
 "families": [
 "Banking & finance ops",
 "HR & admin",
 "Logistics & supply chain"
+]
+},
+{
+"title": "Applications Development Senior Analyst",
+"company": "Citi",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-17",
+"url": "https://bh.linkedin.com/jobs/view/applications-development-senior-analyst-at-citi-4491113252",
+"id": "applications development senior analyst|citi",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations analyst",
+"bank",
+"data analyst"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/applications-development-senior-analyst-at-citi-4491113252"
+},
+"families": [
+"Banking & finance ops",
+"IT & software"
 ]
 },
 {
@@ -5847,48 +6047,6 @@
 "families": [
 "HR & admin",
 "Logistics & supply chain"
-]
-},
-{
-"title": "AI Engineer - Senior",
-"company": "Datamatics Technologies",
-"location": "Muharraq, Muharraq Governorate, Bahrain",
-"posted": "2026-11-17",
-"url": "https://bh.linkedin.com/jobs/view/ai-engineer-senior-at-datamatics-technologies-4490430281",
-"id": "ai engineer senior|datamatics technologies",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/ai-engineer-senior-at-datamatics-technologies-4490430281"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "AI Engineer - Junior",
-"company": "Datamatics Technologies",
-"location": "Muharraq, Muharraq Governorate, Bahrain",
-"posted": "2026-11-17",
-"url": "https://bh.linkedin.com/jobs/view/ai-engineer-junior-at-datamatics-technologies-4490425331",
-"id": "ai engineer junior|datamatics technologies",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/ai-engineer-junior-at-datamatics-technologies-4490425331"
-},
-"families": [
-"IT & software"
 ]
 },
 {
@@ -7916,12 +8074,12 @@
 ]
 },
 {
-"title": "Marketing Manager",
+"title": "Assistant Marketing Manager",
 "company": "Hilton",
 "location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-17",
-"url": "https://ae.linkedin.com/jobs/view/marketing-manager-at-hilton-4491153581",
-"id": "marketing manager|hilton|united arab emirates",
+"url": "https://ae.linkedin.com/jobs/view/assistant-marketing-manager-at-hilton-4491153581",
+"id": "assistant marketing manager|hilton|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
 "LinkedIn"
@@ -7930,7 +8088,7 @@
 "marketing"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/marketing-manager-at-hilton-4491153581"
+"LinkedIn": "https://ae.linkedin.com/jobs/view/assistant-marketing-manager-at-hilton-4491153581"
 },
 "families": [
 "Marketing & media"
@@ -9668,7 +9826,7 @@
 "company": "Larsen & Toubro",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491583292",
+"url": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491571751",
 "id": "hse engineer|larsen toubro|oman",
 "country": "Oman",
 "sources": [
@@ -9678,7 +9836,7 @@
 "compliance"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491583292"
+"LinkedIn": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491571751"
 },
 "families": [
 "Compliance, risk & audit"
@@ -9724,27 +9882,6 @@
 },
 "families": [
 "Compliance, risk & audit"
-]
-},
-{
-"title": "Head of Merchant Relationship",
-"company": "Thawani Pay",
-"location": "Wilayat Bawshar, Masqaţ, Oman",
-"posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/head-of-merchant-relationship-at-thawani-pay-4490439696",
-"id": "head of merchant relationship|thawani pay|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/head-of-merchant-relationship-at-thawani-pay-4490439696"
-},
-"families": [
-"Relationship & client mgmt"
 ]
 },
 {
@@ -11060,7 +11197,6 @@
 "bank",
 "internal control",
 "payroll",
-"software engineer",
 "project manager"
 ],
 "links": {
@@ -11070,7 +11206,6 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "HR & admin",
-"IT & software",
 "Project & management"
 ]
 },
@@ -14376,9 +14511,9 @@
 {
 "title": "Full Professor/Associate/Assistant Professor of Computer Engineering",
 "company": "American International University, Kuwait",
-"location": "Jahra, Jahra, Kuwait",
+"location": "Jahra, Kuwait",
 "posted": "2026-11-16",
-"url": "https://kw.linkedin.com/jobs/view/full-professor-associate-assistant-professor-of-computer-engineering-at-american-international-university-kuwait-4487813393",
+"url": "https://kw.linkedin.com/jobs/view/full-professor-associate-assistant-professor-of-computer-engineering-at-american-international-university-kuwait-4491298191",
 "id": "full professor associate assistant professor of computer engineering|american international university kuwait|kuwait",
 "country": "Kuwait",
 "sources": [
@@ -14388,7 +14523,7 @@
 "teacher"
 ],
 "links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/full-professor-associate-assistant-professor-of-computer-engineering-at-american-international-university-kuwait-4487813393"
+"LinkedIn": "https://kw.linkedin.com/jobs/view/full-professor-associate-assistant-professor-of-computer-engineering-at-american-international-university-kuwait-4491298191"
 },
 "families": [
 "Education"
@@ -14448,15 +14583,13 @@
 "LinkedIn"
 ],
 "roles": [
-"Any job",
-"hotel"
+"Any job"
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/director-of-engineering-%E2%80%93-pre-opening-the-luxury-collection-muscat-grand-blue-city-oman-muscat-at-the-luxury-collection-4490293667"
 },
 "families": [
-"Other",
-"Hospitality & F&B"
+"Other"
 ]
 },
 {
@@ -15890,6 +16023,27 @@
 ]
 },
 {
+"title": "Call Center Agent- English",
+"company": "2P Perfect Presentation",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-15",
+"url": "https://sa.linkedin.com/jobs/view/call-center-agent-english-at-2p-perfect-presentation-4489381693",
+"id": "call center agent english|2p perfect presentation|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/call-center-agent-english-at-2p-perfect-presentation-4489381693"
+},
+"families": [
+"Customer service"
+]
+},
+{
 "title": "Customer Service Officer",
 "company": "CMA CGM",
 "location": "Jeddah, Makkah, Saudi Arabia",
@@ -16832,15 +16986,13 @@
 "LinkedIn"
 ],
 "roles": [
-"client onboarding",
-"software engineer"
+"client onboarding"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/sr-solutions-architect-cs-emea-account-sa-romena-at-amazon-web-services-aws-4465301658"
 },
 "families": [
-"Compliance, risk & audit",
-"IT & software"
+"Compliance, risk & audit"
 ]
 },
 {
@@ -18372,30 +18524,6 @@
 ]
 },
 {
-"title": "Team Lead, Platform Security Architect",
-"company": "Deel",
-"location": "Bahrain",
-"posted": "2026-11-13",
-"url": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069",
-"id": "team lead platform security architect|deel",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"cyber security",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069"
-},
-"families": [
-"IT & software",
-"Other"
-]
-},
-{
 "title": "AI Agent Architect",
 "company": "Bybit",
 "location": "Abu Dhabi, UAE; Hong Kong SAR; Kuala Lumpur, Malaysia",
@@ -18414,6 +18542,29 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Team Lead, Platform Security Architect",
+"company": "Deel",
+"location": "Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069",
+"id": "team lead platform security architect|deel",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"cyber security",
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069"
+},
+"families": [
+"IT & software",
+"Other"
 ]
 },
 {
@@ -21652,27 +21803,6 @@
 ]
 },
 {
-"title": "Guest Experience Agent",
-"company": "Fairmont Hotels & Resorts",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-11-12",
-"url": "https://sa.linkedin.com/jobs/view/guest-experience-agent-at-fairmont-hotels-resorts-4472161355",
-"id": "guest experience agent|fairmont hotels resorts|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/guest-experience-agent-at-fairmont-hotels-resorts-4472161355"
-},
-"families": [
-"Customer service"
-]
-},
-{
 "title": "Accounts Supervisor - Receivable",
 "company": "Rotana Hotels",
 "location": "Riyadh, Riyadh Province, Saudi Arabia",
@@ -23795,7 +23925,6 @@
 ],
 "roles": [
 "operations analyst",
-"software engineer",
 "IT support",
 "data analyst",
 "supply chain",
@@ -23825,7 +23954,6 @@
 "roles": [
 "back office",
 "payments operations",
-"reconciliation",
 "credit administration",
 "treasury operations",
 "compliance",
@@ -24182,7 +24310,6 @@
 ],
 "roles": [
 "government relations",
-"software engineer",
 "cyber security",
 "digital marketing",
 "social media",
@@ -24210,7 +24337,6 @@
 "LinkedIn"
 ],
 "roles": [
-"software engineer",
 "IT support",
 "network engineer",
 "cyber security",
@@ -24224,177 +24350,6 @@
 "IT & software",
 "Engineering & technical",
 "Hospitality & F&B"
-]
-},
-{
-"title": "Linux Software Engineer - Ubuntu for Next-Gen Silicon (multiple roles and seniority levels)",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/linux-software-engineer-ubuntu-for-next-gen-silicon-multiple-roles-and-seniority-levels-at-canonical-4487853971",
-"id": "linux software engineer ubuntu for next gen silicon multiple roles and seniority levels|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"cyber security",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/linux-software-engineer-ubuntu-for-next-gen-silicon-multiple-roles-and-seniority-levels-at-canonical-4487853971"
-},
-"families": [
-"IT & software",
-"Other"
-]
-},
-{
-"title": "Senior/Staff/Principal Engineer",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/senior-staff-principal-engineer-at-canonical-4487880051",
-"id": "senior staff principal engineer|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"network engineer",
-"cyber security"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-staff-principal-engineer-at-canonical-4487880051"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Embedded Linux Senior Software Engineer - Optimisation",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/embedded-linux-senior-software-engineer-optimisation-at-canonical-4487864505",
-"id": "embedded linux senior software engineer optimisation|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"cyber security"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/embedded-linux-senior-software-engineer-optimisation-at-canonical-4487864505"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/linux-platform-integration-ubuntu-systems-senior-engineer-at-canonical-4487856976",
-"id": "linux platform integration ubuntu systems senior engineer|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"network engineer",
-"cyber security",
-"project engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/linux-platform-integration-ubuntu-systems-senior-engineer-at-canonical-4487856976"
-},
-"families": [
-"IT & software",
-"Engineering & technical"
-]
-},
-{
-"title": "Senior Site Reliability Engineer",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082",
-"id": "senior site reliability engineer|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"network engineer",
-"cyber security",
-"project engineer",
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082"
-},
-"families": [
-"IT & software",
-"Engineering & technical",
-"Hospitality & F&B"
-]
-},
-{
-"title": "Senior Site Reliability / Gitops Engineer",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/senior-site-reliability-gitops-engineer-at-canonical-4487856939",
-"id": "senior site reliability gitops engineer|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"network engineer",
-"cyber security",
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-site-reliability-gitops-engineer-at-canonical-4487856939"
-},
-"families": [
-"IT & software",
-"Hospitality & F&B"
-]
-},
-{
-"title": "Senior Security Operations Engineer",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/senior-security-operations-engineer-at-canonical-4487866396",
-"id": "senior security operations engineer|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"network engineer",
-"cyber security",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-security-operations-engineer-at-canonical-4487866396"
-},
-"families": [
-"IT & software",
-"Other"
 ]
 },
 {
@@ -24436,6 +24391,170 @@
 "Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/bybit/jobs/5032949101"
 },
 "remote": true,
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Linux Platform Integration - Ubuntu Systems Senior Engineer",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/linux-platform-integration-ubuntu-systems-senior-engineer-at-canonical-4487856976",
+"id": "linux platform integration ubuntu systems senior engineer|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"network engineer",
+"cyber security",
+"project engineer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/linux-platform-integration-ubuntu-systems-senior-engineer-at-canonical-4487856976"
+},
+"families": [
+"IT & software",
+"Engineering & technical"
+]
+},
+{
+"title": "Senior Site Reliability / Gitops Engineer",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/senior-site-reliability-gitops-engineer-at-canonical-4487856939",
+"id": "senior site reliability gitops engineer|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"network engineer",
+"cyber security",
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-site-reliability-gitops-engineer-at-canonical-4487856939"
+},
+"families": [
+"IT & software",
+"Hospitality & F&B"
+]
+},
+{
+"title": "Senior Site Reliability Engineer",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082",
+"id": "senior site reliability engineer|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"network engineer",
+"cyber security",
+"project engineer",
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082"
+},
+"families": [
+"IT & software",
+"Engineering & technical",
+"Hospitality & F&B"
+]
+},
+{
+"title": "Senior/Staff/Principal Engineer",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/senior-staff-principal-engineer-at-canonical-4487880051",
+"id": "senior staff principal engineer|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"network engineer",
+"cyber security"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-staff-principal-engineer-at-canonical-4487880051"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Senior Security Operations Engineer",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/senior-security-operations-engineer-at-canonical-4487866396",
+"id": "senior security operations engineer|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"network engineer",
+"cyber security",
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-security-operations-engineer-at-canonical-4487866396"
+},
+"families": [
+"IT & software",
+"Other"
+]
+},
+{
+"title": "Linux Software Engineer - Ubuntu for Next-Gen Silicon (multiple roles and seniority levels)",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/linux-software-engineer-ubuntu-for-next-gen-silicon-multiple-roles-and-seniority-levels-at-canonical-4487853971",
+"id": "linux software engineer ubuntu for next gen silicon multiple roles and seniority levels|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"cyber security",
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/linux-software-engineer-ubuntu-for-next-gen-silicon-multiple-roles-and-seniority-levels-at-canonical-4487853971"
+},
+"families": [
+"IT & software",
+"Other"
+]
+},
+{
+"title": "Embedded Linux Senior Software Engineer - Optimisation",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/embedded-linux-senior-software-engineer-optimisation-at-canonical-4487864505",
+"id": "embedded linux senior software engineer optimisation|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"cyber security"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/embedded-linux-senior-software-engineer-optimisation-at-canonical-4487864505"
+},
 "families": [
 "IT & software"
 ]
@@ -27033,15 +27152,13 @@
 "LinkedIn"
 ],
 "roles": [
-"marketing",
-"hotel"
+"marketing"
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/director-of-sales-and-marketing-at-chedi-hospitality-4489977857"
 },
 "families": [
-"Marketing & media",
-"Hospitality & F&B"
+"Marketing & media"
 ]
 },
 {
@@ -27949,7 +28066,6 @@
 "bank",
 "AML",
 "financial crime",
-"software engineer",
 "remote"
 ],
 "links": {
@@ -27958,7 +28074,6 @@
 "families": [
 "Banking & finance ops",
 "Compliance, risk & audit",
-"IT & software",
 "Other"
 ]
 },
@@ -28516,6 +28631,28 @@
 ]
 },
 {
+"title": "Senior Jira Administrator",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-10",
+"url": "https://bh.linkedin.com/jobs/view/senior-jira-administrator-at-canonical-4489654002",
+"id": "senior jira administrator|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT support",
+"cyber security"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-jira-administrator-at-canonical-4489654002"
+},
+"families": [
+"IT & software"
+]
+},
+{
 "title": "Senior Software Engineer - MAAS",
 "company": "Canonical",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -28527,75 +28664,10 @@
 "LinkedIn"
 ],
 "roles": [
-"software engineer",
 "cyber security"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-software-engineer-maas-at-canonical-4489645151"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Senior Software Engineer - Digital Workplace",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/senior-software-engineer-digital-workplace-at-canonical-4489469446",
-"id": "senior software engineer digital workplace|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-software-engineer-digital-workplace-at-canonical-4489469446"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Senior Juju Software Engineer (Go)",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/senior-juju-software-engineer-go-at-canonical-4489629874",
-"id": "senior juju software engineer go|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-juju-software-engineer-go-at-canonical-4489629874"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Senior Software Engineer - Python/MongoDB",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/senior-software-engineer-python-mongodb-at-canonical-4489635411",
-"id": "senior software engineer python mongodb|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"cyber security"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-software-engineer-python-mongodb-at-canonical-4489635411"
 },
 "families": [
 "IT & software"
@@ -28613,11 +28685,31 @@
 "LinkedIn"
 ],
 "roles": [
-"software engineer",
 "cyber security"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-software-engineer-python-golang-kubernetes-at-canonical-4489643115"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Senior Software Engineer - Python/MongoDB",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-10",
+"url": "https://bh.linkedin.com/jobs/view/senior-software-engineer-python-mongodb-at-canonical-4489635411",
+"id": "senior software engineer python mongodb|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"cyber security"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-software-engineer-python-mongodb-at-canonical-4489635411"
 },
 "families": [
 "IT & software"
@@ -28635,55 +28727,10 @@
 "LinkedIn"
 ],
 "roles": [
-"software engineer",
 "cyber security"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-software-engineer-backend-at-canonical-4489636382"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Senior Web Engineer",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/senior-web-engineer-at-canonical-4489477194",
-"id": "senior web engineer|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-web-engineer-at-canonical-4489477194"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Senior Jira Administrator",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/senior-jira-administrator-at-canonical-4489654002",
-"id": "senior jira administrator|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"IT support",
-"cyber security"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-jira-administrator-at-canonical-4489654002"
 },
 "families": [
 "IT & software"
@@ -32883,7 +32930,6 @@
 "operations analyst",
 "AML",
 "financial crime",
-"software engineer",
 "IT support",
 "data analyst",
 "remote"
@@ -33506,27 +33552,6 @@
 "families": [
 "HR & admin",
 "Hospitality & F&B"
-]
-},
-{
-"title": "Technology - Application Development, Summer Analyst, Bahrain 2027",
-"company": "Citi",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/technology-application-development-summer-analyst-bahrain-2027-at-citi-4487966714",
-"id": "technology application development summer analyst bahrain 2027|citi",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/technology-application-development-summer-analyst-bahrain-2027-at-citi-4487966714"
-},
-"families": [
-"IT & software"
 ]
 },
 {
@@ -36022,7 +36047,6 @@
 "roles": [
 "operations analyst",
 "bank",
-"software engineer",
 "data analyst",
 "project manager"
 ],
@@ -36145,15 +36169,13 @@
 "LinkedIn"
 ],
 "roles": [
-"bank",
-"software engineer"
+"bank"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-artificial-intelligence-engineer-at-array-innovation-4488787321"
 },
 "families": [
-"Banking & finance ops",
-"IT & software"
+"Banking & finance ops"
 ]
 },
 {
@@ -38069,7 +38091,6 @@
 ],
 "roles": [
 "client onboarding",
-"software engineer",
 "IT support",
 "data analyst",
 "cyber security",
@@ -39767,7 +39788,6 @@
 "settlement",
 "bank",
 "KYC",
-"software engineer",
 "cyber security"
 ],
 "links": {
@@ -40221,7 +40241,6 @@
 "LinkedIn"
 ],
 "roles": [
-"software engineer",
 "IT support",
 "network engineer",
 "cyber security",
@@ -42498,31 +42517,6 @@
 ]
 },
 {
-"title": "Managing Partner",
-"company": "Antal International",
-"location": "Bahrain",
-"posted": "2026-11-04",
-"url": "https://bh.linkedin.com/jobs/view/managing-partner-at-antal-international-4485506209",
-"id": "managing partner|antal international",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"recruiter",
-"sales manager",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/managing-partner-at-antal-international-4485506209"
-},
-"families": [
-"HR & admin",
-"Sales & business dev",
-"Other"
-]
-},
-{
 "title": "Data Engineer (5+ years of experience)",
 "company": "ARRAY INNOVATION",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -42534,7 +42528,6 @@
 "LinkedIn"
 ],
 "roles": [
-"software engineer",
 "data analyst",
 "remote"
 ],
@@ -43565,6 +43558,27 @@
 ]
 },
 {
+"title": "Housing Maintenance Technician(HVAC Technician)",
+"company": "JW Marriott",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-04",
+"url": "https://ae.linkedin.com/jobs/view/housing-maintenance-technician-hvac-technician-at-jw-marriott-4486508245",
+"id": "housing maintenance technician hvac technician|jw marriott|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/housing-maintenance-technician-hvac-technician-at-jw-marriott-4486508245"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
 "title": "Accountant (Retail)",
 "company": "C2i",
 "location": "Abu Dhabi Emirate, United Arab Emirates",
@@ -43622,27 +43636,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/english-teacher-jan-2027-at-gems-education-4486376431"
-},
-"families": [
-"Education"
-]
-},
-{
-"title": "KG Classroom Teacher",
-"company": "Bukhatir Education Advancement and Management International (Beam)",
-"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
-"posted": "2026-11-04",
-"url": "https://ae.linkedin.com/jobs/view/kg-classroom-teacher-at-bukhatir-education-advancement-and-management-international-beam-4486504438",
-"id": "kg classroom teacher|bukhatir education advancement and management international beam|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/kg-classroom-teacher-at-bukhatir-education-advancement-and-management-international-beam-4486504438"
 },
 "families": [
 "Education"
@@ -50658,6 +50651,27 @@
 ]
 },
 {
+"title": "Class Teacher – Al Manhal",
+"company": "International Community Schools (ICSchools)",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-01",
+"url": "https://ae.linkedin.com/jobs/view/class-teacher-%E2%80%93-al-manhal-at-international-community-schools-icschools-4489864958",
+"id": "class teacher al manhal|international community schools icschools|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/class-teacher-%E2%80%93-al-manhal-at-international-community-schools-icschools-4489864958"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "Project Manager - Drilling & Grouting",
 "company": "Trevi Group",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -52375,7 +52389,6 @@
 "internal control",
 "audit",
 "risk",
-"software engineer",
 "IT support",
 "cyber security",
 "project manager",
@@ -54240,27 +54253,6 @@
 },
 "families": [
 "Marketing & media"
-]
-},
-{
-"title": "Customer Service Representative - Saudi National",
-"company": "Tabby | تابي",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-10-28",
-"url": "https://sa.linkedin.com/jobs/view/customer-service-representative-saudi-national-at-tabby-%D8%AA%D8%A7%D8%A8%D9%8A-4484449917",
-"id": "customer service representative saudi national|tabby|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/customer-service-representative-saudi-national-at-tabby-%D8%AA%D8%A7%D8%A8%D9%8A-4484449917"
-},
-"families": [
-"Customer service"
 ]
 },
 {
@@ -58876,7 +58868,6 @@
 "bank",
 "KYC",
 "client onboarding",
-"software engineer",
 "IT support",
 "network engineer",
 "cyber security",
@@ -60402,29 +60393,6 @@
 ]
 },
 {
-"title": "Software Engineers - AI Code Licensing Program",
-"company": "Gramian Consulting Group",
-"location": "TELECOMMUTE",
-"posted": "2026-10-21",
-"url": "https://jobs.workable.com/view/kE3X7AjhrGfgRxJTUmJvoT/remote-software-engineers---ai-code-licensing-program-in-qatar-at-gramian-consulting-group",
-"id": "software engineers ai code licensing program|gramian consulting group|qatar",
-"country": "Qatar",
-"sources": [
-"Workable"
-],
-"roles": [
-"engineer",
-"remote"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/kE3X7AjhrGfgRxJTUmJvoT/remote-software-engineers---ai-code-licensing-program-in-qatar-at-gramian-consulting-group"
-},
-"families": [
-"Engineering & technical",
-"Other"
-]
-},
-{
 "title": "General Manager - Tendering & Sales (MEP) - Al Mulla Engineering",
 "company": "Al Mulla Group",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -60567,14 +60535,16 @@
 ],
 "roles": [
 "Any job",
-"HR"
+"HR",
+"hotel"
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/hr-manager-at-chedi-hospitality-4482092301"
 },
 "families": [
 "Other",
-"HR & admin"
+"HR & admin",
+"Hospitality & F&B"
 ]
 },
 {
@@ -60598,29 +60568,6 @@
 "families": [
 "Banking & finance ops",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Software Engineers - AI Code Licensing Program",
-"company": "Gramian Consulting Group",
-"location": "TELECOMMUTE",
-"posted": "2026-10-21",
-"url": "https://jobs.workable.com/view/ry55yGpYcmhsMYUxjA4RoS/remote-software-engineers---ai-code-licensing-program-in-oman-at-gramian-consulting-group",
-"id": "software engineers ai code licensing program|gramian consulting group|oman",
-"country": "Oman",
-"sources": [
-"Workable"
-],
-"roles": [
-"engineer",
-"remote"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/ry55yGpYcmhsMYUxjA4RoS/remote-software-engineers---ai-code-licensing-program-in-oman-at-gramian-consulting-group"
-},
-"families": [
-"Engineering & technical",
-"Other"
 ]
 },
 {
@@ -60827,7 +60774,6 @@
 ],
 "roles": [
 "reconciliation",
-"software engineer",
 "IT support",
 "technician"
 ],
