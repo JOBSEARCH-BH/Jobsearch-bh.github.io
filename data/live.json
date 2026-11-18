@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-18T12:26:17+00:00",
+"fetched_at": "2026-11-18T13:38:31+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -99,23 +99,23 @@
 "Project & management"
 ],
 "countries": {
-"Bahrain": 565,
+"Bahrain": 568,
 "Saudi Arabia": 591,
-"United Arab Emirates": 708,
-"Qatar": 354,
-"Kuwait": 315,
-"Oman": 299,
-"Remote": 25
+"United Arab Emirates": 709,
+"Qatar": 353,
+"Kuwait": 319,
+"Oman": 301,
+"Remote": 26
 },
 "linkedin_check": {
-"checked": 151,
-"closed_new": 1,
+"checked": 97,
+"closed_new": 0,
 "failed": 0,
 "pending": 0,
 "stopped": "",
-"desc_checks": 19,
-"removed": 7,
-"cache": 6096
+"desc_checks": 32,
+"removed": 4,
+"cache": 6138
 },
 "employer_boards": [
 {
@@ -140,7 +140,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.8
+"secs": 13.8
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -148,7 +148,7 @@
 "count": 21,
 "fetched": 23,
 "error": "",
-"secs": 5.2
+"secs": 5.3
 },
 {
 "board": "HSBC (Eightfold)",
@@ -156,7 +156,7 @@
 "count": 26,
 "fetched": 27,
 "error": "",
-"secs": 2.4
+"secs": 2.7
 },
 {
 "board": "Citi (Workday)",
@@ -180,7 +180,7 @@
 "count": 5,
 "fetched": 5,
 "error": "",
-"secs": 0.8
+"secs": 1.0
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -188,7 +188,7 @@
 "count": 7,
 "fetched": 7,
 "error": "",
-"secs": 0.6
+"secs": 0.5
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -196,7 +196,7 @@
 "count": 3,
 "fetched": 3,
 "error": "",
-"secs": 1.3
+"secs": 1.1
 },
 {
 "board": "Tamkeen (careers page)",
@@ -204,7 +204,7 @@
 "count": 0,
 "fetched": 1,
 "error": "",
-"secs": 2.5
+"secs": 2.8
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -220,7 +220,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://maersk.wd3.myworkdayjobs.com/wday/cxs/maersk/Maersk_Careers/jobs",
-"secs": 0.6
+"secs": 3.4
 },
 {
 "board": "GE Vernova (Workday)",
@@ -228,7 +228,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs",
-"secs": 0.3
+"secs": 0.1
 },
 {
 "board": "Hitachi (Workday)",
@@ -244,7 +244,7 @@
 "count": 30,
 "fetched": 35,
 "error": "",
-"secs": 1.3
+"secs": 0.1
 },
 {
 "board": "Tarabut (Workable)",
@@ -252,7 +252,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "NymCard (BambooHR)",
@@ -260,7 +260,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.9
+"secs": 0.8
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -282,7 +282,7 @@
 "board": "Tamara (Greenhouse)",
 "ok": true,
 "count": 14,
-"fetched": 38,
+"fetched": 37,
 "error": "",
 "secs": 0.1
 },
@@ -316,7 +316,7 @@
 "count": 22,
 "fetched": 30,
 "error": "",
-"secs": 0.3
+"secs": 0.2
 },
 {
 "board": "Salla (Workable)",
@@ -324,7 +324,7 @@
 "count": 25,
 "fetched": 28,
 "error": "",
-"secs": 0.3
+"secs": 0.2
 },
 {
 "board": "Lucidya (Workable)",
@@ -332,7 +332,7 @@
 "count": 20,
 "fetched": 51,
 "error": "",
-"secs": 0.3
+"secs": 0.4
 },
 {
 "board": "Unifonic (Recruitee)",
@@ -340,33 +340,33 @@
 "count": 5,
 "fetched": 13,
 "error": "",
-"secs": 0.4
+"secs": 0.3
 }
 ],
 "descriptions": {
-"live": 2832,
-"with_desc": 2813,
+"live": 2841,
+"with_desc": 2836,
 "by_source": {
-"LinkedIn": "2175/2194",
+"LinkedIn": "2196/2201",
 "Employer careers (ATS)": "367/367",
-"Workable": "335/335"
+"Workable": "336/336"
 },
-"fetched": 3,
+"fetched": 0,
 "failed": 0,
 "skipped": 0,
-"secs": 2.0
+"secs": 0.3
 },
 "status": [
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2194,
+"count": 2201,
 "note": ""
 },
 {
 "source": "Workable",
 "ok": true,
-"count": 335,
+"count": 336,
 "note": ""
 },
 {
@@ -378,33 +378,230 @@
 ],
 "jobs": [
 {
-"title": "Network Engineering Director / Network Architect / Senior Network Engineer",
-"company": "CT & Frac News",
-"location": "Jid Hafs, Capital Governorate, Bahrain",
+"title": "Information Technology Operator",
+"company": "Unity Infotech",
+"location": "Capital Governorate, Bahrain",
 "posted": "2026-11-18",
-"url": "https://bh.linkedin.com/jobs/view/network-engineering-director-network-architect-senior-network-engineer-at-ct-frac-news-4490866501",
-"id": "network engineering director network architect senior network engineer|ct frac news",
+"url": "https://bh.linkedin.com/jobs/view/information-technology-operator-at-unity-infotech-4491839558",
+"id": "information technology operator|unity infotech",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"banking operations",
+"operations analyst",
+"payments operations",
+"treasury operations",
+"bank",
+"internal control",
+"IT support",
+"network engineer",
+"technician"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/information-technology-operator-at-unity-infotech-4491839558"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"IT & software",
+"Engineering & technical"
+]
+},
+{
+"title": "Operations Manager",
+"company": "Monerti",
+"location": "Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/operations-manager-at-monerti-4490882727",
+"id": "operations manager|monerti",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"banking operations",
+"operations officer",
+"internal control",
+"finance officer",
+"HR operations",
+"HR officer",
+"office manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/operations-manager-at-monerti-4490882727"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"HR & admin",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Auction Ground Operations Assistant / Vehicle Movement Coordinator",
+"company": "L-3 Valmarine",
+"location": "Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/auction-ground-operations-assistant-vehicle-movement-coordinator-at-l-3-valmarine-4490893325",
+"id": "auction ground operations assistant vehicle movement coordinator|l 3 valmarine",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations officer",
+"back office",
+"settlement",
+"administration officer",
+"logistics",
+"supply chain",
+"warehouse",
+"driver"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/auction-ground-operations-assistant-vehicle-movement-coordinator-at-l-3-valmarine-4490893325"
+},
+"families": [
+"Banking & finance ops",
+"HR & admin",
+"Logistics & supply chain"
+]
+},
+{
+"title": "Supply Chain Analyst",
+"company": "Ocean Design & Exhibit Pvt. Ltd.",
+"location": "Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/supply-chain-analyst-at-ocean-design-exhibit-pvt-ltd-4491837634",
+"id": "supply chain analyst|ocean design exhibit pvt ltd",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations officer",
+"operations analyst",
+"back office",
+"reconciliation",
+"data analyst",
+"logistics",
+"procurement",
+"supply chain",
+"warehouse"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/supply-chain-analyst-at-ocean-design-exhibit-pvt-ltd-4491837634"
+},
+"families": [
+"Banking & finance ops",
+"IT & software",
+"Logistics & supply chain"
+]
+},
+{
+"title": "Accountant",
+"company": "Americana Restaurants",
+"location": "Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/accountant-at-americana-restaurants-4490875925",
+"id": "accountant|americana restaurants",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"back office",
+"payments operations",
+"settlement",
+"reconciliation",
+"treasury operations",
+"internal control",
+"audit",
+"accountant",
+"finance officer",
+"financial analyst",
+"accounts payable",
+"payroll",
+"hotel",
+"restaurant",
+"retail"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/accountant-at-americana-restaurants-4490875925"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"HR & admin",
+"Hospitality & F&B",
+"Retail"
+]
+},
+{
+"title": "Sales Manager",
+"company": "Local",
+"location": "Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/sales-manager-at-local-4490885575",
+"id": "sales manager|local",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
 "bank",
-"network engineer",
-"cyber security",
-"project engineer",
-"project manager",
-"remote"
+"client onboarding",
+"financial crime",
+"relationship manager",
+"account manager",
+"sales executive",
+"business development",
+"sales manager"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/network-engineering-director-network-architect-senior-network-engineer-at-ct-frac-news-4490866501"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/sales-manager-at-local-4490885575"
 },
 "families": [
 "Banking & finance ops",
-"IT & software",
-"Engineering & technical",
-"Project & management",
-"Other"
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"Sales & business dev"
+]
+},
+{
+"title": "Business Development Manager",
+"company": "Monerti",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/business-development-manager-at-monerti-4491304040",
+"id": "business development manager|monerti",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"KYC",
+"relationship manager",
+"account manager",
+"sales executive",
+"business development",
+"sales manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/business-development-manager-at-monerti-4491304040"
+},
+"families": [
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"Sales & business dev"
 ]
 },
 {
@@ -436,28 +633,6 @@
 ]
 },
 {
-"title": "Sales Manager",
-"company": "Local",
-"location": "Capital Governorate, Bahrain",
-"posted": "2026-11-18",
-"url": "https://bh.linkedin.com/jobs/view/sales-manager-at-local-4490885575",
-"id": "sales manager|local",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager",
-"account manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/sales-manager-at-local-4490885575"
-},
-"families": [
-"Relationship & client mgmt"
-]
-},
-{
 "title": "Director of Human Resources",
 "company": "Hilton",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -480,6 +655,55 @@
 "families": [
 "HR & admin",
 "Hospitality & F&B"
+]
+},
+{
+"title": "Learning & Development Manager",
+"company": "Four Seasons",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/learning-development-manager-at-four-seasons-4492019375",
+"id": "learning development manager|four seasons",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR operations",
+"HR officer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/learning-development-manager-at-four-seasons-4492019375"
+},
+"families": [
+"HR & admin"
+]
+},
+{
+"title": "Store Manager",
+"company": "Apparel Group",
+"location": "Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/store-manager-at-apparel-group-4375688567",
+"id": "store manager|apparel group",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR operations",
+"HR officer",
+"office manager",
+"sales manager",
+"store manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/store-manager-at-apparel-group-4375688567"
+},
+"families": [
+"HR & admin",
+"Sales & business dev",
+"Retail"
 ]
 },
 {
@@ -519,26 +743,74 @@
 ]
 },
 {
-"title": "Used Car Sales Executive / Used Car Sales Consultant / Luxury Car Sales Executive",
-"company": "UJ Consulting Club (UJCC)",
+"title": "IT Support Engineer / IT Help Desk Technicia / IT Administrato",
+"company": "cultura 3.0",
 "location": "Capital Governorate, Bahrain",
 "posted": "2026-11-18",
-"url": "https://bh.linkedin.com/jobs/view/used-car-sales-executive-used-car-sales-consultant-luxury-car-sales-executive-at-uj-consulting-club-ujcc-4490863794",
-"id": "used car sales executive used car sales consultant luxury car sales executive|uj consulting club ujcc",
+"url": "https://bh.linkedin.com/jobs/view/it-support-engineer-it-help-desk-technicia-it-administrato-at-cultura-3-0-4492022430",
+"id": "it support engineer it help desk technicia it administrato|cultura 3 0",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"sales executive",
-"retail"
+"IT support",
+"network engineer",
+"cyber security",
+"technician"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/used-car-sales-executive-used-car-sales-consultant-luxury-car-sales-executive-at-uj-consulting-club-ujcc-4490863794"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/it-support-engineer-it-help-desk-technicia-it-administrato-at-cultura-3-0-4492022430"
 },
 "families": [
-"Sales & business dev",
-"Retail"
+"IT & software",
+"Engineering & technical"
+]
+},
+{
+"title": "Proposal Engineer for PLC-SCADA process automation in O& G sector",
+"company": "Prudent Solutions",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/proposal-engineer-for-plc-scada-process-automation-in-o-g-sector-at-prudent-solutions-4490896334",
+"id": "proposal engineer for plc scada process automation in o g sector|prudent solutions",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"mechanical engineer",
+"electrical engineer",
+"project engineer",
+"project manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/proposal-engineer-for-plc-scada-process-automation-in-o-g-sector-at-prudent-solutions-4490896334"
+},
+"families": [
+"Engineering & technical",
+"Project & management"
+]
+},
+{
+"title": "Architect",
+"company": "4 Pencils Animation",
+"location": "Capital Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/architect-at-4-pencils-animation-4491843394",
+"id": "architect|4 pencils animation",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"civil engineer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/architect-at-4-pencils-animation-4491843394"
+},
+"families": [
+"Engineering & technical"
 ]
 },
 {
@@ -576,6 +848,7 @@
 "roles": [
 "marketing",
 "digital marketing",
+"graphic designer",
 "social media"
 ],
 "links": {
@@ -636,6 +909,32 @@
 ]
 },
 {
+"title": "Instructional Designer",
+"company": "Bapco Energies",
+"location": "Awali, Southern Governorate, Bahrain",
+"posted": "2026-11-18",
+"url": "https://iadygs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/100427",
+"id": "instructional designer|bapco energies",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)",
+"LinkedIn"
+],
+"roles": [
+"graphic designer",
+"teacher",
+"lecturer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/instructional-designer-at-bapco-energies-4492024295",
+"Employer careers (ATS)": "https://iadygs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/100427"
+},
+"families": [
+"Marketing & media",
+"Education"
+]
+},
+{
 "title": "Customer Care Advisor (Voice)",
 "company": "Tamara",
 "location": "Riyadh, Saudi Arabia",
@@ -653,6 +952,27 @@
 "links": {
 "Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/tamara/jobs/4726623101",
 "LinkedIn": "https://sa.linkedin.com/jobs/view/customer-care-advisor-voice-at-tamara-4442484963"
+},
+"families": [
+"Customer service"
+]
+},
+{
+"title": "Beauty Advisor",
+"company": "Apparel Group",
+"location": "Bahrain",
+"posted": "2026-11-18",
+"url": "https://bh.linkedin.com/jobs/view/beauty-advisor-at-apparel-group-4492015937",
+"id": "beauty advisor|apparel group",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"call centre"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/beauty-advisor-at-apparel-group-4492015937"
 },
 "families": [
 "Customer service"
@@ -725,27 +1045,6 @@
 ]
 },
 {
-"title": "Production Operator",
-"company": "Club des Professionnels QHSSE du Sénégal _ Page Publique",
-"location": "Muharraq Governorate, Bahrain",
-"posted": "2026-11-18",
-"url": "https://bh.linkedin.com/jobs/view/production-operator-at-club-des-professionnels-qhsse-du-s%C3%A9n%C3%A9gal-page-publique-4490878234",
-"id": "production operator|club des professionnels qhsse du s n gal page publique",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"warehouse"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/production-operator-at-club-des-professionnels-qhsse-du-s%C3%A9n%C3%A9gal-page-publique-4490878234"
-},
-"families": [
-"Logistics & supply chain"
-]
-},
-{
 "title": "Firefighter Lead/Crew Chief",
 "company": "V2X Inc",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -764,29 +1063,6 @@
 },
 "families": [
 "Logistics & supply chain"
-]
-},
-{
-"title": "Instructional Designer",
-"company": "Bapco Energies",
-"location": "Awali, Southern Governorate, Bahrain",
-"posted": "2026-11-18",
-"url": "https://iadygs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/100427",
-"id": "instructional designer|bapco energies",
-"country": "Bahrain",
-"sources": [
-"Employer careers (ATS)",
-"LinkedIn"
-],
-"roles": [
-"lecturer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/instructional-designer-at-bapco-energies-4492024295",
-"Employer careers (ATS)": "https://iadygs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/100427"
-},
-"families": [
-"Education"
 ]
 },
 {
@@ -897,6 +1173,71 @@
 ]
 },
 {
+"title": "HR Specialist",
+"company": "Namaa Partners",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "2026-11-18",
+"url": "https://sa.linkedin.com/jobs/view/hr-specialist-at-namaa-partners-4491829736",
+"id": "hr specialist|namaa partners|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR",
+"remote"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/hr-specialist-at-namaa-partners-4491829736"
+},
+"families": [
+"HR & admin",
+"Other"
+]
+},
+{
+"title": "Human Resources Manager",
+"company": "Aqua-Tots Saudi Arabia",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "2026-11-18",
+"url": "https://sa.linkedin.com/jobs/view/human-resources-manager-at-aqua-tots-saudi-arabia-4490885660",
+"id": "human resources manager|aqua tots saudi arabia|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/human-resources-manager-at-aqua-tots-saudi-arabia-4490885660"
+},
+"families": [
+"HR & admin"
+]
+},
+{
+"title": "Senior Manager - HR Business Partner",
+"company": "Qiddiya Investment Company",
+"location": "Riyadh, Riyadh Province, Saudi Arabia",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/c8f6vHQ2Vd5KbLnjb6qgrX/senior-manager---hr-business-partner-in-riyadh-at-qiddiya-investment-company",
+"id": "senior manager hr business partner|qiddiya investment company|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Workable"
+],
+"roles": [
+"HR"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/c8f6vHQ2Vd5KbLnjb6qgrX/senior-manager---hr-business-partner-in-riyadh-at-qiddiya-investment-company"
+},
+"families": [
+"HR & admin"
+]
+},
+{
 "title": "Senior Solution Support Engineer",
 "company": "Mozn",
 "location": "Riyadh, Riyadh Province, Saudi Arabia",
@@ -961,11 +1302,11 @@
 },
 {
 "title": "HORECA Sales Executive",
-"company": "Distribution Link",
+"company": "Al-Madhaq Al-Alami",
 "location": "Jeddah, Makkah, Saudi Arabia",
 "posted": "2026-11-18",
-"url": "https://sa.linkedin.com/jobs/view/horeca-sales-executive-at-distribution-link-4490886048",
-"id": "horeca sales executive|distribution link|saudi arabia",
+"url": "https://sa.linkedin.com/jobs/view/horeca-sales-executive-at-al-madhaq-al-alami-4490870654",
+"id": "horeca sales executive|al madhaq al alami|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
 "LinkedIn"
@@ -974,7 +1315,7 @@
 "sales"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/horeca-sales-executive-at-distribution-link-4490886048"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/horeca-sales-executive-at-al-madhaq-al-alami-4490870654"
 },
 "families": [
 "Sales & business dev"
@@ -999,6 +1340,48 @@
 },
 "families": [
 "Sales & business dev"
+]
+},
+{
+"title": "Marketing Executive",
+"company": "Plaza Premium Group",
+"location": "Jiddah, Makkah, Saudi Arabia",
+"posted": "2026-11-18",
+"url": "https://sa.linkedin.com/jobs/view/marketing-executive-at-plaza-premium-group-4492014670",
+"id": "marketing executive|plaza premium group|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/marketing-executive-at-plaza-premium-group-4492014670"
+},
+"families": [
+"Marketing & media"
+]
+},
+{
+"title": "Assistant Marketing Manager",
+"company": "Plaza Premium Group",
+"location": "Jeddah, Makkah, Saudi Arabia",
+"posted": "2026-11-18",
+"url": "https://sa.linkedin.com/jobs/view/assistant-marketing-manager-at-plaza-premium-group-4492021206",
+"id": "assistant marketing manager|plaza premium group|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/assistant-marketing-manager-at-plaza-premium-group-4492021206"
+},
+"families": [
+"Marketing & media"
 ]
 },
 {
@@ -1128,27 +1511,6 @@
 ]
 },
 {
-"title": "Academic Staff - All Subjects",
-"company": "Arab International Schools",
-"location": "Jeddah, Makkah, Saudi Arabia",
-"posted": "2026-11-18",
-"url": "https://sa.linkedin.com/jobs/view/academic-staff-all-subjects-at-arab-international-schools-4490885488",
-"id": "academic staff all subjects|arab international schools|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/academic-staff-all-subjects-at-arab-international-schools-4490885488"
-},
-"families": [
-"Education"
-]
-},
-{
 "title": "EFL Instructor (Saudi Only)",
 "company": "Applicantz",
 "location": "Dammam, Eastern, Saudi Arabia",
@@ -1191,6 +1553,27 @@
 ]
 },
 {
+"title": "Legal Advisor",
+"company": "M.Y. Naghi Motors",
+"location": "Jiddah, Makkah, Saudi Arabia",
+"posted": "2026-11-18",
+"url": "https://sa.linkedin.com/jobs/view/legal-advisor-at-m-y-naghi-motors-4492006959",
+"id": "legal advisor|m y naghi motors|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"legal"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/legal-advisor-at-m-y-naghi-motors-4492006959"
+},
+"families": [
+"Legal"
+]
+},
+{
 "title": "Project Manager (Fitout/Landscape)",
 "company": "Jasara Program Management Company",
 "location": "Riyadh, Riyadh, Saudi Arabia",
@@ -1209,6 +1592,27 @@
 },
 "families": [
 "Project & management"
+]
+},
+{
+"title": "Portfolio Manager - IMMEDIATE HIRING - Traders Hub-Head Office",
+"company": "Traders' Hub",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/portfolio-manager-immediate-hiring-traders-hub-head-office-at-traders-hub-4491300100",
+"id": "portfolio manager immediate hiring traders hub head office|traders hub|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/portfolio-manager-immediate-hiring-traders-hub-head-office-at-traders-hub-4491300100"
+},
+"families": [
+"Other"
 ]
 },
 {
@@ -1275,6 +1679,27 @@
 ]
 },
 {
+"title": "Senior Accountant - R2R | Corporate Services | Dubai",
+"company": "Al-Futtaim",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/senior-accountant-r2r-corporate-services-dubai-at-al-futtaim-4492024234",
+"id": "senior accountant r2r corporate services dubai|al futtaim|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-accountant-r2r-corporate-services-dubai-at-al-futtaim-4492024234"
+},
+"families": [
+"Accounting & finance"
+]
+},
+{
 "title": "Senior Accountant",
 "company": "EquaMind Consultancy",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -1290,27 +1715,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/senior-accountant-at-equamind-consultancy-4490876286"
-},
-"families": [
-"Accounting & finance"
-]
-},
-{
-"title": "Accountant - Developer Experience",
-"company": "ABU ALNAGA DEVELOPMENT",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-18",
-"url": "https://ae.linkedin.com/jobs/view/accountant-developer-experience-at-abu-alnaga-development-4490870295",
-"id": "accountant developer experience|abu alnaga development|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/accountant-developer-experience-at-abu-alnaga-development-4490870295"
 },
 "families": [
 "Accounting & finance"
@@ -1353,6 +1757,48 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/head-of-information-technology-commodity-trading-48de116-at-referment-4491776655"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Head of Information Technology | Commodity Trading  (0B4A854)",
+"company": "Referment",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/head-of-information-technology-commodity-trading-0b4a854-at-referment-4492015759",
+"id": "head of information technology commodity trading 0b4a854|referment|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/head-of-information-technology-commodity-trading-0b4a854-at-referment-4492015759"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Senior Technical Software Engineer - Java Full Stack - Emiratisation)",
+"company": "Emirates",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/senior-technical-software-engineer-java-full-stack-emiratisation-at-emirates-4490881816",
+"id": "senior technical software engineer java full stack emiratisation|emirates|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-technical-software-engineer-java-full-stack-emiratisation-at-emirates-4490881816"
 },
 "families": [
 "IT & software"
@@ -1550,6 +1996,27 @@
 ]
 },
 {
+"title": "STP64 - Marketing Manager",
+"company": "STARTRADER",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/stp64-marketing-manager-at-startrader-4492013790",
+"id": "stp64 marketing manager|startrader|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/stp64-marketing-manager-at-startrader-4492013790"
+},
+"families": [
+"Marketing & media"
+]
+},
+{
 "title": "Marketing Specialist",
 "company": "AL Gahwa AL Arabiya | القهوة العربية",
 "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
@@ -1636,29 +2103,6 @@
 ]
 },
 {
-"title": "Commis II",
-"company": "Rotana Hotels",
-"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
-"posted": "2026-11-18",
-"url": "https://jobs.workable.com/view/pAjBvx1SYtjxSpLVAxHdUZ/commis-ii-in-abu-dhabi-at-rotana-hotels",
-"id": "commis ii|rotana hotels|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"customer service",
-"hotel"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/pAjBvx1SYtjxSpLVAxHdUZ/commis-ii-in-abu-dhabi-at-rotana-hotels"
-},
-"families": [
-"Customer service",
-"Hospitality & F&B"
-]
-},
-{
 "title": "Driver",
 "company": "Rotana Hotels",
 "location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
@@ -1675,6 +2119,29 @@
 ],
 "links": {
 "Workable": "https://jobs.workable.com/view/rX7XAN3EntyPfRQChVKv1t/driver-in-abu-dhabi-at-rotana-hotels"
+},
+"families": [
+"Customer service",
+"Hospitality & F&B"
+]
+},
+{
+"title": "Commis II",
+"company": "Rotana Hotels",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://jobs.workable.com/view/pAjBvx1SYtjxSpLVAxHdUZ/commis-ii-in-abu-dhabi-at-rotana-hotels",
+"id": "commis ii|rotana hotels|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Workable"
+],
+"roles": [
+"customer service",
+"hotel"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/pAjBvx1SYtjxSpLVAxHdUZ/commis-ii-in-abu-dhabi-at-rotana-hotels"
 },
 "families": [
 "Customer service",
@@ -1808,6 +2275,92 @@
 ]
 },
 {
+"title": "Client Advisor",
+"company": "Vacheron Constantin",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/client-advisor-at-vacheron-constantin-4466861602",
+"id": "client advisor|vacheron constantin|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/client-advisor-at-vacheron-constantin-4466861602"
+},
+"families": [
+"Retail"
+]
+},
+{
+"title": "BOTTEGA VENETA Client Advisor (UAE National)",
+"company": "Bottega Veneta",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/bottega-veneta-client-advisor-uae-national-at-bottega-veneta-4492025463",
+"id": "bottega veneta client advisor uae national|bottega veneta|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/bottega-veneta-client-advisor-uae-national-at-bottega-veneta-4492025463"
+},
+"families": [
+"Retail"
+]
+},
+{
+"title": "Operations Supervisor",
+"company": "DHL Global Forwarding",
+"location": "Ras Al Khaimah, Ras al-Khaimah, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/operations-supervisor-at-dhl-global-forwarding-4492018897",
+"id": "operations supervisor|dhl global forwarding|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"logistics"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/operations-supervisor-at-dhl-global-forwarding-4492018897"
+},
+"families": [
+"Logistics & supply chain"
+]
+},
+{
+"title": "Junior Accountant",
+"company": "The Label ME",
+"location": "Doha, Qatar",
+"posted": "2026-11-18",
+"url": "https://qa.linkedin.com/jobs/view/junior-accountant-at-the-label-me-4490894341",
+"id": "junior accountant|the label me|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job",
+"accountant"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/junior-accountant-at-the-label-me-4490894341"
+},
+"families": [
+"Other",
+"Accounting & finance"
+]
+},
+{
 "title": "Team Leader - Architecture",
 "company": "GHD",
 "location": "Doha, Qatar",
@@ -1844,6 +2397,27 @@
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/chief-operating-officer-at-syntys-4490859934"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
+"title": "Assistant Manager - Outlet",
+"company": "Grand Hyatt",
+"location": "Doha, Doha, Qatar",
+"posted": "2026-11-18",
+"url": "https://qa.linkedin.com/jobs/view/assistant-manager-outlet-at-grand-hyatt-4476384074",
+"id": "assistant manager outlet|grand hyatt|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/assistant-manager-outlet-at-grand-hyatt-4476384074"
 },
 "families": [
 "Banking & finance ops"
@@ -1913,12 +2487,12 @@
 ]
 },
 {
-"title": "Key Account Manager",
-"company": "talabat",
-"location": "Doha Metropolitan Area",
+"title": "Partnerships Manager",
+"company": "Urban Point",
+"location": "Doha, Qatar",
 "posted": "2026-11-18",
-"url": "https://qa.linkedin.com/jobs/view/key-account-manager-at-talabat-4490866190",
-"id": "key account manager|talabat|qatar",
+"url": "https://qa.linkedin.com/jobs/view/partnerships-manager-at-urban-point-4490870875",
+"id": "partnerships manager|urban point|qatar",
 "country": "Qatar",
 "sources": [
 "LinkedIn"
@@ -1927,10 +2501,31 @@
 "relationship manager"
 ],
 "links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/key-account-manager-at-talabat-4490866190"
+"LinkedIn": "https://qa.linkedin.com/jobs/view/partnerships-manager-at-urban-point-4490870875"
 },
 "families": [
 "Relationship & client mgmt"
+]
+},
+{
+"title": "Senior Accountant",
+"company": "Al Emadi Enterprises",
+"location": "Doha, Qatar",
+"posted": "2026-11-18",
+"url": "https://qa.linkedin.com/jobs/view/senior-accountant-at-al-emadi-enterprises-4490881935",
+"id": "senior accountant|al emadi enterprises|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/senior-accountant-at-al-emadi-enterprises-4490881935"
+},
+"families": [
+"Accounting & finance"
 ]
 },
 {
@@ -1978,6 +2573,27 @@
 ]
 },
 {
+"title": "Clinical Psychologist Assistant",
+"company": "Qatar Airways",
+"location": "Doha Metropolitan Area",
+"posted": "2026-11-18",
+"url": "https://qa.linkedin.com/jobs/view/clinical-psychologist-assistant-at-qatar-airways-4491837415",
+"id": "clinical psychologist assistant|qatar airways|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"nurse"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/clinical-psychologist-assistant-at-qatar-airways-4491837415"
+},
+"families": [
+"Healthcare"
+]
+},
+{
 "title": "Elementary SEND Teacher",
 "company": "Specialist SEND Group",
 "location": "Qatar",
@@ -1996,6 +2612,69 @@
 },
 "families": [
 "Education"
+]
+},
+{
+"title": "Lecturer/Senior Lecturer (Cybersecurity)  |  Part-Time Lecturers",
+"company": "Barzan University College (BUC)",
+"location": "Doha, Qatar",
+"posted": "2026-11-18",
+"url": "https://qa.linkedin.com/jobs/view/lecturer-senior-lecturer-cybersecurity-part-time-lecturers-at-barzan-university-college-buc-4490888365",
+"id": "lecturer senior lecturer cybersecurity part time lecturers|barzan university college buc|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/lecturer-senior-lecturer-cybersecurity-part-time-lecturers-at-barzan-university-college-buc-4490888365"
+},
+"families": [
+"Education"
+]
+},
+{
+"title": "Legal Counsel (Qatarization)",
+"company": "Empresa Confidencial",
+"location": "Doha, Qatar",
+"posted": "2026-11-18",
+"url": "https://qa.linkedin.com/jobs/view/legal-counsel-qatarization-at-empresa-confidencial-4490886369",
+"id": "legal counsel qatarization|empresa confidencial|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"legal"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/legal-counsel-qatarization-at-empresa-confidencial-4490886369"
+},
+"families": [
+"Legal"
+]
+},
+{
+"title": "Solar Project Manager",
+"company": "Solmacher Solar Energy",
+"location": "Lusail, Qatar",
+"posted": "2026-11-18",
+"url": "https://qa.linkedin.com/jobs/view/solar-project-manager-at-solmacher-solar-energy-4492013826",
+"id": "solar project manager|solmacher solar energy|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"project manager"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/solar-project-manager-at-solmacher-solar-energy-4492013826"
+},
+"families": [
+"Project & management"
 ]
 },
 {
@@ -2057,6 +2736,29 @@
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/tax-lawyer-8-15-years-experience-leading-professional-services-firm-kuwait-oecd-and-pillar-two-at-cameron-cole-international-4491826331"
+},
+"families": [
+"Other",
+"Legal"
+]
+},
+{
+"title": "Senior Legal Consultant",
+"company": "ALSUBAIE LEGAL GROUP",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-18",
+"url": "https://kw.linkedin.com/jobs/view/senior-legal-consultant-at-alsubaie-legal-group-4490898180",
+"id": "senior legal consultant|alsubaie legal group|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job",
+"legal"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/senior-legal-consultant-at-alsubaie-legal-group-4490898180"
 },
 "families": [
 "Other",
@@ -2278,6 +2980,27 @@
 ]
 },
 {
+"title": "Sales Manager - Hilton Kuwait Mangaf Resort",
+"company": "Hilton",
+"location": "Kuwait",
+"posted": "2026-11-18",
+"url": "https://kw.linkedin.com/jobs/view/sales-manager-hilton-kuwait-mangaf-resort-at-hilton-4492017411",
+"id": "sales manager hilton kuwait mangaf resort|hilton|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"sales"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/sales-manager-hilton-kuwait-mangaf-resort-at-hilton-4492017411"
+},
+"families": [
+"Sales & business dev"
+]
+},
+{
 "title": "Sales Executive - Hilton Kuwait Mangaf Resort",
 "company": "Hilton",
 "location": "Kuwait",
@@ -2289,13 +3012,15 @@
 "LinkedIn"
 ],
 "roles": [
-"sales"
+"sales",
+"hotel"
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/sales-executive-hilton-kuwait-mangaf-resort-at-hilton-4492022281"
 },
 "families": [
-"Sales & business dev"
+"Sales & business dev",
+"Hospitality & F&B"
 ]
 },
 {
@@ -2425,27 +3150,6 @@
 ]
 },
 {
-"title": "Sales Manager - Hilton Kuwait Mangaf Resort",
-"company": "Hilton",
-"location": "Kuwait",
-"posted": "2026-11-18",
-"url": "https://kw.linkedin.com/jobs/view/sales-manager-hilton-kuwait-mangaf-resort-at-hilton-4490866382",
-"id": "sales manager hilton kuwait mangaf resort|hilton|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/sales-manager-hilton-kuwait-mangaf-resort-at-hilton-4490866382"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Sr. Coordinator Quality Control - tMart",
 "company": "talabat",
 "location": "Salmiya, Hawalli, Kuwait",
@@ -2463,6 +3167,27 @@
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/sr-coordinator-quality-control-tmart-at-talabat-4491809743",
 "Employer careers (ATS)": "https://jobs.smartrecruiters.com/deliveryhero/744000162240234"
+},
+"families": [
+"Logistics & supply chain"
+]
+},
+{
+"title": "Supply Chain Management Lead",
+"company": "Taiba Hospital",
+"location": "Sabah Al Salem, Mubarak Al-Kabeer, Kuwait",
+"posted": "2026-11-18",
+"url": "https://kw.linkedin.com/jobs/view/supply-chain-management-lead-at-taiba-hospital-4491830631",
+"id": "supply chain management lead|taiba hospital|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"logistics"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/supply-chain-management-lead-at-taiba-hospital-4491830631"
 },
 "families": [
 "Logistics & supply chain"
@@ -2508,6 +3233,48 @@
 },
 "families": [
 "Project & management"
+]
+},
+{
+"title": "Site Supervisor – Interior Design & Fit-Out",
+"company": "Creative Materials Co.",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-18",
+"url": "https://kw.linkedin.com/jobs/view/site-supervisor-%E2%80%93-interior-design-fit-out-at-creative-materials-co-4490890338",
+"id": "site supervisor interior design fit out|creative materials co|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"project manager"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/site-supervisor-%E2%80%93-interior-design-fit-out-at-creative-materials-co-4490890338"
+},
+"families": [
+"Project & management"
+]
+},
+{
+"title": "Credit Risk Analyst",
+"company": "Confidential",
+"location": "Masqaţ, Oman",
+"posted": "2026-11-18",
+"url": "https://om.linkedin.com/jobs/view/credit-risk-analyst-at-confidential-4492024237",
+"id": "credit risk analyst|confidential|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/credit-risk-analyst-at-confidential-4492024237"
+},
+"families": [
+"Other"
 ]
 },
 {
@@ -2576,6 +3343,27 @@
 ]
 },
 {
+"title": "Tax Specialist / VAT Specialist",
+"company": "Intuitive Guidance | London",
+"location": "Masqaţ, Oman",
+"posted": "2026-11-18",
+"url": "https://om.linkedin.com/jobs/view/tax-specialist-vat-specialist-at-intuitive-guidance-london-4490891579",
+"id": "tax specialist vat specialist|intuitive guidance london|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/tax-specialist-vat-specialist-at-intuitive-guidance-london-4490891579"
+},
+"families": [
+"Accounting & finance"
+]
+},
+{
 "title": "Human Resources Manager - Oman",
 "company": "Ooredoo Fintech",
 "location": "Masqaţ, Oman",
@@ -2631,13 +3419,36 @@
 "LinkedIn"
 ],
 "roles": [
-"IT"
+"IT",
+"remote"
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/senior-oracle-oim-oig-technical-developer-at-elfonze-technologies-4490860111"
 },
 "families": [
-"IT & software"
+"IT & software",
+"Other"
+]
+},
+{
+"title": "HVAC Engineer / MEP Engineer",
+"company": "The World of Aviation and Aerospace Nation",
+"location": "Masqaţ, Oman",
+"posted": "2026-11-18",
+"url": "https://om.linkedin.com/jobs/view/hvac-engineer-mep-engineer-at-the-world-of-aviation-and-aerospace-nation-4491830755",
+"id": "hvac engineer mep engineer|the world of aviation and aerospace nation|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/hvac-engineer-mep-engineer-at-the-world-of-aviation-and-aerospace-nation-4491830755"
+},
+"families": [
+"Engineering & technical"
 ]
 },
 {
@@ -2664,27 +3475,6 @@
 ]
 },
 {
-"title": "Corporate Lawyer Omani Nationality",
-"company": "Muhanned Al Amri Law Firm - Civil Law Firm",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-18",
-"url": "https://om.linkedin.com/jobs/view/corporate-lawyer-omani-nationality-at-muhanned-al-amri-law-firm-civil-law-firm-4490876163",
-"id": "corporate lawyer omani nationality|muhanned al amri law firm civil law firm|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"legal"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/corporate-lawyer-omani-nationality-at-muhanned-al-amri-law-firm-civil-law-firm-4490876163"
-},
-"families": [
-"Legal"
-]
-},
-{
 "title": "Senior Project Manager (Omani Nationals)",
 "company": "Worley",
 "location": "Muscat, Masqaţ, Oman",
@@ -2700,6 +3490,27 @@
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/senior-project-manager-omani-nationals-at-worley-4476327587"
+},
+"families": [
+"Project & management"
+]
+},
+{
+"title": "Engineering Manager / Technical Services Manager",
+"company": "Sudanese Cybersecurity Agency",
+"location": "Masqaţ, Oman",
+"posted": "2026-11-18",
+"url": "https://om.linkedin.com/jobs/view/engineering-manager-technical-services-manager-at-sudanese-cybersecurity-agency-4491848125",
+"id": "engineering manager technical services manager|sudanese cybersecurity agency|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"project manager"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/engineering-manager-technical-services-manager-at-sudanese-cybersecurity-agency-4491848125"
 },
 "families": [
 "Project & management"
@@ -2891,6 +3702,27 @@
 ],
 "links": {
 "Employer careers (ATS)": "https://jobs.standardchartered.com/job/Dubai-Service-Quality-Executive-%28UAE-nationals%29/1377798957/"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Sr. Specialist Strategic Accounts & Partnerships - MENA",
+"company": "talabat / Delivery Hero",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://jobs.smartrecruiters.com/deliveryhero/744000159327669",
+"id": "sr specialist strategic accounts partnerships mena|talabat delivery hero|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://jobs.smartrecruiters.com/deliveryhero/744000159327669"
 },
 "families": [
 "Other"
@@ -3107,7 +3939,7 @@
 "company": "Apparel Group",
 "location": "Bahrain",
 "posted": "2026-11-17",
-"url": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375689401",
+"url": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375697095",
 "id": "supervisor|apparel group",
 "country": "Bahrain",
 "sources": [
@@ -3119,7 +3951,7 @@
 "store manager"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375689401"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/supervisor-at-apparel-group-4375697095"
 },
 "families": [
 "Banking & finance ops",
@@ -3174,6 +4006,7 @@
 "operations officer",
 "back office",
 "reconciliation",
+"administration officer",
 "logistics",
 "supply chain",
 "warehouse"
@@ -3183,6 +4016,7 @@
 },
 "families": [
 "Banking & finance ops",
+"HR & admin",
 "Logistics & supply chain"
 ]
 },
@@ -3247,32 +4081,6 @@
 "Compliance, risk & audit",
 "IT & software",
 "Other"
-]
-},
-{
-"title": "Valuations & Business Modeling Manager (Oil & Gas Sector) - EYP - Manama",
-"company": "EY",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-17",
-"url": "https://bh.linkedin.com/jobs/view/valuations-business-modeling-manager-oil-gas-sector-eyp-manama-at-ey-4491136806",
-"id": "valuations business modeling manager oil gas sector eyp manama|ey",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations analyst",
-"accountant",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/valuations-business-modeling-manager-oil-gas-sector-eyp-manama-at-ey-4491136806"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"IT & software"
 ]
 },
 {
@@ -3464,42 +4272,6 @@
 ]
 },
 {
-"title": "Professional Accountant | Financial Steward & Business Partner",
-"company": "FranklinCovey Education Middle East",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-17",
-"url": "https://bh.linkedin.com/jobs/view/professional-accountant-financial-steward-business-partner-at-franklincovey-education-middle-east-4490419121",
-"id": "professional accountant financial steward business partner|franklincovey education middle east",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"back office",
-"payments operations",
-"reconciliation",
-"credit operations",
-"treasury operations",
-"compliance",
-"internal control",
-"audit",
-"accountant",
-"finance officer",
-"financial analyst",
-"accounts payable",
-"payroll"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/professional-accountant-financial-steward-business-partner-at-franklincovey-education-middle-east-4490419121"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"HR & admin"
-]
-},
-{
 "title": "Card Fraud & Chargeback Risk Strategist (Issuing Risk)",
 "company": "Binance",
 "location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
@@ -3547,6 +4319,41 @@
 "Compliance, risk & audit",
 "HR & admin",
 "Hospitality & F&B"
+]
+},
+{
+"title": "Professional Accountant | Financial Steward & Business Partner",
+"company": "FranklinCovey Education Middle East",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-17",
+"url": "https://bh.linkedin.com/jobs/view/professional-accountant-financial-steward-business-partner-at-franklincovey-education-middle-east-4490419121",
+"id": "professional accountant financial steward business partner|franklincovey education middle east",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"payments operations",
+"reconciliation",
+"credit operations",
+"treasury operations",
+"compliance",
+"internal control",
+"audit",
+"accountant",
+"finance officer",
+"financial analyst",
+"accounts payable",
+"payroll"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/professional-accountant-financial-steward-business-partner-at-franklincovey-education-middle-east-4490419121"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"HR & admin"
 ]
 },
 {
@@ -4241,6 +5048,30 @@
 ]
 },
 {
+"title": "Valuations & Business Modeling Manager (Oil & Gas Sector) - EYP - Manama",
+"company": "EY",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-17",
+"url": "https://bh.linkedin.com/jobs/view/valuations-business-modeling-manager-oil-gas-sector-eyp-manama-at-ey-4491136806",
+"id": "valuations business modeling manager oil gas sector eyp manama|ey",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/valuations-business-modeling-manager-oil-gas-sector-eyp-manama-at-ey-4491136806"
+},
+"families": [
+"Accounting & finance",
+"IT & software"
+]
+},
+{
 "title": "Binance Accelerator Program - Public Relations",
 "company": "Binance",
 "location": "United Arab Emirates",
@@ -4821,7 +5652,7 @@
 "company": "PepsiCo",
 "location": "Taif, Makkah, Saudi Arabia",
 "posted": "2026-11-17",
-"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488244492",
+"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488211772",
 "id": "sr merchandiser|pepsico|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -4831,7 +5662,7 @@
 "Any job"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488244492"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488211772"
 },
 "families": [
 "Other"
@@ -4944,6 +5775,27 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/branch-operations-supervisor-at-future-aswaq-4490452257"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
+"title": "Channel Management Supervisor",
+"company": "Abdul Latif Jameel",
+"location": "Jeddah, Makkah, Saudi Arabia",
+"posted": "2026-11-17",
+"url": "https://sa.linkedin.com/jobs/view/channel-management-supervisor-at-abdul-latif-jameel-4491163262",
+"id": "channel management supervisor|abdul latif jameel|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/channel-management-supervisor-at-abdul-latif-jameel-4491163262"
 },
 "families": [
 "Banking & finance ops"
@@ -5345,6 +6197,27 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/guest-experience-expert-at-the-luxury-collection-4491185807"
+},
+"families": [
+"Customer service"
+]
+},
+{
+"title": "Guest Experience Expert-Saudi Only",
+"company": "The Luxury Collection",
+"location": "Ad Diriyah, Riyadh, Saudi Arabia",
+"posted": "2026-11-17",
+"url": "https://sa.linkedin.com/jobs/view/guest-experience-expert-saudi-only-at-the-luxury-collection-4491195504",
+"id": "guest experience expert saudi only|the luxury collection|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/guest-experience-expert-saudi-only-at-the-luxury-collection-4491195504"
 },
 "families": [
 "Customer service"
@@ -7314,27 +8187,6 @@
 ]
 },
 {
-"title": "Treasury & Cash Reconciliation Senior Analyst",
-"company": "Vodafone",
-"location": "Doha, Doha, Qatar",
-"posted": "2026-11-17",
-"url": "https://qa.linkedin.com/jobs/view/treasury-cash-reconciliation-senior-analyst-at-vodafone-4490430730",
-"id": "treasury cash reconciliation senior analyst|vodafone|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/treasury-cash-reconciliation-senior-analyst-at-vodafone-4490430730"
-},
-"families": [
-"Accounting & finance"
-]
-},
-{
 "title": "Human Resources Coordinator",
 "company": "The Ritz-Carlton Hotel Company, L.L.C.",
 "location": "Doha, Qatar",
@@ -7692,27 +8544,6 @@
 ]
 },
 {
-"title": "ERP Transformation Manager - Retail Front of House",
-"company": "Qatar Airways",
-"location": "Doha Metropolitan Area",
-"posted": "2026-11-17",
-"url": "https://qa.linkedin.com/jobs/view/erp-transformation-manager-retail-front-of-house-at-qatar-airways-4474270071",
-"id": "erp transformation manager retail front of house|qatar airways|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"project manager"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/erp-transformation-manager-retail-front-of-house-at-qatar-airways-4474270071"
-},
-"families": [
-"Project & management"
-]
-},
-{
 "title": "Regional Learning & Development Manager",
 "company": "Trafalgar Luxury Group",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -8011,6 +8842,27 @@
 ]
 },
 {
+"title": "Adjuncts - College of Arts and Sciences",
+"company": "American University of Kuwait (AUK)",
+"location": "Kuwait",
+"posted": "2026-11-17",
+"url": "https://kw.linkedin.com/jobs/view/adjuncts-college-of-arts-and-sciences-at-american-university-of-kuwait-auk-4483716063",
+"id": "adjuncts college of arts and sciences|american university of kuwait auk|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/adjuncts-college-of-arts-and-sciences-at-american-university-of-kuwait-auk-4483716063"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "CHIEF FINANCIAL OFFICER",
 "company": "Communications For Commerce Pty Ltd",
 "location": "Muscat, Masqaţ, Oman",
@@ -8166,7 +9018,7 @@
 "company": "Larsen & Toubro",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491567938",
+"url": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491576556",
 "id": "hse manager|larsen toubro|oman",
 "country": "Oman",
 "sources": [
@@ -8176,7 +9028,7 @@
 "compliance"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491567938"
+"LinkedIn": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491576556"
 },
 "families": [
 "Compliance, risk & audit"
@@ -8426,7 +9278,7 @@
 "company": "Larsen & Toubro",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491571792",
+"url": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491581513",
 "id": "lifting engineer|larsen toubro|oman",
 "country": "Oman",
 "sources": [
@@ -8436,7 +9288,7 @@
 "engineer"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491571792"
+"LinkedIn": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491581513"
 },
 "families": [
 "Engineering & technical"
@@ -8458,27 +9310,6 @@
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/drilling-solution-engineer-at-nov-4465220858"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
-"title": "Senior Wireless Systems Design & Integration Engineer",
-"company": "Movandi",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/senior-wireless-systems-design-integration-engineer-at-movandi-4490197951",
-"id": "senior wireless systems design integration engineer|movandi|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/senior-wireless-systems-design-integration-engineer-at-movandi-4490197951"
 },
 "families": [
 "Engineering & technical"
@@ -8640,7 +9471,7 @@
 "company": "Apparel Group",
 "location": "Muscat, Masqaţ, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375695182",
+"url": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375696142",
 "id": "sales associate|apparel group|oman",
 "country": "Oman",
 "sources": [
@@ -8651,7 +9482,7 @@
 "retail"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375695182"
+"LinkedIn": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375696142"
 },
 "families": [
 "Customer service",
@@ -8970,27 +9801,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/customer-retention-specialist-at-movesmart-rentals-4491714874"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Middle Software Engineer - Backend (Platform)",
-"company": "Jobgether",
-"location": "Saudi Arabia",
-"posted": "2026-11-17",
-"url": "https://sa.linkedin.com/jobs/view/middle-software-engineer-backend-platform-at-jobgether-4490410537",
-"id": "middle software engineer backend platform|jobgether|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"remote"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/middle-software-engineer-backend-platform-at-jobgether-4490410537"
 },
 "families": [
 "Other"
@@ -9491,29 +10301,6 @@
 ]
 },
 {
-"title": "In-Room Dining Supervisor",
-"company": "Four Seasons",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-16",
-"url": "https://bh.linkedin.com/jobs/view/in-room-dining-supervisor-at-four-seasons-4483399005",
-"id": "in room dining supervisor|four seasons",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations officer",
-"store manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/in-room-dining-supervisor-at-four-seasons-4483399005"
-},
-"families": [
-"Banking & finance ops",
-"Retail"
-]
-},
-{
 "title": "Data Analyst Lead ",
 "company": "Bybit",
 "location": "Abu Dhabi, UAE",
@@ -9723,31 +10510,6 @@
 "HR & admin",
 "IT & software",
 "Project & management"
-]
-},
-{
-"title": "Software and QA Developer",
-"company": "Unity Infotech",
-"location": "Capital Governorate, Bahrain",
-"posted": "2026-11-16",
-"url": "https://bh.linkedin.com/jobs/view/software-and-qa-developer-at-unity-infotech-4490644610",
-"id": "software and qa developer|unity infotech",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"bank",
-"financial crime",
-"software engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/software-and-qa-developer-at-unity-infotech-4490644610"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"IT & software"
 ]
 },
 {
@@ -10516,6 +11278,27 @@
 },
 "families": [
 "Hospitality & F&B"
+]
+},
+{
+"title": "In-Room Dining Supervisor",
+"company": "Four Seasons",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-16",
+"url": "https://bh.linkedin.com/jobs/view/in-room-dining-supervisor-at-four-seasons-4483399005",
+"id": "in room dining supervisor|four seasons",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"store manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/in-room-dining-supervisor-at-four-seasons-4483399005"
+},
+"families": [
+"Retail"
 ]
 },
 {
@@ -11362,6 +12145,27 @@
 },
 "families": [
 "Retail"
+]
+},
+{
+"title": "Pre-school Teacher",
+"company": "Cultivay Center",
+"location": "Jeddah, Makkah, Saudi Arabia",
+"posted": "2026-11-16",
+"url": "https://sa.linkedin.com/jobs/view/pre-school-teacher-at-cultivay-center-4489745286",
+"id": "pre school teacher|cultivay center|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/pre-school-teacher-at-cultivay-center-4489745286"
+},
+"families": [
+"Education"
 ]
 },
 {
@@ -12945,6 +13749,27 @@
 ]
 },
 {
+"title": "Gerente assistente/líder de equipe - sem detalhes pessoais",
+"company": "Grand Hyatt",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-16",
+"url": "https://kw.linkedin.com/jobs/view/gerente-assistente-l%C3%ADder-de-equipe-sem-detalhes-pessoais-at-grand-hyatt-4475382270",
+"id": "gerente assistente l der de equipe sem detalhes pessoais|grand hyatt|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/gerente-assistente-l%C3%ADder-de-equipe-sem-detalhes-pessoais-at-grand-hyatt-4475382270"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
 "title": "Security Manager (Kuwaiti Nationals Only)",
 "company": "Hyatt Regency",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -13645,6 +14470,27 @@
 ]
 },
 {
+"title": "Director of Corporate Affairs",
+"company": "Muriya Tourism Development",
+"location": "Masqaţ, Oman",
+"posted": "2026-11-16",
+"url": "https://om.linkedin.com/jobs/view/director-of-corporate-affairs-at-muriya-tourism-development-4491294251",
+"id": "director of corporate affairs|muriya tourism development|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"legal"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/director-of-corporate-affairs-at-muriya-tourism-development-4491294251"
+},
+"families": [
+"Legal"
+]
+},
+{
 "title": "Project Manager",
 "company": "Muriya Tourism Development",
 "location": "Masqaţ, Oman",
@@ -13723,6 +14569,28 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/quantum-computing-co-founder-cro-100-%25-remote-m-f-d-at-ewor-4490688793"
+},
+"remote": true,
+"families": [
+"Other"
+]
+},
+{
+"title": "Artificial Intelligence Co-Founder / CFO (100 % remote) (m/f/d)",
+"company": "EWOR",
+"location": "Bahrain",
+"posted": "2026-11-16",
+"url": "https://bh.linkedin.com/jobs/view/artificial-intelligence-co-founder-cfo-100-%25-remote-m-f-d-at-ewor-4490661799",
+"id": "artificial intelligence co founder cfo 100 remote m f d|ewor",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/artificial-intelligence-co-founder-cfo-100-%25-remote-m-f-d-at-ewor-4490661799"
 },
 "remote": true,
 "families": [
@@ -14127,7 +14995,6 @@
 ],
 "roles": [
 "cyber security",
-"technician",
 "teacher",
 "lecturer",
 "remote"
@@ -14137,7 +15004,6 @@
 },
 "families": [
 "IT & software",
-"Engineering & technical",
 "Education",
 "Other"
 ]
@@ -14154,7 +15020,7 @@
 "LinkedIn"
 ],
 "roles": [
-"technician"
+"mechanical engineer"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/service-technician-2-at-tk-elevator-4490230672"
@@ -14182,27 +15048,6 @@
 },
 "families": [
 "Sales & business dev"
-]
-},
-{
-"title": "Cafeteria Attendant (Heart of House Specialist)",
-"company": "Marriott Executive Apartments",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-15",
-"url": "https://bh.linkedin.com/jobs/view/cafeteria-attendant-heart-of-house-specialist-at-marriott-executive-apartments-4486769950",
-"id": "cafeteria attendant heart of house specialist|marriott executive apartments",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"restaurant"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/cafeteria-attendant-heart-of-house-specialist-at-marriott-executive-apartments-4486769950"
-},
-"families": [
-"Hospitality & F&B"
 ]
 },
 {
@@ -14506,9 +15351,9 @@
 {
 "title": "Sales & Vendor Partnerships Lead",
 "company": "SIHAMCO",
-"location": "Jeddah, Makkah Province, Saudi Arabia",
+"location": "Riyadh, Riyadh Province, Saudi Arabia",
 "posted": "2026-11-15",
-"url": "https://jobs.workable.com/view/puUaovxEkxP4a5xs7exF3X/sales-%26-vendor-partnerships-lead-in-jeddah-at-sihamco",
+"url": "https://jobs.workable.com/view/48zFUUBqPW6kcKpMWNd2S5/sales-%26-vendor-partnerships-lead-in-riyadh-at-sihamco",
 "id": "sales vendor partnerships lead|sihamco|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -14518,7 +15363,7 @@
 "sales"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/puUaovxEkxP4a5xs7exF3X/sales-%26-vendor-partnerships-lead-in-jeddah-at-sihamco"
+"Workable": "https://jobs.workable.com/view/48zFUUBqPW6kcKpMWNd2S5/sales-%26-vendor-partnerships-lead-in-riyadh-at-sihamco"
 },
 "families": [
 "Sales & business dev"
@@ -15142,6 +15987,48 @@
 ]
 },
 {
+"title": "Need home nurse and driver",
+"company": "KUWAIT JOBS HERE",
+"location": "Salmiya, Hawalli, Kuwait",
+"posted": "2026-11-15",
+"url": "https://kw.linkedin.com/jobs/view/need-home-nurse-and-driver-at-kuwait-jobs-here-4490228470",
+"id": "need home nurse and driver|kuwait jobs here|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"nurse"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/need-home-nurse-and-driver-at-kuwait-jobs-here-4490228470"
+},
+"families": [
+"Healthcare"
+]
+},
+{
+"title": "Adjuncts - College of Business and Economics",
+"company": "American University of Kuwait (AUK)",
+"location": "Kuwait",
+"posted": "2026-11-15",
+"url": "https://kw.linkedin.com/jobs/view/adjuncts-college-of-business-and-economics-at-american-university-of-kuwait-auk-4462072366",
+"id": "adjuncts college of business and economics|american university of kuwait auk|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/adjuncts-college-of-business-and-economics-at-american-university-of-kuwait-auk-4462072366"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "Product Regulatory Analyst",
 "company": "Goodman Masson Oman",
 "location": "Muscat, Masqaţ, Oman",
@@ -15477,16 +16364,14 @@
 ],
 "roles": [
 "mechanical engineer",
-"retail",
-"warehouse"
+"retail"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/on-job-training-core-at-mondel%C4%93z-international-4298195943"
 },
 "families": [
 "Engineering & technical",
-"Retail",
-"Logistics & supply chain"
+"Retail"
 ]
 },
 {
@@ -15503,7 +16388,6 @@
 "roles": [
 "civil engineer",
 "project engineer",
-"hotel",
 "procurement",
 "project manager"
 ],
@@ -15512,7 +16396,6 @@
 },
 "families": [
 "Engineering & technical",
-"Hospitality & F&B",
 "Logistics & supply chain",
 "Project & management"
 ]
@@ -15662,27 +16545,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/hrbp-at-sharaf-dg-4446755665"
-},
-"families": [
-"HR & admin"
-]
-},
-{
-"title": "HR Business Partner",
-"company": "Amazon",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-11-14",
-"url": "https://sa.linkedin.com/jobs/view/hr-business-partner-at-amazon-4455917955",
-"id": "hr business partner|amazon|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"HR"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/hr-business-partner-at-amazon-4455917955"
 },
 "families": [
 "HR & admin"
@@ -15860,27 +16722,6 @@
 },
 "families": [
 "HR & admin"
-]
-},
-{
-"title": "Mechanical Engineer - UAE National",
-"company": "TALENTMATE",
-"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
-"posted": "2026-11-14",
-"url": "https://ae.linkedin.com/jobs/view/mechanical-engineer-uae-national-at-talentmate-4491082516",
-"id": "mechanical engineer uae national|talentmate|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/mechanical-engineer-uae-national-at-talentmate-4491082516"
-},
-"families": [
-"Engineering & technical"
 ]
 },
 {
@@ -16889,6 +17730,32 @@
 ]
 },
 {
+"title": "Team Lead, Platform Security Architect",
+"company": "Deel",
+"location": "Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069",
+"id": "team lead platform security architect|deel",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"risk",
+"software engineer",
+"cyber security",
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069"
+},
+"families": [
+"Compliance, risk & audit",
+"IT & software",
+"Other"
+]
+},
+{
 "title": "Senior HR Manager - HR BP Aviation",
 "company": "DHL Express",
 "location": "Muharraq, Muharraq Governorate, Bahrain",
@@ -16985,53 +17852,6 @@
 "families": [
 "HR & admin",
 "Hospitality & F&B"
-]
-},
-{
-"title": "Team Lead, Platform Security Architect",
-"company": "Deel",
-"location": "Bahrain",
-"posted": "2026-11-13",
-"url": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069",
-"id": "team lead platform security architect|deel",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"software engineer",
-"cyber security",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/team-lead-platform-security-architect-at-deel-4488597069"
-},
-"families": [
-"IT & software",
-"Other"
-]
-},
-{
-"title": "IT Support Engineer / IT Help Desk Technician / IT Administrator",
-"company": "IST-VYAP / Istanbul Very Young Arbitration Practitioners",
-"location": "Capital Governorate, Bahrain",
-"posted": "2026-11-13",
-"url": "https://bh.linkedin.com/jobs/view/it-support-engineer-it-help-desk-technician-it-administrator-at-ist-vyap-istanbul-very-young-arbitration-practitioners-4489571145",
-"id": "it support engineer it help desk technician it administrator|ist vyap istanbul very young arbitration practitioners",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT support",
-"network engineer",
-"cyber security"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/it-support-engineer-it-help-desk-technician-it-administrator-at-ist-vyap-istanbul-very-young-arbitration-practitioners-4489571145"
-},
-"families": [
-"IT & software"
 ]
 },
 {
@@ -17263,28 +18083,6 @@
 ]
 },
 {
-"title": "Demi Chef de Partie (Cafeteria)",
-"company": "Sheraton Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-13",
-"url": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-cafeteria-at-sheraton-hotels-resorts-4474210923",
-"id": "demi chef de partie cafeteria|sheraton hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"restaurant",
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-cafeteria-at-sheraton-hotels-resorts-4474210923"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Pastry Chef",
 "company": "Sheraton Hotels & Resorts",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -17365,6 +18163,27 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-cold-kitchen-at-sheraton-hotels-resorts-4435299889"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Demi Chef de Partie (Cafeteria)",
+"company": "Sheraton Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-13",
+"url": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-cafeteria-at-sheraton-hotels-resorts-4474210923",
+"id": "demi chef de partie cafeteria|sheraton hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/demi-chef-de-partie-cafeteria-at-sheraton-hotels-resorts-4474210923"
 },
 "families": [
 "Hospitality & F&B"
@@ -17770,27 +18589,6 @@
 ]
 },
 {
-"title": "Engineer – Client IT Tech. Support",
-"company": "Connect 21",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://ae.linkedin.com/jobs/view/engineer-%E2%80%93-client-it-tech-support-at-connect-21-4488924193",
-"id": "engineer client it tech support|connect 21|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/engineer-%E2%80%93-client-it-tech-support-at-connect-21-4488924193"
-},
-"families": [
-"IT & software"
-]
-},
-{
 "title": "Mechanical Engineer - UAE National",
 "company": "Wood",
 "location": "Sharjah, Sharjah Emirate, United Arab Emirates",
@@ -18081,27 +18879,6 @@
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/electrician-at-w-hotels-4481192324"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Room Maintenance Technician",
-"company": "Delta Hotels and Resorts®",
-"location": "Doha, Qatar",
-"posted": "2026-11-13",
-"url": "https://qa.linkedin.com/jobs/view/room-maintenance-technician-at-delta-hotels-and-resorts%C2%AE-4487656042",
-"id": "room maintenance technician|delta hotels and resorts|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/room-maintenance-technician-at-delta-hotels-and-resorts%C2%AE-4487656042"
 },
 "families": [
 "Other"
@@ -18721,27 +19498,6 @@
 ]
 },
 {
-"title": "Store Manager",
-"company": "Apparel Group",
-"location": "Kuwait",
-"posted": "2026-11-13",
-"url": "https://kw.linkedin.com/jobs/view/store-manager-at-apparel-group-4482497539",
-"id": "store manager|apparel group|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/store-manager-at-apparel-group-4482497539"
-},
-"families": [
-"Retail"
-]
-},
-{
 "title": "Art Teacher",
 "company": "Teach East",
 "location": "Kuwait City Metropolitan Area",
@@ -18828,6 +19584,29 @@
 ]
 },
 {
+"title": "Logistics Coordinator - (Omani hire)",
+"company": "PSA BDP",
+"location": "Wilayat Sohar, Al Batinah North Governorate, Oman",
+"posted": "2026-11-13",
+"url": "https://om.linkedin.com/jobs/view/logistics-coordinator-omani-hire-at-psa-bdp-4480667783",
+"id": "logistics coordinator omani hire|psa bdp|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations",
+"logistics"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/logistics-coordinator-omani-hire-at-psa-bdp-4480667783"
+},
+"families": [
+"Banking & finance ops",
+"Logistics & supply chain"
+]
+},
+{
 "title": "Head of IT Audit",
 "company": "TAT IT Technolgies",
 "location": "Oman",
@@ -18846,27 +19625,6 @@
 },
 "families": [
 "Compliance, risk & audit"
-]
-},
-{
-"title": "Manager | Audit | Audit & Assurance | Oman FY27",
-"company": "ACCA Careers",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-13",
-"url": "https://om.linkedin.com/jobs/view/manager-audit-audit-assurance-oman-fy27-at-acca-careers-4491069597",
-"id": "manager audit audit assurance oman fy27|acca careers|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/manager-audit-audit-assurance-oman-fy27-at-acca-careers-4491069597"
-},
-"families": [
-"Accounting & finance"
 ]
 },
 {
@@ -18930,27 +19688,6 @@
 },
 "families": [
 "Hospitality & F&B"
-]
-},
-{
-"title": "Logistics Coordinator - (Omani hire)",
-"company": "PSA BDP",
-"location": "Wilayat Sohar, Al Batinah North Governorate, Oman",
-"posted": "2026-11-13",
-"url": "https://om.linkedin.com/jobs/view/logistics-coordinator-omani-hire-at-psa-bdp-4480667783",
-"id": "logistics coordinator omani hire|psa bdp|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/logistics-coordinator-omani-hire-at-psa-bdp-4480667783"
-},
-"families": [
-"Logistics & supply chain"
 ]
 },
 {
@@ -19234,7 +19971,6 @@
 "internal control",
 "audit",
 "risk",
-"data analyst",
 "legal",
 "lawyer"
 ],
@@ -19244,7 +19980,6 @@
 "families": [
 "Banking & finance ops",
 "Compliance, risk & audit",
-"IT & software",
 "Legal"
 ]
 },
@@ -19266,7 +20001,6 @@
 "settlement",
 "reconciliation",
 "retail",
-"cashier",
 "logistics",
 "supply chain",
 "warehouse"
@@ -19438,6 +20172,7 @@
 ],
 "roles": [
 "KYC",
+"relationship manager",
 "retail"
 ],
 "links": {
@@ -19445,6 +20180,7 @@
 },
 "families": [
 "Compliance, risk & audit",
+"Relationship & client mgmt",
 "Retail"
 ]
 },
@@ -21283,27 +22019,6 @@
 ]
 },
 {
-"title": "Senior Project Manager",
-"company": "Quorum Software",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-12",
-"url": "https://ae.linkedin.com/jobs/view/senior-project-manager-at-quorum-software-4488511632",
-"id": "senior project manager|quorum software|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"project manager"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-project-manager-at-quorum-software-4488511632"
-},
-"families": [
-"Project & management"
-]
-},
-{
 "title": "Senior Project Manager / SDM",
 "company": "BlackStone eIT",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -21732,6 +22447,27 @@
 ]
 },
 {
+"title": "Security Officer- Kuwaiti Nationals only at Waldorf Astoria Kuwait",
+"company": "Hilton",
+"location": "Kuwait",
+"posted": "2026-11-12",
+"url": "https://kw.linkedin.com/jobs/view/security-officer-kuwaiti-nationals-only-at-waldorf-astoria-kuwait-at-hilton-4482119881",
+"id": "security officer kuwaiti nationals only at waldorf astoria kuwait|hilton|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/security-officer-kuwaiti-nationals-only-at-waldorf-astoria-kuwait-at-hilton-4482119881"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "HSE Supervisor",
 "company": "Larsen & Toubro",
 "location": "Kuwait",
@@ -21771,27 +22507,6 @@
 },
 "families": [
 "Other"
-]
-},
-{
-"title": "Director of Operations at Waldorf Astoria Kuwait",
-"company": "Hilton",
-"location": "Kuwait",
-"posted": "2026-11-12",
-"url": "https://kw.linkedin.com/jobs/view/director-of-operations-at-waldorf-astoria-kuwait-at-hilton-4482077792",
-"id": "director of operations at waldorf astoria kuwait|hilton|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/director-of-operations-at-waldorf-astoria-kuwait-at-hilton-4482077792"
-},
-"families": [
-"Banking & finance ops"
 ]
 },
 {
@@ -21915,27 +22630,6 @@
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/faculty-positions-liberal-arts-at-american-university-of-the-middle-east-aum-4179146235"
-},
-"families": [
-"Education"
-]
-},
-{
-"title": "Personal Trainer (Women's Branch)",
-"company": "SPARK Athletic Center",
-"location": "Sharq, Al Asimah, Kuwait",
-"posted": "2026-11-12",
-"url": "https://kw.linkedin.com/jobs/view/personal-trainer-women-s-branch-at-spark-athletic-center-4490327709",
-"id": "personal trainer women s branch|spark athletic center|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/personal-trainer-women-s-branch-at-spark-athletic-center-4490327709"
 },
 "families": [
 "Education"
@@ -22706,35 +23400,6 @@
 ]
 },
 {
-"title": "Senior Site Reliability Engineer",
-"company": "Canonical",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082",
-"id": "senior site reliability engineer|canonical",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"reconciliation",
-"software engineer",
-"network engineer",
-"cyber security",
-"project engineer",
-"chef"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082"
-},
-"families": [
-"Banking & finance ops",
-"IT & software",
-"Engineering & technical",
-"Hospitality & F&B"
-]
-},
-{
 "title": "Beauty Consultant - Bahrain",
 "company": "SEPHORA",
 "location": "Bahrain",
@@ -22927,7 +23592,6 @@
 "roles": [
 "HR operations",
 "HR officer",
-"office manager",
 "sales manager",
 "store manager",
 "operations manager"
@@ -22988,7 +23652,6 @@
 "network engineer",
 "cyber security",
 "project engineer",
-"technician",
 "chef"
 ],
 "links": {
@@ -23092,6 +23755,33 @@
 "families": [
 "IT & software",
 "Engineering & technical"
+]
+},
+{
+"title": "Senior Site Reliability Engineer",
+"company": "Canonical",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082",
+"id": "senior site reliability engineer|canonical",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"software engineer",
+"network engineer",
+"cyber security",
+"project engineer",
+"chef"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/senior-site-reliability-engineer-at-canonical-4489957082"
+},
+"families": [
+"IT & software",
+"Engineering & technical",
+"Hospitality & F&B"
 ]
 },
 {
@@ -23931,27 +24621,6 @@
 ]
 },
 {
-"title": "Digital Marketing Manager",
-"company": "HALA",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-11-11",
-"url": "https://sa.linkedin.com/jobs/view/digital-marketing-manager-at-hala-4488682889",
-"id": "digital marketing manager|hala|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/digital-marketing-manager-at-hala-4488682889"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
 "title": "Guest Relations Agent - Fairmont The Red Sea (Saudi National)",
 "company": "Fairmont Hotels & Resorts",
 "location": "Hail Region",
@@ -24392,6 +25061,27 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Road and Highways Engineer",
+"company": "Zutari",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-11",
+"url": "https://ae.linkedin.com/jobs/view/road-and-highways-engineer-at-zutari-4489941530",
+"id": "road and highways engineer|zutari|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/road-and-highways-engineer-at-zutari-4489941530"
+},
+"families": [
+"Engineering & technical"
 ]
 },
 {
@@ -24907,6 +25597,27 @@
 ]
 },
 {
+"title": "Service Sales Manager- Doha, Qatar",
+"company": "Siemens",
+"location": "Doha, Doha, Qatar",
+"posted": "2026-11-11",
+"url": "https://qa.linkedin.com/jobs/view/service-sales-manager-doha-qatar-at-siemens-4480788986",
+"id": "service sales manager doha qatar|siemens|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"relationship manager"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/service-sales-manager-doha-qatar-at-siemens-4480788986"
+},
+"families": [
+"Relationship & client mgmt"
+]
+},
+{
 "title": "Senior Accountant",
 "company": "Dishley Holding",
 "location": "Doha, Qatar",
@@ -25056,27 +25767,6 @@
 ]
 },
 {
-"title": "In-Store Visual Merchandiser",
-"company": "Apparel Group",
-"location": "Doha, Doha, Qatar",
-"posted": "2026-11-11",
-"url": "https://qa.linkedin.com/jobs/view/in-store-visual-merchandiser-at-apparel-group-4489928072",
-"id": "in store visual merchandiser|apparel group|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/in-store-visual-merchandiser-at-apparel-group-4489928072"
-},
-"families": [
-"Retail"
-]
-},
-{
 "title": "MYP Teacher of Business",
 "company": "Etqan Global Academy",
 "location": "Doha, Doha, Qatar",
@@ -25095,27 +25785,6 @@
 },
 "families": [
 "Education"
-]
-},
-{
-"title": "Senior Paralegal",
-"company": "Pinsent Masons",
-"location": "Doha, Qatar",
-"posted": "2026-11-11",
-"url": "https://qa.linkedin.com/jobs/view/senior-paralegal-at-pinsent-masons-4479421791",
-"id": "senior paralegal|pinsent masons|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"legal"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/senior-paralegal-at-pinsent-masons-4479421791"
-},
-"families": [
-"Legal"
 ]
 },
 {
@@ -26445,7 +27114,6 @@
 "operations officer",
 "operations analyst",
 "back office",
-"finance officer",
 "financial analyst",
 "data analyst",
 "operations manager"
@@ -26477,7 +27145,6 @@
 "mechanical engineer",
 "civil engineer",
 "procurement",
-"supply chain",
 "warehouse",
 "operations manager"
 ],
@@ -26718,7 +27385,6 @@
 "bank",
 "AML",
 "financial crime",
-"internal control",
 "software engineer"
 ],
 "links": {
@@ -26773,6 +27439,7 @@
 "recruiter",
 "sales executive",
 "business development",
+"marketing",
 "digital marketing",
 "medical"
 ],
@@ -26829,8 +27496,7 @@
 "client onboarding",
 "sales executive",
 "front office",
-"retail",
-"cashier"
+"retail"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/retail-sales-executive-at-alzayani-investments-4488364652"
@@ -26955,7 +27621,6 @@
 "relationship manager",
 "account manager",
 "government relations",
-"sales executive",
 "business development",
 "sales manager"
 ],
@@ -28683,6 +29348,27 @@
 ]
 },
 {
+"title": "Data Center Instructor",
+"company": "Uptime Institute",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-10",
+"url": "https://sa.linkedin.com/jobs/view/data-center-instructor-at-uptime-institute-4476018388",
+"id": "data center instructor|uptime institute|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/data-center-instructor-at-uptime-institute-4476018388"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "Lawyer",
 "company": "Abdulaziz Alsuhayman Law Firm",
 "location": "Riyadh Region",
@@ -28764,6 +29450,27 @@
 },
 "families": [
 "Banking & finance ops"
+]
+},
+{
+"title": "Regulatory Compliance Associate",
+"company": "Eden Rose",
+"location": "Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-10",
+"url": "https://ae.linkedin.com/jobs/view/regulatory-compliance-associate-at-eden-rose-4489491279",
+"id": "regulatory compliance associate|eden rose|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/regulatory-compliance-associate-at-eden-rose-4489491279"
+},
+"families": [
+"Compliance, risk & audit"
 ]
 },
 {
@@ -29768,27 +30475,6 @@
 ]
 },
 {
-"title": "Senior Product Marketing Manager",
-"company": "Canonical",
-"location": "Doha, Qatar",
-"posted": "2026-11-10",
-"url": "https://qa.linkedin.com/jobs/view/senior-product-marketing-manager-at-canonical-4489648052",
-"id": "senior product marketing manager|canonical|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/senior-product-marketing-manager-at-canonical-4489648052"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
 "title": "Customer Service Agent | Qatar Airways Group – Join Our Talent Pool",
 "company": "Qatar Airways",
 "location": "Doha Metropolitan Area",
@@ -30578,27 +31264,6 @@
 ]
 },
 {
-"title": "Adjunct Mathematics Instructor",
-"company": "Australian University",
-"location": "Mishref, Hawalli, Kuwait",
-"posted": "2026-11-10",
-"url": "https://kw.linkedin.com/jobs/view/adjunct-mathematics-instructor-at-australian-university-4489440152",
-"id": "adjunct mathematics instructor|australian university|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/adjunct-mathematics-instructor-at-australian-university-4489440152"
-},
-"families": [
-"Education"
-]
-},
-{
 "title": "项目经理",
 "company": "Anton",
 "location": "Al Asimah, Kuwait",
@@ -30695,6 +31360,7 @@
 ],
 "roles": [
 "operations",
+"logistics",
 "project manager"
 ],
 "links": {
@@ -30702,6 +31368,7 @@
 },
 "families": [
 "Banking & finance ops",
+"Logistics & supply chain",
 "Project & management"
 ]
 },
@@ -30987,6 +31654,27 @@
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/senior-hr-generalist-emea-at-canonical-4489633479"
+},
+"families": [
+"HR & admin"
+]
+},
+{
+"title": "Intern - Service Excellence and Learning & Development ( Omani national )",
+"company": "Mandarin Oriental",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-10",
+"url": "https://om.linkedin.com/jobs/view/intern-service-excellence-and-learning-development-omani-national-at-mandarin-oriental-4489618153",
+"id": "intern service excellence and learning development omani national|mandarin oriental|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/intern-service-excellence-and-learning-development-omani-national-at-mandarin-oriental-4489618153"
 },
 "families": [
 "HR & admin"
@@ -31564,7 +32252,6 @@
 "financial crime",
 "risk",
 "corporate banking",
-"financial analyst",
 "government relations",
 "business development",
 "sales manager"
@@ -31576,7 +32263,6 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "Relationship & client mgmt",
-"Accounting & finance",
 "HR & admin",
 "Sales & business dev"
 ]
@@ -31985,6 +32671,7 @@
 "KYC",
 "financial crime",
 "relationship manager",
+"account manager",
 "sales executive",
 "business development",
 "call centre"
@@ -32108,31 +32795,6 @@
 "families": [
 "Compliance, risk & audit",
 "Healthcare"
-]
-},
-{
-"title": "Sales Engineer",
-"company": "Yokogawa",
-"location": "Muharraq, Muharraq Governorate, Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/sales-engineer-at-yokogawa-4488853236",
-"id": "sales engineer|yokogawa",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager",
-"project engineer",
-"business development"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/sales-engineer-at-yokogawa-4488853236"
-},
-"families": [
-"Relationship & client mgmt",
-"Engineering & technical",
-"Sales & business dev"
 ]
 },
 {
@@ -34205,27 +34867,6 @@
 ]
 },
 {
-"title": "Procurement & Warehouse Officer",
-"company": "Confidential Company in Kuwait",
-"location": "Qurain, Mubarak Al-Kabeer, Kuwait",
-"posted": "2026-11-09",
-"url": "https://kw.linkedin.com/jobs/view/procurement-warehouse-officer-at-confidential-company-in-kuwait-4487167040",
-"id": "procurement warehouse officer|confidential company in kuwait|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/procurement-warehouse-officer-at-confidential-company-in-kuwait-4487167040"
-},
-"families": [
-"Logistics & supply chain"
-]
-},
-{
 "title": "Elementary School Teacher",
 "company": "One International School",
 "location": "Khaitan, Farwaniya, Kuwait",
@@ -34482,27 +35123,6 @@
 ]
 },
 {
-"title": "Oman M&E and Research Field Manager",
-"company": "ReliefWeb",
-"location": "Oman",
-"posted": "2026-11-09",
-"url": "https://om.linkedin.com/jobs/view/oman-m-e-and-research-field-manager-at-reliefweb-4488891876",
-"id": "oman m e and research field manager|reliefweb|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"project manager"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/oman-m-e-and-research-field-manager-at-reliefweb-4488891876"
-},
-"families": [
-"Project & management"
-]
-},
-{
 "title": "Solutions Engineer",
 "company": "Napster Corp.",
 "location": "Saudi Arabia",
@@ -34650,6 +35270,27 @@
 ]
 },
 {
+"title": "Scientific Editor: Energy Conservation",
+"company": "Cactus Communications",
+"location": "Oman",
+"posted": "2026-11-09",
+"url": "https://om.linkedin.com/jobs/view/scientific-editor-energy-conservation-at-cactus-communications-4487167092",
+"id": "scientific editor energy conservation|cactus communications|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/scientific-editor-energy-conservation-at-cactus-communications-4487167092"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Data Scientist",
 "company": "bp",
 "location": "Muscat, Masqaţ, Oman",
@@ -34777,7 +35418,6 @@
 "bank",
 "KYC",
 "AML",
-"client onboarding",
 "compliance",
 "financial crime",
 "internal control",
@@ -35097,29 +35737,6 @@
 ]
 },
 {
-"title": "Heavy Driver (HIAB Operator)",
-"company": "NASS Group & Corporation",
-"location": "Askar, Southern Governorate, Bahrain",
-"posted": "2026-11-08",
-"url": "https://bh.linkedin.com/jobs/view/heavy-driver-hiab-operator-at-nass-group-corporation-4488769659",
-"id": "heavy driver hiab operator|nass group corporation",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"logistics",
-"warehouse",
-"driver"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/heavy-driver-hiab-operator-at-nass-group-corporation-4488769659"
-},
-"families": [
-"Logistics & supply chain"
-]
-},
-{
 "title": "Readymix Plant Labourer",
 "company": "NASS Group & Corporation",
 "location": "Salmabad, Northern Governorate, Bahrain",
@@ -35135,6 +35752,28 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/readymix-plant-labourer-at-nass-group-corporation-4488758771"
+},
+"families": [
+"Logistics & supply chain"
+]
+},
+{
+"title": "Heavy Driver (HIAB Operator)",
+"company": "NASS Group & Corporation",
+"location": "Askar, Southern Governorate, Bahrain",
+"posted": "2026-11-08",
+"url": "https://bh.linkedin.com/jobs/view/heavy-driver-hiab-operator-at-nass-group-corporation-4488769659",
+"id": "heavy driver hiab operator|nass group corporation",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"warehouse",
+"driver"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/heavy-driver-hiab-operator-at-nass-group-corporation-4488769659"
 },
 "families": [
 "Logistics & supply chain"
@@ -35354,27 +35993,6 @@
 ]
 },
 {
-"title": "HVAC Technician",
-"company": "Hilton",
-"location": "Mecca, Makkah, Saudi Arabia",
-"posted": "2026-11-08",
-"url": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4488789853",
-"id": "hvac technician|hilton|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4488789853"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "Housekeeping Manager",
 "company": "IHG Hotels & Resorts",
 "location": "Taif, Makkah, Saudi Arabia",
@@ -35495,27 +36113,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/machine-learning-engineer-applied-ai-at-brain-co-4275229612"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Front Office Receptionist - Russian Speaker",
-"company": "Grosvenor House Dubai and Le Royal Meridien Beach Resort & Spa",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-08",
-"url": "https://ae.linkedin.com/jobs/view/front-office-receptionist-russian-speaker-at-grosvenor-house-dubai-and-le-royal-meridien-beach-resort-spa-4477792113",
-"id": "front office receptionist russian speaker|grosvenor house dubai and le royal meridien beach resort spa|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/front-office-receptionist-russian-speaker-at-grosvenor-house-dubai-and-le-royal-meridien-beach-resort-spa-4477792113"
 },
 "families": [
 "Other"
@@ -35731,6 +36328,27 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Senior Backend Engineer I",
+"company": "Snoonu",
+"location": "Doha, Doha, Qatar",
+"posted": "2026-11-08",
+"url": "https://qa.linkedin.com/jobs/view/senior-backend-engineer-i-at-snoonu-4426070689",
+"id": "senior backend engineer i|snoonu|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/senior-backend-engineer-i-at-snoonu-4426070689"
+},
+"families": [
+"Engineering & technical"
 ]
 },
 {
@@ -36726,7 +37344,6 @@
 "accountant",
 "finance officer",
 "financial analyst",
-"administration officer",
 "data analyst",
 "civil engineer",
 "procurement",
@@ -36740,7 +37357,6 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "Accounting & finance",
-"HR & admin",
 "IT & software",
 "Engineering & technical",
 "Logistics & supply chain",
@@ -36984,7 +37600,6 @@
 "financial crime",
 "relationship manager",
 "corporate banking",
-"account manager",
 "business development",
 "sales manager"
 ],
@@ -37438,6 +38053,27 @@
 ]
 },
 {
+"title": "AI Model Evaluation Specialist",
+"company": "Rise Data Labs",
+"location": "United Arab Emirates",
+"posted": "2026-11-06",
+"url": "https://ae.linkedin.com/jobs/view/ai-model-evaluation-specialist-at-rise-data-labs-4486216320",
+"id": "ai model evaluation specialist|rise data labs|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/ai-model-evaluation-specialist-at-rise-data-labs-4486216320"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Tax Manager",
 "company": "Harris Pye",
 "location": "Sharjah Emirate, United Arab Emirates",
@@ -37500,6 +38136,48 @@
 },
 "families": [
 "Banking & finance ops"
+]
+},
+{
+"title": "Service Operations Excellence Manager",
+"company": "KONE",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-06",
+"url": "https://ae.linkedin.com/jobs/view/service-operations-excellence-manager-at-kone-4488170767",
+"id": "service operations excellence manager|kone|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/service-operations-excellence-manager-at-kone-4488170767"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
+"title": "Senior Compliance Analyst",
+"company": "Deriv",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-06",
+"url": "https://ae.linkedin.com/jobs/view/senior-compliance-analyst-at-deriv-4461345773",
+"id": "senior compliance analyst|deriv|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-compliance-analyst-at-deriv-4461345773"
+},
+"families": [
+"Compliance, risk & audit"
 ]
 },
 {
@@ -37728,27 +38406,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/executive-marketing-madinat-jumeirah-resort-at-jumeirah-4486230982"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
-"title": "Senior Marketing Executive - Tech",
-"company": "CNTXT AI",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-06",
-"url": "https://ae.linkedin.com/jobs/view/senior-marketing-executive-tech-at-cntxt-ai-4487341483",
-"id": "senior marketing executive tech|cntxt ai|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-marketing-executive-tech-at-cntxt-ai-4487341483"
 },
 "families": [
 "Marketing & media"
@@ -38020,15 +38677,13 @@
 "LinkedIn"
 ],
 "roles": [
-"relationship manager",
-"project manager"
+"relationship manager"
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/engagement-manager-at-scale-4488417300"
 },
 "families": [
-"Relationship & client mgmt",
-"Project & management"
+"Relationship & client mgmt"
 ]
 },
 {
@@ -38047,6 +38702,27 @@
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/full-stack-software-engineer-forward-deployed-gps-at-scale-4488144745"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Senior Full-Stack Software Engineer, (Forward deployed), GPS",
+"company": "Scale",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-06",
+"url": "https://kw.linkedin.com/jobs/view/senior-full-stack-software-engineer-forward-deployed-gps-at-scale-4488144788",
+"id": "senior full stack software engineer forward deployed gps|scale|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/senior-full-stack-software-engineer-forward-deployed-gps-at-scale-4488144788"
 },
 "families": [
 "IT & software"
@@ -38122,7 +38798,7 @@
 "company": "Siemens",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-06",
-"url": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469477373",
+"url": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469473448",
 "id": "site ehs officer omani national siemens mobility oman|siemens|oman",
 "country": "Oman",
 "sources": [
@@ -38132,7 +38808,7 @@
 "compliance"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469477373"
+"LinkedIn": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469473448"
 },
 "families": [
 "Compliance, risk & audit"
@@ -38904,34 +39580,6 @@
 ]
 },
 {
-"title": "Cluster Director of Sales & Marketing",
-"company": "ibis, ibis Styles, ibis budget",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-05",
-"url": "https://bh.linkedin.com/jobs/view/cluster-director-of-sales-marketing-at-ibis-ibis-styles-ibis-budget-4486765683",
-"id": "cluster director of sales marketing|ibis ibis styles ibis budget",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"business development",
-"sales manager",
-"marketing",
-"digital marketing"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/cluster-director-of-sales-marketing-at-ibis-ibis-styles-ibis-budget-4486765683"
-},
-"families": [
-"Relationship & client mgmt",
-"Sales & business dev",
-"Marketing & media"
-]
-},
-{
 "title": "Senior Product Manager – Trading & Onchain",
 "company": "Bybit",
 "location": "Abu Dhabi, UAE",
@@ -38962,6 +39610,33 @@
 "Retail",
 "Logistics & supply chain",
 "Project & management"
+]
+},
+{
+"title": "Cluster Director of Sales & Marketing",
+"company": "ibis, ibis Styles, ibis budget",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-05",
+"url": "https://bh.linkedin.com/jobs/view/cluster-director-of-sales-marketing-at-ibis-ibis-styles-ibis-budget-4486765683",
+"id": "cluster director of sales marketing|ibis ibis styles ibis budget",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"account manager",
+"business development",
+"sales manager",
+"marketing",
+"digital marketing"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/cluster-director-of-sales-marketing-at-ibis-ibis-styles-ibis-budget-4486765683"
+},
+"families": [
+"Relationship & client mgmt",
+"Sales & business dev",
+"Marketing & media"
 ]
 },
 {
@@ -39295,6 +39970,27 @@
 },
 "families": [
 "Other"
+]
+},
+{
+"title": "Manager - Operational Transformation",
+"company": "Bupa Arabia",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "2026-11-05",
+"url": "https://sa.linkedin.com/jobs/view/manager-operational-transformation-at-bupa-arabia-4486766116",
+"id": "manager operational transformation|bupa arabia|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/manager-operational-transformation-at-bupa-arabia-4486766116"
+},
+"families": [
+"Banking & finance ops"
 ]
 },
 {
@@ -40470,15 +41166,13 @@
 "LinkedIn"
 ],
 "roles": [
-"HR",
-"legal"
+"HR"
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/mandoub-at-american-international-university-kuwait-4485823418"
 },
 "families": [
-"HR & admin",
-"Legal"
+"HR & admin"
 ]
 },
 {
@@ -41096,8 +41790,7 @@
 "office manager",
 "sales executive",
 "procurement",
-"supply chain",
-"project manager"
+"supply chain"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/associate-commercial-at-talabat-4460024072",
@@ -41109,8 +41802,7 @@
 "Accounting & finance",
 "HR & admin",
 "Sales & business dev",
-"Logistics & supply chain",
-"Project & management"
+"Logistics & supply chain"
 ]
 },
 {
@@ -41136,33 +41828,6 @@
 "Banking & finance ops",
 "Hospitality & F&B",
 "Retail"
-]
-},
-{
-"title": "Waiter",
-"company": "SIHAMCO",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-04",
-"url": "https://bh.linkedin.com/jobs/view/waiter-at-sihamco-4487280090",
-"id": "waiter|sihamco",
-"country": "Bahrain",
-"sources": [
-"LinkedIn",
-"Workable"
-],
-"roles": [
-"settlement",
-"customer service",
-"restaurant"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/waiter-at-sihamco-4487280090",
-"Workable": "https://jobs.workable.com/view/hwrfrRcAg2wmLSWJ1LvQAR/waiter-in-manama-at-sihamco"
-},
-"families": [
-"Banking & finance ops",
-"Customer service",
-"Hospitality & F&B"
 ]
 },
 {
@@ -41215,34 +41880,6 @@
 "families": [
 "Banking & finance ops",
 "Accounting & finance"
-]
-},
-{
-"title": "Head of Advisory",
-"company": "Braxtone Group",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-04",
-"url": "https://bh.linkedin.com/jobs/view/head-of-advisory-at-braxtone-group-4486356974",
-"id": "head of advisory|braxtone group",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"bank",
-"financial crime",
-"audit",
-"risk",
-"business development",
-"sales manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/head-of-advisory-at-braxtone-group-4486356974"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Sales & business dev"
 ]
 },
 {
@@ -41455,7 +42092,8 @@
 "LinkedIn"
 ],
 "roles": [
-"civil engineer"
+"civil engineer",
+"technician"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/hdd-tracker-at-joseph-gallagher-limited-4486511106"
@@ -41508,6 +42146,34 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/waiter-at-azadea-group-4485079035"
+},
+"families": [
+"Customer service",
+"Hospitality & F&B",
+"Retail"
+]
+},
+{
+"title": "Waiter",
+"company": "SIHAMCO",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-04",
+"url": "https://jobs.workable.com/view/hwrfrRcAg2wmLSWJ1LvQAR/waiter-in-manama-at-sihamco",
+"id": "waiter|sihamco",
+"country": "Bahrain",
+"sources": [
+"Workable",
+"LinkedIn"
+],
+"roles": [
+"customer service",
+"hotel",
+"restaurant",
+"cashier"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/hwrfrRcAg2wmLSWJ1LvQAR/waiter-in-manama-at-sihamco",
+"LinkedIn": "https://bh.linkedin.com/jobs/view/waiter-at-sihamco-4487280090"
 },
 "families": [
 "Customer service",
@@ -42850,13 +43516,15 @@
 "LinkedIn"
 ],
 "roles": [
-"Any job"
+"Any job",
+"operations"
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/bms-engineers-operators-at-avar-4487266154"
 },
 "families": [
-"Other"
+"Other",
+"Banking & finance ops"
 ]
 },
 {
@@ -43359,29 +44027,6 @@
 },
 "families": [
 "Banking & finance ops"
-]
-},
-{
-"title": "Logistics Coordinator",
-"company": "PSA BDP",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-04",
-"url": "https://om.linkedin.com/jobs/view/logistics-coordinator-at-psa-bdp-4485087567",
-"id": "logistics coordinator|psa bdp|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations",
-"logistics"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/logistics-coordinator-at-psa-bdp-4485087567"
-},
-"families": [
-"Banking & finance ops",
-"Logistics & supply chain"
 ]
 },
 {
@@ -44005,6 +44650,7 @@
 ],
 "roles": [
 "electrical engineer",
+"project engineer",
 "teacher",
 "lecturer"
 ],
@@ -44014,6 +44660,27 @@
 "families": [
 "Engineering & technical",
 "Education"
+]
+},
+{
+"title": "Plumber Journeyman / Laborer Foreman",
+"company": "V2X Inc",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-03",
+"url": "https://bh.linkedin.com/jobs/view/plumber-journeyman-laborer-foreman-at-v2x-inc-4441326855",
+"id": "plumber journeyman laborer foreman|v2x inc",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"technician"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/plumber-journeyman-laborer-foreman-at-v2x-inc-4441326855"
+},
+"families": [
+"Engineering & technical"
 ]
 },
 {
@@ -44071,8 +44738,7 @@
 "LinkedIn"
 ],
 "roles": [
-"teacher",
-"lecturer"
+"teacher"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/mathematics-teacher-at-the-international-school-of-choueifat-sharjah-4486306126"
@@ -44714,27 +45380,6 @@
 },
 "families": [
 "Banking & finance ops"
-]
-},
-{
-"title": "Senior Analyst, Compliance Advisory",
-"company": "Checkout.com",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-03",
-"url": "https://ae.linkedin.com/jobs/view/senior-analyst-compliance-advisory-at-checkout-com-4484620995",
-"id": "senior analyst compliance advisory|checkout com|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-analyst-compliance-advisory-at-checkout-com-4484620995"
-},
-"families": [
-"Compliance, risk & audit"
 ]
 },
 {
@@ -45483,27 +46128,6 @@
 ]
 },
 {
-"title": "Gerente assistente/líder de equipe - sem detalhes pessoais",
-"company": "Grand Hyatt",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-03",
-"url": "https://kw.linkedin.com/jobs/view/gerente-assistente-l%C3%ADder-de-equipe-sem-detalhes-pessoais-at-grand-hyatt-4461000845",
-"id": "gerente assistente l der de equipe sem detalhes pessoais|grand hyatt|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"hotel"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/gerente-assistente-l%C3%ADder-de-equipe-sem-detalhes-pessoais-at-grand-hyatt-4461000845"
-},
-"families": [
-"Hospitality & F&B"
-]
-},
-{
 "title": "EY Muscat - Tax GCR Consultant",
 "company": "EY",
 "location": "Muscat, Masqaţ, Oman",
@@ -45915,27 +46539,6 @@
 ]
 },
 {
-"title": "Sr. Specialist Strategic Accounts & Partnerships - MENA",
-"company": "talabat / Delivery Hero",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-03",
-"url": "https://jobs.smartrecruiters.com/deliveryhero/744000159322549",
-"id": "sr specialist strategic accounts partnerships mena|talabat delivery hero|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://jobs.smartrecruiters.com/deliveryhero/744000159322549"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Rider onboarding, training and incubation",
 "company": "talabat / Delivery Hero",
 "location": "Riyadh, Saudi Arabia",
@@ -46035,7 +46638,6 @@
 "operations analyst",
 "back office",
 "reconciliation",
-"administration officer",
 "logistics",
 "procurement",
 "supply chain",
@@ -46046,7 +46648,6 @@
 },
 "families": [
 "Banking & finance ops",
-"HR & admin",
 "Logistics & supply chain"
 ]
 },
@@ -46218,6 +46819,41 @@
 ]
 },
 {
+"title": "Call Center Executive",
+"company": "Sharaf DG",
+"location": "Bahrain",
+"posted": "2026-11-02",
+"url": "https://bh.linkedin.com/jobs/view/call-center-executive-at-sharaf-dg-4486401187",
+"id": "call center executive|sharaf dg",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"bank",
+"client onboarding",
+"secretary",
+"receptionist",
+"sales executive",
+"customer service",
+"call centre",
+"front office",
+"cashier"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/call-center-executive-at-sharaf-dg-4486401187"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"HR & admin",
+"Sales & business dev",
+"Customer service",
+"Hospitality & F&B",
+"Retail"
+]
+},
+{
 "title": "Sr. Government Relations Officer",
 "company": "talabat",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -46278,39 +46914,6 @@
 ]
 },
 {
-"title": "Call Center Executive",
-"company": "Sharaf DG",
-"location": "Bahrain",
-"posted": "2026-11-02",
-"url": "https://bh.linkedin.com/jobs/view/call-center-executive-at-sharaf-dg-4486401187",
-"id": "call center executive|sharaf dg",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"client onboarding",
-"secretary",
-"receptionist",
-"sales executive",
-"customer service",
-"call centre",
-"front office",
-"cashier"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/call-center-executive-at-sharaf-dg-4486401187"
-},
-"families": [
-"Compliance, risk & audit",
-"HR & admin",
-"Sales & business dev",
-"Customer service",
-"Hospitality & F&B",
-"Retail"
-]
-},
-{
 "title": "Assistant Sales Manager",
 "company": "Hilton",
 "location": "Bahrain",
@@ -46360,35 +46963,6 @@
 "families": [
 "Relationship & client mgmt",
 "Sales & business dev"
-]
-},
-{
-"title": "Store Manager - Penhaligons'( Marassi Galleria)",
-"company": "Chalhoub Group",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-02",
-"url": "https://bh.linkedin.com/jobs/view/store-manager-penhaligons-marassi-galleria-at-chalhoub-group-4484391423",
-"id": "store manager penhaligons marassi galleria|chalhoub group",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"HR officer",
-"sales manager",
-"store manager",
-"operations manager",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/store-manager-penhaligons-marassi-galleria-at-chalhoub-group-4484391423"
-},
-"families": [
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management",
-"Other"
 ]
 },
 {
@@ -46596,14 +47170,16 @@
 ],
 "roles": [
 "sales executive",
-"customer service"
+"customer service",
+"remote"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/beauty-consultant-clarins-at-chalhoub-group-4484387560"
 },
 "families": [
 "Sales & business dev",
-"Customer service"
+"Customer service",
+"Other"
 ]
 },
 {
@@ -46621,6 +47197,7 @@
 "sales executive",
 "customer service",
 "front office",
+"retail",
 "cashier"
 ],
 "links": {
@@ -46788,13 +47365,15 @@
 "LinkedIn"
 ],
 "roles": [
-"medical"
+"medical",
+"remote"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/optometrist-essilor-luxottica-at-chalhoub-group-4484377965"
 },
 "families": [
-"Healthcare"
+"Healthcare",
+"Other"
 ]
 },
 {
@@ -46851,13 +47430,15 @@
 "LinkedIn"
 ],
 "roles": [
-"operations"
+"operations",
+"logistics"
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/operations-executive-amazon-now-at-amazon-4486413907"
 },
 "families": [
-"Banking & finance ops"
+"Banking & finance ops",
+"Logistics & supply chain"
 ]
 },
 {
@@ -47455,27 +48036,6 @@
 ]
 },
 {
-"title": "Abercrombie & Fitch / Hollister - Assistant Store Manager, Abu Dhabi",
-"company": "Abercrombie & Fitch Co.",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-02",
-"url": "https://ae.linkedin.com/jobs/view/abercrombie-fitch-hollister-assistant-store-manager-abu-dhabi-at-abercrombie-fitch-co-4420133094",
-"id": "abercrombie fitch hollister assistant store manager abu dhabi|abercrombie fitch co|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/abercrombie-fitch-hollister-assistant-store-manager-abu-dhabi-at-abercrombie-fitch-co-4420133094"
-},
-"families": [
-"Retail"
-]
-},
-{
 "title": "Primary Teacher - Immediate start",
 "company": "Al Rabeeh Academy",
 "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
@@ -47810,13 +48370,15 @@
 "LinkedIn"
 ],
 "roles": [
-"marketing"
+"marketing",
+"hotel"
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/marketing-executive-at-grand-hyatt-4486194706"
 },
 "families": [
-"Marketing & media"
+"Marketing & media",
+"Hospitality & F&B"
 ]
 },
 {
@@ -47898,6 +48460,27 @@
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/category-manager-home-pets-at-snoonu-4477565794"
+},
+"families": [
+"Retail"
+]
+},
+{
+"title": "Retail Learning Manager - Kuwait & Qatar",
+"company": "Tiffany & Co.",
+"location": "Qatar",
+"posted": "2026-11-02",
+"url": "https://qa.linkedin.com/jobs/view/retail-learning-manager-kuwait-qatar-at-tiffany-co-4484338105",
+"id": "retail learning manager kuwait qatar|tiffany co|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/retail-learning-manager-kuwait-qatar-at-tiffany-co-4484338105"
 },
 "families": [
 "Retail"
@@ -48357,27 +48940,6 @@
 ]
 },
 {
-"title": "Beauty Consultant - NARS",
-"company": "Chalhoub Group",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-02",
-"url": "https://bh.linkedin.com/jobs/view/beauty-consultant-nars-at-chalhoub-group-4484380854",
-"id": "beauty consultant nars|chalhoub group",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/beauty-consultant-nars-at-chalhoub-group-4484380854"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Associate - Markets Treasury (Omani Nationals Only)",
 "company": "HSBC",
 "location": "Muscat, Muscat, Oman",
@@ -48453,10 +49015,8 @@
 ],
 "roles": [
 "banking operations",
-"operations officer",
 "treasury operations",
 "bank",
-"internal control",
 "finance officer",
 "office manager",
 "civil engineer",
@@ -48469,7 +49029,6 @@
 },
 "families": [
 "Banking & finance ops",
-"Compliance, risk & audit",
 "Accounting & finance",
 "HR & admin",
 "Engineering & technical",
@@ -49353,13 +49912,17 @@
 "LinkedIn"
 ],
 "roles": [
-"customer service"
+"customer service",
+"restaurant",
+"cashier"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/waitress-xenia-bar-at-m%C3%B6venpick-hotels-resorts-4485421424"
 },
 "families": [
-"Customer service"
+"Customer service",
+"Hospitality & F&B",
+"Retail"
 ]
 },
 {
@@ -49722,27 +50285,6 @@
 },
 "families": [
 "Compliance, risk & audit"
-]
-},
-{
-"title": "SR. ACCOUNTANT (BACK OFFICE)",
-"company": "QatarEnergy",
-"location": "Doha, Doha, Qatar",
-"posted": "2026-11-01",
-"url": "https://qa.linkedin.com/jobs/view/sr-accountant-back-office-at-qatarenergy-4477253516",
-"id": "sr accountant back office|qatarenergy|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/sr-accountant-back-office-at-qatarenergy-4477253516"
-},
-"families": [
-"Accounting & finance"
 ]
 },
 {
@@ -51424,7 +51966,6 @@
 "bank",
 "client onboarding",
 "financial crime",
-"internal control",
 "corporate banking",
 "project manager"
 ],
@@ -51460,7 +52001,6 @@
 "software engineer",
 "IT support",
 "cyber security",
-"technician",
 "project manager",
 "remote"
 ],
@@ -51471,7 +52011,6 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "IT & software",
-"Engineering & technical",
 "Project & management",
 "Other"
 ]
@@ -51489,15 +52028,12 @@
 ],
 "roles": [
 "banking operations",
-"back office",
 "payments operations",
 "settlement",
-"reconciliation",
 "credit administration",
 "credit operations",
 "bank",
 "financial crime",
-"risk",
 "corporate banking",
 "accountant",
 "finance officer",
@@ -51527,7 +52063,6 @@
 "LinkedIn"
 ],
 "roles": [
-"operations analyst",
 "back office",
 "reconciliation",
 "credit administration",
@@ -51538,7 +52073,6 @@
 "administration officer",
 "office manager",
 "secretary",
-"logistics",
 "procurement",
 "supply chain",
 "warehouse"
@@ -51887,6 +52421,27 @@
 },
 "families": [
 "Marketing & media"
+]
+},
+{
+"title": "HVAC Technician",
+"company": "Hilton",
+"location": "Mecca, Makkah, Saudi Arabia",
+"posted": "2026-10-29",
+"url": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4485218133",
+"id": "hvac technician|hilton|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/hvac-technician-at-hilton-4485218133"
+},
+"families": [
+"Hospitality & F&B"
 ]
 },
 {
@@ -52375,27 +52930,6 @@
 ]
 },
 {
-"title": "Senior Backend Engineer I",
-"company": "Snoonu",
-"location": "Doha, Doha, Qatar",
-"posted": "2026-10-29",
-"url": "https://qa.linkedin.com/jobs/view/senior-backend-engineer-i-at-snoonu-4484935406",
-"id": "senior backend engineer i|snoonu|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/senior-backend-engineer-i-at-snoonu-4484935406"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
 "title": "General Technician",
 "company": "Anantara Hotels & Resorts",
 "location": "Doha, Qatar",
@@ -52463,7 +52997,7 @@
 "company": "Virtusa",
 "location": "Doha, Qatar",
 "posted": "2026-10-29",
-"url": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483081907",
+"url": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483088742",
 "id": "systems architect|virtusa|qatar",
 "country": "Qatar",
 "sources": [
@@ -52473,7 +53007,7 @@
 "project manager"
 ],
 "links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483081907"
+"LinkedIn": "https://qa.linkedin.com/jobs/view/systems-architect-at-virtusa-4483088742"
 },
 "families": [
 "Project & management"
@@ -52970,7 +53504,6 @@
 "LinkedIn"
 ],
 "roles": [
-"finance officer",
 "HR operations",
 "HR officer",
 "store manager",
@@ -52980,7 +53513,6 @@
 "LinkedIn": "https://bh.linkedin.com/jobs/view/manager-restaurant-at-apparel-group-4375682763"
 },
 "families": [
-"Accounting & finance",
 "HR & admin",
 "Retail",
 "Project & management"
@@ -53736,6 +54268,27 @@
 ]
 },
 {
+"title": "Registered Nurse-Women's OPD",
+"company": "Danat Al Emarat Hospital for Women & Children",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-10-28",
+"url": "https://ae.linkedin.com/jobs/view/registered-nurse-women-s-opd-at-danat-al-emarat-hospital-for-women-children-4484104131",
+"id": "registered nurse women s opd|danat al emarat hospital for women children|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"nurse"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/registered-nurse-women-s-opd-at-danat-al-emarat-hospital-for-women-children-4484104131"
+},
+"families": [
+"Healthcare"
+]
+},
+{
 "title": "Sales Associate The Grove Boutique Abu Dhabi",
 "company": "Christian Dior Couture",
 "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
@@ -53751,27 +54304,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/sales-associate-the-grove-boutique-abu-dhabi-at-christian-dior-couture-4466527525"
-},
-"families": [
-"Retail"
-]
-},
-{
-"title": "Client Advisor",
-"company": "Vacheron Constantin",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-10-28",
-"url": "https://ae.linkedin.com/jobs/view/client-advisor-at-vacheron-constantin-4466861602",
-"id": "client advisor|vacheron constantin|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/client-advisor-at-vacheron-constantin-4466861602"
 },
 "families": [
 "Retail"
@@ -53838,27 +54370,6 @@
 },
 "families": [
 "Other"
-]
-},
-{
-"title": "Assistant Manager - Outlet",
-"company": "Grand Hyatt",
-"location": "Doha, Doha, Qatar",
-"posted": "2026-10-28",
-"url": "https://qa.linkedin.com/jobs/view/assistant-manager-outlet-at-grand-hyatt-4476384074",
-"id": "assistant manager outlet|grand hyatt|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/assistant-manager-outlet-at-grand-hyatt-4476384074"
-},
-"families": [
-"Banking & finance ops"
 ]
 },
 {
@@ -54032,27 +54543,6 @@
 ]
 },
 {
-"title": "Open Rank Political Economy in the Global South",
-"company": "Northwestern University",
-"location": "Doha, Qatar",
-"posted": "2026-10-28",
-"url": "https://qa.linkedin.com/jobs/view/open-rank-political-economy-in-the-global-south-at-northwestern-university-4458283317",
-"id": "open rank political economy in the global south|northwestern university|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/open-rank-political-economy-in-the-global-south-at-northwestern-university-4458283317"
-},
-"families": [
-"Education"
-]
-},
-{
 "title": "Accounting Lead",
 "company": "Trafalgar Luxury Group",
 "location": "Kuwait City Metropolitan Area",
@@ -54097,29 +54587,6 @@
 ]
 },
 {
-"title": "Finance Officer (Kuwait Branch)",
-"company": "Doha Bank",
-"location": "Kuwait City Metropolitan Area",
-"posted": "2026-10-28",
-"url": "https://kw.linkedin.com/jobs/view/finance-officer-kuwait-branch-at-doha-bank-4482277510",
-"id": "finance officer kuwait branch|doha bank|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job",
-"accountant"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/finance-officer-kuwait-branch-at-doha-bank-4482277510"
-},
-"families": [
-"Other",
-"Accounting & finance"
-]
-},
-{
 "title": "Vice President, Value Delivery, Aladdin & eFront",
 "company": "BlackRock",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -54159,6 +54626,27 @@
 },
 "families": [
 "Relationship & client mgmt"
+]
+},
+{
+"title": "Finance Officer (Kuwait Branch)",
+"company": "Doha Bank",
+"location": "Kuwait City Metropolitan Area",
+"posted": "2026-10-28",
+"url": "https://kw.linkedin.com/jobs/view/finance-officer-kuwait-branch-at-doha-bank-4482277510",
+"id": "finance officer kuwait branch|doha bank|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/finance-officer-kuwait-branch-at-doha-bank-4482277510"
+},
+"families": [
+"Accounting & finance"
 ]
 },
 {
@@ -54673,33 +55161,6 @@
 "families": [
 "Relationship & client mgmt",
 "Marketing & media"
-]
-},
-{
-"title": "Store Manager",
-"company": "Apparel Group",
-"location": "Bahrain",
-"posted": "2026-10-27",
-"url": "https://bh.linkedin.com/jobs/view/store-manager-at-apparel-group-4375688567",
-"id": "store manager|apparel group",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"HR operations",
-"HR officer",
-"office manager",
-"sales manager",
-"store manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/store-manager-at-apparel-group-4375688567"
-},
-"families": [
-"HR & admin",
-"Sales & business dev",
-"Retail"
 ]
 },
 {
@@ -55427,6 +55888,27 @@
 ]
 },
 {
+"title": "Store Manager",
+"company": "Apparel Group",
+"location": "Kuwait",
+"posted": "2026-10-27",
+"url": "https://kw.linkedin.com/jobs/view/store-manager-at-apparel-group-4476152182",
+"id": "store manager|apparel group|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/store-manager-at-apparel-group-4476152182"
+},
+"families": [
+"Retail"
+]
+},
+{
 "title": "Team Leader - LHH",
 "company": "Majid Al Futtaim",
 "location": "Kuwait",
@@ -55809,7 +56291,6 @@
 "account manager",
 "business development",
 "sales manager",
-"marketing",
 "retail",
 "store manager"
 ],
@@ -55819,7 +56300,6 @@
 "families": [
 "Relationship & client mgmt",
 "Sales & business dev",
-"Marketing & media",
 "Retail"
 ]
 },
@@ -55947,7 +56427,6 @@
 ],
 "roles": [
 "logistics",
-"supply chain",
 "warehouse",
 "driver"
 ],
@@ -57193,27 +57672,6 @@
 ]
 },
 {
-"title": "Chief Information Security Officer",
-"company": "boundless",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-10-25",
-"url": "https://ae.linkedin.com/jobs/view/chief-information-security-officer-at-boundless-4483504315",
-"id": "chief information security officer|boundless|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/chief-information-security-officer-at-boundless-4483504315"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Business Development Manager - AI & Agents",
 "company": "Arabic.AI",
 "location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
@@ -57575,7 +58033,8 @@
 "LinkedIn"
 ],
 "roles": [
-"doctor"
+"doctor",
+"medical"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/consultant-in-geriatric-care-medicine-kuwait-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482852523"
@@ -57617,7 +58076,8 @@
 "LinkedIn"
 ],
 "roles": [
-"doctor"
+"doctor",
+"medical"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/consultant-in-geriatric-medicine-kuwait-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482850766"
@@ -57680,7 +58140,8 @@
 "LinkedIn"
 ],
 "roles": [
-"doctor"
+"doctor",
+"medical"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/consultant-geriatric-care-kuwait-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482857469"
@@ -57701,7 +58162,8 @@
 "LinkedIn"
 ],
 "roles": [
-"doctor"
+"doctor",
+"medical"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/endocrinology-consultant-kuwait-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482860619"
@@ -57722,7 +58184,8 @@
 "LinkedIn"
 ],
 "roles": [
-"doctor"
+"doctor",
+"medical"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/consultant-in-geriatric-and-elderly-care-kuwait-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482863436"
@@ -57743,7 +58206,8 @@
 "LinkedIn"
 ],
 "roles": [
-"doctor"
+"doctor",
+"medical"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/consultant-in-endocrinology-kuwait-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482863551"
@@ -58184,15 +58648,13 @@
 "LinkedIn"
 ],
 "roles": [
-"nurse",
-"remote"
+"nurse"
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/consultant-in-geriatric-healthcare-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482871079"
 },
 "families": [
-"Healthcare",
-"Other"
+"Healthcare"
 ]
 },
 {
@@ -58388,33 +58850,6 @@
 ]
 },
 {
-"title": "Housekeeping Supervisor",
-"company": "ibis, ibis Styles, ibis budget",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-10-22",
-"url": "https://bh.linkedin.com/jobs/view/housekeeping-supervisor-at-ibis-ibis-styles-ibis-budget-4481368171",
-"id": "housekeeping supervisor|ibis ibis styles ibis budget",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations officer",
-"office manager",
-"hotel",
-"operations manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/housekeeping-supervisor-at-ibis-ibis-styles-ibis-budget-4481368171"
-},
-"families": [
-"Banking & finance ops",
-"HR & admin",
-"Hospitality & F&B",
-"Project & management"
-]
-},
-{
 "title": "Front Office & Admin Coordinator",
 "company": "Bidfood Middle East",
 "location": "Bahrain",
@@ -58433,7 +58868,6 @@
 "receptionist",
 "customer service",
 "call centre",
-"hotel",
 "restaurant",
 "front office",
 "retail",
@@ -58518,6 +58952,31 @@
 "IT & software",
 "Sales & business dev",
 "Retail",
+"Project & management"
+]
+},
+{
+"title": "Housekeeping Supervisor",
+"company": "ibis, ibis Styles, ibis budget",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-10-22",
+"url": "https://bh.linkedin.com/jobs/view/housekeeping-supervisor-at-ibis-ibis-styles-ibis-budget-4481368171",
+"id": "housekeeping supervisor|ibis ibis styles ibis budget",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"office manager",
+"hotel",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/housekeeping-supervisor-at-ibis-ibis-styles-ibis-budget-4481368171"
+},
+"families": [
+"HR & admin",
+"Hospitality & F&B",
 "Project & management"
 ]
 },
@@ -59409,7 +59868,7 @@
 "LinkedIn"
 ],
 "roles": [
-"audit",
+"risk",
 "government relations",
 "sales manager",
 "project manager"
@@ -59860,27 +60319,6 @@
 ]
 },
 {
-"title": "Assistant Manager – Cloud and Infrastructure",
-"company": "PureCS",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-10-21",
-"url": "https://ae.linkedin.com/jobs/view/assistant-manager-%E2%80%93-cloud-and-infrastructure-at-purecs-4481118308",
-"id": "assistant manager cloud and infrastructure|purecs|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/assistant-manager-%E2%80%93-cloud-and-infrastructure-at-purecs-4481118308"
-},
-"families": [
-"IT & software"
-]
-},
-{
 "title": "Senior Security Engineer - WAF (Cloudflare)",
 "company": "Help AG",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -59899,29 +60337,6 @@
 },
 "families": [
 "Engineering & technical"
-]
-},
-{
-"title": "Warehouse and Logistics Manager",
-"company": "Calo Inc.",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-10-21",
-"url": "https://careers.calo.app/jobs/8576507-warehouse-and-logistics-manager",
-"id": "warehouse and logistics manager|calo inc|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)",
-"LinkedIn"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/warehouse-and-logistics-manager-at-calo-inc-4481155255",
-"Employer careers (ATS)": "https://careers.calo.app/jobs/8576507-warehouse-and-logistics-manager"
-},
-"families": [
-"Logistics & supply chain"
 ]
 },
 {
@@ -60003,27 +60418,6 @@
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/account-manager-at-mph-4478992393"
-},
-"families": [
-"Relationship & client mgmt"
-]
-},
-{
-"title": "Sales Manager",
-"company": "Wyndham Hotels & Resorts EMEA",
-"location": "Doha, Qatar",
-"posted": "2026-10-21",
-"url": "https://qa.linkedin.com/jobs/view/sales-manager-at-wyndham-hotels-resorts-emea-4479419142",
-"id": "sales manager|wyndham hotels resorts emea|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/sales-manager-at-wyndham-hotels-resorts-emea-4479419142"
 },
 "families": [
 "Relationship & client mgmt"
@@ -60401,6 +60795,48 @@
 ]
 },
 {
+"title": "Consultant Endocrinologist",
+"company": "Mogi I/O : OTT/Podcast/Short Video Apps for you",
+"location": "Kuwait",
+"posted": "2026-10-21",
+"url": "https://kw.linkedin.com/jobs/view/consultant-endocrinologist-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482430527",
+"id": "consultant endocrinologist|mogi i o ott podcast short video apps for you|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/consultant-endocrinologist-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482430527"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Endocrinology and Diabetes Consultant",
+"company": "Mogi I/O : OTT/Podcast/Short Video Apps for you",
+"location": "Kuwait",
+"posted": "2026-10-21",
+"url": "https://kw.linkedin.com/jobs/view/endocrinology-and-diabetes-consultant-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482431449",
+"id": "endocrinology and diabetes consultant|mogi i o ott podcast short video apps for you|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/endocrinology-and-diabetes-consultant-at-mogi-i-o-ott-podcast-short-video-apps-for-you-4482431449"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Sr. Specialist Fleet",
 "company": "talabat / Delivery Hero",
 "location": "Dubai, United Arab Emirates",
@@ -60475,7 +60911,6 @@
 "LinkedIn"
 ],
 "roles": [
-"settlement",
 "reconciliation",
 "software engineer",
 "IT support",
@@ -60732,27 +61167,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/operations-manager-at-j-t-express-4478679380"
-},
-"families": [
-"Logistics & supply chain"
-]
-},
-{
-"title": "Warehouse & Logistics Management Specialist",
-"company": "Midea Shaker Company",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-10-20",
-"url": "https://sa.linkedin.com/jobs/view/warehouse-logistics-management-specialist-at-midea-shaker-company-4468468130",
-"id": "warehouse logistics management specialist|midea shaker company|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/warehouse-logistics-management-specialist-at-midea-shaker-company-4468468130"
 },
 "families": [
 "Logistics & supply chain"
@@ -61254,6 +61668,48 @@
 ]
 },
 {
+"title": "Skin -Professional Educator",
+"company": "Madi International",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-10-20",
+"url": "https://om.linkedin.com/jobs/view/skin-professional-educator-at-madi-international-4481520838",
+"id": "skin professional educator|madi international|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/skin-professional-educator-at-madi-international-4481520838"
+},
+"families": [
+"Education"
+]
+},
+{
+"title": "Professional Educator- Skin",
+"company": "Madi International",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-10-20",
+"url": "https://om.linkedin.com/jobs/view/professional-educator-skin-at-madi-international-4480481079",
+"id": "professional educator skin|madi international|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/professional-educator-skin-at-madi-international-4480481079"
+},
+"families": [
+"Education"
+]
+},
+{
 "title": "AI Tech Lead",
 "company": "Lucidya | لوسيديا",
 "location": "Riyadh, Riyadh, Saudi Arabia",
@@ -61271,6 +61727,27 @@
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/ai-tech-lead-at-lucidya-%D9%84%D9%88%D8%B3%D9%8A%D8%AF%D9%8A%D8%A7-4481713079",
 "Employer careers (ATS)": "https://apply.workable.com/j/22AEF7E88E"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Warehouse and Logistics Manager",
+"company": "Calo",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-10-20",
+"url": "https://careers.calo.app/jobs/8576507-warehouse-and-logistics-manager",
+"id": "warehouse and logistics manager|calo|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://careers.calo.app/jobs/8576507-warehouse-and-logistics-manager"
 },
 "families": [
 "Other"
@@ -61384,48 +61861,6 @@
 ]
 },
 {
-"title": "Operations Manager - KSA & UAE",
-"company": "Stryker",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-10-19",
-"url": "https://sa.linkedin.com/jobs/view/operations-manager-ksa-uae-at-stryker-4479981386",
-"id": "operations manager ksa uae|stryker|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/operations-manager-ksa-uae-at-stryker-4479981386"
-},
-"families": [
-"Banking & finance ops"
-]
-},
-{
-"title": "HR Manager",
-"company": "Trades App",
-"location": "Medina, Al Madinah, Saudi Arabia",
-"posted": "2026-10-19",
-"url": "https://sa.linkedin.com/jobs/view/hr-manager-at-trades-app-4480216741",
-"id": "hr manager|trades app|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"HR"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/hr-manager-at-trades-app-4480216741"
-},
-"families": [
-"HR & admin"
-]
-},
-{
 "title": "HR Specialist ( Tamheer )",
 "company": "PetroApp",
 "location": "Riyadh, Riyadh Province, Saudi Arabia",
@@ -61447,69 +61882,6 @@
 ]
 },
 {
-"title": "Marketing Director",
-"company": "Trades App",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-10-19",
-"url": "https://sa.linkedin.com/jobs/view/marketing-director-at-trades-app-4480229257",
-"id": "marketing director|trades app|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/marketing-director-at-trades-app-4480229257"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
-"title": "Contact Center Officer",
-"company": "eXtra (United Electronics Co.)",
-"location": "Al Khobar, Eastern, Saudi Arabia",
-"posted": "2026-10-19",
-"url": "https://sa.linkedin.com/jobs/view/contact-center-officer-at-extra-united-electronics-co-4480972407",
-"id": "contact center officer|extra united electronics co|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/contact-center-officer-at-extra-united-electronics-co-4480972407"
-},
-"families": [
-"Customer service"
-]
-},
-{
-"title": "AI Instructor",
-"company": "Tuwaiq Academy | أكاديمية طويق",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-10-19",
-"url": "https://sa.linkedin.com/jobs/view/ai-instructor-at-tuwaiq-academy-%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D8%B7%D9%88%D9%8A%D9%82-4480229241",
-"id": "ai instructor|tuwaiq academy|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/ai-instructor-at-tuwaiq-academy-%D8%A3%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A%D8%A9-%D8%B7%D9%88%D9%8A%D9%82-4480229241"
-},
-"families": [
-"Education"
-]
-},
-{
 "title": "Female Early Years Foundation Stage Arabic Teacher - Stellar",
 "company": "Aanaab",
 "location": "Jeddah, Makkah Province, Saudi Arabia",
@@ -61528,27 +61900,6 @@
 },
 "families": [
 "Education"
-]
-},
-{
-"title": "Legal Counsel",
-"company": "tiqmo",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-10-19",
-"url": "https://sa.linkedin.com/jobs/view/legal-counsel-at-tiqmo-4480213844",
-"id": "legal counsel|tiqmo|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"legal"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/legal-counsel-at-tiqmo-4480213844"
-},
-"families": [
-"Legal"
 ]
 },
 {
@@ -61612,48 +61963,6 @@
 },
 "families": [
 "Project & management"
-]
-},
-{
-"title": "Chief Operating Officer",
-"company": "BloFin",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-10-19",
-"url": "https://ae.linkedin.com/jobs/view/chief-operating-officer-at-blofin-4480978819",
-"id": "chief operating officer|blofin|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/chief-operating-officer-at-blofin-4480978819"
-},
-"families": [
-"Banking & finance ops"
-]
-},
-{
-"title": "Compliance Officer",
-"company": "BloFin",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-10-19",
-"url": "https://ae.linkedin.com/jobs/view/compliance-officer-at-blofin-4480982642",
-"id": "compliance officer|blofin|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-officer-at-blofin-4480982642"
-},
-"families": [
-"Compliance, risk & audit"
 ]
 },
 {
@@ -61744,27 +62053,6 @@
 },
 "families": [
 "Banking & finance ops"
-]
-},
-{
-"title": "Information Technology Manager",
-"company": "CANAR Holding",
-"location": "Ahmadi, Kuwait",
-"posted": "2026-10-19",
-"url": "https://kw.linkedin.com/jobs/view/information-technology-manager-at-canar-holding-4464099521",
-"id": "information technology manager|canar holding|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/information-technology-manager-at-canar-holding-4464099521"
-},
-"families": [
-"IT & software"
 ]
 },
 {
@@ -61920,69 +62208,6 @@
 },
 "families": [
 "Customer service"
-]
-},
-{
-"title": "Scientific Editor: Natural Resource Management",
-"company": "Cactus Communications",
-"location": "Kuwait City Metropolitan Area",
-"posted": "2026-10-19",
-"url": "https://kw.linkedin.com/jobs/view/scientific-editor-natural-resource-management-at-cactus-communications-4478287497",
-"id": "scientific editor natural resource management|cactus communications|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"remote"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/scientific-editor-natural-resource-management-at-cactus-communications-4478287497"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Scientific Editor: Geology",
-"company": "Cactus Communications",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-10-19",
-"url": "https://om.linkedin.com/jobs/view/scientific-editor-geology-at-cactus-communications-4478277926",
-"id": "scientific editor geology|cactus communications|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"remote"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/scientific-editor-geology-at-cactus-communications-4478277926"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Scientific Editor: Marine Sciences",
-"company": "Cactus Communications",
-"location": "Oman",
-"posted": "2026-10-19",
-"url": "https://om.linkedin.com/jobs/view/scientific-editor-marine-sciences-at-cactus-communications-4478291340",
-"id": "scientific editor marine sciences|cactus communications|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"remote"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/scientific-editor-marine-sciences-at-cactus-communications-4478291340"
-},
-"families": [
-"Other"
 ]
 },
 {
