@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-22T19:17:09+00:00",
+"fetched_at": "2026-11-22T20:16:20+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -100,22 +100,22 @@
 ],
 "countries": {
 "Bahrain": 558,
-"Saudi Arabia": 589,
-"United Arab Emirates": 693,
+"Saudi Arabia": 590,
+"United Arab Emirates": 688,
 "Qatar": 359,
 "Kuwait": 313,
-"Oman": 301,
+"Oman": 302,
 "Remote": 27
 },
 "linkedin_check": {
-"checked": 153,
+"checked": 180,
 "closed_new": 0,
-"failed": 0,
+"failed": 1,
 "pending": 0,
 "stopped": "",
 "desc_checks": 26,
 "removed": 4,
-"cache": 6935
+"cache": 6936
 },
 "employer_boards": [
 {
@@ -124,7 +124,7 @@
 "count": 7,
 "fetched": 9,
 "error": "",
-"secs": 0.6
+"secs": 0.5
 },
 {
 "board": "ila Bank (JazzHR)",
@@ -136,11 +136,11 @@
 },
 {
 "board": "KFH Bahrain / Ahli United (SuccessFactors)",
-"ok": false,
+"ok": true,
 "count": 0,
 "fetched": 0,
-"error": "ReadTimeout: HTTPSConnectionPool(host='careers.ahliunited.com', port=443): Read timed out. (read timeout=20)",
-"secs": 20.7
+"error": "",
+"secs": 1.1
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -153,8 +153,8 @@
 {
 "board": "HSBC (Eightfold)",
 "ok": true,
-"count": 20,
-"fetched": 20,
+"count": 17,
+"fetched": 17,
 "error": "",
 "secs": 2.5
 },
@@ -180,7 +180,7 @@
 "count": 4,
 "fetched": 4,
 "error": "",
-"secs": 1.3
+"secs": 0.8
 },
 {
 "board": "Gulf Air (careers portal)",
@@ -188,7 +188,7 @@
 "count": 6,
 "fetched": 6,
 "error": "",
-"secs": 0.6
+"secs": 0.7
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -204,7 +204,7 @@
 "count": 0,
 "fetched": 1,
 "error": "",
-"secs": 2.4
+"secs": 2.5
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -212,7 +212,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 1.0
+"secs": 0.9
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -220,7 +220,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://maersk.wd3.myworkdayjobs.com/wday/cxs/maersk/Maersk_Careers/jobs",
-"secs": 0.6
+"secs": 0.5
 },
 {
 "board": "GE Vernova (Workday)",
@@ -228,7 +228,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs",
-"secs": 0.1
+"secs": 0.0
 },
 {
 "board": "Hitachi (Workday)",
@@ -236,7 +236,7 @@
 "count": 0,
 "fetched": 0,
 "error": "HTTPError: 429 Client Error: Too Many Requests for url: https://hitachi.wd1.myworkdayjobs.com/wday/cxs/hitachi/hitachi/jobs",
-"secs": 0.1
+"secs": 0.0
 },
 {
 "board": "Calo (Teamtailor)",
@@ -260,7 +260,7 @@
 "count": 1,
 "fetched": 2,
 "error": "",
-"secs": 0.8
+"secs": 0.7
 },
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
@@ -268,7 +268,7 @@
 "count": 80,
 "fetched": 100,
 "error": "",
-"secs": 2.9
+"secs": 2.6
 },
 {
 "board": "Careem (Greenhouse)",
@@ -276,7 +276,7 @@
 "count": 5,
 "fetched": 11,
 "error": "",
-"secs": 0.2
+"secs": 0.1
 },
 {
 "board": "Tamara (Greenhouse)",
@@ -292,7 +292,7 @@
 "count": 7,
 "fetched": 8,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Ziina (Ashby)",
@@ -300,7 +300,7 @@
 "count": 5,
 "fetched": 12,
 "error": "",
-"secs": 0.1
+"secs": 0.2
 },
 {
 "board": "Thndr (Ashby)",
@@ -316,7 +316,7 @@
 "count": 23,
 "fetched": 31,
 "error": "",
-"secs": 0.2
+"secs": 0.3
 },
 {
 "board": "Salla (Workable)",
@@ -332,7 +332,7 @@
 "count": 21,
 "fetched": 52,
 "error": "",
-"secs": 0.4
+"secs": 0.3
 },
 {
 "board": "Unifonic (Recruitee)",
@@ -340,16 +340,16 @@
 "count": 5,
 "fetched": 12,
 "error": "",
-"secs": 0.3
+"secs": 0.4
 }
 ],
 "descriptions": {
-"live": 2813,
-"with_desc": 2787,
+"live": 2810,
+"with_desc": 2784,
 "by_source": {
-"LinkedIn": "2164/2190",
-"Employer careers (ATS)": "352/352",
-"Workable": "332/332"
+"LinkedIn": "2165/2191",
+"Employer careers (ATS)": "349/349",
+"Workable": "331/331"
 },
 "fetched": 0,
 "failed": 0,
@@ -360,19 +360,19 @@
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2190,
+"count": 2191,
 "note": ""
 },
 {
 "source": "Workable",
 "ok": true,
-"count": 332,
+"count": 331,
 "note": ""
 },
 {
 "source": "Employer careers (ATS)",
 "ok": true,
-"count": 352,
+"count": 349,
 "note": ""
 }
 ],
@@ -1774,6 +1774,31 @@
 ]
 },
 {
+"title": "Sales and Logistics Coordinator",
+"company": "Gunnebo Entrance Control",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-22",
+"url": "https://jobs.workable.com/view/fbTMHsWAV7ku1f2F26vhrA/sales-and-logistics-coordinator-in-dubai-at-gunnebo-entrance-control",
+"id": "sales and logistics coordinator|gunnebo entrance control|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Workable"
+],
+"roles": [
+"operations",
+"sales",
+"logistics"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/fbTMHsWAV7ku1f2F26vhrA/sales-and-logistics-coordinator-in-dubai-at-gunnebo-entrance-control"
+},
+"families": [
+"Banking & finance ops",
+"Sales & business dev",
+"Logistics & supply chain"
+]
+},
+{
 "title": "IT Engineering Manager — Endpoint, SaaS",
 "company": "talabat",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -2565,6 +2590,27 @@
 ]
 },
 {
+"title": "Beauty Advisor",
+"company": "KIKO MILANO",
+"location": "Kuwait City Metropolitan Area",
+"posted": "2026-11-22",
+"url": "https://kw.linkedin.com/jobs/view/beauty-advisor-at-kiko-milano-4492374079",
+"id": "beauty advisor|kiko milano|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/beauty-advisor-at-kiko-milano-4492374079"
+},
+"families": [
+"Retail"
+]
+},
+{
 "title": "Warehouse Supervisor",
 "company": "Keemart",
 "location": "Kuwait City Metropolitan Area",
@@ -2648,6 +2694,27 @@
 "families": [
 "Other",
 "Accounting & finance"
+]
+},
+{
+"title": "Factory Quality Manager_Leadership Role",
+"company": "MLS - Muscat Livestock",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-22",
+"url": "https://om.linkedin.com/jobs/view/factory-quality-manager-leadership-role-at-mls-muscat-livestock-4493356922",
+"id": "factory quality manager leadership role|mls muscat livestock|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/factory-quality-manager-leadership-role-at-mls-muscat-livestock-4493356922"
+},
+"families": [
+"Compliance, risk & audit"
 ]
 },
 {
@@ -8430,28 +8497,6 @@
 ]
 },
 {
-"title": "Accountant",
-"company": "FansPass | فانز باس",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-11-19",
-"url": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261",
-"id": "accountant|fanspass|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job",
-"remote"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "مدير تشغيل",
 "company": "Emdad By Elm",
 "location": "Riyadh, Saudi Arabia",
@@ -10155,14 +10200,16 @@
 "LinkedIn"
 ],
 "roles": [
-"relationship manager"
+"relationship manager",
+"remote"
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/technical-account-manager-openshift-remote-doha-with-french-at-red-hat-4492180369"
 },
 "remote": true,
 "families": [
-"Relationship & client mgmt"
+"Relationship & client mgmt",
+"Other"
 ]
 },
 {
@@ -11392,6 +11439,27 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/ai-voice-recording-contributor-arabic-gulf-at-rws-4492424523"
+},
+"families": [
+"Other"
+]
+},
+{
+"title": "Accountant",
+"company": "FansPass | فانز باس",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-19",
+"url": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261",
+"id": "accountant|fanspass|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261"
 },
 "families": [
 "Other"
@@ -14448,7 +14516,7 @@
 "logistics"
 ],
 "links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/sr-coordinator-quality-control-tmart-at-talabat-4491809743",
+"LinkedIn": "https://kw.linkedin.com/jobs/view/sr-coordinator-quality-control-tmart-at-talabat-4491806779",
 "Employer careers (ATS)": "https://jobs.smartrecruiters.com/deliveryhero/744000162240234"
 },
 "families": [
@@ -16334,7 +16402,7 @@
 "company": "PepsiCo",
 "location": "Taif, Makkah, Saudi Arabia",
 "posted": "2026-11-17",
-"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488220364",
+"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488211772",
 "id": "sr merchandiser|pepsico|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -16344,7 +16412,7 @@
 "Any job"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488220364"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488211772"
 },
 "families": [
 "Other"
@@ -18860,7 +18928,7 @@
 "company": "Larsen & Toubro",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491576556",
+"url": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491567938",
 "id": "hse manager|larsen toubro|oman",
 "country": "Oman",
 "sources": [
@@ -18870,7 +18938,7 @@
 "compliance"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491576556"
+"LinkedIn": "https://om.linkedin.com/jobs/view/hse-manager-at-larsen-toubro-4491567938"
 },
 "families": [
 "Compliance, risk & audit"
@@ -25873,27 +25941,6 @@
 ]
 },
 {
-"title": "Registered Nurse (Emirati Talent Pipeline)",
-"company": "Amana Healthcare",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-14",
-"url": "https://ae.linkedin.com/jobs/view/registered-nurse-emirati-talent-pipeline-at-amana-healthcare-4437050707",
-"id": "registered nurse emirati talent pipeline|amana healthcare|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"nurse"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/registered-nurse-emirati-talent-pipeline-at-amana-healthcare-4437050707"
-},
-"families": [
-"Healthcare"
-]
-},
-{
 "title": "Retail Store Manager",
 "company": "iSTYLE UAE",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -27248,6 +27295,27 @@
 },
 "families": [
 "Hospitality & F&B"
+]
+},
+{
+"title": "Pricing Specialist – Project & Breakbulk",
+"company": "GAC Group",
+"location": "Dammam, Eastern, Saudi Arabia",
+"posted": "2026-11-13",
+"url": "https://sa.linkedin.com/jobs/view/pricing-specialist-%E2%80%93-project-breakbulk-at-gac-group-4486225722",
+"id": "pricing specialist project breakbulk|gac group|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/pricing-specialist-%E2%80%93-project-breakbulk-at-gac-group-4486225722"
+},
+"families": [
+"Other"
 ]
 },
 {
@@ -28797,6 +28865,7 @@
 "operations analyst",
 "back office",
 "reconciliation",
+"administration officer",
 "logistics",
 "procurement",
 "supply chain",
@@ -28807,6 +28876,7 @@
 },
 "families": [
 "Banking & finance ops",
+"HR & admin",
 "Logistics & supply chain"
 ]
 },
@@ -38957,27 +39027,6 @@
 ]
 },
 {
-"title": "Admin tMart",
-"company": "talabat",
-"location": "Salmiya, Hawalli, Kuwait",
-"posted": "2026-11-10",
-"url": "https://kw.linkedin.com/jobs/view/admin-tmart-at-talabat-4417133616",
-"id": "admin tmart|talabat|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/admin-tmart-at-talabat-4417133616"
-},
-"families": [
-"Retail"
-]
-},
-{
 "title": "Customs Clearance Coordinator",
 "company": "ABYAT",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -40425,6 +40474,7 @@
 ],
 "roles": [
 "client onboarding",
+"relationship manager",
 "account manager",
 "mechanical engineer",
 "electrical engineer",
@@ -43648,27 +43698,6 @@
 ]
 },
 {
-"title": "Event Coordinator (Real Estate & Corporate Events)",
-"company": "The Greater Change",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-08",
-"url": "https://jobs.workable.com/view/g4oLpscRADpBeztq8TyD5R/event-coordinator-(real-estate-%26-corporate-events)-in-dubai-at-the-greater-change",
-"id": "event coordinator real estate corporate events|the greater change|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/g4oLpscRADpBeztq8TyD5R/event-coordinator-(real-estate-%26-corporate-events)-in-dubai-at-the-greater-change"
-},
-"families": [
-"Logistics & supply chain"
-]
-},
-{
 "title": "Construction Project Manager",
 "company": "IRTH",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -44740,7 +44769,6 @@
 "accountant",
 "finance officer",
 "financial analyst",
-"administration officer",
 "data analyst",
 "civil engineer",
 "project engineer",
@@ -44755,7 +44783,6 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "Accounting & finance",
-"HR & admin",
 "IT & software",
 "Engineering & technical",
 "Logistics & supply chain",
@@ -45301,7 +45328,7 @@
 "company": "Fakeeh Care Group",
 "location": "Makkah Region",
 "posted": "2026-11-06",
-"url": "https://sa.linkedin.com/jobs/view/registered-nurse-at-fakeeh-care-group-4453697829",
+"url": "https://sa.linkedin.com/jobs/view/registered-nurse-at-fakeeh-care-group-4478522097",
 "id": "registered nurse|fakeeh care group|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -45311,7 +45338,7 @@
 "nurse"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/registered-nurse-at-fakeeh-care-group-4453697829"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/registered-nurse-at-fakeeh-care-group-4478522097"
 },
 "families": [
 "Healthcare"
@@ -46057,27 +46084,6 @@
 ],
 "links": {
 "Workable": "https://jobs.workable.com/view/v3ZeHmDzmhFDF2kCZz7qS5/remote-client-tech-va-in-united-arab-emirates-at-ai-acquisition"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Senior Manager, Wealth Risk UAE",
-"company": "HSBC",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-06",
-"url": "https://portal.careers.hsbc.com/careers/job/563774612600013",
-"id": "senior manager wealth risk uae|hsbc|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://portal.careers.hsbc.com/careers/job/563774612600013"
 },
 "families": [
 "Other"
@@ -52974,48 +52980,6 @@
 ]
 },
 {
-"title": "Associate - Prime Services & Equity Derivatives, Institutional Sales - (UAE National Role)",
-"company": "HSBC",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-03",
-"url": "https://portal.careers.hsbc.com/careers/job/563774612584493",
-"id": "associate prime services equity derivatives institutional sales uae national role|hsbc|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://portal.careers.hsbc.com/careers/job/563774612584493"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Business Manager - Securities Services - UAE National Role",
-"company": "HSBC",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-03",
-"url": "https://portal.careers.hsbc.com/careers/job/563774612582772",
-"id": "business manager securities services uae national role|hsbc|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://portal.careers.hsbc.com/careers/job/563774612582772"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Head of Growth",
 "company": "Calo",
 "location": "Dubai, United Arab Emirates / Seef, Bahrain / Cove work spaces, Kuwait / Muscat, Oman / Doha, Qatar / Riyadh, Saudi Arabia (Remote)",
@@ -54427,27 +54391,6 @@
 },
 "families": [
 "Engineering & technical"
-]
-},
-{
-"title": "Sales Manager - Government & Free Zone Acquisition (UAE nationals)",
-"company": "Emaratech",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-02",
-"url": "https://jobs.workable.com/view/gBY4PE1jFsPvvaRibsZQCg/sales-manager---government-%26-free-zone-acquisition-(uae-nationals)-in-dubai-at-emaratech",
-"id": "sales manager government free zone acquisition uae nationals|emaratech|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"sales"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/gBY4PE1jFsPvvaRibsZQCg/sales-manager---government-%26-free-zone-acquisition-(uae-nationals)-in-dubai-at-emaratech"
-},
-"families": [
-"Sales & business dev"
 ]
 },
 {
