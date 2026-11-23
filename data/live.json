@@ -1,5 +1,5 @@
 {
-"fetched_at": "2026-11-23T05:46:16+00:00",
+"fetched_at": "2026-11-23T08:01:01+00:00",
 "roles": [
 "banking operations",
 "operations officer",
@@ -99,23 +99,23 @@
 "Project & management"
 ],
 "countries": {
-"Bahrain": 559,
-"Saudi Arabia": 590,
+"Bahrain": 565,
+"Saudi Arabia": 587,
 "United Arab Emirates": 683,
 "Qatar": 361,
-"Kuwait": 313,
-"Oman": 302,
-"Remote": 28
+"Kuwait": 312,
+"Oman": 301,
+"Remote": 27
 },
 "linkedin_check": {
-"checked": 123,
-"closed_new": 0,
+"checked": 179,
+"closed_new": 1,
 "failed": 0,
 "pending": 0,
 "stopped": "",
-"desc_checks": 10,
-"removed": 4,
-"cache": 6970
+"desc_checks": 17,
+"removed": 5,
+"cache": 7005
 },
 "employer_boards": [
 {
@@ -124,7 +124,7 @@
 "count": 7,
 "fetched": 9,
 "error": "",
-"secs": 0.6
+"secs": 0.4
 },
 {
 "board": "ila Bank (JazzHR)",
@@ -132,7 +132,7 @@
 "count": 2,
 "fetched": 3,
 "error": "",
-"secs": 0.6
+"secs": 0.4
 },
 {
 "board": "KFH Bahrain / Ahli United (SuccessFactors)",
@@ -140,7 +140,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.9
+"secs": 0.8
 },
 {
 "board": "Standard Chartered (SuccessFactors)",
@@ -148,15 +148,15 @@
 "count": 23,
 "fetched": 25,
 "error": "",
-"secs": 4.9
+"secs": 4.8
 },
 {
 "board": "HSBC (Eightfold)",
 "ok": true,
-"count": 17,
-"fetched": 17,
+"count": 16,
+"fetched": 16,
 "error": "",
-"secs": 2.7
+"secs": 2.8
 },
 {
 "board": "Citi (Workday)",
@@ -188,7 +188,7 @@
 "count": 6,
 "fetched": 6,
 "error": "",
-"secs": 2.5
+"secs": 0.5
 },
 {
 "board": "stc Bahrain + stc pay (careers portal)",
@@ -196,7 +196,7 @@
 "count": 1,
 "fetched": 1,
 "error": "",
-"secs": 1.2
+"secs": 1.3
 },
 {
 "board": "Tamkeen (careers page)",
@@ -204,7 +204,7 @@
 "count": 0,
 "fetched": 1,
 "error": "",
-"secs": 2.4
+"secs": 2.6
 },
 {
 "board": "GPIC (SuccessFactors)",
@@ -212,7 +212,7 @@
 "count": 0,
 "fetched": 0,
 "error": "",
-"secs": 0.9
+"secs": 0.8
 },
 {
 "board": "APM Terminals / Maersk (Workday)",
@@ -244,7 +244,7 @@
 "count": 29,
 "fetched": 35,
 "error": "",
-"secs": 0.2
+"secs": 1.3
 },
 {
 "board": "Tarabut (Workable)",
@@ -265,8 +265,8 @@
 {
 "board": "talabat / Delivery Hero (SmartRecruiters)",
 "ok": true,
-"count": 80,
-"fetched": 100,
+"count": 79,
+"fetched": 99,
 "error": "",
 "secs": 2.9
 },
@@ -289,8 +289,8 @@
 {
 "board": "Lean Technologies (Ashby)",
 "ok": true,
-"count": 7,
-"fetched": 8,
+"count": 8,
+"fetched": 9,
 "error": "",
 "secs": 0.1
 },
@@ -316,7 +316,7 @@
 "count": 23,
 "fetched": 31,
 "error": "",
-"secs": 0.2
+"secs": 0.3
 },
 {
 "board": "Salla (Workable)",
@@ -340,43 +340,135 @@
 "count": 5,
 "fetched": 12,
 "error": "",
-"secs": 0.3
+"secs": 0.2
 }
 ],
 "descriptions": {
-"live": 2808,
-"with_desc": 2803,
+"live": 2809,
+"with_desc": 2804,
 "by_source": {
-"LinkedIn": "2185/2190",
-"Employer careers (ATS)": "347/347",
-"Workable": "331/331"
+"LinkedIn": "2192/2197",
+"Employer careers (ATS)": "345/345",
+"Workable": "325/325"
 },
 "fetched": 0,
 "failed": 0,
 "skipped": 0,
-"secs": 0.3
+"secs": 0.2
 },
 "status": [
 {
 "source": "LinkedIn",
 "ok": true,
-"count": 2190,
+"count": 2197,
 "note": ""
 },
 {
 "source": "Workable",
 "ok": true,
-"count": 331,
+"count": 325,
 "note": ""
 },
 {
 "source": "Employer careers (ATS)",
 "ok": true,
-"count": 347,
+"count": 345,
 "note": ""
 }
 ],
 "jobs": [
+{
+"title": "Operations Specialist",
+"company": "Binance",
+"location": "Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/operations-specialist-at-binance-4491370987",
+"id": "operations specialist|binance",
+"country": "Bahrain",
+"sources": [
+"LinkedIn",
+"Employer careers (ATS)"
+],
+"roles": [
+"banking operations",
+"operations officer",
+"operations analyst",
+"back office",
+"payments operations",
+"reconciliation",
+"credit operations",
+"treasury operations",
+"bank",
+"KYC",
+"AML",
+"client onboarding",
+"compliance",
+"financial crime",
+"internal control",
+"audit",
+"accountant",
+"finance officer",
+"financial analyst",
+"HR operations",
+"administration officer",
+"office manager",
+"data analyst",
+"legal",
+"project manager",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/operations-specialist-at-binance-4491370987",
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012885101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"HR & admin",
+"IT & software",
+"Legal",
+"Project & management"
+]
+},
+{
+"title": "Program Manager – Temenos Transact R26",
+"company": "Systems Arabia",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/program-manager-%E2%80%93-temenos-transact-r26-at-systems-arabia-4493625185",
+"id": "program manager temenos transact r26|systems arabia",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"banking operations",
+"payments operations",
+"settlement",
+"credit operations",
+"trade finance",
+"treasury operations",
+"bank",
+"KYC",
+"AML",
+"client onboarding",
+"financial crime",
+"internal control",
+"risk",
+"corporate banking",
+"project manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/program-manager-%E2%80%93-temenos-transact-r26-at-systems-arabia-4493625185"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"Project & management"
+]
+},
 {
 "title": "📊 Finance Manager",
 "company": "UJ Consulting Club (UJCC)",
@@ -404,7 +496,6 @@
 "finance officer",
 "financial analyst",
 "accounts payable",
-"payroll",
 "office manager",
 "data analyst"
 ],
@@ -421,63 +512,481 @@
 ]
 },
 {
-"title": "🚀 Entrepreneur / Business Transformation Consultant / Digital Transformation Strategist / Business Growth Accelerator",
-"company": "Way To Send Money",
-"location": "Muharraq Governorate, Bahrain",
+"title": "Financial Planning Analyst / Senior Financial Advisor / Cost Control Specialist",
+"company": "STAR CAPITAL FINANCIAL SOLUTION",
+"location": "Manama, Capital Governorate, Bahrain",
 "posted": "2026-11-23",
-"url": "https://bh.linkedin.com/jobs/view/%F0%9F%9A%80-entrepreneur-business-transformation-consultant-digital-transformation-strategist-business-growth-accelerator-at-way-to-send-money-4493704130",
-"id": "entrepreneur business transformation consultant digital transformation strategist business growth accelerator|way to send money",
+"url": "https://bh.linkedin.com/jobs/view/financial-planning-analyst-senior-financial-advisor-cost-control-specialist-at-star-capital-financial-solution-4492387179",
+"id": "financial planning analyst senior financial advisor cost control specialist|star capital financial solution",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
 "banking operations",
-"KYC",
-"AML",
-"client onboarding",
-"financial crime",
+"operations analyst",
+"reconciliation",
+"credit administration",
+"treasury operations",
+"audit",
 "corporate banking",
-"government relations",
-"marketing",
-"digital marketing",
-"project manager"
+"accountant",
+"finance officer",
+"financial analyst",
+"data analyst",
+"remote"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/%F0%9F%9A%80-entrepreneur-business-transformation-consultant-digital-transformation-strategist-business-growth-accelerator-at-way-to-send-money-4493704130"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/financial-planning-analyst-senior-financial-advisor-cost-control-specialist-at-star-capital-financial-solution-4492387179"
 },
 "families": [
 "Banking & finance ops",
 "Compliance, risk & audit",
 "Relationship & client mgmt",
-"HR & admin",
-"Marketing & media",
-"Project & management"
+"Accounting & finance",
+"IT & software",
+"Other"
 ]
 },
 {
-"title": "Digital Transformation MANAGER",
-"company": "Aida Cleaning Services",
-"location": "Muharraq Governorate, Bahrain",
+"title": "Assistant Accountant / Accounts Executive / Finance Executive",
+"company": "Sattva Nutratech",
+"location": "Jid Hafs, Capital Governorate, Bahrain",
 "posted": "2026-11-23",
-"url": "https://bh.linkedin.com/jobs/view/digital-transformation-manager-at-aida-cleaning-services-4493587828",
-"id": "digital transformation manager|aida cleaning services",
+"url": "https://bh.linkedin.com/jobs/view/assistant-accountant-accounts-executive-finance-executive-at-sattva-nutratech-4492384407",
+"id": "assistant accountant accounts executive finance executive|sattva nutratech",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"settlement",
+"banking operations",
+"payments operations",
+"reconciliation",
+"credit administration",
+"credit operations",
+"trade finance",
+"treasury operations",
+"internal control",
+"audit",
+"accountant",
+"finance officer",
+"financial analyst",
+"accounts payable",
+"payroll",
+"administration officer",
+"office manager",
+"secretary",
 "medical",
-"project manager"
+"remote"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/digital-transformation-manager-at-aida-cleaning-services-4493587828"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/assistant-accountant-accounts-executive-finance-executive-at-sattva-nutratech-4492384407"
 },
 "families": [
 "Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"HR & admin",
 "Healthcare",
+"Other"
+]
+},
+{
+"title": "Sanctions Operations Analyst (1 year contract)",
+"company": "Binance",
+"location": "Argentina; Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101",
+"id": "sanctions operations analyst 1 year contract|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"banking operations",
+"operations officer",
+"operations analyst",
+"payments operations",
+"credit operations",
+"treasury operations",
+"financial analyst",
+"HR operations",
+"data analyst",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"HR & admin",
+"IT & software",
 "Project & management"
+]
+},
+{
+"title": "Senior Legal Operations Executive (fully remote!)",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates; United Kingdom",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5036566101",
+"id": "senior legal operations executive fully remote|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"banking operations",
+"operations officer",
+"operations analyst",
+"payments operations",
+"credit operations",
+"treasury operations",
+"HR operations",
+"legal",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5036566101"
+},
+"remote": true,
+"families": [
+"Banking & finance ops",
+"HR & admin",
+"Legal",
+"Project & management"
+]
+},
+{
+"title": "Fresh Food Delivery Operationss Lead/Store Liaison Trainee",
+"company": "Alliance des Fournisseurs et Prestataires Miniers du Mali(AFOPREM)",
+"location": "Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/fresh-food-delivery-operationss-lead-store-liaison-trainee-at-alliance-des-fournisseurs-et-prestataires-miniers-du-mali-afoprem-4493613439",
+"id": "fresh food delivery operationss lead store liaison trainee|alliance des fournisseurs et prestataires miniers du mali afoprem",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations officer",
+"operations analyst",
+"settlement",
+"administration officer",
+"retail",
+"logistics",
+"procurement",
+"supply chain",
+"warehouse",
+"driver"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/fresh-food-delivery-operationss-lead-store-liaison-trainee-at-alliance-des-fournisseurs-et-prestataires-miniers-du-mali-afoprem-4493613439"
+},
+"families": [
+"Banking & finance ops",
+"HR & admin",
+"Retail",
+"Logistics & supply chain"
+]
+},
+{
+"title": "Road Freight OPS Team Leader",
+"company": "DHL Global Forwarding",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/road-freight-ops-team-leader-at-dhl-global-forwarding-4493619260",
+"id": "road freight ops team leader|dhl global forwarding",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations officer",
+"operations analyst",
+"logistics",
+"supply chain",
+"warehouse",
+"project manager",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/road-freight-ops-team-leader-at-dhl-global-forwarding-4493619260"
+},
+"families": [
+"Banking & finance ops",
+"Logistics & supply chain",
+"Project & management"
+]
+},
+{
+"title": "Grid Operations Engineer/Powerr Distribution Specialist",
+"company": "SGO MALI FINANCES",
+"location": "Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/grid-operations-engineer-powerr-distribution-specialist-at-sgo-mali-finances-4493709583",
+"id": "grid operations engineer powerr distribution specialist|sgo mali finances",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations officer",
+"operations analyst",
+"settlement",
+"network engineer",
+"electrical engineer",
+"project engineer",
+"technician"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/grid-operations-engineer-powerr-distribution-specialist-at-sgo-mali-finances-4493709583"
+},
+"families": [
+"Banking & finance ops",
+"IT & software",
+"Engineering & technical"
+]
+},
+{
+"title": "Heavy Machinery Service Managerr / Industrial Equipment After-Sales Lead",
+"company": "NIMD MALI",
+"location": "Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/heavy-machinery-service-managerr-industrial-equipment-after-sales-lead-at-nimd-mali-4492390034",
+"id": "heavy machinery service managerr industrial equipment after sales lead|nimd mali",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations officer",
+"mechanical engineer",
+"electrical engineer",
+"project engineer",
+"logistics",
+"project manager",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/heavy-machinery-service-managerr-industrial-equipment-after-sales-lead-at-nimd-mali-4492390034"
+},
+"families": [
+"Banking & finance ops",
+"Engineering & technical",
+"Logistics & supply chain",
+"Project & management"
+]
+},
+{
+"title": "Enterprise Wide Risk Assessment (EWRA) Analyst (1 year contractor)",
+"company": "Binance",
+"location": "United Arab Emirates; United Kingdom",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101",
+"id": "enterprise wide risk assessment ewra analyst 1 year contractor|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"risk",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Fraud & AML Investigation Analyst (Geofencing) — 12-Month Contract",
+"company": "Binance",
+"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101",
+"id": "fraud aml investigation analyst geofencing 12 month contract|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"AML",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "KYB Compliance Analyst (1 year contractor)",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101",
+"id": "kyb compliance analyst 1 year contractor|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"compliance",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Policy & Change Management Analyst - (12-Month Contract)",
+"company": "Binance",
+"location": "Bahrain; India; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101",
+"id": "policy change management analyst 12 month contract|binance",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Research Analyst- Equity Capital Markets",
+"company": "Binance",
+"location": "Hong Kong; Malaysia; Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101",
+"id": "research analyst equity capital markets|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"financial analyst",
+"IT support",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101"
+},
+"families": [
+"Banking & finance ops",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Risk Analyst (SQL), Fraud Prevention",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101",
+"id": "risk analyst sql fraud prevention|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"operations analyst",
+"risk",
+"financial analyst",
+"data analyst"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"IT & software"
+]
+},
+{
+"title": "Card Fraud & Chargeback Risk Strategist (Issuing Risk)",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101",
+"id": "card fraud chargeback risk strategist issuing risk|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"back office",
+"risk"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Deputy Regulatory Compliance Officer - ADGM",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101",
+"id": "deputy regulatory compliance officer adgm|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"back office",
+"compliance",
+"office manager",
+"front office"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"HR & admin",
+"Hospitality & F&B"
 ]
 },
 {
@@ -508,53 +1017,806 @@
 ]
 },
 {
-"title": "Chief Financial Officer (CFO)",
-"company": "Hemm Africa",
-"location": "Muharraq Governorate, Bahrain",
+"title": "OTC Trader",
+"company": "Binance",
+"location": "Hong Kong; United Arab Emirates",
 "posted": "2026-11-23",
-"url": "https://bh.linkedin.com/jobs/view/chief-financial-officer-cfo-at-hemm-africa-4493707088",
-"id": "chief financial officer cfo|hemm africa",
-"country": "Bahrain",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101",
+"id": "otc trader|binance|united arab emirates",
+"country": "United Arab Emirates",
 "sources": [
-"LinkedIn"
+"Employer careers (ATS)"
 ],
 "roles": [
-"treasury operations",
-"audit",
-"accountant",
-"finance officer"
+"trade finance"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/chief-financial-officer-cfo-at-hemm-africa-4493707088"
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101"
+},
+"families": [
+"Banking & finance ops"
+]
+},
+{
+"title": "Senior OTC Sales Trader",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101",
+"id": "senior otc sales trader|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"trade finance",
+"sales executive",
+"sales manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101"
+},
+"families": [
+"Banking & finance ops",
+"Sales & business dev"
+]
+},
+{
+"title": "User Growth & Lifecycle Marketing Manager",
+"company": "Binance",
+"location": "Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
+"id": "user growth lifecycle marketing manager|binance",
+"country": "Bahrain",
+"sources": [
+"LinkedIn",
+"Employer careers (ATS)"
+],
+"roles": [
+"bank",
+"client onboarding",
+"financial crime",
+"relationship manager",
+"account manager",
+"office manager",
+"data analyst",
+"sales manager",
+"marketing",
+"digital marketing",
+"social media",
+"store manager",
+"project manager",
+"operations manager",
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002527101"
 },
 "families": [
 "Banking & finance ops",
 "Compliance, risk & audit",
-"Accounting & finance"
+"Relationship & client mgmt",
+"HR & admin",
+"IT & software",
+"Sales & business dev",
+"Marketing & media",
+"Retail",
+"Project & management",
+"Other"
 ]
 },
 {
-"title": "Procurement Director",
-"company": "Finn-Man, Lda",
-"location": "Southern Governorate, Bahrain",
+"title": "Solutions Engineer (AI, Automation & Integrations)",
+"company": "GC Career Transitions Centre of Excellence",
+"location": "Jid Hafs, Capital Governorate, Bahrain",
 "posted": "2026-11-23",
-"url": "https://bh.linkedin.com/jobs/view/procurement-director-at-finn-man-lda-4492387022",
-"id": "procurement director|finn man lda",
+"url": "https://bh.linkedin.com/jobs/view/solutions-engineer-ai-automation-integrations-at-gc-career-transitions-centre-of-excellence-4493703971",
+"id": "solutions engineer ai automation integrations|gc career transitions centre of excellence",
 "country": "Bahrain",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"accounts payable",
-"logistics",
-"procurement",
-"supply chain"
+"client onboarding",
+"software engineer",
+"IT support",
+"project engineer",
+"project manager",
+"remote"
 ],
 "links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/procurement-director-at-finn-man-lda-4492387022"
+"LinkedIn": "https://bh.linkedin.com/jobs/view/solutions-engineer-ai-automation-integrations-at-gc-career-transitions-centre-of-excellence-4493703971"
 },
 "families": [
-"Accounting & finance",
+"Compliance, risk & audit",
+"IT & software",
+"Engineering & technical",
+"Project & management",
+"Other"
+]
+},
+{
+"title": "Binance Accelerator Program - Compliance Training (AI) ",
+"company": "Binance",
+"location": "Australia; Bahrain; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101",
+"id": "binance accelerator program compliance training ai|binance",
+"country": "Bahrain",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Internal Controls Specialist/ Manager (12 months Contract)",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101",
+"id": "internal controls specialist manager 12 months contract|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"internal control",
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101"
+},
+"families": [
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Audit Manager",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101",
+"id": "audit manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"audit",
+"relationship manager",
+"account manager",
+"office manager",
+"IT support",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101"
+},
+"families": [
+"Compliance, risk & audit",
+"Relationship & client mgmt",
+"HR & admin",
+"IT & software",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Enterprise Wide Risk Assessment (EWRA) Specialist",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101",
+"id": "enterprise wide risk assessment ewra specialist|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"risk"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Senior Risk Strategist, Market Manipulation (Trading Risk)",
+"company": "Binance",
+"location": "Australia; Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101",
+"id": "senior risk strategist market manipulation trading risk|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"risk"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Luxury Brand Manager / Luxury Client Advisor",
+"company": "CY orientation & career center",
+"location": "Muharraq Governorate, Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/luxury-brand-manager-luxury-client-advisor-at-cy-orientation-career-center-4492385324",
+"id": "luxury brand manager luxury client advisor|cy orientation career center",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"sales executive",
+"business development",
+"sales manager",
+"marketing",
+"social media",
+"retail",
+"store manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/luxury-brand-manager-luxury-client-advisor-at-cy-orientation-career-center-4492385324"
+},
+"families": [
+"Relationship & client mgmt",
+"Sales & business dev",
+"Marketing & media",
+"Retail"
+]
+},
+{
+"title": "Incident Manager",
+"company": "Binance",
+"location": "Finland; Hong Kong; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5036434101",
+"id": "incident manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5036434101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Legal Project Manager",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101",
+"id": "legal project manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"project engineer",
+"sales manager",
+"store manager",
+"legal",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Engineering & technical",
+"Sales & business dev",
+"Retail",
+"Legal",
+"Project & management"
+]
+},
+{
+"title": "Regulatory Governance Manager",
+"company": "Binance",
+"location": "United Arab Emirates; United Kingdom",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101",
+"id": "regulatory governance manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Senior Product Strategy Manager",
+"company": "Binance",
+"location": "Ireland; Malta; Spain; United Arab Emirates; United Kingdom",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101",
+"id": "senior product strategy manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Senior Regulatory Manager, Global MLRO",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101",
+"id": "senior regulatory manager global mlro|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Social Media Manager",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101",
+"id": "social media manager|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"relationship manager",
+"account manager",
+"office manager",
+"sales manager",
+"social media",
+"store manager",
+"project manager",
+"operations manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101"
+},
+"families": [
+"Relationship & client mgmt",
+"HR & admin",
+"Sales & business dev",
+"Marketing & media",
+"Retail",
+"Project & management"
+]
+},
+{
+"title": "Senior Corporate Legal Counsel",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates; United Kingdom",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
+"id": "senior corporate legal counsel|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)",
+"LinkedIn"
+],
+"roles": [
+"corporate banking",
+"legal"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-corporate-legal-counsel-at-binance-4484152942"
+},
+"families": [
+"Relationship & client mgmt",
+"Legal"
+]
+},
+{
+"title": "Bahrain Online Language School Franchise Partnership",
+"company": "Lingua Learn Franchise Group",
+"location": "Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/bahrain-online-language-school-franchise-partnership-at-lingua-learn-franchise-group-4493609949",
+"id": "bahrain online language school franchise partnership|lingua learn franchise group",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"recruiter",
+"office manager",
+"sales manager",
+"marketing",
+"digital marketing",
+"store manager",
+"remote"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/bahrain-online-language-school-franchise-partnership-at-lingua-learn-franchise-group-4493609949"
+},
+"families": [
+"HR & admin",
+"Sales & business dev",
+"Marketing & media",
+"Retail",
+"Other"
+]
+},
+{
+"title": "Binance Accelerator Program - Public Relations",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101",
+"id": "binance accelerator program public relations|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"government relations"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101"
+},
+"families": [
+"HR & admin"
+]
+},
+{
+"title": "Full Stack Engineer (Web,Frontend Oriented) — AI Facial Recognition, Identity & Security",
+"company": "Binance",
+"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101",
+"id": "full stack engineer web frontend oriented ai facial recognition identity security|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"software engineer",
+"IT support",
+"network engineer",
+"cyber security",
+"mechanical engineer",
+"electrical engineer",
+"civil engineer",
+"project engineer",
+"front office"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101"
+},
+"families": [
+"IT & software",
+"Engineering & technical",
+"Hospitality & F&B"
+]
+},
+{
+"title": "Binance Accelerator Program- VIP & Institutional Sales",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101",
+"id": "binance accelerator program vip institutional sales|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support",
+"sales executive",
+"sales manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101"
+},
+"families": [
+"IT & software",
+"Sales & business dev"
+]
+},
+{
+"title": "Product Counsel – Equities & Tokenized Securities",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101",
+"id": "product counsel equities tokenized securities|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Regulatory Legal Counsel -  US Monitorships",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates; United Kingdom; United States",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101",
+"id": "regulatory legal counsel us monitorships|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support",
+"legal"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101"
+},
+"families": [
+"IT & software",
+"Legal"
+]
+},
+{
+"title": "Senior Talent Acquisition Specialist (Executive Hiring)",
+"company": "Binance",
+"location": "Hong Kong; Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101",
+"id": "senior talent acquisition specialist executive hiring|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "VIP & Institutional Sales - MENA",
+"company": "Binance",
+"location": "United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101",
+"id": "vip institutional sales mena|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"IT support",
+"sales executive",
+"sales manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101"
+},
+"families": [
+"IT & software",
+"Sales & business dev"
+]
+},
+{
+"title": "Architectural Designn / Building Design Consultant",
+"company": "Écho des Mines Mali",
+"location": "Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/architectural-designn-building-design-consultant-at-%C3%A9cho-des-mines-mali-4493722078",
+"id": "architectural designn building design consultant|cho des mines mali",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"civil engineer",
+"project engineer"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/architectural-designn-building-design-consultant-at-%C3%A9cho-des-mines-mali-4493722078"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
+"title": "Binance Accelerator Program - VIP Sales",
+"company": "Binance",
+"location": "Brazil; Colombia; Mexico; United Arab Emirates; United Kingdom",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002283101",
+"id": "binance accelerator program vip sales|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"sales executive",
+"sales manager"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002283101"
+},
+"families": [
+"Sales & business dev"
+]
+},
+{
+"title": "Binance Accelerator Program - TradFI Business Development",
+"company": "Binance",
+"location": "Hong Kong; Malaysia; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101",
+"id": "binance accelerator program tradfi business development|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"business development"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101"
+},
+"families": [
+"Sales & business dev"
+]
+},
+{
+"title": "Social Media Specialist",
+"company": "Binance",
+"location": "Singapore; United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101",
+"id": "social media specialist|binance|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"social media"
+],
+"links": {
+"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101"
+},
+"families": [
+"Marketing & media"
+]
+},
+{
+"title": "Shovel Operator",
+"company": "NASS Group & Corporation",
+"location": "Al-Hidd, Muharraq Governorate, Bahrain",
+"posted": "2026-11-23",
+"url": "https://bh.linkedin.com/jobs/view/shovel-operator-at-nass-group-corporation-4493615307",
+"id": "shovel operator|nass group corporation",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"warehouse"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/shovel-operator-at-nass-group-corporation-4493615307"
+},
+"families": [
 "Logistics & supply chain"
 ]
 },
@@ -580,33 +1842,119 @@
 ]
 },
 {
-"title": "Digital Marketing Specialist",
-"company": "REEF GROUP | مجموعة ريف",
-"location": "Riyadh, Saudi Arabia",
+"title": "Teaching Assistant",
+"company": "Talent International & The Infant School",
+"location": "Capital Governorate, Bahrain",
 "posted": "2026-11-23",
-"url": "https://sa.linkedin.com/jobs/view/digital-marketing-specialist-at-reef-group-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%B1%D9%8A%D9%81-4493605743",
-"id": "digital marketing specialist|reef group|saudi arabia",
+"url": "https://bh.linkedin.com/jobs/view/teaching-assistant-at-talent-international-the-infant-school-4492379577",
+"id": "teaching assistant|talent international the infant school",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/teaching-assistant-at-talent-international-the-infant-school-4492379577"
+},
+"families": [
+"Education"
+]
+},
+{
+"title": "Cybersecurity Governance, Risk & Compliance, Manager",
+"company": "Confidential",
+"location": "Dhahran, Eastern, Saudi Arabia",
+"posted": "2026-11-23",
+"url": "https://sa.linkedin.com/jobs/view/cybersecurity-governance-risk-compliance-manager-at-confidential-4493625130",
+"id": "cybersecurity governance risk compliance manager|confidential|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"marketing"
+"Any job"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/digital-marketing-specialist-at-reef-group-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D8%A9-%D8%B1%D9%8A%D9%81-4493605743"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/cybersecurity-governance-risk-compliance-manager-at-confidential-4493625130"
 },
 "families": [
-"Marketing & media"
+"Other"
 ]
 },
 {
-"title": "Senior Registrar Pediatric Emergency",
-"company": "National Medical Care",
+"title": "Information Technology Manager",
+"company": "THEMAR - ثمار",
+"location": "Jeddah, Makkah, Saudi Arabia",
+"posted": "2026-11-23",
+"url": "https://sa.linkedin.com/jobs/view/information-technology-manager-at-themar-%D8%AB%D9%85%D8%A7%D8%B1-4492361275",
+"id": "information technology manager|themar|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/information-technology-manager-at-themar-%D8%AB%D9%85%D8%A7%D8%B1-4492361275"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "IT Support Engineer - Saudi National",
+"company": "Lean Technologies",
 "location": "Riyadh, Saudi Arabia",
 "posted": "2026-11-23",
-"url": "https://sa.linkedin.com/jobs/view/senior-registrar-pediatric-emergency-at-national-medical-care-4481873911",
-"id": "senior registrar pediatric emergency|national medical care|saudi arabia",
+"url": "https://jobs.ashbyhq.com/LeanTech/8fbff99b-86d0-4067-b42b-855ad48a8286",
+"id": "it support engineer saudi national|lean technologies|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)",
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/it-support-engineer-saudi-national-at-lean-technologies-4493611791",
+"Employer careers (ATS)": "https://jobs.ashbyhq.com/LeanTech/8fbff99b-86d0-4067-b42b-855ad48a8286"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Presales Engineer",
+"company": "ABANA Enterprises Group Co.",
+"location": "Riyadh, Ar Riyāḍ, Saudi Arabia",
+"posted": "2026-11-23",
+"url": "https://jobs.workable.com/view/q8gsKHfeLTGhiVf5KnDRJ8/presales-engineer-in-riyadh-at-abana-enterprises-group-co.",
+"id": "presales engineer|abana enterprises group co|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Workable"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/q8gsKHfeLTGhiVf5KnDRJ8/presales-engineer-in-riyadh-at-abana-enterprises-group-co."
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
+"title": "STAFF NURSE III-MEDICAL/SURGICAL VIP-Riyadh",
+"company": "King Faisal Specialist Hospital and Research Center",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "2026-11-23",
+"url": "https://sa.linkedin.com/jobs/view/staff-nurse-iii-medical-surgical-vip-riyadh-at-king-faisal-specialist-hospital-and-research-center-4493614485",
+"id": "staff nurse iii medical surgical vip riyadh|king faisal specialist hospital and research center|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
 "LinkedIn"
@@ -615,35 +1963,31 @@
 "nurse"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/senior-registrar-pediatric-emergency-at-national-medical-care-4481873911"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/staff-nurse-iii-medical-surgical-vip-riyadh-at-king-faisal-specialist-hospital-and-research-center-4493614485"
 },
 "families": [
 "Healthcare"
 ]
 },
 {
-"title": "Remote Customer Support Representative",
-"company": "Wells & Matt Ltd",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"title": "High-Rise Projects Manager",
+"company": "Confidential",
+"location": "Riyadh, Saudi Arabia",
 "posted": "2026-11-23",
-"url": "https://ae.linkedin.com/jobs/view/remote-customer-support-representative-at-wells-matt-ltd-4493399853",
-"id": "remote customer support representative|wells matt ltd|united arab emirates",
-"country": "United Arab Emirates",
+"url": "https://sa.linkedin.com/jobs/view/high-rise-projects-manager-at-confidential-4492390049",
+"id": "high rise projects manager|confidential|saudi arabia",
+"country": "Saudi Arabia",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"Any job",
-"customer service",
-"remote"
+"project manager"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/remote-customer-support-representative-at-wells-matt-ltd-4493399853"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/high-rise-projects-manager-at-confidential-4492390049"
 },
-"remote": true,
 "families": [
-"Other",
-"Customer service"
+"Project & management"
 ]
 },
 {
@@ -692,24 +2036,45 @@
 ]
 },
 {
-"title": "Head of Compliance / MLRO / Risk Manager",
-"company": "Guinée GOUV.",
-"location": "Abu Dhabi Emirate, United Arab Emirates",
+"title": "Relationship Manager",
+"company": "Emirates NBD",
+"location": "Dubai, Dubai, United Arab Emirates",
 "posted": "2026-11-23",
-"url": "https://ae.linkedin.com/jobs/view/head-of-compliance-mlro-risk-manager-at-guin%C3%A9e-gouv-4492374592",
-"id": "head of compliance mlro risk manager|guin e gouv|united arab emirates",
+"url": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246",
+"id": "relationship manager|emirates nbd|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"compliance"
+"relationship manager"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/head-of-compliance-mlro-risk-manager-at-guin%C3%A9e-gouv-4492374592"
+"LinkedIn": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246"
 },
 "families": [
-"Compliance, risk & audit"
+"Relationship & client mgmt"
+]
+},
+{
+"title": "Accountant",
+"company": "Asteco",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://ae.linkedin.com/jobs/view/accountant-at-asteco-4493711035",
+"id": "accountant|asteco|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/accountant-at-asteco-4493711035"
+},
+"families": [
+"Accounting & finance"
 ]
 },
 {
@@ -734,24 +2099,131 @@
 ]
 },
 {
-"title": "Chief Logistics Officer / Director of Transportation Operations",
-"company": "BG SHIPPING",
-"location": "Abu Dhabi Emirate, United Arab Emirates",
+"title": "Head of Information Technology",
+"company": "boundless",
+"location": "Dubai, United Arab Emirates",
 "posted": "2026-11-23",
-"url": "https://ae.linkedin.com/jobs/view/chief-logistics-officer-director-of-transportation-operations-at-bg-shipping-4493584959",
-"id": "chief logistics officer director of transportation operations|bg shipping|united arab emirates",
+"url": "https://ae.linkedin.com/jobs/view/head-of-information-technology-at-boundless-4493627077",
+"id": "head of information technology|boundless|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
 "LinkedIn"
 ],
 "roles": [
-"logistics"
+"IT"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/chief-logistics-officer-director-of-transportation-operations-at-bg-shipping-4493584959"
+"LinkedIn": "https://ae.linkedin.com/jobs/view/head-of-information-technology-at-boundless-4493627077"
 },
 "families": [
-"Logistics & supply chain"
+"IT & software"
+]
+},
+{
+"title": "Senior Linux Administrator",
+"company": "Habib Bank AG Zurich",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://ae.linkedin.com/jobs/view/senior-linux-administrator-at-habib-bank-ag-zurich-4492380346",
+"id": "senior linux administrator|habib bank ag zurich|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-linux-administrator-at-habib-bank-ag-zurich-4492380346"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Team Leader - Front Desk",
+"company": "Rotana Hotels",
+"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://jobs.workable.com/view/m98X6hhWriT7tDJnk3sLSL/team-leader---front-desk-in-abu-dhabi-at-rotana-hotels",
+"id": "team leader front desk|rotana hotels|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Workable"
+],
+"roles": [
+"customer service",
+"hotel"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/m98X6hhWriT7tDJnk3sLSL/team-leader---front-desk-in-abu-dhabi-at-rotana-hotels"
+},
+"families": [
+"Customer service",
+"Hospitality & F&B"
+]
+},
+{
+"title": "Pressing Attendant",
+"company": "Rotana Hotels",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://jobs.workable.com/view/9wYXY7nLHSG6SjcGkHroSj/pressing-attendant-in-dubai-at-rotana-hotels",
+"id": "pressing attendant|rotana hotels|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Workable"
+],
+"roles": [
+"hotel"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/9wYXY7nLHSG6SjcGkHroSj/pressing-attendant-in-dubai-at-rotana-hotels"
+},
+"families": [
+"Hospitality & F&B"
+]
+},
+{
+"title": "Elementary School Teacher",
+"company": "Nexreq",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://ae.linkedin.com/jobs/view/elementary-school-teacher-at-nexreq-4492378642",
+"id": "elementary school teacher|nexreq|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"teacher"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/elementary-school-teacher-at-nexreq-4492378642"
+},
+"families": [
+"Education"
+]
+},
+{
+"title": "Senior Legal Counsel",
+"company": "Knight Frank MENA",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://ae.linkedin.com/jobs/view/senior-legal-counsel-at-knight-frank-mena-4493609719",
+"id": "senior legal counsel|knight frank mena|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"legal"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-legal-counsel-at-knight-frank-mena-4493609719"
+},
+"families": [
+"Legal"
 ]
 },
 {
@@ -778,6 +2250,48 @@
 ]
 },
 {
+"title": "Director of Private Wealth",
+"company": "Lesha Bank",
+"location": "Doha, Qatar",
+"posted": "2026-11-23",
+"url": "https://qa.linkedin.com/jobs/view/director-of-private-wealth-at-lesha-bank-4482273974",
+"id": "director of private wealth|lesha bank|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"relationship manager"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/director-of-private-wealth-at-lesha-bank-4482273974"
+},
+"families": [
+"Relationship & client mgmt"
+]
+},
+{
+"title": "Chief Accountant",
+"company": "Confidential",
+"location": "Doha, Qatar",
+"posted": "2026-11-23",
+"url": "https://qa.linkedin.com/jobs/view/chief-accountant-at-confidential-4492388185",
+"id": "chief accountant|confidential|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/chief-accountant-at-confidential-4492388185"
+},
+"families": [
+"Accounting & finance"
+]
+},
+{
 "title": "Head IT Applications",
 "company": "Ministry of Public Health - Qatar",
 "location": "Doha, Qatar",
@@ -796,6 +2310,48 @@
 },
 "families": [
 "IT & software"
+]
+},
+{
+"title": "Cybersecurity & Infrastructure Analyst",
+"company": "Lesha Bank",
+"location": "Doha, Qatar",
+"posted": "2026-11-23",
+"url": "https://qa.linkedin.com/jobs/view/cybersecurity-infrastructure-analyst-at-lesha-bank-4465552460",
+"id": "cybersecurity infrastructure analyst|lesha bank|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/cybersecurity-infrastructure-analyst-at-lesha-bank-4465552460"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Security Engineer – Email Security & Encryption",
+"company": "Wipro",
+"location": "Doha, Qatar",
+"posted": "2026-11-23",
+"url": "https://qa.linkedin.com/jobs/view/security-engineer-%E2%80%93-email-security-encryption-at-wipro-4492379464",
+"id": "security engineer email security encryption|wipro|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/security-engineer-%E2%80%93-email-security-encryption-at-wipro-4492379464"
+},
+"families": [
+"Engineering & technical"
 ]
 },
 {
@@ -820,6 +2376,155 @@
 ]
 },
 {
+"title": "Head of Legal",
+"company": "Gastronomica ME",
+"location": "Al Asimah, Kuwait",
+"posted": "2026-11-23",
+"url": "https://kw.linkedin.com/jobs/view/head-of-legal-at-gastronomica-me-4492386174",
+"id": "head of legal|gastronomica me|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job",
+"legal"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/head-of-legal-at-gastronomica-me-4492386174"
+},
+"families": [
+"Other",
+"Legal"
+]
+},
+{
+"title": "Officer – Database Administration",
+"company": "Kuwait Credit Information Network Company (CINET)",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-23",
+"url": "https://kw.linkedin.com/jobs/view/officer-%E2%80%93-database-administration-at-kuwait-credit-information-network-company-cinet-4492368949",
+"id": "officer database administration|kuwait credit information network company cinet|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/officer-%E2%80%93-database-administration-at-kuwait-credit-information-network-company-cinet-4492368949"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Senior Supervisor – Network Administration",
+"company": "Kuwait Credit Information Network Company (CINET)",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-23",
+"url": "https://kw.linkedin.com/jobs/view/senior-supervisor-%E2%80%93-network-administration-at-kuwait-credit-information-network-company-cinet-4492371872",
+"id": "senior supervisor network administration|kuwait credit information network company cinet|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"IT"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/senior-supervisor-%E2%80%93-network-administration-at-kuwait-credit-information-network-company-cinet-4492371872"
+},
+"families": [
+"IT & software"
+]
+},
+{
+"title": "Lead HSE Engineer",
+"company": "KBR, Inc.",
+"location": "Kuwait City, Al Asimah, Kuwait",
+"posted": "2026-11-23",
+"url": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487177914",
+"id": "lead hse engineer|kbr inc|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487177914"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
+"title": "Process Engineer",
+"company": "Penspen",
+"location": "Kuwait",
+"posted": "2026-11-23",
+"url": "https://kw.linkedin.com/jobs/view/process-engineer-at-penspen-4410374483",
+"id": "process engineer|penspen|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/process-engineer-at-penspen-4410374483"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
+"title": "Ecommerce Marketing Manager",
+"company": "Gas Express LLC",
+"location": "Kuwait City Metropolitan Area",
+"posted": "2026-11-23",
+"url": "https://kw.linkedin.com/jobs/view/ecommerce-marketing-manager-at-gas-express-llc-4492378531",
+"id": "ecommerce marketing manager|gas express llc|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/ecommerce-marketing-manager-at-gas-express-llc-4492378531"
+},
+"families": [
+"Marketing & media"
+]
+},
+{
+"title": "Store Manager",
+"company": "Ali Abdulwahab Al Mutawa Commercial Co.",
+"location": "Kuwait City Metropolitan Area",
+"posted": "2026-11-23",
+"url": "https://kw.linkedin.com/jobs/view/store-manager-at-ali-abdulwahab-al-mutawa-commercial-co-4492371899",
+"id": "store manager|ali abdulwahab al mutawa commercial co|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/store-manager-at-ali-abdulwahab-al-mutawa-commercial-co-4492371899"
+},
+"families": [
+"Retail"
+]
+},
+{
 "title": "Replenishment Analyst",
 "company": "Spinneys",
 "location": "Kuwait City Metropolitan Area",
@@ -838,6 +2543,91 @@
 },
 "families": [
 "Logistics & supply chain"
+]
+},
+{
+"title": "Admin and Finance Associate",
+"company": "UN Volunteers Arab States",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-23",
+"url": "https://om.linkedin.com/jobs/view/admin-and-finance-associate-at-un-volunteers-arab-states-4493595718",
+"id": "admin and finance associate|un volunteers arab states|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/admin-and-finance-associate-at-un-volunteers-arab-states-4493595718"
+},
+"families": [
+"Accounting & finance"
+]
+},
+{
+"title": "Service Engineer - Cranes (Hydraulic & Electrical)",
+"company": "SANY Group",
+"location": "Masqaţ, Oman",
+"posted": "2026-11-23",
+"url": "https://om.linkedin.com/jobs/view/service-engineer-cranes-hydraulic-electrical-at-sany-group-4493710796",
+"id": "service engineer cranes hydraulic electrical|sany group|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"engineer"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/service-engineer-cranes-hydraulic-electrical-at-sany-group-4493710796"
+},
+"families": [
+"Engineering & technical"
+]
+},
+{
+"title": "Remote Customer Care Associate",
+"company": "RexHire",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-23",
+"url": "https://ae.linkedin.com/jobs/view/remote-customer-care-associate-at-rexhire-4493610614",
+"id": "remote customer care associate|rexhire|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/remote-customer-care-associate-at-rexhire-4493610614"
+},
+"remote": true,
+"families": [
+"Other"
+]
+},
+{
+"title": "Vision-Language-Action (VLA) Annotator - Qatar",
+"company": "CNTXT AI",
+"location": "Doha, Qatar",
+"posted": "2026-11-23",
+"url": "https://qa.linkedin.com/jobs/view/vision-language-action-vla-annotator-qatar-at-cntxt-ai-4493703325",
+"id": "vision language action vla annotator qatar|cntxt ai|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/vision-language-action-vla-annotator-qatar-at-cntxt-ai-4493703325"
+},
+"families": [
+"Other"
 ]
 },
 {
@@ -885,7 +2675,6 @@
 "audit",
 "risk",
 "corporate banking",
-"data analyst",
 "legal",
 "lawyer"
 ],
@@ -896,7 +2685,6 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "Relationship & client mgmt",
-"IT & software",
 "Legal"
 ]
 },
@@ -974,7 +2762,6 @@
 "risk",
 "accountant",
 "finance officer",
-"financial analyst",
 "payroll",
 "government relations",
 "legal"
@@ -2156,27 +3943,6 @@
 ]
 },
 {
-"title": "Senior Sales Executive - (Automotive/Showroom)",
-"company": "TASC Outsourcing",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-22",
-"url": "https://ae.linkedin.com/jobs/view/senior-sales-executive-automotive-showroom-at-tasc-outsourcing-4493170019",
-"id": "senior sales executive automotive showroom|tasc outsourcing|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"sales"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-sales-executive-automotive-showroom-at-tasc-outsourcing-4493170019"
-},
-"families": [
-"Sales & business dev"
-]
-},
-{
 "title": "Digital Marketing Executive",
 "company": "Accor",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -2195,6 +3961,27 @@
 },
 "families": [
 "Marketing & media"
+]
+},
+{
+"title": "Customer Service Representative",
+"company": "etisalat cx solutions",
+"location": "Ajman, Ajman Emirate, United Arab Emirates",
+"posted": "2026-11-22",
+"url": "https://ae.linkedin.com/jobs/view/customer-service-representative-at-etisalat-cx-solutions-4493385035",
+"id": "customer service representative|etisalat cx solutions|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/customer-service-representative-at-etisalat-cx-solutions-4493385035"
+},
+"families": [
+"Customer service"
 ]
 },
 {
@@ -2560,27 +4347,6 @@
 ]
 },
 {
-"title": "Senior Project Manager",
-"company": "HyROI Solutions- An ISO-certified company",
-"location": "Doha, Qatar",
-"posted": "2026-11-22",
-"url": "https://qa.linkedin.com/jobs/view/senior-project-manager-at-hyroi-solutions-an-iso-certified-company-4493197423",
-"id": "senior project manager|hyroi solutions an iso certified company|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"project manager"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/senior-project-manager-at-hyroi-solutions-an-iso-certified-company-4493197423"
-},
-"families": [
-"Project & management"
-]
-},
-{
 "title": "Project Manager",
 "company": "Starlink Qatar",
 "location": "Doha, Qatar",
@@ -2771,27 +4537,6 @@
 },
 "families": [
 "Accounting & finance"
-]
-},
-{
-"title": "Cyber Security Specialist",
-"company": "DirectFN",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-22",
-"url": "https://kw.linkedin.com/jobs/view/cyber-security-specialist-at-directfn-4492346480",
-"id": "cyber security specialist|directfn|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/cyber-security-specialist-at-directfn-4492346480"
-},
-"families": [
-"IT & software"
 ]
 },
 {
@@ -3092,27 +4837,6 @@
 },
 "families": [
 "HR & admin"
-]
-},
-{
-"title": "Interior Lighting Design Engineer",
-"company": "Mamlkah Home",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-22",
-"url": "https://om.linkedin.com/jobs/view/interior-lighting-design-engineer-at-mamlkah-home-4492341450",
-"id": "interior lighting design engineer|mamlkah home|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/interior-lighting-design-engineer-at-mamlkah-home-4492341450"
-},
-"families": [
-"Engineering & technical"
 ]
 },
 {
@@ -3896,27 +5620,6 @@
 ]
 },
 {
-"title": "Relationship Manager",
-"company": "Emirates NBD",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-21",
-"url": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246",
-"id": "relationship manager|emirates nbd|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/relationship-manager-at-emirates-nbd-4472592246"
-},
-"families": [
-"Relationship & client mgmt"
-]
-},
-{
 "title": "Senior Relationship Manager - Priority Banking",
 "company": "Emirates Islamic",
 "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
@@ -4127,6 +5830,27 @@
 ]
 },
 {
+"title": "Transformation Manager – FX Trading",
+"company": "HireAlpha",
+"location": "Doha, Qatar",
+"posted": "2026-11-21",
+"url": "https://qa.linkedin.com/jobs/view/transformation-manager-%E2%80%93-fx-trading-at-hirealpha-4492880409",
+"id": "transformation manager fx trading|hirealpha|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"project manager"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/transformation-manager-%E2%80%93-fx-trading-at-hirealpha-4492880409"
+},
+"families": [
+"Project & management"
+]
+},
+{
 "title": "Senior Operations Manager | Restaurant / F&B Operations - Kuwait",
 "company": "Hudson IT and Manpower",
 "location": "Kuwait City, Al Asimah, Kuwait",
@@ -4187,27 +5911,6 @@
 },
 "families": [
 "Relationship & client mgmt"
-]
-},
-{
-"title": "Logistics Analyst (Camp Arifjan, Kuwait)",
-"company": "Serco",
-"location": "Kuwait",
-"posted": "2026-11-21",
-"url": "https://kw.linkedin.com/jobs/view/logistics-analyst-camp-arifjan-kuwait-at-serco-4493297317",
-"id": "logistics analyst camp arifjan kuwait|serco|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"logistics"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/logistics-analyst-camp-arifjan-kuwait-at-serco-4493297317"
-},
-"families": [
-"Logistics & supply chain"
 ]
 },
 {
@@ -4452,39 +6155,6 @@
 ]
 },
 {
-"title": "Senior Legal Operations Executive (fully remote!)",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates; United Kingdom",
-"posted": "2026-11-20",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5036566101",
-"id": "senior legal operations executive fully remote|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"banking operations",
-"operations officer",
-"operations analyst",
-"payments operations",
-"credit operations",
-"treasury operations",
-"HR operations",
-"legal",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5036566101"
-},
-"remote": true,
-"families": [
-"Banking & finance ops",
-"HR & admin",
-"Legal",
-"Project & management"
-]
-},
-{
 "title": "User Operations Lead",
 "company": "Bybit",
 "location": "Abu Dhabi, UAE",
@@ -4694,27 +6364,6 @@
 "Compliance, risk & audit",
 "HR & admin",
 "Legal"
-]
-},
-{
-"title": "Enterprise Wide Risk Assessment (EWRA) Specialist",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-20",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101",
-"id": "enterprise wide risk assessment ewra specialist|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"risk"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002277101"
-},
-"families": [
-"Compliance, risk & audit"
 ]
 },
 {
@@ -5824,30 +7473,6 @@
 ]
 },
 {
-"title": "Remote Customer Care Associate",
-"company": "Reliant Inc.",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-20",
-"url": "https://ae.linkedin.com/jobs/view/remote-customer-care-associate-at-reliant-inc-4492796298",
-"id": "remote customer care associate|reliant inc|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service",
-"remote"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/remote-customer-care-associate-at-reliant-inc-4492796298"
-},
-"remote": true,
-"families": [
-"Customer service",
-"Other"
-]
-},
-{
 "title": "Bell Attendant",
 "company": "Rotana Hotels",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -6103,6 +7728,27 @@
 },
 "families": [
 "Retail"
+]
+},
+{
+"title": "Logistics Manager",
+"company": "TALENTMATE",
+"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-20",
+"url": "https://ae.linkedin.com/jobs/view/logistics-manager-at-talentmate-4492947173",
+"id": "logistics manager|talentmate|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"logistics"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/logistics-manager-at-talentmate-4492947173"
+},
+"families": [
+"Logistics & supply chain"
 ]
 },
 {
@@ -6538,7 +8184,7 @@
 "company": "Apparel Group",
 "location": "Kuwait",
 "posted": "2026-11-20",
-"url": "https://kw.linkedin.com/jobs/view/service-crew-at-apparel-group-4492950813",
+"url": "https://kw.linkedin.com/jobs/view/service-crew-at-apparel-group-4492952668",
 "id": "service crew|apparel group|kuwait",
 "country": "Kuwait",
 "sources": [
@@ -6548,7 +8194,7 @@
 "customer service"
 ],
 "links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/service-crew-at-apparel-group-4492950813"
+"LinkedIn": "https://kw.linkedin.com/jobs/view/service-crew-at-apparel-group-4492952668"
 },
 "families": [
 "Customer service"
@@ -6594,6 +8240,27 @@
 },
 "families": [
 "Retail"
+]
+},
+{
+"title": "Logistics Analyst (Camp Arifjan, Kuwait)",
+"company": "Serco",
+"location": "Kuwait",
+"posted": "2026-11-20",
+"url": "https://kw.linkedin.com/jobs/view/logistics-analyst-camp-arifjan-kuwait-at-serco-4492925418",
+"id": "logistics analyst camp arifjan kuwait|serco|kuwait",
+"country": "Kuwait",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"logistics"
+],
+"links": {
+"LinkedIn": "https://kw.linkedin.com/jobs/view/logistics-analyst-camp-arifjan-kuwait-at-serco-4492925418"
+},
+"families": [
+"Logistics & supply chain"
 ]
 },
 {
@@ -6706,6 +8373,29 @@
 ]
 },
 {
+"title": "Senior-Audit- FY'24 (Oman)",
+"company": "KPMG Middle East",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-20",
+"url": "https://om.linkedin.com/jobs/view/senior-audit-fy-24-oman-at-kpmg-middle-east-4442619245",
+"id": "senior audit fy 24 oman|kpmg middle east|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job",
+"accountant"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/senior-audit-fy-24-oman-at-kpmg-middle-east-4442619245"
+},
+"families": [
+"Other",
+"Accounting & finance"
+]
+},
+{
 "title": "Shift Engineer",
 "company": "Acwa China",
 "location": "Oman",
@@ -6766,27 +8456,6 @@
 },
 "families": [
 "Relationship & client mgmt"
-]
-},
-{
-"title": "Senior-Audit- FY'24 (Oman)",
-"company": "KPMG Middle East",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-20",
-"url": "https://om.linkedin.com/jobs/view/senior-audit-fy-24-oman-at-kpmg-middle-east-4442619245",
-"id": "senior audit fy 24 oman|kpmg middle east|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/senior-audit-fy-24-oman-at-kpmg-middle-east-4442619245"
-},
-"families": [
-"Accounting & finance"
 ]
 },
 {
@@ -7069,60 +8738,6 @@
 ]
 },
 {
-"title": "Operations Specialist",
-"company": "Binance",
-"location": "Bahrain",
-"posted": "2026-11-19",
-"url": "https://bh.linkedin.com/jobs/view/operations-specialist-at-binance-4491370987",
-"id": "operations specialist|binance",
-"country": "Bahrain",
-"sources": [
-"LinkedIn",
-"Employer careers (ATS)"
-],
-"roles": [
-"banking operations",
-"operations officer",
-"operations analyst",
-"back office",
-"payments operations",
-"reconciliation",
-"credit operations",
-"treasury operations",
-"bank",
-"KYC",
-"AML",
-"client onboarding",
-"compliance",
-"financial crime",
-"internal control",
-"audit",
-"accountant",
-"finance officer",
-"financial analyst",
-"HR operations",
-"administration officer",
-"office manager",
-"data analyst",
-"legal",
-"project manager",
-"operations manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/operations-specialist-at-binance-4491370987",
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012885101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"HR & admin",
-"IT & software",
-"Legal",
-"Project & management"
-]
-},
-{
 "title": "IT Operator in banking domain",
 "company": "TAT IT Technolgies",
 "location": "Capital Governorate, Bahrain",
@@ -7137,10 +8752,7 @@
 "banking operations",
 "operations analyst",
 "payments operations",
-"settlement",
-"reconciliation",
 "bank",
-"internal control",
 "IT support",
 "cyber security",
 "technician"
@@ -7150,7 +8762,6 @@
 },
 "families": [
 "Banking & finance ops",
-"Compliance, risk & audit",
 "IT & software",
 "Engineering & technical"
 ]
@@ -7262,40 +8873,6 @@
 ]
 },
 {
-"title": "Sanctions Operations Analyst (1 year contract)",
-"company": "Binance",
-"location": "Argentina; Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101",
-"id": "sanctions operations analyst 1 year contract|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"banking operations",
-"operations officer",
-"operations analyst",
-"payments operations",
-"credit operations",
-"treasury operations",
-"financial analyst",
-"HR operations",
-"data analyst",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5027208101"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"HR & admin",
-"IT & software",
-"Project & management"
-]
-},
-{
 "title": "Landside Operations Associate",
 "company": "A.P. Moller - Maersk",
 "location": "Al-Hidd, Muharraq Governorate, Bahrain",
@@ -7375,7 +8952,6 @@
 "roles": [
 "operations officer",
 "operations analyst",
-"data analyst",
 "logistics",
 "supply chain",
 "warehouse",
@@ -7386,218 +8962,8 @@
 },
 "families": [
 "Banking & finance ops",
-"IT & software",
 "Logistics & supply chain",
 "Project & management"
-]
-},
-{
-"title": "Enterprise Wide Risk Assessment (EWRA) Analyst (1 year contractor)",
-"company": "Binance",
-"location": "United Arab Emirates; United Kingdom",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101",
-"id": "enterprise wide risk assessment ewra analyst 1 year contractor|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"risk",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017476101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Fraud & AML Investigation Analyst (Geofencing) — 12-Month Contract",
-"company": "Binance",
-"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101",
-"id": "fraud aml investigation analyst geofencing 12 month contract|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"AML",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017478101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "KYB Compliance Analyst (1 year contractor)",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101",
-"id": "kyb compliance analyst 1 year contractor|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"compliance",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5013821101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Policy & Change Management Analyst - (12-Month Contract)",
-"company": "Binance",
-"location": "Bahrain; India; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101",
-"id": "policy change management analyst 12 month contract|binance",
-"country": "Bahrain",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5025665101"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Research Analyst- Equity Capital Markets",
-"company": "Binance",
-"location": "Hong Kong; Malaysia; Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101",
-"id": "research analyst equity capital markets|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"financial analyst",
-"IT support",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002431101"
-},
-"families": [
-"Banking & finance ops",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Risk Analyst (SQL), Fraud Prevention",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101",
-"id": "risk analyst sql fraud prevention|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"operations analyst",
-"risk",
-"financial analyst",
-"data analyst"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005422101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"IT & software"
-]
-},
-{
-"title": "Card Fraud & Chargeback Risk Strategist (Issuing Risk)",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101",
-"id": "card fraud chargeback risk strategist issuing risk|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"back office",
-"risk"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5028749101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit"
-]
-},
-{
-"title": "Deputy Regulatory Compliance Officer - ADGM",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101",
-"id": "deputy regulatory compliance officer adgm|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"back office",
-"compliance",
-"office manager",
-"front office"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002493101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"HR & admin",
-"Hospitality & F&B"
 ]
 },
 {
@@ -7622,97 +8988,6 @@
 "families": [
 "Banking & finance ops",
 "Customer service",
-"Other"
-]
-},
-{
-"title": "OTC Trader",
-"company": "Binance",
-"location": "Hong Kong; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101",
-"id": "otc trader|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"trade finance"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005249101"
-},
-"families": [
-"Banking & finance ops"
-]
-},
-{
-"title": "Senior OTC Sales Trader",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101",
-"id": "senior otc sales trader|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"trade finance",
-"sales executive",
-"sales manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5015604101"
-},
-"families": [
-"Banking & finance ops",
-"Sales & business dev"
-]
-},
-{
-"title": "User Growth & Lifecycle Marketing Manager",
-"company": "Binance",
-"location": "Bahrain",
-"posted": "2026-11-19",
-"url": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
-"id": "user growth lifecycle marketing manager|binance",
-"country": "Bahrain",
-"sources": [
-"LinkedIn",
-"Employer careers (ATS)"
-],
-"roles": [
-"bank",
-"client onboarding",
-"financial crime",
-"relationship manager",
-"account manager",
-"office manager",
-"data analyst",
-"sales manager",
-"marketing",
-"digital marketing",
-"social media",
-"store manager",
-"project manager",
-"operations manager",
-"remote"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/user-growth-lifecycle-marketing-manager-at-binance-4482460037",
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002527101"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"IT & software",
-"Sales & business dev",
-"Marketing & media",
-"Retail",
-"Project & management",
 "Other"
 ]
 },
@@ -7748,27 +9023,6 @@
 ]
 },
 {
-"title": "Binance Accelerator Program - Compliance Training (AI) ",
-"company": "Binance",
-"location": "Australia; Bahrain; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101",
-"id": "binance accelerator program compliance training ai|binance",
-"country": "Bahrain",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5024608101"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
 "title": "Binance Accelerator Program - Internal Audit (Technology)",
 "company": "Binance",
 "location": "Hong Kong; Singapore; Taiwan; United Arab Emirates",
@@ -7790,312 +9044,6 @@
 "families": [
 "Compliance, risk & audit",
 "IT & software"
-]
-},
-{
-"title": "Internal Controls Specialist/ Manager (12 months Contract)",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101",
-"id": "internal controls specialist manager 12 months contract|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"internal control",
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017147101"
-},
-"families": [
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Audit Manager",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101",
-"id": "audit manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"audit",
-"relationship manager",
-"account manager",
-"office manager",
-"IT support",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5005447101"
-},
-"families": [
-"Compliance, risk & audit",
-"Relationship & client mgmt",
-"HR & admin",
-"IT & software",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Risk Strategist, Market Manipulation (Trading Risk)",
-"company": "Binance",
-"location": "Australia; Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101",
-"id": "senior risk strategist market manipulation trading risk|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"risk"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011782101"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
-"title": "Incident Manager",
-"company": "Binance",
-"location": "Finland; Hong Kong; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5036434101",
-"id": "incident manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5036434101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Legal Project Manager",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101",
-"id": "legal project manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"project engineer",
-"sales manager",
-"store manager",
-"legal",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5034589101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Engineering & technical",
-"Sales & business dev",
-"Retail",
-"Legal",
-"Project & management"
-]
-},
-{
-"title": "Regulatory Governance Manager",
-"company": "Binance",
-"location": "United Arab Emirates; United Kingdom",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101",
-"id": "regulatory governance manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5017480101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Product Strategy Manager",
-"company": "Binance",
-"location": "Ireland; Malta; Spain; United Arab Emirates; United Kingdom",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101",
-"id": "senior product strategy manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002747101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Regulatory Manager, Global MLRO",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101",
-"id": "senior regulatory manager global mlro|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5011227101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Social Media Manager",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101",
-"id": "social media manager|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"relationship manager",
-"account manager",
-"office manager",
-"sales manager",
-"social media",
-"store manager",
-"project manager",
-"operations manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004806101"
-},
-"families": [
-"Relationship & client mgmt",
-"HR & admin",
-"Sales & business dev",
-"Marketing & media",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Senior Corporate Legal Counsel",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates; United Kingdom",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
-"id": "senior corporate legal counsel|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)",
-"LinkedIn"
-],
-"roles": [
-"corporate banking",
-"legal"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002547101",
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-corporate-legal-counsel-at-binance-4484152942"
-},
-"families": [
-"Relationship & client mgmt",
-"Legal"
 ]
 },
 {
@@ -8152,27 +9100,6 @@
 ]
 },
 {
-"title": "Binance Accelerator Program - Public Relations",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101",
-"id": "binance accelerator program public relations|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"government relations"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012687101"
-},
-"families": [
-"HR & admin"
-]
-},
-{
 "title": "DevOps Engineer, Blockchain Infra (Fully Remote)",
 "company": "Binance",
 "location": "Australia; Europe; Hong Kong; Malaysia; Singapore; Taiwan; United Arab Emirates; United Kingdom",
@@ -8209,37 +9136,6 @@
 ]
 },
 {
-"title": "Full Stack Engineer (Web,Frontend Oriented) — AI Facial Recognition, Identity & Security",
-"company": "Binance",
-"location": "Australia; Hong Kong; New Zealand; Singapore; Taiwan; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101",
-"id": "full stack engineer web frontend oriented ai facial recognition identity security|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"software engineer",
-"IT support",
-"network engineer",
-"cyber security",
-"mechanical engineer",
-"electrical engineer",
-"civil engineer",
-"project engineer",
-"front office"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5007086101"
-},
-"families": [
-"IT & software",
-"Engineering & technical",
-"Hospitality & F&B"
-]
-},
-{
 "title": "IT Manager – Oracle ERP (EBS R12) & Digital Transformation",
 "company": "RTC1 Recruitment Services",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -8260,119 +9156,6 @@
 "families": [
 "IT & software",
 "Project & management"
-]
-},
-{
-"title": "Binance Accelerator Program- VIP & Institutional Sales",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101",
-"id": "binance accelerator program vip institutional sales|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support",
-"sales executive",
-"sales manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5020282101"
-},
-"families": [
-"IT & software",
-"Sales & business dev"
-]
-},
-{
-"title": "Product Counsel – Equities & Tokenized Securities",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101",
-"id": "product counsel equities tokenized securities|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002389101"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Regulatory Legal Counsel -  US Monitorships",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates; United Kingdom; United States",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101",
-"id": "regulatory legal counsel us monitorships|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support",
-"legal"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002555101"
-},
-"families": [
-"IT & software",
-"Legal"
-]
-},
-{
-"title": "Senior Talent Acquisition Specialist (Executive Hiring)",
-"company": "Binance",
-"location": "Hong Kong; Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101",
-"id": "senior talent acquisition specialist executive hiring|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5012331101"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "VIP & Institutional Sales - MENA",
-"company": "Binance",
-"location": "United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101",
-"id": "vip institutional sales mena|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"IT support",
-"sales executive",
-"sales manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002303101"
-},
-"families": [
-"IT & software",
-"Sales & business dev"
 ]
 },
 {
@@ -8425,49 +9208,6 @@
 ]
 },
 {
-"title": "Know Every Host in Town? We Want to Talk to You",
-"company": "The Flex",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-19",
-"url": "https://bh.linkedin.com/jobs/view/know-every-host-in-town%3F-we-want-to-talk-to-you-at-the-flex-4492254159",
-"id": "know every host in town we want to talk to you|the flex",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"sales executive"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/know-every-host-in-town%3F-we-want-to-talk-to-you-at-the-flex-4492254159"
-},
-"families": [
-"Sales & business dev"
-]
-},
-{
-"title": "Binance Accelerator Program - VIP Sales",
-"company": "Binance",
-"location": "Brazil; Colombia; Mexico; United Arab Emirates; United Kingdom",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002283101",
-"id": "binance accelerator program vip sales|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"sales executive",
-"sales manager"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002283101"
-},
-"families": [
-"Sales & business dev"
-]
-},
-{
 "title": "Property Manager: Grow Base360 Using Your Network",
 "company": "The Flex",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -8484,27 +9224,6 @@
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/property-manager-grow-base360-using-your-network-at-the-flex-4492251391"
-},
-"families": [
-"Sales & business dev"
-]
-},
-{
-"title": "Binance Accelerator Program - TradFI Business Development",
-"company": "Binance",
-"location": "Hong Kong; Malaysia; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101",
-"id": "binance accelerator program tradfi business development|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"business development"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5002315101"
 },
 "families": [
 "Sales & business dev"
@@ -8557,27 +9276,6 @@
 "families": [
 "Marketing & media",
 "Other"
-]
-},
-{
-"title": "Social Media Specialist",
-"company": "Binance",
-"location": "Singapore; United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101",
-"id": "social media specialist|binance|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"social media"
-],
-"links": {
-"Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/binance/jobs/5004802101"
-},
-"families": [
-"Marketing & media"
 ]
 },
 {
@@ -8659,15 +9357,13 @@
 "LinkedIn"
 ],
 "roles": [
-"store manager",
-"operations manager"
+"store manager"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/team-leader-food-beverage-jumeirah-gulf-of-bahrain-at-jumeirah-4476720240"
 },
 "families": [
-"Retail",
-"Project & management"
+"Retail"
 ]
 },
 {
@@ -8707,28 +9403,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/manager-infrastructure-architecture-at-qiddiya-%D8%A7%D9%84%D9%82%D8%AF%D9%8A%D8%A9-4426239420"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Accountant",
-"company": "FansPass | فانز باس",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-11-19",
-"url": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261",
-"id": "accountant|fanspass|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job",
-"remote"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261"
 },
 "families": [
 "Other"
@@ -8962,29 +9636,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/information-technology-manager-at-mv-transportation-4492101604"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Senior Risk And BCM Specialist",
-"company": "Foodics",
-"location": "Riyadh, Riyadh Province, Saudi Arabia",
-"posted": "2026-11-19",
-"url": "https://apply.workable.com/j/6196531DC6",
-"id": "senior risk and bcm specialist|foodics|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)",
-"Workable"
-],
-"roles": [
-"IT"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/7Wusj6XTo1fvTXYcBQyRpn/senior-risk-and-bcm-specialist-in-riyadh-at-foodics",
-"Employer careers (ATS)": "https://apply.workable.com/j/6196531DC6"
 },
 "families": [
 "IT & software"
@@ -9543,6 +10194,27 @@
 ]
 },
 {
+"title": "Manager - Cybersecurity",
+"company": "ISA",
+"location": "Sharjah, Sharjah Emirate, United Arab Emirates",
+"posted": "2026-11-19",
+"url": "https://ae.linkedin.com/jobs/view/manager-cybersecurity-at-isa-4459332595",
+"id": "manager cybersecurity|isa|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/manager-cybersecurity-at-isa-4459332595"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Operation Associates",
 "company": "Washmen",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -9561,31 +10233,6 @@
 },
 "families": [
 "Banking & finance ops"
-]
-},
-{
-"title": "Legal Counsel - Commercial Contracting",
-"company": "PxGeo",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://jobs.workable.com/view/8eCbiiv3K6rwAWeUYMrJNG/legal-counsel---commercial-contracting-in-dubai-at-pxgeo",
-"id": "legal counsel commercial contracting|pxgeo|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable",
-"LinkedIn"
-],
-"roles": [
-"operations",
-"legal"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/8eCbiiv3K6rwAWeUYMrJNG/legal-counsel---commercial-contracting-in-dubai-at-pxgeo",
-"LinkedIn": "https://ae.linkedin.com/jobs/view/legal-counsel-commercial-contracting-at-pxgeo-4492413082"
-},
-"families": [
-"Banking & finance ops",
-"Legal"
 ]
 },
 {
@@ -9646,27 +10293,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/accountant-at-midis-group-4484798930"
-},
-"families": [
-"Accounting & finance"
-]
-},
-{
-"title": "Senior Accountant",
-"company": "Damen",
-"location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://ae.linkedin.com/jobs/view/senior-accountant-at-damen-4492464626",
-"id": "senior accountant|damen|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-accountant-at-damen-4492464626"
 },
 "families": [
 "Accounting & finance"
@@ -9756,29 +10382,6 @@
 "families": [
 "IT & software",
 "Hospitality & F&B"
-]
-},
-{
-"title": "IT Customer Support Executive (Hatta)",
-"company": "Emaratech",
-"location": "Hatta, Dubai, United Arab Emirates",
-"posted": "2026-11-19",
-"url": "https://jobs.workable.com/view/mmC6kGR4BJcgGg2V1BGPV7/it-customer-support-executive-(hatta)-in-hatta-at-emaratech",
-"id": "it customer support executive hatta|emaratech|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"IT",
-"customer service"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/mmC6kGR4BJcgGg2V1BGPV7/it-customer-support-executive-(hatta)-in-hatta-at-emaratech"
-},
-"families": [
-"IT & software",
-"Customer service"
 ]
 },
 {
@@ -10253,6 +10856,27 @@
 ]
 },
 {
+"title": "Legal Counsel - Commercial Contracting",
+"company": "PxGeo",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-19",
+"url": "https://jobs.workable.com/view/8eCbiiv3K6rwAWeUYMrJNG/legal-counsel---commercial-contracting-in-dubai-at-pxgeo",
+"id": "legal counsel commercial contracting|pxgeo|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"Workable"
+],
+"roles": [
+"legal"
+],
+"links": {
+"Workable": "https://jobs.workable.com/view/8eCbiiv3K6rwAWeUYMrJNG/legal-counsel---commercial-contracting-in-dubai-at-pxgeo"
+},
+"families": [
+"Legal"
+]
+},
+{
 "title": "Project Manager",
 "company": "redfish solutions ltd",
 "location": "Dubai, United Arab Emirates",
@@ -10428,27 +11052,6 @@
 ]
 },
 {
-"title": "Director of Private Wealth",
-"company": "Lesha Bank",
-"location": "Doha, Qatar",
-"posted": "2026-11-19",
-"url": "https://qa.linkedin.com/jobs/view/director-of-private-wealth-at-lesha-bank-4482273974",
-"id": "director of private wealth|lesha bank|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"relationship manager"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/director-of-private-wealth-at-lesha-bank-4482273974"
-},
-"families": [
-"Relationship & client mgmt"
-]
-},
-{
 "title": "Senior Financial Analyst / Accountant, Global Fund, Doha, Qatar",
 "company": "PER",
 "location": "Doha, Doha, Qatar",
@@ -10548,27 +11151,6 @@
 ],
 "links": {
 "LinkedIn": "https://qa.linkedin.com/jobs/view/senior-manager-%E2%80%93-it-enterprise-cloud-platforms-at-qatar-airways-4492193347"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "Cybersecurity & Infrastructure Analyst",
-"company": "Lesha Bank",
-"location": "Doha, Qatar",
-"posted": "2026-11-19",
-"url": "https://qa.linkedin.com/jobs/view/cybersecurity-infrastructure-analyst-at-lesha-bank-4465552460",
-"id": "cybersecurity infrastructure analyst|lesha bank|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/cybersecurity-infrastructure-analyst-at-lesha-bank-4465552460"
 },
 "families": [
 "IT & software"
@@ -11681,6 +12263,27 @@
 ]
 },
 {
+"title": "Accountant",
+"company": "FansPass | فانز باس",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-19",
+"url": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261",
+"id": "accountant|fanspass|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"remote"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/accountant-at-fanspass-%D9%81%D8%A7%D9%86%D8%B2-%D8%A8%D8%A7%D8%B3-4491624261"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "PR KOL Specialist - MENA",
 "company": "Binance",
 "location": "Saudi Arabia",
@@ -12101,6 +12704,27 @@
 ]
 },
 {
+"title": "Senior Risk And BCM Specialist",
+"company": "Foodics",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-19",
+"url": "https://apply.workable.com/j/6196531DC6",
+"id": "senior risk and bcm specialist|foodics|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"Employer careers (ATS)"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"Employer careers (ATS)": "https://apply.workable.com/j/6196531DC6"
+},
+"families": [
+"Other"
+]
+},
+{
 "title": "Information Technology Operator",
 "company": "Unity Infotech",
 "location": "Capital Governorate, Bahrain",
@@ -12225,7 +12849,6 @@
 ],
 "roles": [
 "operations analyst",
-"bank",
 "corporate banking",
 "accountant",
 "finance officer",
@@ -12574,7 +13197,6 @@
 ],
 "roles": [
 "recruiter",
-"business development",
 "sales manager",
 "remote"
 ],
@@ -13543,27 +14165,6 @@
 ]
 },
 {
-"title": "Project Manager (Fitout/Landscape)",
-"company": "JASARA PMC",
-"location": "Riyadh, Riyadh Province, Saudi Arabia",
-"posted": "2026-11-18",
-"url": "https://jobs.workable.com/view/iZS9Ht1D3hcDn7zccA2Cny/project-manager-(fitout%2Flandscape)-in-riyadh-at-jasara-pmc",
-"id": "project manager fitout landscape|jasara pmc|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Workable"
-],
-"roles": [
-"project manager"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/iZS9Ht1D3hcDn7zccA2Cny/project-manager-(fitout%2Flandscape)-in-riyadh-at-jasara-pmc"
-},
-"families": [
-"Project & management"
-]
-},
-{
 "title": "Welcome Desk Agent (Russian speaker)",
 "company": "W Hotels",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -13624,6 +14225,27 @@
 },
 "families": [
 "Banking & finance ops"
+]
+},
+{
+"title": "Compliance Executive ( UAE National only)",
+"company": "noon",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-18",
+"url": "https://ae.linkedin.com/jobs/view/compliance-executive-uae-national-only-at-noon-4482827326",
+"id": "compliance executive uae national only|noon|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-executive-uae-national-only-at-noon-4482827326"
+},
+"families": [
+"Compliance, risk & audit"
 ]
 },
 {
@@ -13729,27 +14351,6 @@
 },
 "families": [
 "Accounting & finance"
-]
-},
-{
-"title": "Human Resources Manager",
-"company": "Vitatech Group® Middle East",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-18",
-"url": "https://ae.linkedin.com/jobs/view/human-resources-manager-at-vitatech-group%C2%AE-middle-east-4491810403",
-"id": "human resources manager|vitatech group middle east|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"HR"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/human-resources-manager-at-vitatech-group%C2%AE-middle-east-4491810403"
-},
-"families": [
-"HR & admin"
 ]
 },
 {
@@ -14414,27 +15015,6 @@
 ]
 },
 {
-"title": "Head of Permitting",
-"company": "Confidential Government Entity",
-"location": "Doha, Qatar",
-"posted": "2026-11-18",
-"url": "https://qa.linkedin.com/jobs/view/head-of-permitting-at-confidential-government-entity-4490898111",
-"id": "head of permitting|confidential government entity|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/head-of-permitting-at-confidential-government-entity-4490898111"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
 "title": "Senior Accountant",
 "company": "Al Emadi Enterprises",
 "location": "Doha, Qatar",
@@ -15043,27 +15623,6 @@
 ]
 },
 {
-"title": "Marketing & Content Coordinator",
-"company": "SWISS ROSE",
-"location": "Abu Fatira, Mubarak Al-Kabeer, Kuwait",
-"posted": "2026-11-18",
-"url": "https://kw.linkedin.com/jobs/view/marketing-content-coordinator-at-swiss-rose-4491809991",
-"id": "marketing content coordinator|swiss rose|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/marketing-content-coordinator-at-swiss-rose-4491809991"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
 "title": "Receptionist & Customer Service / Sales Coordinator",
 "company": "SWISS ROSE",
 "location": "Abu Fatira, Mubarak Al-Kabeer, Kuwait",
@@ -15547,6 +16106,29 @@
 },
 "families": [
 "Marketing & media"
+]
+},
+{
+"title": "Sales Associate",
+"company": "Apparel Group",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-11-18",
+"url": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375683687",
+"id": "sales associate|apparel group|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service",
+"retail"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375683687"
+},
+"families": [
+"Customer service",
+"Retail"
 ]
 },
 {
@@ -16156,9 +16738,7 @@
 "sales executive",
 "business development",
 "sales manager",
-"marketing",
-"logistics",
-"supply chain"
+"marketing"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/business-development-manager-%E2%80%93-afr-at-dhl-global-forwarding-4490711990"
@@ -16167,8 +16747,7 @@
 "Banking & finance ops",
 "Relationship & client mgmt",
 "Sales & business dev",
-"Marketing & media",
-"Logistics & supply chain"
+"Marketing & media"
 ]
 },
 {
@@ -16614,7 +17193,7 @@
 "company": "PepsiCo",
 "location": "Taif, Makkah, Saudi Arabia",
 "posted": "2026-11-17",
-"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488244492",
+"url": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488220364",
 "id": "sr merchandiser|pepsico|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -16624,7 +17203,7 @@
 "Any job"
 ],
 "links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488244492"
+"LinkedIn": "https://sa.linkedin.com/jobs/view/sr-merchandiser-at-pepsico-4488220364"
 },
 "families": [
 "Other"
@@ -16756,6 +17335,27 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/accountant-at-united-pharmaceuticals-company-4491132325"
+},
+"families": [
+"Accounting & finance"
+]
+},
+{
+"title": "Senior Accountant",
+"company": "Applus+ Asia Middle East and Africa",
+"location": "Riyadh, Riyadh, Saudi Arabia",
+"posted": "2026-11-17",
+"url": "https://sa.linkedin.com/jobs/view/senior-accountant-at-applus%2B-asia-middle-east-and-africa-4491562938",
+"id": "senior accountant|applus asia middle east and africa|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"accountant"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/senior-accountant-at-applus%2B-asia-middle-east-and-africa-4491562938"
 },
 "families": [
 "Accounting & finance"
@@ -16905,6 +17505,27 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/senior-marketing-specialist-at-confidentiel-4490421708"
+},
+"families": [
+"Marketing & media"
+]
+},
+{
+"title": "Marketing Lead, Demand Generation",
+"company": "Tharwah Group",
+"location": "Riyadh, Saudi Arabia",
+"posted": "2026-11-17",
+"url": "https://sa.linkedin.com/jobs/view/marketing-lead-demand-generation-at-tharwah-group-4491131322",
+"id": "marketing lead demand generation|tharwah group|saudi arabia",
+"country": "Saudi Arabia",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"marketing"
+],
+"links": {
+"LinkedIn": "https://sa.linkedin.com/jobs/view/marketing-lead-demand-generation-at-tharwah-group-4491131322"
 },
 "families": [
 "Marketing & media"
@@ -17503,27 +18124,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-aml-analys-at-intesa-sanpaolo-4490426465"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
-"title": "Compliance Manager",
-"company": "Calvin James Recruitment",
-"location": "Abu Dhabi Emirate, United Arab Emirates",
-"posted": "2026-11-17",
-"url": "https://ae.linkedin.com/jobs/view/compliance-manager-at-calvin-james-recruitment-4490196776",
-"id": "compliance manager|calvin james recruitment|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-manager-at-calvin-james-recruitment-4490196776"
 },
 "families": [
 "Compliance, risk & audit"
@@ -18227,9 +18827,9 @@
 {
 "title": "Junior Project Manager",
 "company": "MIRA CONSTRUCTION L.L.C",
-"location": "Dubai, Dubai, United Arab Emirates",
+"location": "Ajman, Ajman, United Arab Emirates",
 "posted": "2026-11-17",
-"url": "https://jobs.workable.com/view/6eBi5QawRZJQeKWD3DMxPH/junior-project-manager-in-dubai-at-mira-construction-l.l.c",
+"url": "https://jobs.workable.com/view/4da4U4AwhPzRkzgWj1NPZT/junior-project-manager-in-ajman-at-mira-construction-l.l.c",
 "id": "junior project manager|mira construction l l c|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -18239,7 +18839,7 @@
 "project manager"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/6eBi5QawRZJQeKWD3DMxPH/junior-project-manager-in-dubai-at-mira-construction-l.l.c"
+"Workable": "https://jobs.workable.com/view/4da4U4AwhPzRkzgWj1NPZT/junior-project-manager-in-ajman-at-mira-construction-l.l.c"
 },
 "families": [
 "Project & management"
@@ -18901,27 +19501,6 @@
 ]
 },
 {
-"title": "Senior Website Merchandising Specialist",
-"company": "Boutiqaat",
-"location": "Hawalli, Kuwait",
-"posted": "2026-11-17",
-"url": "https://kw.linkedin.com/jobs/view/senior-website-merchandising-specialist-at-boutiqaat-4490461347",
-"id": "senior website merchandising specialist|boutiqaat|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"marketing"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/senior-website-merchandising-specialist-at-boutiqaat-4490461347"
-},
-"families": [
-"Marketing & media"
-]
-},
-{
 "title": "Plumber Technician - Engineering - Jumeirah Messilah Beach",
 "company": "Jumeirah",
 "location": "Kuwait",
@@ -19119,7 +19698,7 @@
 "company": "Larsen & Toubro",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491571751",
+"url": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491583292",
 "id": "hse engineer|larsen toubro|oman",
 "country": "Oman",
 "sources": [
@@ -19129,7 +19708,7 @@
 "compliance"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491571751"
+"LinkedIn": "https://om.linkedin.com/jobs/view/hse-engineer-at-larsen-toubro-4491583292"
 },
 "families": [
 "Compliance, risk & audit"
@@ -19335,7 +19914,7 @@
 "company": "Larsen & Toubro",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491581513",
+"url": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491571792",
 "id": "lifting engineer|larsen toubro|oman",
 "country": "Oman",
 "sources": [
@@ -19345,7 +19924,7 @@
 "engineer"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491581513"
+"LinkedIn": "https://om.linkedin.com/jobs/view/lifting-engineer-at-larsen-toubro-4491571792"
 },
 "families": [
 "Engineering & technical"
@@ -19435,27 +20014,6 @@
 },
 "families": [
 "Marketing & media"
-]
-},
-{
-"title": "Sales Associate",
-"company": "Apparel Group",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375680790",
-"id": "sales associate|apparel group|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/sales-associate-at-apparel-group-4375680790"
-},
-"families": [
-"Retail"
 ]
 },
 {
@@ -19673,7 +20231,7 @@
 "company": "Larsen & Toubro",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-17",
-"url": "https://om.linkedin.com/jobs/view/construction-superintendent-at-larsen-toubro-4491568949",
+"url": "https://om.linkedin.com/jobs/view/construction-superintendent-at-larsen-toubro-4491576557",
 "id": "construction superintendent|larsen toubro|oman",
 "country": "Oman",
 "sources": [
@@ -19683,7 +20241,7 @@
 "project manager"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/construction-superintendent-at-larsen-toubro-4491568949"
+"LinkedIn": "https://om.linkedin.com/jobs/view/construction-superintendent-at-larsen-toubro-4491576557"
 },
 "families": [
 "Project & management"
@@ -19880,27 +20438,6 @@
 ]
 },
 {
-"title": "Graduate Electrical Engineer",
-"company": "GHD",
-"location": "Doha, Qatar",
-"posted": "2026-11-17",
-"url": "https://qa.linkedin.com/jobs/view/graduate-electrical-engineer-at-ghd-4490186645",
-"id": "graduate electrical engineer|ghd|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"remote"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/graduate-electrical-engineer-at-ghd-4490186645"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Sr Principal Customer Enablement Specialist (Petrophysicist)",
 "company": "Aspen Technology",
 "location": "Kuwait",
@@ -20004,7 +20541,6 @@
 "treasury operations",
 "bank",
 "KYC",
-"internal control",
 "risk",
 "corporate banking",
 "finance officer",
@@ -20203,34 +20739,6 @@
 "families": [
 "Banking & finance ops",
 "Hospitality & F&B",
-"Retail",
-"Project & management"
-]
-},
-{
-"title": "Complex Restaurants Manager",
-"company": "Westin Hotels & Resorts",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-16",
-"url": "https://bh.linkedin.com/jobs/view/complex-restaurants-manager-at-westin-hotels-resorts-4490685904",
-"id": "complex restaurants manager|westin hotels resorts",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations officer",
-"HR operations",
-"HR officer",
-"store manager",
-"operations manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/complex-restaurants-manager-at-westin-hotels-resorts-4490685904"
-},
-"families": [
-"Banking & finance ops",
-"HR & admin",
 "Retail",
 "Project & management"
 ]
@@ -20518,6 +21026,32 @@
 "Relationship & client mgmt",
 "Sales & business dev",
 "Other"
+]
+},
+{
+"title": "Complex Restaurants Manager",
+"company": "Westin Hotels & Resorts",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-16",
+"url": "https://bh.linkedin.com/jobs/view/complex-restaurants-manager-at-westin-hotels-resorts-4490685904",
+"id": "complex restaurants manager|westin hotels resorts",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR operations",
+"HR officer",
+"store manager",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/complex-restaurants-manager-at-westin-hotels-resorts-4490685904"
+},
+"families": [
+"HR & admin",
+"Retail",
+"Project & management"
 ]
 },
 {
@@ -22101,27 +22635,6 @@
 ]
 },
 {
-"title": "Senior Infrastructure Engineer",
-"company": "Dautom",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-16",
-"url": "https://ae.linkedin.com/jobs/view/senior-infrastructure-engineer-at-dautom-4490255760",
-"id": "senior infrastructure engineer|dautom|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/senior-infrastructure-engineer-at-dautom-4490255760"
-},
-"families": [
-"IT & software"
-]
-},
-{
 "title": "IT Support Engineer / Agent (Helpdesk Engineer)",
 "company": "BlackStone eIT",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -22928,57 +23441,15 @@
 "LinkedIn"
 ],
 "roles": [
-"compliance"
+"compliance",
+"project manager"
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/contract-manager-ldar-at-bureau-veritas-4490298783"
 },
 "families": [
-"Compliance, risk & audit"
-]
-},
-{
-"title": "DevSecOps Engineer",
-"company": "Taly",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-16",
-"url": "https://kw.linkedin.com/jobs/view/devsecops-engineer-at-taly-4489734882",
-"id": "devsecops engineer|taly|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT",
-"engineer"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/devsecops-engineer-at-taly-4489734882"
-},
-"families": [
-"IT & software",
-"Engineering & technical"
-]
-},
-{
-"title": "Lead HSE Engineer",
-"company": "KBR, Inc.",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-16",
-"url": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487177914",
-"id": "lead hse engineer|kbr inc|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/lead-hse-engineer-at-kbr-inc-4487177914"
-},
-"families": [
-"Engineering & technical"
+"Compliance, risk & audit",
+"Project & management"
 ]
 },
 {
@@ -23485,29 +23956,6 @@
 },
 "families": [
 "Sales & business dev",
-"Retail"
-]
-},
-{
-"title": "Customer Service Executive",
-"company": "Dollar Car Rental | Oman",
-"location": "Salalah, Dhofar Governorate, Oman",
-"posted": "2026-11-16",
-"url": "https://om.linkedin.com/jobs/view/customer-service-executive-at-dollar-car-rental-oman-4489732007",
-"id": "customer service executive|dollar car rental oman|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"customer service",
-"retail"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/customer-service-executive-at-dollar-car-rental-oman-4489732007"
-},
-"families": [
-"Customer service",
 "Retail"
 ]
 },
@@ -24273,7 +24721,6 @@
 ],
 "roles": [
 "cyber security",
-"technician",
 "teacher",
 "lecturer",
 "remote"
@@ -24283,7 +24730,6 @@
 },
 "families": [
 "IT & software",
-"Engineering & technical",
 "Education",
 "Other"
 ]
@@ -24367,27 +24813,6 @@
 ],
 "links": {
 "Workable": "https://jobs.workable.com/view/eBfdS34FXDR85zqJRCm9gF/manager---health-safety-and-welfare-operations-(rd-4)-in-riyadh-at-qiddiya-investment-company"
-},
-"families": [
-"Banking & finance ops"
-]
-},
-{
-"title": "Manager - Waste Operations - 208- AA7",
-"company": "Qiddiya Investment Company",
-"location": "Riyadh, Riyadh Province, Saudi Arabia",
-"posted": "2026-11-15",
-"url": "https://jobs.workable.com/view/cA2Fp4Dp5eNfEFf4HXymga/manager---waste-operations---208--aa7-in-riyadh-at-qiddiya-investment-company",
-"id": "manager waste operations 208 aa7|qiddiya investment company|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Workable"
-],
-"roles": [
-"operations"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/cA2Fp4Dp5eNfEFf4HXymga/manager---waste-operations---208--aa7-in-riyadh-at-qiddiya-investment-company"
 },
 "families": [
 "Banking & finance ops"
@@ -24652,9 +25077,9 @@
 {
 "title": "Sales & Vendor Partnerships Lead",
 "company": "SIHAMCO",
-"location": "Jeddah, Makkah Province, Saudi Arabia",
+"location": "Riyadh, Riyadh Province, Saudi Arabia",
 "posted": "2026-11-15",
-"url": "https://jobs.workable.com/view/puUaovxEkxP4a5xs7exF3X/sales-%26-vendor-partnerships-lead-in-jeddah-at-sihamco",
+"url": "https://jobs.workable.com/view/48zFUUBqPW6kcKpMWNd2S5/sales-%26-vendor-partnerships-lead-in-riyadh-at-sihamco",
 "id": "sales vendor partnerships lead|sihamco|saudi arabia",
 "country": "Saudi Arabia",
 "sources": [
@@ -24664,7 +25089,7 @@
 "sales"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/puUaovxEkxP4a5xs7exF3X/sales-%26-vendor-partnerships-lead-in-jeddah-at-sihamco"
+"Workable": "https://jobs.workable.com/view/48zFUUBqPW6kcKpMWNd2S5/sales-%26-vendor-partnerships-lead-in-riyadh-at-sihamco"
 },
 "families": [
 "Sales & business dev"
@@ -25670,7 +26095,6 @@
 "project engineer",
 "technician",
 "call centre",
-"project manager",
 "operations manager"
 ],
 "links": {
@@ -25755,16 +26179,14 @@
 "network engineer",
 "cyber security",
 "project engineer",
-"technician",
-"remote"
+"technician"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/network-engineer-at-saic-4491072187"
 },
 "families": [
 "IT & software",
-"Engineering & technical",
-"Other"
+"Engineering & technical"
 ]
 },
 {
@@ -25779,17 +26201,13 @@
 "LinkedIn"
 ],
 "roles": [
-"mechanical engineer",
-"retail",
-"warehouse"
+"mechanical engineer"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/on-job-training-core-at-mondel%C4%93z-international-4298195943"
 },
 "families": [
-"Engineering & technical",
-"Retail",
-"Logistics & supply chain"
+"Engineering & technical"
 ]
 },
 {
@@ -25917,27 +26335,6 @@
 },
 "families": [
 "HR & admin"
-]
-},
-{
-"title": "Forward Deployed Engineer, Infrastructure Specialist (Middle East)",
-"company": "Cohere",
-"location": "Riyadh, Riyadh, Saudi Arabia",
-"posted": "2026-11-14",
-"url": "https://sa.linkedin.com/jobs/view/forward-deployed-engineer-infrastructure-specialist-middle-east-at-cohere-4464517198",
-"id": "forward deployed engineer infrastructure specialist middle east|cohere|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/forward-deployed-engineer-infrastructure-specialist-middle-east-at-cohere-4464517198"
-},
-"families": [
-"IT & software"
 ]
 },
 {
@@ -26217,27 +26614,6 @@
 "families": [
 "Banking & finance ops",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Accounts Supervisor",
-"company": "IHG Hotels & Resorts",
-"location": "Doha, Qatar",
-"posted": "2026-11-14",
-"url": "https://qa.linkedin.com/jobs/view/accounts-supervisor-at-ihg-hotels-resorts-4489372021",
-"id": "accounts supervisor|ihg hotels resorts|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/accounts-supervisor-at-ihg-hotels-resorts-4489372021"
-},
-"families": [
-"Accounting & finance"
 ]
 },
 {
@@ -26885,7 +27261,6 @@
 "payroll",
 "HR operations",
 "HR officer",
-"office manager",
 "retail",
 "store manager",
 "logistics",
@@ -27004,8 +27379,7 @@
 ],
 "roles": [
 "audit",
-"accountant",
-"financial analyst"
+"accountant"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-audit-audit-assurance-bahrain-fy27-at-acca-careers-4491076320"
@@ -27932,27 +28306,6 @@
 ]
 },
 {
-"title": "Sales Assistant | Retail | ACE Hardware, Festival Plaza",
-"company": "Al-Futtaim",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-13",
-"url": "https://ae.linkedin.com/jobs/view/sales-assistant-retail-ace-hardware-festival-plaza-at-al-futtaim-4490700894",
-"id": "sales assistant retail ace hardware festival plaza|al futtaim|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"retail"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/sales-assistant-retail-ace-hardware-festival-plaza-at-al-futtaim-4490700894"
-},
-"families": [
-"Retail"
-]
-},
-{
 "title": "Buyer - Procurement Officer",
 "company": "Visioneers",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -28348,27 +28701,6 @@
 ],
 "links": {
 "LinkedIn": "https://kw.linkedin.com/jobs/view/senior-generator-technician-ts-sci-at-caci-international-inc-4488923689"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "F&B Service Expert - Executive Lounge",
-"company": "Marriott International",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-13",
-"url": "https://kw.linkedin.com/jobs/view/f-b-service-expert-executive-lounge-at-marriott-international-4487925931",
-"id": "f b service expert executive lounge|marriott international|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/f-b-service-expert-executive-lounge-at-marriott-international-4487925931"
 },
 "families": [
 "Other"
@@ -28967,6 +29299,7 @@
 "credit administration",
 "credit operations",
 "trade finance",
+"treasury operations",
 "compliance",
 "financial crime",
 "internal control",
@@ -28978,8 +29311,7 @@
 "financial analyst",
 "payroll",
 "data analyst",
-"medical",
-"operations manager"
+"medical"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/head-revenue-cycle-management-at-amana-healthcare-bahrain-4488504832"
@@ -28991,8 +29323,7 @@
 "Accounting & finance",
 "HR & admin",
 "IT & software",
-"Healthcare",
-"Project & management"
+"Healthcare"
 ]
 },
 {
@@ -29074,7 +29405,6 @@
 ],
 "roles": [
 "operations officer",
-"operations analyst",
 "back office",
 "reconciliation",
 "administration officer",
@@ -29303,7 +29633,6 @@
 ],
 "roles": [
 "HR operations",
-"HR officer",
 "recruiter",
 "marketing",
 "digital marketing",
@@ -29797,27 +30126,6 @@
 ]
 },
 {
-"title": "Accountant",
-"company": "ROMEZ Gold and Jewelry Co",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-11-12",
-"url": "https://sa.linkedin.com/jobs/view/accountant-at-romez-gold-and-jewelry-co-4488522959",
-"id": "accountant|romez gold and jewelry co|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/accountant-at-romez-gold-and-jewelry-co-4488522959"
-},
-"families": [
-"Accounting & finance"
-]
-},
-{
 "title": "Sr. Accountant",
 "company": "Assystem",
 "location": "Al Khobar, Eastern, Saudi Arabia",
@@ -29896,27 +30204,6 @@
 ],
 "links": {
 "LinkedIn": "https://sa.linkedin.com/jobs/view/it-plant-local-support-engineer-%E2%80%93-application-at-lenovo-4463857331"
-},
-"families": [
-"IT & software"
-]
-},
-{
-"title": "IT Officer",
-"company": "Nesma United Industries",
-"location": "Al Khobar, Eastern, Saudi Arabia",
-"posted": "2026-11-12",
-"url": "https://sa.linkedin.com/jobs/view/it-officer-at-nesma-united-industries-4488666783",
-"id": "it officer|nesma united industries|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/it-officer-at-nesma-united-industries-4488666783"
 },
 "families": [
 "IT & software"
@@ -30286,27 +30573,6 @@
 ]
 },
 {
-"title": "Compliance Officer and MLRO",
-"company": "Eden Rose",
-"location": "Dubai, United Arab Emirates",
-"posted": "2026-11-12",
-"url": "https://ae.linkedin.com/jobs/view/compliance-officer-and-mlro-at-eden-rose-4490347014",
-"id": "compliance officer and mlro|eden rose|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"compliance"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-officer-and-mlro-at-eden-rose-4490347014"
-},
-"families": [
-"Compliance, risk & audit"
-]
-},
-{
 "title": "Compliance Executive",
 "company": "Apex Group Ltd",
 "location": "Abu Dhabi, Abu Dhabi Emirate, United Arab Emirates",
@@ -30414,27 +30680,6 @@
 ]
 },
 {
-"title": "Head of IT - Data Governance",
-"company": "Mott MacDonald",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-12",
-"url": "https://ae.linkedin.com/jobs/view/head-of-it-data-governance-at-mott-macdonald-4490090964",
-"id": "head of it data governance|mott macdonald|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"IT"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/head-of-it-data-governance-at-mott-macdonald-4490090964"
-},
-"families": [
-"IT & software"
-]
-},
-{
 "title": "Senior Roads & Highways Engineer",
 "company": "Zutari",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -30534,6 +30779,27 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/sales-executive-at-rixos-hotels-4490382592"
+},
+"families": [
+"Sales & business dev"
+]
+},
+{
+"title": "Sales Advisor - KIA, Pre Owned Cars, Dubai",
+"company": "Al Tayer Group",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-12",
+"url": "https://ae.linkedin.com/jobs/view/sales-advisor-kia-pre-owned-cars-dubai-at-al-tayer-group-4488286843",
+"id": "sales advisor kia pre owned cars dubai|al tayer group|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"sales"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/sales-advisor-kia-pre-owned-cars-dubai-at-al-tayer-group-4488286843"
 },
 "families": [
 "Sales & business dev"
@@ -30855,27 +31121,6 @@
 ]
 },
 {
-"title": "EYFS Class Teacher",
-"company": "Nord Anglia International School Dubai",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-12",
-"url": "https://ae.linkedin.com/jobs/view/eyfs-class-teacher-at-nord-anglia-international-school-dubai-4489276203",
-"id": "eyfs class teacher|nord anglia international school dubai|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"teacher"
-],
-"links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/eyfs-class-teacher-at-nord-anglia-international-school-dubai-4489276203"
-},
-"families": [
-"Education"
-]
-},
-{
 "title": "Legal Counsel - Technology",
 "company": "Confidential, Dubai",
 "location": "Dubai, United Arab Emirates",
@@ -31171,27 +31416,6 @@
 },
 "families": [
 "Accounting & finance"
-]
-},
-{
-"title": "Fortinet Firewall Engineer",
-"company": "Wipro",
-"location": "Doha, Qatar",
-"posted": "2026-11-12",
-"url": "https://qa.linkedin.com/jobs/view/fortinet-firewall-engineer-at-wipro-4489056812",
-"id": "fortinet firewall engineer|wipro|qatar",
-"country": "Qatar",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"LinkedIn": "https://qa.linkedin.com/jobs/view/fortinet-firewall-engineer-at-wipro-4489056812"
-},
-"families": [
-"Engineering & technical"
 ]
 },
 {
@@ -32004,7 +32228,6 @@
 "software engineer",
 "IT support",
 "data analyst",
-"project engineer",
 "supply chain",
 "project manager"
 ],
@@ -32014,7 +32237,6 @@
 "families": [
 "Banking & finance ops",
 "IT & software",
-"Engineering & technical",
 "Logistics & supply chain",
 "Project & management"
 ]
@@ -32098,34 +32320,6 @@
 "Banking & finance ops",
 "Engineering & technical",
 "Project & management"
-]
-},
-{
-"title": "MEP Storekeeper",
-"company": "NASS Group & Corporation",
-"location": "Askar, Southern Governorate, Bahrain",
-"posted": "2026-11-11",
-"url": "https://bh.linkedin.com/jobs/view/mep-storekeeper-at-nass-group-corporation-4489914435",
-"id": "mep storekeeper|nass group corporation",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"reconciliation",
-"retail",
-"logistics",
-"procurement",
-"supply chain",
-"warehouse"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/mep-storekeeper-at-nass-group-corporation-4489914435"
-},
-"families": [
-"Banking & finance ops",
-"Retail",
-"Logistics & supply chain"
 ]
 },
 {
@@ -32323,7 +32517,6 @@
 "roles": [
 "HR operations",
 "HR officer",
-"office manager",
 "sales manager",
 "store manager",
 "operations manager"
@@ -32768,6 +32961,32 @@
 ]
 },
 {
+"title": "MEP Storekeeper",
+"company": "NASS Group & Corporation",
+"location": "Askar, Southern Governorate, Bahrain",
+"posted": "2026-11-11",
+"url": "https://bh.linkedin.com/jobs/view/mep-storekeeper-at-nass-group-corporation-4489914435",
+"id": "mep storekeeper|nass group corporation",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail",
+"logistics",
+"procurement",
+"supply chain",
+"warehouse"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/mep-storekeeper-at-nass-group-corporation-4489914435"
+},
+"families": [
+"Retail",
+"Logistics & supply chain"
+]
+},
+{
 "title": "Physical Education Teacher",
 "company": "The International School of Choueifat - City of 6 October",
 "location": "The International school of Choueifat, Muharraq Governorate, Bahrain",
@@ -33065,27 +33284,6 @@
 "links": {
 "Workable": "https://jobs.workable.com/view/hCKcXEVZT6EUbxnR3AFXrh/field-sales-representative-in-riyadh-at-foodics",
 "Employer careers (ATS)": "https://apply.workable.com/j/D84B028E41"
-},
-"families": [
-"Sales & business dev"
-]
-},
-{
-"title": "Sales Account Excutive",
-"company": "Ninja",
-"location": "Al Qatif, Eastern Province, Saudi Arabia",
-"posted": "2026-11-11",
-"url": "https://jobs.workable.com/view/1osGavtp7CffFCECnBxZD9/sales-account-excutive-in-al-qatif-at-ninja",
-"id": "sales account excutive|ninja|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Workable"
-],
-"roles": [
-"sales"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/1osGavtp7CffFCECnBxZD9/sales-account-excutive-in-al-qatif-at-ninja"
 },
 "families": [
 "Sales & business dev"
@@ -33548,27 +33746,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/road-and-highways-engineer-at-zutari-4489941530"
-},
-"families": [
-"Engineering & technical"
-]
-},
-{
-"title": "Senior Data Engineer",
-"company": "Digital Zone",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-11",
-"url": "https://jobs.workable.com/view/3F4yrB6SZD8C7TjoutbDdp/hybrid-senior-data-engineer-in-dubai-at-digital-zone",
-"id": "senior data engineer|digital zone|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"engineer"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/3F4yrB6SZD8C7TjoutbDdp/hybrid-senior-data-engineer-in-dubai-at-digital-zone"
 },
 "families": [
 "Engineering & technical"
@@ -34624,27 +34801,6 @@
 ]
 },
 {
-"title": "Head of Legal",
-"company": "Procapita Group",
-"location": "Kuwait City Metropolitan Area",
-"posted": "2026-11-11",
-"url": "https://kw.linkedin.com/jobs/view/head-of-legal-at-procapita-group-4489949051",
-"id": "head of legal|procapita group|kuwait",
-"country": "Kuwait",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"legal"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/head-of-legal-at-procapita-group-4489949051"
-},
-"families": [
-"Legal"
-]
-},
-{
 "title": "Senior Civil Projects Manager - Kuwait",
 "company": "National Contracting Company",
 "location": "Shuwaikh, Al Asimah, Kuwait",
@@ -35127,27 +35283,6 @@
 ]
 },
 {
-"title": "Executive Assistant",
-"company": "ACS Group",
-"location": "TELECOMMUTE",
-"posted": "2026-11-11",
-"url": "https://jobs.workable.com/view/vsE2LvDMFjoLZmNAiqpDXk/remote-executive-assistant-in-abu-dhabi-at-acs-group",
-"id": "executive assistant|acs group|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"remote"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/vsE2LvDMFjoLZmNAiqpDXk/remote-executive-assistant-in-abu-dhabi-at-acs-group"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Linux Software Engineer - Ubuntu for Next-Gen Silicon (multiple roles and seniority levels)",
 "company": "Canonical",
 "location": "Doha, Qatar",
@@ -35258,7 +35393,6 @@
 "audit",
 "risk",
 "corporate banking",
-"finance officer",
 "financial analyst",
 "data analyst",
 "legal"
@@ -35366,7 +35500,6 @@
 "back office",
 "payments operations",
 "reconciliation",
-"client onboarding",
 "internal control",
 "audit",
 "accounts payable",
@@ -35461,10 +35594,8 @@
 ],
 "roles": [
 "operations officer",
-"operations analyst",
 "mechanical engineer",
 "civil engineer",
-"project engineer",
 "procurement",
 "warehouse",
 "operations manager"
@@ -35509,40 +35640,6 @@
 "Accounting & finance",
 "IT & software",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Quality Coordinator - 6 Month Contract",
-"company": "Amana Healthcare Bahrain",
-"location": "Capital Governorate, Bahrain",
-"posted": "2026-11-10",
-"url": "https://bh.linkedin.com/jobs/view/quality-coordinator-6-month-contract-at-amana-healthcare-bahrain-4487476111",
-"id": "quality coordinator 6 month contract|amana healthcare bahrain",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations analyst",
-"compliance",
-"internal control",
-"audit",
-"risk",
-"administration officer",
-"office manager",
-"nurse",
-"medical",
-"project manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/quality-coordinator-6-month-contract-at-amana-healthcare-bahrain-4487476111"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"HR & admin",
-"Healthcare",
-"Project & management"
 ]
 },
 {
@@ -35835,6 +35932,38 @@
 ]
 },
 {
+"title": "Quality Coordinator - 6 Month Contract",
+"company": "Amana Healthcare Bahrain",
+"location": "Capital Governorate, Bahrain",
+"posted": "2026-11-10",
+"url": "https://bh.linkedin.com/jobs/view/quality-coordinator-6-month-contract-at-amana-healthcare-bahrain-4487476111",
+"id": "quality coordinator 6 month contract|amana healthcare bahrain",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance",
+"internal control",
+"audit",
+"risk",
+"administration officer",
+"office manager",
+"nurse",
+"medical",
+"project manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/quality-coordinator-6-month-contract-at-amana-healthcare-bahrain-4487476111"
+},
+"families": [
+"Compliance, risk & audit",
+"HR & admin",
+"Healthcare",
+"Project & management"
+]
+},
+{
 "title": "Draftsman",
 "company": "Nass",
 "location": "Salmabad, Northern Governorate, Bahrain",
@@ -36071,15 +36200,13 @@
 "LinkedIn"
 ],
 "roles": [
-"government relations",
-"sales manager"
+"government relations"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/alliances-channels-leader-at-canonical-4487454289"
 },
 "families": [
-"HR & admin",
-"Sales & business dev"
+"HR & admin"
 ]
 },
 {
@@ -36094,15 +36221,13 @@
 "LinkedIn"
 ],
 "roles": [
-"government relations",
-"sales manager"
+"government relations"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/partner-sales-director-ihv-alliances-at-canonical-4489190186"
 },
 "families": [
-"HR & admin",
-"Sales & business dev"
+"HR & admin"
 ]
 },
 {
@@ -39255,27 +39380,6 @@
 ]
 },
 {
-"title": "Maintenance Manager",
-"company": "Progressive",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-10",
-"url": "https://om.linkedin.com/jobs/view/maintenance-manager-at-progressive-4489456497",
-"id": "maintenance manager|progressive|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/maintenance-manager-at-progressive-4489456497"
-},
-"families": [
-"Other"
-]
-},
-{
 "title": "Internal Audit Manager",
 "company": "Confidential",
 "location": "Masqaţ, Oman",
@@ -40237,46 +40341,6 @@
 ]
 },
 {
-"title": "Cluster Finance Manager",
-"company": "Frasers Hospitality",
-"location": "Bahrain",
-"posted": "2026-11-09",
-"url": "https://bh.linkedin.com/jobs/view/cluster-finance-manager-at-frasers-hospitality-4489102881",
-"id": "cluster finance manager|frasers hospitality",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"banking operations",
-"back office",
-"payments operations",
-"reconciliation",
-"treasury operations",
-"internal control",
-"audit",
-"accountant",
-"finance officer",
-"financial analyst",
-"accounts payable",
-"payroll",
-"data analyst",
-"hotel",
-"restaurant"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/cluster-finance-manager-at-frasers-hospitality-4489102881"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit",
-"Accounting & finance",
-"HR & admin",
-"IT & software",
-"Hospitality & F&B"
-]
-},
-{
 "title": "Laundry Supervisor",
 "company": "Hilton",
 "location": "Manama, Capital Governorate, Bahrain",
@@ -40349,7 +40413,6 @@
 ],
 "roles": [
 "operations officer",
-"operations analyst",
 "retail",
 "store manager",
 "logistics",
@@ -40394,6 +40457,45 @@
 "families": [
 "Banking & finance ops",
 "HR & admin"
+]
+},
+{
+"title": "Cluster Finance Manager",
+"company": "Frasers Hospitality",
+"location": "Bahrain",
+"posted": "2026-11-09",
+"url": "https://bh.linkedin.com/jobs/view/cluster-finance-manager-at-frasers-hospitality-4489102881",
+"id": "cluster finance manager|frasers hospitality",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"back office",
+"payments operations",
+"reconciliation",
+"treasury operations",
+"internal control",
+"audit",
+"accountant",
+"finance officer",
+"financial analyst",
+"accounts payable",
+"payroll",
+"data analyst",
+"hotel",
+"restaurant"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/cluster-finance-manager-at-frasers-hospitality-4489102881"
+},
+"families": [
+"Banking & finance ops",
+"Compliance, risk & audit",
+"Accounting & finance",
+"HR & admin",
+"IT & software",
+"Hospitality & F&B"
 ]
 },
 {
@@ -40895,15 +40997,13 @@
 "LinkedIn"
 ],
 "roles": [
-"mechanical engineer",
-"remote"
+"mechanical engineer"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/field-operator-ii-at-enerflex-ltd-4478261807"
 },
 "families": [
-"Engineering & technical",
-"Other"
+"Engineering & technical"
 ]
 },
 {
@@ -42027,6 +42127,27 @@
 ]
 },
 {
+"title": "ISO Audit Executive | Al- Futtaim Automotive | DOMASCO",
+"company": "Al-Futtaim",
+"location": "Doha, Doha, Qatar",
+"posted": "2026-11-09",
+"url": "https://qa.linkedin.com/jobs/view/iso-audit-executive-al-futtaim-automotive-domasco-at-al-futtaim-4489102741",
+"id": "iso audit executive al futtaim automotive domasco|al futtaim|qatar",
+"country": "Qatar",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://qa.linkedin.com/jobs/view/iso-audit-executive-al-futtaim-automotive-domasco-at-al-futtaim-4489102741"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
 "title": "Relationship Manager (Wholesale Banking)",
 "company": "Doha Bank",
 "location": "Doha, Qatar",
@@ -42585,29 +42706,6 @@
 ]
 },
 {
-"title": "Sr.Specialist Construction",
-"company": "talabat",
-"location": "Kuwait City, Al Asimah, Kuwait",
-"posted": "2026-11-09",
-"url": "https://jobs.smartrecruiters.com/deliveryhero/744000160584424",
-"id": "sr specialist construction|talabat|kuwait",
-"country": "Kuwait",
-"sources": [
-"Employer careers (ATS)",
-"LinkedIn"
-],
-"roles": [
-"project manager"
-],
-"links": {
-"LinkedIn": "https://kw.linkedin.com/jobs/view/sr-specialist-construction-at-talabat-4487679947",
-"Employer careers (ATS)": "https://jobs.smartrecruiters.com/deliveryhero/744000160584424"
-},
-"families": [
-"Project & management"
-]
-},
-{
 "title": "Procurement Director",
 "company": "MENA HR Solutions LLC (IBD Group)",
 "location": "Masqaţ, Oman",
@@ -42980,27 +43078,6 @@
 ],
 "links": {
 "Employer careers (ATS)": "https://portal.careers.hsbc.com/careers/job/563774612614372"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Direct Fulfillment Officer",
-"company": "HSBC",
-"location": "Dubai, Dubai, United Arab Emirates",
-"posted": "2026-11-09",
-"url": "https://portal.careers.hsbc.com/careers/job/563774612613787",
-"id": "direct fulfillment officer|hsbc|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://portal.careers.hsbc.com/careers/job/563774612613787"
 },
 "families": [
 "Other"
@@ -43476,7 +43553,6 @@
 "LinkedIn"
 ],
 "roles": [
-"warehouse",
 "driver"
 ],
 "links": {
@@ -44770,29 +44846,6 @@
 ]
 },
 {
-"title": "Trainee - Audit and Assurance",
-"company": "ACCA Careers",
-"location": "Seef, Capital Governorate, Bahrain",
-"posted": "2026-11-06",
-"url": "https://bh.linkedin.com/jobs/view/trainee-audit-and-assurance-at-acca-careers-4488715474",
-"id": "trainee audit and assurance|acca careers",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"banking operations",
-"financial crime"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/trainee-audit-and-assurance-at-acca-careers-4488715474"
-},
-"families": [
-"Banking & finance ops",
-"Compliance, risk & audit"
-]
-},
-{
 "title": "Asset/Wallet Operations",
 "company": "Bybit",
 "location": "Abu Dhabi, UAE; Hong Kong SAR",
@@ -44916,7 +44969,6 @@
 "accountant",
 "finance officer",
 "financial analyst",
-"administration officer",
 "data analyst",
 "civil engineer",
 "project engineer",
@@ -44931,7 +44983,6 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "Accounting & finance",
-"HR & admin",
 "IT & software",
 "Engineering & technical",
 "Logistics & supply chain",
@@ -45155,6 +45206,27 @@
 "links": {
 "Employer careers (ATS)": "https://job-boards.eu.greenhouse.io/tamara/jobs/4969694101",
 "LinkedIn": "https://sa.linkedin.com/jobs/view/compliance-senior-associate-at-tamara-4482484818"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Trainee - Audit and Assurance",
+"company": "ACCA Careers",
+"location": "Seef, Capital Governorate, Bahrain",
+"posted": "2026-11-06",
+"url": "https://bh.linkedin.com/jobs/view/trainee-audit-and-assurance-at-acca-careers-4488715474",
+"id": "trainee audit and assurance|acca careers",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"financial crime"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/trainee-audit-and-assurance-at-acca-careers-4488715474"
 },
 "families": [
 "Compliance, risk & audit"
@@ -45708,6 +45780,27 @@
 ]
 },
 {
+"title": "HR Director (Dubai)",
+"company": "ATCOM",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-11-06",
+"url": "https://ae.linkedin.com/jobs/view/hr-director-dubai-at-atcom-4488496091",
+"id": "hr director dubai|atcom|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/hr-director-dubai-at-atcom-4488496091"
+},
+"families": [
+"HR & admin"
+]
+},
+{
 "title": "Director of Human Resources",
 "company": "Rotana Hotels",
 "location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
@@ -45765,27 +45858,6 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/strategic-account-executive-at-happyrobot-4470100273"
-},
-"families": [
-"Sales & business dev"
-]
-},
-{
-"title": "Sales Manager",
-"company": "Rotana Hotels",
-"location": "Fujairah, Fujairah, United Arab Emirates",
-"posted": "2026-11-06",
-"url": "https://jobs.workable.com/view/sGRs4aRdmk1f6hxzUR2wX5/sales-manager-in-fujairah-at-rotana-hotels",
-"id": "sales manager|rotana hotels|united arab emirates",
-"country": "United Arab Emirates",
-"sources": [
-"Workable"
-],
-"roles": [
-"sales"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/sGRs4aRdmk1f6hxzUR2wX5/sales-manager-in-fujairah-at-rotana-hotels"
 },
 "families": [
 "Sales & business dev"
@@ -46155,7 +46227,7 @@
 "company": "Siemens",
 "location": "Sohar, Al Batinah North Governorate, Oman",
 "posted": "2026-11-06",
-"url": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469473448",
+"url": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469477373",
 "id": "site ehs officer omani national siemens mobility oman|siemens|oman",
 "country": "Oman",
 "sources": [
@@ -46165,7 +46237,7 @@
 "compliance"
 ],
 "links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469473448"
+"LinkedIn": "https://om.linkedin.com/jobs/view/site-ehs-officer-omani-national-%40siemens-mobility-oman-at-siemens-4469477373"
 },
 "families": [
 "Compliance, risk & audit"
@@ -46375,29 +46447,6 @@
 "HR & admin",
 "Healthcare",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Team Leader – Housekeeping – Jumeirah Gulf of Bahrain",
-"company": "Jumeirah",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-05",
-"url": "https://bh.linkedin.com/jobs/view/team-leader-%E2%80%93-housekeeping-%E2%80%93-jumeirah-gulf-of-bahrain-at-jumeirah-4414676675",
-"id": "team leader housekeeping jumeirah gulf of bahrain|jumeirah",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations officer",
-"operations manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/team-leader-%E2%80%93-housekeeping-%E2%80%93-jumeirah-gulf-of-bahrain-at-jumeirah-4414676675"
-},
-"families": [
-"Banking & finance ops",
-"Project & management"
 ]
 },
 {
@@ -47011,15 +47060,13 @@
 "roles": [
 "civil engineer",
 "project engineer",
-"technician",
-"remote"
+"technician"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/senior-technician-digital-delivery-at-aecom-4486548246"
 },
 "families": [
-"Engineering & technical",
-"Other"
+"Engineering & technical"
 ]
 },
 {
@@ -47041,6 +47088,27 @@
 },
 "families": [
 "Logistics & supply chain"
+]
+},
+{
+"title": "Team Leader – Housekeeping – Jumeirah Gulf of Bahrain",
+"company": "Jumeirah",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-05",
+"url": "https://bh.linkedin.com/jobs/view/team-leader-%E2%80%93-housekeeping-%E2%80%93-jumeirah-gulf-of-bahrain-at-jumeirah-4414676675",
+"id": "team leader housekeeping jumeirah gulf of bahrain|jumeirah",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/team-leader-%E2%80%93-housekeeping-%E2%80%93-jumeirah-gulf-of-bahrain-at-jumeirah-4414676675"
+},
+"families": [
+"Project & management"
 ]
 },
 {
@@ -47565,6 +47633,27 @@
 ],
 "links": {
 "LinkedIn": "https://ae.linkedin.com/jobs/view/senior-compliance-analyst-at-usdu-universal-4486788076"
+},
+"families": [
+"Compliance, risk & audit"
+]
+},
+{
+"title": "Compliance Officer & Deputy MLRO",
+"company": "Doha Bank",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-11-05",
+"url": "https://ae.linkedin.com/jobs/view/compliance-officer-deputy-mlro-at-doha-bank-4485804425",
+"id": "compliance officer deputy mlro|doha bank|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-officer-deputy-mlro-at-doha-bank-4485804425"
 },
 "families": [
 "Compliance, risk & audit"
@@ -48892,6 +48981,7 @@
 "trade finance",
 "relationship manager",
 "account manager",
+"administration officer",
 "logistics",
 "supply chain",
 "warehouse"
@@ -48902,6 +48992,7 @@
 "families": [
 "Banking & finance ops",
 "Relationship & client mgmt",
+"HR & admin",
 "Logistics & supply chain"
 ]
 },
@@ -48929,8 +49020,7 @@
 "sales executive",
 "business development",
 "procurement",
-"supply chain",
-"warehouse"
+"supply chain"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/associate-commercial-at-talabat-4460024072",
@@ -49282,7 +49372,6 @@
 "hotel",
 "restaurant",
 "front office",
-"retail",
 "cashier"
 ],
 "links": {
@@ -49606,27 +49695,6 @@
 },
 "families": [
 "Accounting & finance"
-]
-},
-{
-"title": "Analyst - HR Analytics and Reporting",
-"company": "Qiddiya Investment Company",
-"location": "Riyadh, Riyadh Province, Saudi Arabia",
-"posted": "2026-11-04",
-"url": "https://jobs.workable.com/view/vQUmwMzM5YQRVSBRCsLjpN/analyst---hr-analytics-and-reporting-in-riyadh-at-qiddiya-investment-company",
-"id": "analyst hr analytics and reporting|qiddiya investment company|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Workable"
-],
-"roles": [
-"HR"
-],
-"links": {
-"Workable": "https://jobs.workable.com/view/vQUmwMzM5YQRVSBRCsLjpN/analyst---hr-analytics-and-reporting-in-riyadh-at-qiddiya-investment-company"
-},
-"families": [
-"HR & admin"
 ]
 },
 {
@@ -51215,34 +51283,6 @@
 ]
 },
 {
-"title": "Cluster Housekeeping Manager",
-"company": "ibis, ibis Styles, ibis budget",
-"location": "Manama, Capital Governorate, Bahrain",
-"posted": "2026-11-03",
-"url": "https://bh.linkedin.com/jobs/view/cluster-housekeeping-manager-at-ibis-ibis-styles-ibis-budget-4486069341",
-"id": "cluster housekeeping manager|ibis ibis styles ibis budget",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"operations officer",
-"HR operations",
-"office manager",
-"store manager",
-"operations manager"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/cluster-housekeeping-manager-at-ibis-ibis-styles-ibis-budget-4486069341"
-},
-"families": [
-"Banking & finance ops",
-"HR & admin",
-"Retail",
-"Project & management"
-]
-},
-{
 "title": "Merchandiser",
 "company": "Apparel Group",
 "location": "Bahrain",
@@ -51300,27 +51340,6 @@
 "Customer service",
 "Hospitality & F&B",
 "Retail"
-]
-},
-{
-"title": "Field Operator I",
-"company": "Enerflex Ltd.",
-"location": "Riffa, Southern Governorate, Bahrain",
-"posted": "2026-11-03",
-"url": "https://bh.linkedin.com/jobs/view/field-operator-i-at-enerflex-ltd-4484690866",
-"id": "field operator i|enerflex ltd",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"settlement"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/field-operator-i-at-enerflex-ltd-4484690866"
-},
-"families": [
-"Banking & finance ops"
 ]
 },
 {
@@ -51406,6 +51425,32 @@
 },
 "families": [
 "Compliance, risk & audit"
+]
+},
+{
+"title": "Cluster Housekeeping Manager",
+"company": "ibis, ibis Styles, ibis budget",
+"location": "Manama, Capital Governorate, Bahrain",
+"posted": "2026-11-03",
+"url": "https://bh.linkedin.com/jobs/view/cluster-housekeeping-manager-at-ibis-ibis-styles-ibis-budget-4486069341",
+"id": "cluster housekeeping manager|ibis ibis styles ibis budget",
+"country": "Bahrain",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"HR operations",
+"office manager",
+"store manager",
+"operations manager"
+],
+"links": {
+"LinkedIn": "https://bh.linkedin.com/jobs/view/cluster-housekeeping-manager-at-ibis-ibis-styles-ibis-budget-4486069341"
+},
+"families": [
+"HR & admin",
+"Retail",
+"Project & management"
 ]
 },
 {
@@ -52357,6 +52402,27 @@
 ]
 },
 {
+"title": "Client Advisor - Luxury Brand",
+"company": "Beside Group",
+"location": "Abu Dhabi Emirate, United Arab Emirates",
+"posted": "2026-11-03",
+"url": "https://ae.linkedin.com/jobs/view/client-advisor-luxury-brand-at-beside-group-4484662020",
+"id": "client advisor luxury brand|beside group|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"retail"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/client-advisor-luxury-brand-at-beside-group-4484662020"
+},
+"families": [
+"Retail"
+]
+},
+{
 "title": "Associate Legal Counsel, Corporate Legal",
 "company": "Schneider Electric",
 "location": "Dubai, Dubai, United Arab Emirates",
@@ -52732,7 +52798,6 @@
 ],
 "roles": [
 "operations",
-"retail",
 "logistics"
 ],
 "links": {
@@ -52740,7 +52805,6 @@
 },
 "families": [
 "Banking & finance ops",
-"Retail",
 "Logistics & supply chain"
 ]
 },
@@ -52943,27 +53007,6 @@
 "families": [
 "Banking & finance ops",
 "Logistics & supply chain"
-]
-},
-{
-"title": "Assistant Manager | Audit | Audit & Assurance | Oman FY27",
-"company": "Deloitte",
-"location": "Muscat, Masqaţ, Oman",
-"posted": "2026-11-03",
-"url": "https://om.linkedin.com/jobs/view/assistant-manager-audit-audit-assurance-oman-fy27-at-deloitte-4407873738",
-"id": "assistant manager audit audit assurance oman fy27|deloitte|oman",
-"country": "Oman",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"accountant"
-],
-"links": {
-"LinkedIn": "https://om.linkedin.com/jobs/view/assistant-manager-audit-audit-assurance-oman-fy27-at-deloitte-4407873738"
-},
-"families": [
-"Accounting & finance"
 ]
 },
 {
@@ -53217,7 +53260,6 @@
 "operations analyst",
 "back office",
 "reconciliation",
-"administration officer",
 "logistics",
 "procurement",
 "supply chain",
@@ -53228,7 +53270,6 @@
 },
 "families": [
 "Banking & finance ops",
-"HR & admin",
 "Logistics & supply chain"
 ]
 },
@@ -53327,8 +53368,7 @@
 "data analyst",
 "logistics",
 "supply chain",
-"warehouse",
-"project manager"
+"warehouse"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/sr-analyst-logistics-performance-at-talabat-4485457548",
@@ -53338,8 +53378,7 @@
 "Banking & finance ops",
 "Compliance, risk & audit",
 "IT & software",
-"Logistics & supply chain",
-"Project & management"
+"Logistics & supply chain"
 ]
 },
 {
@@ -53439,7 +53478,6 @@
 ],
 "roles": [
 "client onboarding",
-"relationship manager",
 "account manager",
 "sales executive",
 "retail",
@@ -53747,16 +53785,14 @@
 ],
 "roles": [
 "sales executive",
-"customer service",
-"remote"
+"customer service"
 ],
 "links": {
 "LinkedIn": "https://bh.linkedin.com/jobs/view/beauty-consultant-clarins-at-chalhoub-group-4484387560"
 },
 "families": [
 "Sales & business dev",
-"Customer service",
-"Other"
+"Customer service"
 ]
 },
 {
@@ -54319,27 +54355,6 @@
 ]
 },
 {
-"title": "Senior Project Manager - Aviation",
-"company": "Jacobs",
-"location": "Riyadh Region",
-"posted": "2026-11-02",
-"url": "https://sa.linkedin.com/jobs/view/senior-project-manager-aviation-at-jacobs-4478510380",
-"id": "senior project manager aviation|jacobs|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"project manager"
-],
-"links": {
-"LinkedIn": "https://sa.linkedin.com/jobs/view/senior-project-manager-aviation-at-jacobs-4478510380"
-},
-"families": [
-"Project & management"
-]
-},
-{
 "title": "Senior Project Manager",
 "company": "Innovative Solutions",
 "location": "Riyadh, Riyadh Province, Saudi Arabia",
@@ -54678,9 +54693,9 @@
 {
 "title": "Project Manager (Dubai-based company, Georgian market)",
 "company": "MIRA CONSTRUCTION L.L.C",
-"location": "Abu Dhabi, Abu Dhabi, United Arab Emirates",
+"location": "Ajman, Ajman, United Arab Emirates",
 "posted": "2026-11-02",
-"url": "https://jobs.workable.com/view/tuNzYzkEajN9VAR3gGG6EQ/project-manager-(dubai-based-company%2C-georgian-market)-in-abu-dhabi-at-mira-construction-l.l.c",
+"url": "https://jobs.workable.com/view/iEuQmq8JXYApzGDsgqtpcN/project-manager-(dubai-based-company%2C-georgian-market)-in-ajman-at-mira-construction-l.l.c",
 "id": "project manager dubai based company georgian market|mira construction l l c|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
@@ -54690,7 +54705,7 @@
 "project manager"
 ],
 "links": {
-"Workable": "https://jobs.workable.com/view/tuNzYzkEajN9VAR3gGG6EQ/project-manager-(dubai-based-company%2C-georgian-market)-in-abu-dhabi-at-mira-construction-l.l.c"
+"Workable": "https://jobs.workable.com/view/iEuQmq8JXYApzGDsgqtpcN/project-manager-(dubai-based-company%2C-georgian-market)-in-ajman-at-mira-construction-l.l.c"
 },
 "families": [
 "Project & management"
@@ -55439,7 +55454,6 @@
 ],
 "roles": [
 "banking operations",
-"operations officer",
 "treasury operations",
 "bank",
 "office manager",
@@ -57616,6 +57630,27 @@
 ]
 },
 {
+"title": "Care Advisor",
+"company": "Nextcare",
+"location": "Dubai, Dubai, United Arab Emirates",
+"posted": "2026-10-29",
+"url": "https://ae.linkedin.com/jobs/view/care-advisor-at-nextcare-4484943892",
+"id": "care advisor|nextcare|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"customer service"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/care-advisor-at-nextcare-4484943892"
+},
+"families": [
+"Customer service"
+]
+},
+{
 "title": "Intensive Care Nurse (Neurosurgical)",
 "company": "Cleveland Clinic Abu Dhabi",
 "location": "Abu Dhabi Emirate, United Arab Emirates",
@@ -57929,13 +57964,15 @@
 "LinkedIn"
 ],
 "roles": [
-"sales"
+"sales",
+"retail"
 ],
 "links": {
 "LinkedIn": "https://om.linkedin.com/jobs/view/business-development-representative-%E2%80%93-clothes-footwear-at-kanz-4493398458"
 },
 "families": [
-"Sales & business dev"
+"Sales & business dev",
+"Retail"
 ]
 },
 {
@@ -58524,12 +58561,12 @@
 ]
 },
 {
-"title": "Relationship Manager, Premium Banking - Personal Banking (Russian/Chinese Speaker)",
+"title": "Relationship Manager, Premium Banking - Personal Banking (Russian/Chinese/Turkish Speaker)",
 "company": "United Arab Bank",
 "location": "Dubai, United Arab Emirates",
 "posted": "2026-10-28",
-"url": "https://ae.linkedin.com/jobs/view/relationship-manager-premium-banking-personal-banking-russian-chinese-speaker-at-united-arab-bank-4482275493",
-"id": "relationship manager premium banking personal banking russian chinese speaker|united arab bank|united arab emirates",
+"url": "https://ae.linkedin.com/jobs/view/relationship-manager-premium-banking-personal-banking-russian-chinese-turkish-speaker-at-united-arab-bank-4482275493",
+"id": "relationship manager premium banking personal banking russian chinese turkish speaker|united arab bank|united arab emirates",
 "country": "United Arab Emirates",
 "sources": [
 "LinkedIn"
@@ -58538,7 +58575,7 @@
 "relationship manager"
 ],
 "links": {
-"LinkedIn": "https://ae.linkedin.com/jobs/view/relationship-manager-premium-banking-personal-banking-russian-chinese-speaker-at-united-arab-bank-4482275493"
+"LinkedIn": "https://ae.linkedin.com/jobs/view/relationship-manager-premium-banking-personal-banking-russian-chinese-turkish-speaker-at-united-arab-bank-4482275493"
 },
 "families": [
 "Relationship & client mgmt"
@@ -59106,7 +59143,6 @@
 "roles": [
 "client onboarding",
 "relationship manager",
-"account manager",
 "sales executive",
 "customer service",
 "front office",
@@ -59980,7 +60016,6 @@
 "roles": [
 "operations officer",
 "civil engineer",
-"project engineer",
 "project manager",
 "operations manager"
 ],
@@ -60010,8 +60045,6 @@
 "compliance",
 "financial crime",
 "risk",
-"accountant",
-"payroll",
 "HR officer",
 "recruiter",
 "legal",
@@ -60022,7 +60055,6 @@
 },
 "families": [
 "Compliance, risk & audit",
-"Accounting & finance",
 "HR & admin",
 "Legal"
 ]
@@ -60153,7 +60185,6 @@
 "account manager",
 "business development",
 "sales manager",
-"marketing",
 "retail",
 "store manager"
 ],
@@ -60163,7 +60194,6 @@
 "families": [
 "Relationship & client mgmt",
 "Sales & business dev",
-"Marketing & media",
 "Retail"
 ]
 },
@@ -60339,7 +60369,6 @@
 "LinkedIn"
 ],
 "roles": [
-"logistics",
 "warehouse",
 "driver"
 ],
@@ -60537,6 +60566,27 @@
 },
 "families": [
 "Banking & finance ops"
+]
+},
+{
+"title": "Compliance Officer and MLRO",
+"company": "Eden Rose",
+"location": "Dubai, United Arab Emirates",
+"posted": "2026-10-26",
+"url": "https://ae.linkedin.com/jobs/view/compliance-officer-and-mlro-at-eden-rose-4476646606",
+"id": "compliance officer and mlro|eden rose|united arab emirates",
+"country": "United Arab Emirates",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"compliance"
+],
+"links": {
+"LinkedIn": "https://ae.linkedin.com/jobs/view/compliance-officer-and-mlro-at-eden-rose-4476646606"
+},
+"families": [
+"Compliance, risk & audit"
 ]
 },
 {
@@ -61005,6 +61055,27 @@
 "families": [
 "Other",
 "Engineering & technical"
+]
+},
+{
+"title": "Cook",
+"company": "Marriott International",
+"location": "Muscat, Masqaţ, Oman",
+"posted": "2026-10-26",
+"url": "https://om.linkedin.com/jobs/view/cook-at-marriott-international-4483260932",
+"id": "cook|marriott international|oman",
+"country": "Oman",
+"sources": [
+"LinkedIn"
+],
+"roles": [
+"Any job"
+],
+"links": {
+"LinkedIn": "https://om.linkedin.com/jobs/view/cook-at-marriott-international-4483260932"
+},
+"families": [
+"Other"
 ]
 },
 {
@@ -61496,31 +61567,6 @@
 },
 "families": [
 "Other"
-]
-},
-{
-"title": "QA-QC Inspector",
-"company": "NASS Group & Corporation",
-"location": "Riffa, Southern Governorate, Bahrain",
-"posted": "2026-10-24",
-"url": "https://bh.linkedin.com/jobs/view/qa-qc-inspector-at-nass-group-corporation-4490858808",
-"id": "qa qc inspector|nass group corporation",
-"country": "Bahrain",
-"sources": [
-"LinkedIn"
-],
-"roles": [
-"audit",
-"risk",
-"civil engineer",
-"project engineer"
-],
-"links": {
-"LinkedIn": "https://bh.linkedin.com/jobs/view/qa-qc-inspector-at-nass-group-corporation-4490858808"
-},
-"families": [
-"Compliance, risk & audit",
-"Engineering & technical"
 ]
 },
 {
@@ -62927,27 +62973,6 @@
 ],
 "links": {
 "Employer careers (ATS)": "https://apply.workable.com/j/6B8790DE1A"
-},
-"families": [
-"Other"
-]
-},
-{
-"title": "Sales Executive - Expansion Team",
-"company": "Foodics",
-"location": "Riyadh, Saudi Arabia",
-"posted": "2026-08-24",
-"url": "https://apply.workable.com/j/8BE5CEB4DA",
-"id": "sales executive expansion team|foodics|saudi arabia",
-"country": "Saudi Arabia",
-"sources": [
-"Employer careers (ATS)"
-],
-"roles": [
-"Any job"
-],
-"links": {
-"Employer careers (ATS)": "https://apply.workable.com/j/8BE5CEB4DA"
 },
 "families": [
 "Other"
